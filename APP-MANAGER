@@ -511,7 +511,7 @@ case "$1" in
  }
 
  function _help_on_device(){
- 	if command -v termux-setup-storage; then
+ 	if [ "$(tput cols)" -lt 80 ]; then
  		_help_body | sed 's/_____//g' | tr 'SYNOPSIS:	' 'SYNOPSIS:\n' | sed 's/	//g' | sed 's/____/------------------------------------------------/g'| sed 's/###########################################//g' | sed 's/^[ \t]*//' | column
  		_help_footer
  	else
