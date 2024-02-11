@@ -2202,8 +2202,9 @@ case "$1" in
 	;;
 
   '--disable-completion')
-
-  	if [ $(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1) == $AMCLI 2>/dev/null ]; then
+        completion_test=$(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1)
+        #if [ $(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1) == $AMCLI 2>/dev/null ]; then
+  	if [ $completion_test == $AMCLI ]; then
   		grep -v 'complete -W "$(cat '$AMPATH'/list 2>/dev/null)" '$AMCLI'' $COMPLETIONPATH/$COMPLETIONFILE > $AMPATH/$COMPLETIONFILE.backup &&
 		$SUDOCOMMAND mv $AMPATH/$COMPLETIONFILE.backup $COMPLETIONPATH/$COMPLETIONFILE
 		echo " Completion disabled! "
@@ -2213,8 +2214,9 @@ case "$1" in
 	;;
 
   '--enable-completion')
-
-	if [ $(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1) == $AMCLI 2>/dev/null ]; then
+        completion_test=$(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1)
+	#if [ $(grep -o $AMCLI 0<$COMPLETIONPATH/$COMPLETIONFILE | head -1) == $AMCLI 2>/dev/null ]; then
+	if [ $completion_test == $AMCLI ]; then
 		echo " Completion script is already enabled!"
 	else
 		$SUDOCOMMAND mkdir -p $COMPLETIONPATH
