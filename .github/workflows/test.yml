@@ -19,18 +19,39 @@ on:
       - APP-MANAGER
       - '!programs/**'
   workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * *'
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-
-  am:
-    name: Install AM 📝
+  matrix:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Install AM
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate matrix
+        id: set-matrix
+        run: |
+          chmod +x ./generate-matrix.sh
+          ./generate-matrix.sh
+        shell: bash
+
+  tests:
+    needs: matrix
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up environment
         run: |
           ls -al .github/workflows
           printf '\tSetting up environment...\n'
@@ -41,23 +62,20 @@ jobs:
           printf '\n\tInstalling dependencies...\n'
           sudo apt install -y wget curl zsync 2> /dev/null
           printf '\n\tMaking needed files executable...\n'
-          chmod +x ./INSTALL .github/workflows/test.sh
+          chmod +x ./INSTALL
           printf '\n\tInstalling AM...\n'
           sudo ./INSTALL
           printf '\n'
           echo "Installed version: $(am version)"
-          printf '\n\tRunning tests...\n'
-          .github/workflows/test.sh
-          printf '\n\tTest finished succesfully\n'
 
-  # t:
-    # name: t
-    # runs-on: ubuntu-latest
-    # steps:
-      # - uses: actions/checkout@v4
-      # - name: t
-        # run: |
-          # printf '\t...\n\n'
-          # printf '\n\n\t...\n\n'
-          # echo hello
-          # printf '\n\n\tDONE\n\n'
+      - name: Install ${{ matrix.app }}
+        run: |
+          am install ${{ matrix.app }}
+
+#      - name: Test ${{ matrix.app }} installation
+#        run: |
+#          ./am run ${{ matrix.app }}
+
+      - name: Uninstall ${{ matrix.app }}
+        run: |
+          am remove ${{ matrix.app }}
