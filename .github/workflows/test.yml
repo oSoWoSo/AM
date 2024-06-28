@@ -37,9 +37,8 @@ jobs:
       - name: Generate matrix
         id: set-matrix
         run: |
-          ls -al .github/workflows
-          chmod +x ./generate-matrix.sh
-          ./generate-matrix.sh
+          chmod +x .github/workflows/generate-matrix.sh
+          .github/workflows/generate-matrix.sh
         shell: bash
 
   tests:
