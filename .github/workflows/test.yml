@@ -46,18 +46,9 @@ jobs:
           sudo ./INSTALL
           printf '\n'
           echo "Installed version: $(am version)"
-          printf '\n\tRunning tests...\n'
-          .github/workflows/test.sh
-          printf '\n\tTest finished succesfully\n'
-
-  # t:
-    # name: t
-    # runs-on: ubuntu-latest
-    # steps:
-      # - uses: actions/checkout@v4
-      # - name: t
-        # run: |
-          # printf '\t...\n\n'
-          # printf '\n\n\t...\n\n'
-          # echo hello
-          # printf '\n\n\tDONE\n\n'
+          printf '\n\tRunning test 1\n' && .github/workflows/test.sh && printf '\n\tTest 1 finished\n'
+          printf '\n\tRunning test 2\n' && .github/workflows/test.sh && printf '\n\tTest 2 finished\n'
+          printf '\n\tRunning test 3\n' && .github/workflows/test.sh && printf '\n\tTest 3 finished\n'
+          printf '\n\tRunning test 4\n' && .github/workflows/test.sh && printf '\n\tTest 4 finished\n'
+          printf '\n\tRunning test 5\n' && .github/workflows/test.sh && printf '\n\tTest 5 finished\n'
+          printf '\n\tRunning test 6\n' && .github/workflows/test.sh && printf '\n\tTest 6 finished\n'
