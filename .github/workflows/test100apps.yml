@@ -21,6 +21,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 23 * * *'
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -29,14 +30,12 @@ jobs:
   install:
     runs-on: ubuntu-latest
     steps:
-      - name: install AM
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Installing
         run: |
           printf '\n\tCreating directory structure...\n'
           mkdir -p results /usr/local/bin
-          # printf '\n\tUpgrading ubuntu host...\n'
-          # sudo apt update && sudo apt upgrade
           printf '\n\tInstalling dependencies...\n'
           sudo apt install -y wget curl zsync 2> /dev/null
           printf '\n\tMaking needed files executable...\n'
@@ -46,7 +45,7 @@ jobs:
           printf '\n'
 
   matrix:
-  needs: install
+    needs: install
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -61,13 +60,15 @@ jobs:
           chmod +x .github/workflows/generate-matrix.sh
           .github/workflows/generate-matrix.sh
         shell: bash
+        env:
+          GITHUB_OUTPUT: $GITHUB_OUTPUT
 
   tests:
     needs: matrix
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        app: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+        app: ${{ fromJson(needs.matrix.outputs.matrix) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -88,3 +89,4 @@ jobs:
       - name: Uninstall ${{ matrix.app }}
         run: |
           am remove ${{ matrix.app }}
+
