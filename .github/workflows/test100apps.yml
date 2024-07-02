@@ -26,18 +26,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  matrix:
+  install
     runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate matrix
-        id: set-matrix
+      - name: install AM
+      uses: actions/checkout@v4
+      - name: Installing
         run: |
-          printf '\tSetting up environment...\n'
           printf '\n\tCreating directory structure...\n'
           mkdir -p results /usr/local/bin
           # printf '\n\tUpgrading ubuntu host...\n'
@@ -49,6 +44,20 @@ jobs:
           printf '\n\tInstalling AM...\n'
           sudo ./INSTALL
           printf '\n'
+
+  matrix:
+  needs: install
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate matrix
+        id: set-matrix
+        run: |
+          printf '\tSetting up environment...\n'
           chmod +x .github/workflows/generate-matrix.sh
           .github/workflows/generate-matrix.sh
         shell: bash
