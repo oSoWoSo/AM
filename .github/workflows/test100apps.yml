@@ -60,8 +60,10 @@ jobs:
           chmod +x .github/workflows/generate-matrix.sh
           .github/workflows/generate-matrix.sh
         shell: bash
-        env:
-          GITHUB_OUTPUT: $GITHUB_OUTPUT
+
+      - name: Debug Matrix Output
+        run: |
+          echo "Matrix: ${{ steps.set-matrix.outputs.matrix }}"
 
   tests:
     needs: matrix
@@ -89,4 +91,3 @@ jobs:
       - name: Uninstall ${{ matrix.app }}
         run: |
           am remove ${{ matrix.app }}
-
