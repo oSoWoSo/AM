@@ -57,8 +57,10 @@ jobs:
         id: set-matrix
         run: |
           printf '\tSetting up environment...\n'
-          chmod +x .github/workflows/generate-matrix.sh
-          .github/workflows/generate-matrix.sh
+          randomAppsList=$(cut -d' ' -f2 < /opt/am/x86_64-apps | shuf -n 100)
+          apps="$randomAppsList"
+          # Output the matrix in a format GitHub Actions can use
+          echo "$randomAppsList" #| tee >> "$GITHUB_OUTPUT"
         shell: bash
 
       - name: Debug Matrix Output
