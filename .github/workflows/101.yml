@@ -54,7 +54,7 @@ jobs:
 
       # Persist apps list as an artifact
       - name: Persist apps list
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: apps-list
           path: apps.txt
@@ -68,7 +68,7 @@ jobs:
 
       # Download the workspace with artifacts
       - name: Download workspace
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: apps-list
           path: ${{ github.workspace }}
