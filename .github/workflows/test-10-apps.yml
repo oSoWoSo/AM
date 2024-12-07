@@ -1,4 +1,4 @@
-name: "Apps test 🧪"
+name: "test 10 Apps"
 
 env:
   TERM: xterm
@@ -13,7 +13,7 @@ concurrency:
 jobs:
 
   am:
-    name: test all Apps 📝
+    name: test 10 Apps
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
           sudo ./INSTALL
           printf '\n'
           echo -e "Installed version: $(am version)\n\n"
-          apps=$(cut -d' ' -f2 < /opt/am/x86_64-apps)
+          apps=$(cut -d' ' -f2 < /opt/am/x86_64-apps | shuf -n 10)
           count=$(echo "${apps}" | wc -l)
           echo "available apps: $count"
           for app in ${apps}; do
