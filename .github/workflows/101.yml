@@ -51,7 +51,7 @@ jobs:
           #chmod +x .github/workflows/generate-matrix.sh
           #./.github/workflows/generate-matrix.sh > apps.txt
           randomAppsList=$(cut -d' ' -f2 < /opt/am/x86_64-apps | shuf -n 100)
-          echo ${randomAppsList} > apps.txt
+          echo "$randomAppsList" > apps.txt
 
         shell: bash
 
