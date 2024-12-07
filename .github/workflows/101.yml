@@ -47,9 +47,12 @@ jobs:
       # Save apps list to a file in the workspace
       - name: Generate and save apps list
         run: |
-          printf '\tSetting up environment...\n'
-          chmod +x .github/workflows/generate-matrix.sh
-          ./.github/workflows/generate-matrix.sh > apps.txt
+          printf '\tChoosing apps...\n'
+          #chmod +x .github/workflows/generate-matrix.sh
+          #./.github/workflows/generate-matrix.sh > apps.txt
+          randomAppsList=$(cut -d' ' -f2 < /opt/am/x86_64-apps | shuf -n 100)
+          echo ${randomAppsList} > apps.txt
+
         shell: bash
 
       # Persist apps list as an artifact
@@ -81,6 +84,14 @@ jobs:
         run: |
           while read -r app; do
             printf '\n\tInstalling application: $app\n'
-            am install "$app"
+            am install "$app" & echo "$app" = OK" > tested.txt || echo "$app = !!!" > tested.txt
+            am remove "$app"
             # Add additional steps as needed (e.g., testing, uninstalling)
           done < ${{ github.workspace }}/apps.txt
+
+      # Persist tested apps list as an artifact
+      - name: Persist tested apps list
+        uses: actions/upload-artifact@v4
+        with:
+          name: tested-list
+          path: tested.txt
