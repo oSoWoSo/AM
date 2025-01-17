@@ -115,6 +115,10 @@ jobs:
           if [[ -f failed.list ]]; then
             comm -23 totest_tmp.list failed.list > totest.list
             echo "Excluding failed!"
+            if diff -q totest.list tested.list; then
+              echo "Everything already tested? Add new app or delete tested.list"
+              exit 99
+            fi
           else
             mv totest_tmp.list totest.list
           fi
