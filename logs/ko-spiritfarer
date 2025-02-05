@@ -1,0 +1,92 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "SPIRITFARER": starting installation script
+
+--2025-02-05 01:31:35--  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Resolving de.linuxgame.cn (de.linuxgame.cn)... 173.212.232.85
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:33:51--  (try: 2)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:36:07--  (try: 3)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:38:26--  (try: 4)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:40:44--  (try: 5)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:43:04--  (try: 6)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:45:24--  (try: 7)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:47:45--  (try: 8)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:50:07--  (try: 9)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:52:29--  (try:10)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:54:54--  (try:11)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:57:17--  (try:12)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 01:59:40--  (try:13)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:02:04--  (try:14)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:04:27--  (try:15)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:06:50--  (try:16)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:09:14--  (try:17)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:11:37--  (try:18)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:14:01--  (try:19)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Retrying.
+
+--2025-02-05 02:16:24--  (try:20)  https://de.linuxgame.cn/%E7%81%B5%E9%AD%82%E6%91%86%E6%B8%A1%E4%BA%BA/
+Connecting to de.linuxgame.cn (de.linuxgame.cn)|173.212.232.85|:443... failed: Connection timed out.
+Giving up.
+
+Installation timeout in 23 minutes
+spiritfarer
