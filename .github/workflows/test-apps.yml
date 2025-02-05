@@ -24,6 +24,11 @@ on:
         required: true
         default: "false"
         type: boolean
+      retest_failed:
+        description: "Test failed again"
+        required: true
+        default: "false"
+        type: boolean
 
   schedule:
     - cron: '0 23 * * *'
@@ -45,89 +50,50 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: testing
 
       - name: "Git Config"
         run: |
+          echo "git config"
           git config --global user.name "ivan-hc"
           git config --global user.email "noreply@github.com"
 
-      - name: "Check if histories differ"
-        id: check_history
+      - name: "Check if testing exists"
+        id: check_testing
         run: |
-          git fetch origin main testing || echo "Branch 'testing' does not exist."
-          if ! git ls-remote --exit-code --heads origin testing; then
-            echo "Creating remote 'testing' branch from 'main'..."
-            git push origin main:testing
-            echo "RESET_REQUIRED=true" >> $GITHUB_ENV
+          if git show-ref --verify --quiet refs/heads/testing; then
+            echo "Testing branch exist"
+            echo "TESTING_EXISTS=true" >> $GITHUB_ENV
+            git checkout testing
           else
-            if git merge-base --is-ancestor origin/main origin/testing; then
-              echo "Histories are compatible, rebase only."
-              echo "RESET_REQUIRED=false" >> $GITHUB_ENV
+            echo "Creating testing branch"
+            echo "TESTING_EXISTS=false" >> $GITHUB_ENV
+            git checkout -b testing origin/main
+            exit 0
+          fi
+
+      - name: "Check and update testing branch"
+        if: env.TESTING_EXISTS == 'true'
+        run: |
+          echo "Checking testing branch status..."
+          if [[ "${{ github.event.inputs.reset_stats }}" == 'true' ]]; then
+            echo "Resetting testing branch to match main"
+            git push origin main:testing --force
+            exit 0
+          fi
+          git fetch origin
+          if [[ $(git rev-list HEAD...origin/main --count) -gt 0 ]]; then
+            echo "Changes detected between 'main' and 'testing'. Attempting rebase..."
+            if git rebase -X ours origin/main; then
+              echo "Successfully rebased testing on main"
             else
-              echo "Histories are different, reset needed."
-              echo "RESET_REQUIRED=true" >> $GITHUB_ENV
+              echo "Rebase failed, resetting testing to main"
+              git reset --hard origin/main
             fi
-          fi
-
-      - name: "Reset testing branch if needed"
-        if: env.RESET_REQUIRED == 'true'
-        run: |
-          echo "Resetting testing branch..."
-          git checkout -B testing origin/testing || git checkout -B testing origin/main
-          if [[ "${{ github.event.inputs.reset_stats }}" != "true" ]]; then
-            echo "Preserving test files..."
-            mkdir -p backup
-            cp -r tested.list failed.list logs backup/ 2>/dev/null || true
-            git reset --hard origin/main
-            mv backup/tested.list backup/failed.list backup/logs . 2>/dev/null || true
-            rm -rf backup
-            git add .
-            git commit -m "update results"
+            git push origin HEAD:testing --force
           else
-            echo "Resetting stats..."
-            echo "Resetting stats" >> $GITHUB_STEP_SUMMARY
-            git reset --hard origin/main
+            echo "No changes detected, testing branch is up to date."
           fi
-          git push --force origin HEAD:testing
-
-      - name: "Check if testing differs from main"
-        id: check_diff
-        run: |
-          git fetch origin main testing
-          if git diff --quiet origin/main..origin/testing; then
-            echo "No difference between testing and main. Exiting."
-            echo "skip=true" >> $GITHUB_ENV
-          else
-            echo "skip=false" >> $GITHUB_ENV
-          fi
-
-      - name: "Get last commit from testing"
-        id: last_commit
-        if: env.skip == 'false'
-        run: |
-          LAST_COMMIT=$(git log origin/testing --format=%H -n 1)
-          echo "Last commit: $LAST_COMMIT"
-          echo "LAST_COMMIT=$LAST_COMMIT" >> $GITHUB_ENV
-
-      - name: "Rebase testing on main"
-        if: env.skip == 'false'
-        run: |
-          git checkout testing
-          git rebase origin/main
-
-      - name: "Reapply last commit"
-        if: env.skip == 'false'
-        run: |
-          if [[ "$LAST_COMMIT" == 'update results' ]]; then
-            git cherry-pick $LAST_COMMIT
-          elif [[ "$LAST_COMMIT" != 'update results' ]]; then
-            echo "Commit from main branch?"
-          fi
-
-      - name: Push changes back to testing
-        if: env.skip == 'false'
-        run: |
-          git push origin testing --force
 
   show-stats:
     name: "stats 📝"
@@ -135,34 +101,18 @@ jobs:
     needs: rebase-testing-branch
 
     steps:
-      - name: "Check out main branch (for programs count) 🏃"
+      - name: "Checkout repository (for programs count) 🏃"
         uses: actions/checkout@v4
         with:
-          ref: main  # Work on main branch
+          ref: testing
 
-      - name: "Count programs 📊"
+      - name: "Count stats 📊"
         run: |
           x64Count=$(find programs/x86_64/ -type f | wc -l)
           i68Count=$(find programs/i686/ -type f | wc -l)
           a64Count=$(find programs/aarch64/ -type f | wc -l)
-          echo "x64Count=$x64Count" >> $GITHUB_ENV
-          echo "i68Count=$i68Count" >> $GITHUB_ENV
-          echo "a64Count=$a64Count" >> $GITHUB_ENV
-
-      - name: "Check out testing branch (for tested & failed) 🏃"
-        uses: actions/checkout@v4
-        with:
-          ref: testing  # Work on testing branch
-
-      - name: "Count tested & failed 📊"
-        run: |
           tested=$(wc -l < tested.list 2>/dev/null || echo 0)
           failed=$(wc -l < failed.list 2>/dev/null || echo 0)
-          echo "x86_64: $x64Count"
-          echo "i686: $i68Count"
-          echo "aarch64: $a64Count"
-          echo "🏁 Tested: $tested"
-          echo "❌ Failed: $failed"
           echo "### 🎬 apps" >> $GITHUB_STEP_SUMMARY
           echo "$x64Count x86_64" >> $GITHUB_STEP_SUMMARY
           echo "$i68Count i686" >> $GITHUB_STEP_SUMMARY
@@ -188,39 +138,55 @@ jobs:
       - name: "Generate Matrix 🏆"
         id: set-matrix
         run: |
-          mkdir -p results
-          find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > all.list
-          if [[ -f tested.list ]]; then
-            if diff -q all.list tested.list; then
-              echo "Everything tested" >> $GITHUB_STEP_SUMMARY
-              echo "skip=true" >> $GITHUB_OUTPUT
-              exit 0
+          if [[ "${{ github.event.inputs.retest_failed }}" != "true" ]]; then
+            mkdir -p results
+            find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > all.list
+            if [[ -f tested.list ]]; then
+              if diff -q all.list tested.list; then
+                echo "Everything tested" >> $GITHUB_STEP_SUMMARY
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0
+              else
+                comm -23 all.list tested.list > totest_tmp.list
+              fi
             else
-              comm -23 all.list tested.list > totest_tmp.list
+              echo "First run!" >> $GITHUB_STEP_SUMMARY
+              cp all.list totest_tmp.list
             fi
-          else
-            echo "First run!" >> $GITHUB_STEP_SUMMARY
-            cp all.list totest_tmp.list
-          fi
-          if [[ -f failed.list ]]; then
-            comm -23 totest_tmp.list failed.list > totest.list
-            echo "### Excluding failed:" >> $GITHUB_STEP_SUMMARY
-            cat failed.list >> $GITHUB_STEP_SUMMARY
-            if [ ! -s totest.list ]; then
-              echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
-              echo "skip=true" >> $GITHUB_OUTPUT
-              exit 0
+            if [[ -f failed.list ]]; then
+              comm -23 totest_tmp.list failed.list > totest.list
+              echo "### Excluding failed:" >> $GITHUB_STEP_SUMMARY
+              cat failed.list >> $GITHUB_STEP_SUMMARY
+              if [ ! -s totest.list ]; then
+                echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+            else
+              mv totest_tmp.list totest.list
             fi
-          else
-            mv totest_tmp.list totest.list
+            FILES=$(shuf -n 100 totest.list | sort || cat totest.list | sort)
+            MATRIX="{\"include\": ["
+            for file in $FILES; do
+              MATRIX+="{\"file\": \"$file\"},"
+            done
+            MATRIX="${MATRIX%,}]}"
+            echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event.inputs.retest_failed }}" == "true" ]]; then
+            find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > all.list
+            grep -Fxf failed.list all.list > retest.list
+            echo "### Retesting failed" >> $GITHUB_STEP_SUMMARY
+            echo "Previously failed, removed: $(grep -vFxf all.list failed.list)" >> $GITHUB_STEP_SUMMARY
+            FILES=$(cat retest.list)
+            MATRIX="{\"include\": ["
+            for file in $FILES; do
+              MATRIX+="{\"file\": \"$file\"},"
+            done
+            MATRIX="${MATRIX%,}]}"
+            echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+            echo "Removing failed.list"
+            git rm failed.list
           fi
-          FILES=$(shuf -n 100 totest.list | sort || cat totest.list | sort)
-          MATRIX="{\"include\": ["
-          for file in $FILES; do
-            MATRIX+="{\"file\": \"$file\"},"
-          done
-          MATRIX="${MATRIX%,}]}"
-          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
 
   run-actions:
     name: "🔨"
@@ -337,10 +303,10 @@ jobs:
       - name: "Check out repository 🏃"
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           ref: testing
 
       - name: "Download Test Results ⬇️"
-        if: success()
         uses: actions/download-artifact@v4
         with:
           path: results
@@ -348,58 +314,55 @@ jobs:
       - run: ls -R results || echo "Nothing tested"
 
       - name: "Git Config"
-        if: always()
         run: |
           git config --global user.name "ivan-hc"
           git config --global user.email "noreply@github.com"
 
       - name: "Aggregate and push results"
-        if: always()
         run: |
-          ls -R results || echo "Nothing tested"
-          #git checkout -b testing
-          #git push --set-upstream origin testing
           if compgen -G "results/ok-*" > /dev/null; then
-            for file in results/ok-*; do
-              cat "$file" >> aggregated.list
-            done
-            cat aggregated.list >> tested.list
+            echo "Getting results"
+            cat results/ok-* >> tested.list
             sort -u tested.list -o tested.list
             git add tested.list
           else
             echo "Nothing tested successfully?"
           fi
           if compgen -G "results/ko-*" > /dev/null; then
-            for file in results/ko-*; do
-              echo "$file" | cut -d'-' -f2- >> fail.list
-            done
             mkdir -p logs
-            cp results/ko-* logs/
-            fail=$(wc -l < fail.list)
-            cat fail.list >> failed.list
+            for file in results/ko-*; do
+              appname=$(basename "$file" | cut -d'-' -f2-)
+              cp "results/ko-$file" "logs/$appname"
+              echo "$appname" >> fail.list
+              echo "$appname" >> failed.list
+            done
             sort -u failed.list -o failed.list
             git add failed.list logs
           else
             echo "Nothing failed? Great!"
           fi
-          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
-          if git diff --cached --quiet; then
-            echo "No changes to commit?"
+          if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
+            echo "This is a Pull Request. Not saving results."
           else
-            if [[ $GITHUB_REF == refs/pull/* ]]; then
-              echo "This is Pull Request. No saving results."
-            elif [[ "${{ github.event.inputs.reset_stats }}" == "true" ]]; then
-              echo "stats resetted"
-              git commit -m "update results"
-              git push origin testing
-            elif [[ "$LAST_COMMIT_MSG" == "update results" ]]; then
-              echo "Last commit is 'update results'."
-              git commit --amend -m "update results"
-              git push --force origin testing
-            else
-              git commit -m "update results"
-              git push --force origin testing
-            fi
+            echo "Creating new commit"
+            git commit -m "update results"
+            git push origin testing --force-with-lease
+          fi
+
+      - name: "Rebase again"
+        if: success()
+        run: |
+          LAST_MSG=$(git log -1 --pretty=%s)
+          PREV_MSG=$(git log -2 --pretty=%s | tail -n1)
+          echo "LAST: $LAST_MSG"
+          echo "PREV: $PREV_MSG"
+          if [[ "$LAST_MSG" == 'update results' ]] && [[ "$PREV_MSG" == 'update results' ]]; then
+            git checkout testing
+            echo "Merging last two update commits..."
+            git reset --soft HEAD~2
+            git commit -m "update results"
+            git push origin testing --force
+            echo "Done!"
           fi
 
       - name: "Show Results 🏁"
@@ -407,12 +370,10 @@ jobs:
         run: |
           tested=$(wc -l < tested.list 2>/dev/null || echo 0)
           failed=$(wc -l < failed.list 2>/dev/null || echo 0)
-          fail=$(wc -l < fail.list 2>/dev/null || echo "0")
+          fail=$(wc -l < fail.list 2>/dev/null || echo 0)
           count=$(find programs/x86_64/ -type f | wc -l)
           remaining=$((count - tested - failed - fail))
-          if (( remaining < 0 )); then
-            remaining=0
-          fi
+          (( remaining < 0 )) && remaining=0
           echo "### 🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
           echo "## 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
           echo "😱 $failed fails listed" >> $GITHUB_STEP_SUMMARY
@@ -464,5 +425,5 @@ jobs:
     needs: generate-matrix
     if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
     steps:
-      - name: "Mark as Successful"
+      - name: "Mark as Successfull"
         run: echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
