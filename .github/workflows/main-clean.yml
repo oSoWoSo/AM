@@ -1,0 +1,44 @@
+name: Clean Main History
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**'
+      - '!**/.github/**'
+      - '.github/workflows/main-clean.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  create-main-clean:
+    name: "Clean history"
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Whole history
+
+      # - name: Install git-filter-repo # using git-filter-branch
+        # run: sudo apt-get install -y git python3 git-filter-repo
+
+      - name: "Clean up empty merge commits"
+        run: |
+          # Set up git user information
+          git config user.name "web-flow"
+          git config user.email "noreply@github.com"
+          # Create a new branch
+          git branch -D main-clean || true
+          git checkout -b main-clean
+          git rebase --force main-clean origin/main
+          git push --force origin HEAD:refs/heads/main-clean
+          # Use git-filter-repo to remove empty merge commits
+          #git filter-repo --refs main-clean --prune-degenerate always --force
+          git filter-branch -f --commit-filter ' if git show -s --format=%P $GIT_COMMIT | grep -q " "; then skip_commit "$@"; else git commit-tree "$@"; fi' HEAD
+          # Push the cleaned branch
+          git push --force origin HEAD:main-clean

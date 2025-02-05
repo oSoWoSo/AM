@@ -1,0 +1,85 @@
+name: "Trigger check in 'amcheck' repo"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - programs/x86_64-apps
+      - programs/i686-apps
+      - programs/aarch64-apps
+    inputs:
+      lister:
+        description: "Sync AppImages listing"
+        required: true
+        default: true
+        type: boolean
+
+  workflow_dispatch:
+    inputs:
+      amcheck:
+        description: "Check variables in 250 apps"
+        required: true
+        default: false
+        type: boolean
+      lister:
+        description: "Sync AppImages listing"
+        required: true
+        default: false
+        type: boolean
+      apps:
+        description: "Test random 💯"
+        required: true
+        default: false
+        type: boolean
+      test:
+        description: "Clean main"
+        required: true
+        default: false
+        type: boolean
+
+jobs:
+  check-variables:
+    if: github.event.inputs.amcheck == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger AMcheck dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: check
+
+  lister-sync:
+    if: github.event.inputs.lister == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger Lister dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: lister
+
+  test-apps:
+    if: github.event.inputs.apps == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger 💯 dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: apps
+
+  main-clean:
+    if: github.event.inputs.test == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger Clean dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: clean
+

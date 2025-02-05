@@ -29,15 +29,17 @@ jobs:
 
       - name: "Push to Source"
         run: |
-          # You have to create PAT (Personal Access Token) with repo and workflow scopes enabled
-          # Save it as secret in repository where action will run (source) with name 'TARGET_REPO_TOKEN'
-          # Change your email, then should work as expected
           git config --global user.name "ivan-hc"
           git config --global user.email "noreply@github.com"
           git add programs/x86_64-appimages programs/i686-appimages programs/aarch64-appimages
           if git diff-index --quiet HEAD; then
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
           else
+            HASH_LIST=$(git log -100 --branches main --grep "Sync files from source repository" --grep "noreply@github.com" --pretty=%H)
+            git reset --soft $(git merge-base origin/main HEAD)
+            for HASH in $HASH_LIST; do
+              git cherry-pick --no-commit $HASH || (git cherry-pick --abort && exit 1)
+            done
             git commit -m "Sync files from source repository"
-            git push && echo "Sync to Source succeeded" >> $GITHUB_STEP_SUMMARY
+            git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY
           fi
