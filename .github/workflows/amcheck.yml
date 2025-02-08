@@ -1,0 +1,454 @@
+name: "Check random 200"
+
+env:
+  TERM: xterm
+
+on:
+  push:
+    branches: main
+    paths:
+      - 'programs/x86_64/**'
+      - .github/workflows/amcheck.yml
+
+  #pull_request:
+  #  if: github.event.pull_request.head.repo.full_name != github.repository
+  #  branches: main
+  #  paths:
+  #    - 'programs/x86_64/**'
+  #    - .github/workflows/test-apps.yml
+
+  workflow_dispatch:
+    inputs:
+      reset_stats:
+        description: "RESET stats"
+        required: true
+        default: "false"
+        type: boolean
+      retest_failed:
+        description: "Test failed again"
+        required: true
+        default: "false"
+        type: boolean
+
+  schedule:
+    - cron: '0 23 * * *'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  rebase-checks-branch:
+    name: "prepare 💤"
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: checks
+
+      - name: "Git Config"
+        run: |
+          echo "git config"
+          git config --global user.name "ivan-hc"
+          git config --global user.email "noreply@github.com"
+
+      - name: "Check if checks exists"
+        id: check_checks
+        run: |
+          if git show-ref --verify --quiet refs/heads/checks; then
+            echo "Testing branch exist"
+            echo "TESTING_EXISTS=true" >> $GITHUB_ENV
+            git checkout checks
+          else
+            echo "Creating checks branch"
+            echo "TESTING_EXISTS=false" >> $GITHUB_ENV
+            git checkout -b checks origin/main
+            exit 0
+          fi
+
+      - name: "Check and update checks branch"
+        if: env.TESTING_EXISTS == 'true'
+        run: |
+          echo "Checking checks branch status..."
+          if [[ "${{ github.event.inputs.reset_stats }}" == 'true' ]]; then
+            echo "Resetting checks branch to match main"
+            git push origin main:checks --force
+            exit 0
+          fi
+          git fetch origin
+          if [[ $(git rev-list HEAD...origin/main --count) -gt 0 ]]; then
+            echo "Changes detected between 'main' and 'checks'. Attempting rebase..."
+            if git rebase -X ours origin/main; then
+              echo "Successfully rebased checks on main"
+            else
+              echo "Rebase failed, resetting checks to main"
+              git reset --hard origin/main
+            fi
+            git push origin HEAD:checks --force
+          else
+            echo "No changes detected, checks branch is up to date."
+          fi
+
+  show-stats:
+    name: "stats 📝"
+    runs-on: ubuntu-22.04
+    needs: rebase-checks-branch
+
+    steps:
+      - name: "Checkout repository (for programs count) 🏃"
+        uses: actions/checkout@v4
+        with:
+          ref: checks
+
+      - name: "Count stats 📊"
+        run: |
+          x64Count=$(find programs/x86_64/ -type f | wc -l)
+          i68Count=$(find programs/i686/ -type f | wc -l)
+          a64Count=$(find programs/aarch64/ -type f | wc -l)
+          tested=$(wc -l < checked.list 2>/dev/null || echo 0)
+          failed=$(wc -l < failed.check 2>/dev/null || echo 0)
+          echo "### 🎬 apps" >> $GITHUB_STEP_SUMMARY
+          echo "$x64Count x86_64" >> $GITHUB_STEP_SUMMARY
+          echo "$i68Count i686" >> $GITHUB_STEP_SUMMARY
+          echo "$a64Count aarch64" >> $GITHUB_STEP_SUMMARY
+          echo "### 🔨 tests" >> $GITHUB_STEP_SUMMARY
+          echo " 🏁 $tested" >> $GITHUB_STEP_SUMMARY
+          echo " ❌ $failed" >> $GITHUB_STEP_SUMMARY
+
+  generate-matrix:
+    name: "matrix 🌀"
+    needs: rebase-checks-branch
+    runs-on: ubuntu-22.04
+    outputs:
+      skip: ${{ steps.set-matrix.outputs.skip }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      count: ${{ steps.am-install.outputs.count }}
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+        with:
+          ref: checks
+
+      - name: "Generate Matrix 🏆"
+        id: set-matrix
+        run: |
+          if [[ "${{ github.event.inputs.retest_failed }}" != "true" ]]; then
+            mkdir -p results
+            find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > all.list
+            if [[ -f checked.list ]]; then
+              if diff -q all.list checked.list; then
+                echo "Everything checked" >> $GITHUB_STEP_SUMMARY
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0
+              else
+                comm -23 all.list checked.list > totest_tmp.list
+              fi
+            else
+              echo "First run!" >> $GITHUB_STEP_SUMMARY
+              cp all.list totest_tmp.list
+            fi
+            if [[ -f failed.check ]]; then
+              comm -23 totest_tmp.list failed.check > totest.list
+              echo "### Excluding failed:" >> $GITHUB_STEP_SUMMARY
+              cat failed.check >> $GITHUB_STEP_SUMMARY
+              if [ ! -s totest.list ]; then
+                echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
+                echo "skip=true" >> $GITHUB_OUTPUT
+                exit 0
+              fi
+            else
+              mv totest_tmp.list totest.list
+            fi
+            FILES=$(shuf -n 200 totest.list | sort || cat totest.list | sort)
+            MATRIX="{\"include\": ["
+            for file in $FILES; do
+              MATRIX+="{\"file\": \"$file\"},"
+            done
+            MATRIX="${MATRIX%,}]}"
+            echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event.inputs.retest_failed }}" == "true" ]]; then
+            find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > all.list
+            grep -Fxf failed.check all.list > retest.list
+            echo "### Retesting failed" >> $GITHUB_STEP_SUMMARY
+            echo "Previously failed, removed: $(grep -vFxf all.list failed.check)" >> $GITHUB_STEP_SUMMARY
+            FILES=$(cat retest.list)
+            MATRIX="{\"include\": ["
+            for file in $FILES; do
+              MATRIX+="{\"file\": \"$file\"},"
+            done
+            MATRIX="${MATRIX%,}]}"
+            echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+            echo "Removing failed.check"
+            git rm failed.check
+          fi
+
+  run-actions:
+    name: "🔨"
+    needs: generate-matrix
+    runs-on: ubuntu-22.04
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    env:
+      TIMEOUT: 23
+    defaults:
+      run:
+        working-directory: programs/x86_64
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: "Install dependencies"
+        run: |
+          apt-get -y update || sudo apt-get -y update
+          apt-get -y install torsocks || sudo apt-get -y install torsocks
+
+      - name: "Creating directory"
+        run: |
+          echo "Creating results directory"
+          mkdir -p ../../results
+
+      - name: "1 ${{ matrix.file }} 🚧"
+        run: |
+          mkdir -p ../../results
+          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+            echo "continue"
+          else
+            echo "1" | tee -a ../../results/ko-"${{ matrix.file }}" && sleep 3 && exit 9
+          fi
+
+      - name: "2 ${{ matrix.file }} 🚧"
+        run: |
+          mkdir -p ../../results
+          if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
+            echo "continue"
+          else
+            echo "2" | tee -a ../../results/ko-"${{ matrix.file }}" && sleep 3 && exit 99
+          fi
+
+      - name: "APP ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^APP=" "${{ matrix.file }}" 2>/dev/null; then
+            APP=$(eval echo "$(grep -i '^APP=' "${{ matrix.file }}" | head -1 | sed 's/APP=//g')")
+            echo "APP=\"$APP\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "REPO ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^REPO=" "${{ matrix.file }}" 2>/dev/null; then
+            REPO=$(eval echo "$(grep -i '^REPO=' "${{ matrix.file }}" | head -1 | sed 's/REPO=//g')")
+            echo "REPO=\"$REPO\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "SITE ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
+            SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
+            echo "SITE=\"$SITE\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "d ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^d=" "${{ matrix.file }}" 2>/dev/null; then
+            d=$(eval echo "$(grep -i '^d=' "${{ matrix.file }}" | head -1 | sed 's/d=//g')")
+            echo "d=\"$d\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "dl ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^dl=" "${{ matrix.file }}" 2>/dev/null; then
+            dl=$(eval echo "$(grep -i '^dl=' "${{ matrix.file }}" | head -1 | sed 's/dl=//g')")
+            echo "dl=\"$dl\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "rel ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^rel=" "${{ matrix.file }}" 2>/dev/null; then
+            rel=$(eval echo "$(grep -i '^rel=' "${{ matrix.file }}" | head -1 | sed 's/rel=//g')")
+            echo "rel=\"$rel\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "tag ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^tag=" "${{ matrix.file }}" 2>/dev/null; then
+            tag=$(eval echo "$(grep -i '^tag=' "${{ matrix.file }}" | head -1 | sed 's/tag=//g')")
+            echo "tag=\"$tag\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "v ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^v=" "${{ matrix.file }}" 2>/dev/null; then
+            v=$(eval echo "$(grep -i '^v=' "${{ matrix.file }}" | head -1 | sed 's/v=//g')")
+            echo "v=\"$v\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "ver ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^ver=" "${{ matrix.file }}" 2>/dev/null; then
+            ver=$(eval echo "$(grep -i '^ver=' "${{ matrix.file }}" | head -1 | sed 's/ver=//g')")
+            echo "ver=\"$ver\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+
+      - name: "version ${{ matrix.file }} 🚧"
+        run: |
+          if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
+            version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+            if [ -z "$version" ]; then
+              sed -i 's/curl -Ls/torsocks curl -Ls/g' "${{ matrix.file }}"
+              version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              if [ -z "$version" ]; then
+                sudo systemctl restart tor.service || systemctl restart tor.service
+                wait
+                version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              fi
+            fi
+            [ -n "$version" ] && echo "version=\"$version\"" | tee -a ../../results/log-"${{ matrix.file }}"
+          fi
+          echo '-----------------------------------------------------------------' | tee -a ../../results/log-"${{ matrix.file }}"
+
+      - name: "Upload Results ⬆️"
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          path: results/*
+
+  update-checked:
+    name: "results 📰"
+    needs: run-actions
+    runs-on: ubuntu-22.04
+    if: always()
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: checks
+
+      - name: "Download Test Results ⬇️"
+        uses: actions/download-artifact@v4
+        with:
+          path: results
+          merge-multiple: true
+      - run: ls -R results || echo "Nothing tested"
+
+      - name: "Git Config"
+        run: |
+          git config --global user.name "ivan-hc"
+          git config --global user.email "noreply@github.com"
+
+      - name: "Aggregate and push results"
+        run: |
+          appname=$(basename "$file" | cut -d'-' -f2-)
+          if compgen -G "results/log-*" > /dev/null; then
+            echo "Getting results"
+            for file in results/log-*; do
+              echo "$appname" >> checked.list
+            done
+            cat results/log-* >> list
+            sort -u checked.list -o checked.list
+            git add checked.list list
+          else
+            echo "Nothing tested successfully?"
+          fi
+          if compgen -G "results/ko-*" > /dev/null; then
+            mkdir -p checks
+            cp results/ko-* "checks/$appname"
+            for file in results/ko-*; do
+              echo "$appname" >> failed.check
+            done
+            sort -u failed.check -o failed.check
+            git add failed.check checks
+          else
+            echo "Nothing failed? Great!"
+          fi
+          if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
+            echo "This is a Pull Request. Not saving results."
+          else
+            echo "Creating new commit"
+            git commit -m "update results"
+            git push origin checks --force-with-lease
+          fi
+
+      - name: "Rebase again"
+        if: success()
+        run: |
+          LAST_MSG=$(git log -1 --pretty=%s)
+          PREV_MSG=$(git log -2 --pretty=%s | tail -n1)
+          echo "LAST: $LAST_MSG"
+          echo "PREV: $PREV_MSG"
+          if [[ "$LAST_MSG" == 'update results' ]] && [[ "$PREV_MSG" == 'update results' ]]; then
+            git checkout checks
+            echo "Merging last two update commits..."
+            git reset --soft HEAD~2
+            git commit -m "update results"
+            git push origin checks --force
+            echo "Done!"
+          fi
+
+      - name: "Show Results 🏁"
+        if: always()
+        run: |
+          tested=$(wc -l < checked.list 2>/dev/null || echo 0)
+          failed=$(wc -l < failed.check 2>/dev/null || echo 0)
+          fail=$(wc -l < fail.list 2>/dev/null || echo 0)
+          count=$(find programs/x86_64/ -type f | wc -l)
+          remaining=$((count - tested - failed - fail))
+          (( remaining < 0 )) && remaining=0
+          echo "### 🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
+          echo "## 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+          echo "😱 $failed fails listed" >> $GITHUB_STEP_SUMMARY
+          echo ":x: $fail failed now" >> $GITHUB_STEP_SUMMARY
+
+  delete-all-artifacts:
+    name: "cleanup 🧹"
+    runs-on: ubuntu-22.04
+    needs: update-checked
+    if: always()
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+
+      - name: "Delete Artifacts 🙈"
+        env:
+          REPO_NAME: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching and deleting all artifacts for run ID: $RUN_ID"
+          PAGE=1
+          DELETED=0
+          while true; do
+            RESPONSE=$(curl -s -H "Authorization: token $TOKEN" \
+             "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=100&page=$PAGE")
+            ARTIFACT_IDS=$(echo "$RESPONSE" | jq -r '.artifacts[].id')
+            if [[ -z "$ARTIFACT_IDS" ]]; then
+              echo "No more artifacts to delete. Total deleted: $DELETED"
+              break
+            fi
+            for ARTIFACT_ID in $ARTIFACT_IDS; do
+              echo "Deleting artifact with ID: $ARTIFACT_ID"
+              curl -X DELETE -s -H "Authorization: token $TOKEN" \
+               "https://api.github.com/repos/$REPO_NAME/actions/artifacts/$ARTIFACT_ID"
+              ((DELETED+=1))
+            done
+            ((PAGE+=1))
+          done
+          echo "Successfully deleted $DELETED artifacts."
+
+  already-tested:
+    name: "all 🏁"
+    runs-on: ubuntu-22.04
+    needs: generate-matrix
+    if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
+    steps:
+      - name: "Mark as Successfull"
+        run: echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY

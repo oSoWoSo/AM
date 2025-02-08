@@ -1,0 +1,38 @@
+- Added an option to reset stats via manual trigger
+- Improved the rebasing of the 'testing' branch on 'main'
+- Ensured only one 'update results' commit is made
+- Fixed the remaining count
+- Made other small improvements
+
+
+if ! git show-ref --verify --quiet refs/remotes/origin/testing; then
+  echo "Creating remote 'testing' branch from 'main'..."
+  git push origin main:testing
+else
+  echo "Not" 
+fi
+
+
+git fetch origin main testing
+if git diff --quiet origin/main..origin/testing; then
+  echo "No difference between testing and main. Exiting."
+  echo "skip=true"
+else
+  echo "skip=false"
+fi
+
+
+git fetch origin main testing || echo "Branch 'testing' does not exist."
+if ! git ls-remote --exit-code --heads origin testing; then
+  echo "Creating remote 'testing' branch from 'main'..."
+  git push origin main:testing
+  echo "RESET_REQUIRED=true"
+else
+  if git merge-base --is-ancestor origin/main origin/testing; then
+    echo "Histories are compatible, rebase only."
+    echo "RESET_REQUIRED=false"
+  else
+    echo "Histories are different, reset needed."
+    echo "RESET_REQUIRED=true"
+  fi
+fi
