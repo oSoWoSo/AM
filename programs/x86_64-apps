@@ -146,6 +146,7 @@
 ◆ awakened-poe-trade : Path of Exile trading app for price checking.
 ◆ axe-electrum : Axe Electrum Wallet.
 ◆ axolotl : A Signal compatible cross plattform client written in Go and Vuejs.
+◆ aya : A desktop application for easily controlling android devices, which can be considered as a GUI wrapper for ADB.
 ◆ badlion : Most Complete All-In-One Mod Library for Minecraft with 100+ Mods.
 ◆ baijimangaviewer : Manga viewer that uses Material Design.
 ◆ bambustudio : PC Software for BambuLab's 3D printers.
@@ -848,6 +849,7 @@
 ◆ gitnote : A modern note taking app based on GIT.
 ◆ gitql : A git query language.
 ◆ gitqlient : Multi-platform Git client written with Qt.
+◆ gittyup : GUI Git client designed to help you understand and manage your source code history.
 ◆ gitui : Blazing fast terminal-ui for git written in rust.
 ◆ glab : A GitLab CLI tool bringing GitLab to your command line.
 ◆ glabels : Create labels, business cards and media covers.
