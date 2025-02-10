@@ -1,4 +1,4 @@
-name: "Trigger check in 'amcheck' repo"
+name: "trigger"
 
 on:
   push:
@@ -17,30 +17,61 @@ on:
 
   workflow_dispatch:
     inputs:
-      amcheck:
+      input_amcheck:
         description: "Check variables in 250 apps"
         required: true
         default: false
         type: boolean
-      lister:
+      input_lister:
         description: "Sync AppImages listing"
         required: true
         default: false
         type: boolean
-      apps:
+      input_apps:
         description: "Test random 💯"
         required: true
         default: false
         type: boolean
-      test:
+      input_test:
         description: "Clean main"
         required: true
         default: false
         type: boolean
 
 jobs:
+  rename:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "Extract inputs"
+        id: get_inputs
+        run: |
+          INPUTS_JSON='${{ toJson(github.event.inputs) }}'
+          DESCRIPTIONS_JSON='{
+            "amcheck": "Check variables in 250 apps",
+            "lister": "Sync AppImages listing",
+            "apps": "Test random 💯",
+            "test": "Clean main"
+          }'
+          RUN_NAME=$(echo "$INPUTS_JSON" | jq -r '
+            to_entries
+            | map(select(.value == "true") | .key)
+            | map(. as $key | $DESCRIPTIONS_JSON[$key])
+            | join(", ")
+          ' --argjson DESCRIPTIONS_JSON "$DESCRIPTIONS_JSON")
+          if [[ -z "$RUN_NAME" ]]; then
+            RUN_NAME="Push...?"
+          fi
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
+
+      - name: "Rename run"
+        run: |
+          curl -X PATCH -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/actions/runs/${{ github.run_id }} \
+          -d "{\"name\": \"running: ${{ env.RUN_NAME }}\"}"
+
   check-variables:
-    if: github.event.inputs.amcheck == 'true'
+    if: github.event.inputs.input_amcheck == 'true'
     runs-on: ubuntu-22.04
     steps:
       - name: "trigger AMcheck dispatch"
@@ -51,7 +82,7 @@ jobs:
           event-type: check
 
   lister-sync:
-    if: github.event.inputs.lister == 'true'
+    if: github.event.inputs.input_lister == 'true'
     runs-on: ubuntu-22.04
     steps:
       - name: "trigger Lister dispatch"
@@ -62,7 +93,7 @@ jobs:
           event-type: lister
 
   test-apps:
-    if: github.event.inputs.apps == 'true'
+    if: github.event.inputs.input_apps == 'true'
     runs-on: ubuntu-22.04
     steps:
       - name: "trigger 💯 dispatch"
@@ -73,7 +104,7 @@ jobs:
           event-type: apps
 
   main-clean:
-    if: github.event.inputs.test == 'true'
+    if: github.event.inputs.input_test == 'true'
     runs-on: ubuntu-22.04
     steps:
       - name: "trigger Clean dispatch"
