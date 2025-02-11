@@ -37,10 +37,11 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-22.04
     outputs:
-      run_lister: ${{ steps.set-vars.outputs.run_lister }}
-      run_apps: ${{ steps.set-vars.outputs.run_apps }}
-      run_clean: ${{ steps.set-vars.outputs.run_clean }}
-      changed_files: ${{ steps.set-vars.outputs.changed_files }}
+      run_lister: ${{ steps.decide.outputs.run_lister }}
+      run_amcheck: ${{ steps.decide.outputs.run_amcheck }}
+      run_apps: ${{ steps.decide.outputs.run_apps }}
+      run_clean: ${{ steps.decide.outputs.run_clean }}
+      changed_files: ${{ steps.decide.outputs.changed_files }}
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v4
