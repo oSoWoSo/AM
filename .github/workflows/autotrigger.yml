@@ -51,50 +51,40 @@ jobs:
         run: |
           echo "Checking modified files..."
           CHANGED_FILES=$(git diff --name-only --relative ${{ github.event.before }} ${{ github.event.after }})
-          # Log files for debugging
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No changed files detected."
+            exit 0
+          fi
           echo "Changed files:"
           echo "$CHANGED_FILES"
-          # Save to an output variable for use in other jobs
-          echo "changed_files<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGED_FILES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-          # Decision logic
+          echo "changed_files=$CHANGED_FILES" >> $GITHUB_OUTPUT
           RUN_APPS=false
           RUN_CLEAN=false
           RUN_AMCHECK=false
           RUN_LISTER=false
-          for FILE in $CHANGED_FILES; do
+          for FILE in ${CHANGED_FILES}; do
             case "$FILE" in
               programs/x86_64-apps|programs/i686-apps|programs/aarch64-apps)
                 RUN_LISTER=true
                 RUN_AMCHECK=true
                 RUN_APPS=true
-                RUN_CLEAN=true
-                ;;
-              .github/wworkflows/+)
-                echo "yml? Nothing important yet"
-                #TODO: yaml check?
-                ;;
+                RUN_CLEAN=true;;
+              .github/workflows/*)
+                echo "YAML file changed, no action needed.";;
               AM-INSTALLER|APP-MANAGER|modules/*)
-                echo "sh? Nothing important yet"
-                #TODO: shellcheck?
-                ;;
+                echo "Shell script changed, no action needed.";;
               *.md)
-                echo "md? Nothing important yet"
-                #TODO: markdown linter?
-                ;;
-              '*')
+                echo "Markdown file changed, no action needed.";;
+              *)
+                echo "Generic change detected."
                 RUN_AMCHECK=true
-                RUN_CLEAN=true
-                ;;
+                RUN_CLEAN=true;;
             esac
           done
-
           echo "run_lister=$RUN_LISTER" >> $GITHUB_OUTPUT
           echo "run_amcheck=$RUN_AMCHECK" >> $GITHUB_OUTPUT
           echo "run_apps=$RUN_APPS" >> $GITHUB_OUTPUT
           echo "run_clean=$RUN_CLEAN" >> $GITHUB_OUTPUT
-
           echo "Decided jobs: Lister=$RUN_LISTER, Amcheck=$RUN_AMCHECK, Apps=$RUN_APPS, Clean=$RUN_CLEAN"
 
   check-variables:
@@ -113,7 +103,7 @@ jobs:
         id: check
         run: |
           RUN_NAME="trigger 250 dispatch"
-          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_OUTPUT
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
 
   lister-sync:
     name: "trigger Lister dispatch"
@@ -131,7 +121,7 @@ jobs:
         id: lister
         run: |
           RUN_NAME="trigger Lister dispatch"
-          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_OUTPUT
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
 
   test-apps:
     name: "trigger 💯 dispatch"
@@ -149,7 +139,7 @@ jobs:
         id: apps
         run: |
           RUN_NAME="trigger 💯 dispatch"
-          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_OUTPUT
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
 
   main-clean:
     name: "trigger Clean dispatch"
@@ -167,7 +157,7 @@ jobs:
         id: clean
         run: |
           RUN_NAME="trigger Clean dispatch"
-          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_OUTPUT
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
 
   rename:
     runs-on: ubuntu-22.04
