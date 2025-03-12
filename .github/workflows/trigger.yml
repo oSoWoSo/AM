@@ -21,6 +21,16 @@ on:
         required: true
         default: false
         type: boolean
+      input_apps_reset:
+        description: "random 💯 RESET"
+        required: true
+        default: false
+        type: boolean
+      input_apps_excluded:
+        description: "test EXCLUDED from 💯"
+        required: true
+        default: false
+        type: boolean
       input_test:
         description: "Clean main"
         required: true
@@ -76,6 +86,42 @@ jobs:
           token: ${{ secrets.TOKEN }}
           event-type: apps
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+
+      - name: "Set name"
+        run: |
+          RUN_NAME="trigger 💯 dispatch"
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
+
+  test-apps-reset:
+    name: "trigger 💯 RESET dispatch"
+    if: github.event.inputs.input_apps_reset == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger 💯 dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: apps
+          client-payload: '{"reset_stats": true, "ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+
+      - name: "Set name"
+        run: |
+          RUN_NAME="trigger 💯 dispatch"
+          echo "RUN_NAME=$RUN_NAME" >> $GITHUB_ENV
+
+  test-apps-excluded:
+    name: "trigger 💯 EXCLUDED dispatch"
+    if: github.event.inputs.input_apps_excluded == 'true'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "trigger 💯 dispatch"
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          repository: ${{ github.repository_owner }}/amcheck
+          token: ${{ secrets.TOKEN }}
+          event-type: apps
+          client-payload: '{"retest_excluded": true, "ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
       - name: "Set name"
         run: |
