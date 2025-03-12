@@ -103,7 +103,7 @@ jobs:
           repository: ${{ github.repository_owner }}/amcheck
           token: ${{ secrets.TOKEN }}
           event-type: apps
-          client-payload: '{"reset_stats": true}'
+          client-payload: 'reset_stats: true'
 
       - name: "Set name"
         run: |
@@ -121,7 +121,7 @@ jobs:
           repository: ${{ github.repository_owner }}/amcheck
           token: ${{ secrets.TOKEN }}
           event-type: apps
-          client-payload: '{"retest_excluded": true}'
+          client-payload: 'retest_excluded: true'
 
       - name: "Set name"
         run: |
