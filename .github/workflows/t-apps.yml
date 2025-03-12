@@ -12,27 +12,6 @@ on:
     types: [autotrigger]
 
   workflow_dispatch:
-    inputs:
-      input_amcheck:
-        description: "Check variables in 250 apps"
-        required: true
-        default: false
-        type: boolean
-      input_lister:
-        description: "Sync AppImages listing"
-        required: true
-        default: false
-        type: boolean
-      input_apps:
-        description: "Test random 💯"
-        required: true
-        default: false
-        type: boolean
-      input_clean:
-        description: "Clean main"
-        required: true
-        default: false
-        type: boolean
 
 jobs:
   decide-jobs:
