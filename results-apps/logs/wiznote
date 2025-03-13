@@ -1,0 +1,24 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "WIZNOTE": starting installation script
+
+1741886636 ERROR torsocks[3043]: Unable to resolve. Status reply: 4 (in socks5_recv_resolve_reply() at socks5.c:677)
+--2025-03-13 17:23:56--  https://get.wiz.cn/x/wiznote-desktop--linux-x86_64.AppImage
+Resolving get.wiz.cn (get.wiz.cn)... 121.196.209.35
+Connecting to get.wiz.cn (get.wiz.cn)|121.196.209.35|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-03-13 17:24:08 ERROR 404: Not Found.
+
+
+ 💀 ERROR DURING INSTALLATION, REMOVED "WIZNOTE"!
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+============================================================================

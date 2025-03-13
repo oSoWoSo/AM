@@ -1,0 +1,24 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "LUNAR-CLIENT": starting installation script
+
+1741885642 ERROR torsocks[2943]: General SOCKS server failure (in socks5_recv_connect_reply() at socks5.c:527)
+--2025-03-13 17:07:22--  https://launcherupdates.lunarclientcdn.com/Lunar%20Client--ow.AppImage
+Resolving launcherupdates.lunarclientcdn.com (launcherupdates.lunarclientcdn.com)... 104.18.29.96, 104.18.28.96
+Connecting to launcherupdates.lunarclientcdn.com (launcherupdates.lunarclientcdn.com)|104.18.29.96|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2025-03-13 17:07:23 ERROR 404: Not Found.
+
+
+ 💀 ERROR DURING INSTALLATION, REMOVED "LUNAR-CLIENT"!
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+============================================================================
