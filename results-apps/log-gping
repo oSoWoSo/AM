@@ -1,0 +1,75 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "GPING": starting installation script
+
+--2025-03-13 21:56:41--  https://github.com/orf/gping/releases/download/gping-v1.18.0/gping-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/44440501/72535673-9d6d-4d61-80a1-49eec631fabf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T215641Z&X-Amz-Expires=300&X-Amz-Signature=ad2dd7f9cbb4ae08f715c463c3198ed599e2ffe99ff48acfec605cb6c0339293&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dgping-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-13 21:56:41--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/44440501/72535673-9d6d-4d61-80a1-49eec631fabf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T215641Z&X-Amz-Expires=300&X-Amz-Signature=ad2dd7f9cbb4ae08f715c463c3198ed599e2ffe99ff48acfec605cb6c0339293&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dgping-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1395611 (1.3M) [application/octet-stream]
+Saving to: ‘gping-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  3% 26.7M 0s
+    50K .......... .......... .......... .......... ..........  7% 77.7M 0s
+   100K .......... .......... .......... .......... .......... 11% 40.8M 0s
+   150K .......... .......... .......... .......... .......... 14%  131M 0s
+   200K .......... .......... .......... .......... .......... 18%  199M 0s
+   250K .......... .......... .......... .......... .......... 22% 54.5M 0s
+   300K .......... .......... .......... .......... .......... 25%  200M 0s
+   350K .......... .......... .......... .......... .......... 29%  171M 0s
+   400K .......... .......... .......... .......... .......... 33%  163M 0s
+   450K .......... .......... .......... .......... .......... 36%  195M 0s
+   500K .......... .......... .......... .......... .......... 40%  266M 0s
+   550K .......... .......... .......... .......... .......... 44% 63.0M 0s
+   600K .......... .......... .......... .......... .......... 47%  261M 0s
+   650K .......... .......... .......... .......... .......... 51% 10.2M 0s
+   700K .......... .......... .......... .......... .......... 55% 11.9M 0s
+   750K .......... .......... .......... .......... .......... 58%  183M 0s
+   800K .......... .......... .......... .......... .......... 62%  206M 0s
+   850K .......... .......... .......... .......... .......... 66%  192M 0s
+   900K .......... .......... .......... .......... .......... 69%  210M 0s
+   950K .......... .......... .......... .......... .......... 73%  230M 0s
+  1000K .......... .......... .......... .......... .......... 77%  268M 0s
+  1050K .......... .......... .......... .......... .......... 80%  336M 0s
+  1100K .......... .......... .......... .......... .......... 84%  271M 0s
+  1150K .......... .......... .......... .......... .......... 88%  203M 0s
+  1200K .......... .......... .......... .......... .......... 91%  281M 0s
+  1250K .......... .......... .......... .......... .......... 95%  261M 0s
+  1300K .......... .......... .......... .......... .......... 99% 19.2M 0s
+  1350K .......... ..                                         100%  316M=0.02s
+
+2025-03-13 21:56:41 (62.8 MB/s) - ‘gping-x86_64-unknown-linux-musl.tar.gz’ saved [1395611/1395611]
+
+
+ [0;32m"GPING" INSTALLED[0m (4 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ gping 1.18.0
+
+============================================================================
+AM-updater
+gping
+icons
+remove
+version
+/usr/local/bin/gping
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

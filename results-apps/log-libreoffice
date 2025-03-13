@@ -1,0 +1,37 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "LIBREOFFICE": starting installation script
+
+
+ 💀 ERROR DURING INSTALLATION, REMOVED "LIBREOFFICE"!
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+============================================================================
+AM-updater
+icons
+libreoffice
+libreoffice.zsync
+remove
+version
+/usr/local/bin/libreoffice
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+libreoffice-base-AM.desktop
+libreoffice-calc-AM.desktop
+libreoffice-draw-AM.desktop
+libreoffice-impress-AM.desktop
+libreoffice-math-AM.desktop
+libreoffice-startcenter-AM.desktop
+libreoffice-writer-AM.desktop
+libreoffice-xsltfilter-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
