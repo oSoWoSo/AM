@@ -222,14 +222,6 @@ jobs:
             echo "APP=\"$APP\"" | tee -a results/out-"${{ matrix.file }}"
           fi
 
-      - name: "REPO ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^REPO=" "${{ matrix.file }}" 2>/dev/null; then
-            REPO=$(eval echo "$(grep -i '^REPO=' "${{ matrix.file }}" | head -1 | sed 's/REPO=//g')")
-            echo "REPO=\"$REPO\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
       - name: "SITE ${{ matrix.file }} 🚧"
         working-directory: programs/x86_64
         run: |
@@ -238,55 +230,7 @@ jobs:
             echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
           fi
 
-      - name: "d ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^d=" "${{ matrix.file }}" 2>/dev/null; then
-            d=$(eval echo "$(grep -i '^d=' "${{ matrix.file }}" | head -1 | sed 's/d=//g')")
-            echo "d=\"$d\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "dl ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^dl=" "${{ matrix.file }}" 2>/dev/null; then
-            dl=$(eval echo "$(grep -i '^dl=' "${{ matrix.file }}" | head -1 | sed 's/dl=//g')")
-            echo "dl=\"$dl\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "rel ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^rel=" "${{ matrix.file }}" 2>/dev/null; then
-            rel=$(eval echo "$(grep -i '^rel=' "${{ matrix.file }}" | head -1 | sed 's/rel=//g')")
-            echo "rel=\"$rel\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "tag ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^tag=" "${{ matrix.file }}" 2>/dev/null; then
-            tag=$(eval echo "$(grep -i '^tag=' "${{ matrix.file }}" | head -1 | sed 's/tag=//g')")
-            echo "tag=\"$tag\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "v ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^v=" "${{ matrix.file }}" 2>/dev/null; then
-            v=$(eval echo "$(grep -i '^v=' "${{ matrix.file }}" | head -1 | sed 's/v=//g')")
-            echo "v=\"$v\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "ver ${{ matrix.file }} 🚧"
-        working-directory: programs/x86_64
-        run: |
-          if grep -q "^ver=" "${{ matrix.file }}" 2>/dev/null; then
-            ver=$(eval echo "$(grep -i '^ver=' "${{ matrix.file }}" | head -1 | sed 's/ver=//g')")
-            echo "ver=\"$ver\"" | tee -a results/out-"${{ matrix.file }}"
-          fi
-
-      - name: "version ${{ matrix.file }} 🚧"
+      - name: "download ${{ matrix.file }} 🚧"
         working-directory: programs/x86_64
         run: |
           if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
@@ -300,7 +244,7 @@ jobs:
                 version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
               fi
             fi
-            [ -n "$version" ] && echo "version=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
+            [ -n "$version" ] && echo "download=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
           fi
           echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
 
