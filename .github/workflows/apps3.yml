@@ -324,7 +324,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: log-${{ matrix.file }}
-          path: programs/x86_64/results/log-${{ matrix.file }}
+          path: results/log-${{ matrix.file }}
           if-no-files-found: error
           retention-days: 1
           compression-level: 0
