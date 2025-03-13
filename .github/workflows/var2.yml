@@ -1,0 +1,586 @@
+name: "variables: Check 250"
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+
+  repository_dispatch:
+    types: [check]
+
+  workflow_dispatch:
+    inputs:
+      reset_stats:
+        description: "RESET stats (delete results)"
+        required: true
+        default: false
+        type: boolean
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  actions: write
+  contents: write
+
+env:
+  REPO: ${{ github.repository_owner }}/AM
+  BRANCH: main
+
+jobs:
+  triggered:
+    if: github.event_name == 'repository_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Remotely triggered"
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.client_payload.ref }}
+
+      - name: "Show payload"
+        run: echo ${{ github.event.client_payload.sha }} >> $GITHUB_STEP_SUMMARY
+
+  show-stats:
+    name: "stats 📝"
+    runs-on: ubuntu-22.04
+    outputs:
+      all: ${{ steps.count.outputs.all }}
+      tested: ${{ steps.stats.outputs.tested }}
+      excluded: ${{ steps.stats.outputs.excluded }}
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Count programs 📊"
+        id: count
+        run: |
+          find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > appslist
+          x64Count=$(wc -l < appslist)
+          echo "all=$x64Count" >> $GITHUB_OUTPUT
+
+      - name: "Upload appslist"
+        uses: actions/upload-artifact@v4
+        with:
+          name: appslist
+          path: appslist
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Reset stats"
+        if: github.event.inputs.reset_stats == 'true'
+        run: |
+          echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
+          ls ./
+          rm -rf results-var
+
+      - name: "Count stats 📊"
+        id: stats
+        run: |
+          tested=$(wc -l < results-var/tested 2> /dev/null || echo '0')
+          excluded=$(wc -l < results-var/excluded 2> /dev/null || echo '0')
+          echo "tested=$tested" >> $GITHUB_OUTPUT
+          echo "excluded=$excluded" >> $GITHUB_OUTPUT
+
+      - name: "Show stats 📊"
+        run: |
+          echo "### 🎬 apps: ${{ steps.count.outputs.all }}" >> $GITHUB_STEP_SUMMARY
+          if [[ "${{ steps.stats.outputs.tested }}" != '0' ]]; then
+            echo "🔨 tests:" >> $GITHUB_STEP_SUMMARY
+            echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [[ "${{ steps.stats.outputs.excluded }}" != '0' ]]; then
+            echo "no GitHub/AppImage:" >> $GITHUB_STEP_SUMMARY
+            echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
+          fi
+
+  generate-matrix:
+    name: "matrix 🌀"
+    needs: show-stats
+    runs-on: ubuntu-22.04
+    outputs:
+      skip: ${{ steps.set-matrix.outputs.skip }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Download appslist"
+        uses: actions/download-artifact@v4
+        with:
+          name: appslist
+
+      - name: "Generate Matrix 🏆"
+        id: set-matrix
+        if: github.event.inputs.retest_excluded != 'true'
+        run: |
+          ls
+          if [[ -f results-var/tested ]]; then
+            if diff -q appslist results-var/tested; then
+              echo "Everything checked" >> $GITHUB_STEP_SUMMARY
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            else
+              comm -23 appslist results-var/tested > totest_tmp.list
+            fi
+          else
+            echo "First run!" >> $GITHUB_STEP_SUMMARY
+            cp appslist totest_tmp.list
+          fi
+          if [[ -f results-var/excluded ]]; then
+            comm -23 totest_tmp.list results-var/excluded > totest.list
+            if [ ! -s totest.list ]; then
+              echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+          else
+            mv totest_tmp.list totest.list
+          fi
+          FILES=$(shuf -n 250 totest.list | sort || cat totest.list | sort)
+          MATRIX="{\"include\": ["
+          for file in $FILES; do
+            MATRIX+="{\"file\": \"$file\"},"
+          done
+          MATRIX="${MATRIX%,}]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+  run-actions:
+    name: "🔨"
+    needs: generate-matrix
+    runs-on: ubuntu-22.04
+    if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+    env:
+      TIMEOUT: 23
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Cache dependencies"
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: wget curl torsocks zsync
+          version: 1.0
+
+      - name: "Install AM 🎁"
+        run: |
+          sudo systemctl enable tor.service || systemctl enable tor.service
+          sudo systemctl restart tor.service || systemctl restart tor.service
+          chmod +x ./INSTALL
+          sudo ./INSTALL 2> /dev/null || ./INSTALL
+
+      - name: "Checkout repository"
+        uses: actions/checkout@v4
+        with:
+          path: results
+
+      - name: "Create directory"
+        working-directory: programs/x86_64
+        run: |
+          echo "Creating results directory"
+          mkdir -p results
+
+      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
+        id: on-github
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
+          else
+            echo "EXIT_CODE=9" >> $GITHUB_ENV
+            echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
+            touch results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "Is ${{ matrix.file }} AppImage? 🚧"
+        id: is-appimage
+        working-directory: programs/x86_64
+        run: |
+          if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
+            echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
+          else
+            echo "EXIT_CODE=99" >> $GITHUB_ENV
+            echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
+            touch results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "APP ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^APP=" "${{ matrix.file }}" 2>/dev/null; then
+            APP=$(eval echo "$(grep -i '^APP=' "${{ matrix.file }}" | head -1 | sed 's/APP=//g')")
+            echo "APP=\"$APP\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "REPO ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^REPO=" "${{ matrix.file }}" 2>/dev/null; then
+            REPO=$(eval echo "$(grep -i '^REPO=' "${{ matrix.file }}" | head -1 | sed 's/REPO=//g')")
+            echo "REPO=\"$REPO\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "SITE ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^SITE=" "${{ matrix.file }}" 2>/dev/null; then
+            SITE=$(eval echo "$(grep -i '^SITE=' "${{ matrix.file }}" | head -1 | sed 's/SITE=//g')")
+            echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "d ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^d=" "${{ matrix.file }}" 2>/dev/null; then
+            d=$(eval echo "$(grep -i '^d=' "${{ matrix.file }}" | head -1 | sed 's/d=//g')")
+            echo "d=\"$d\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "dl ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^dl=" "${{ matrix.file }}" 2>/dev/null; then
+            dl=$(eval echo "$(grep -i '^dl=' "${{ matrix.file }}" | head -1 | sed 's/dl=//g')")
+            echo "dl=\"$dl\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "rel ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^rel=" "${{ matrix.file }}" 2>/dev/null; then
+            rel=$(eval echo "$(grep -i '^rel=' "${{ matrix.file }}" | head -1 | sed 's/rel=//g')")
+            echo "rel=\"$rel\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "tag ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^tag=" "${{ matrix.file }}" 2>/dev/null; then
+            tag=$(eval echo "$(grep -i '^tag=' "${{ matrix.file }}" | head -1 | sed 's/tag=//g')")
+            echo "tag=\"$tag\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "v ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^v=" "${{ matrix.file }}" 2>/dev/null; then
+            v=$(eval echo "$(grep -i '^v=' "${{ matrix.file }}" | head -1 | sed 's/v=//g')")
+            echo "v=\"$v\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "ver ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^ver=" "${{ matrix.file }}" 2>/dev/null; then
+            ver=$(eval echo "$(grep -i '^ver=' "${{ matrix.file }}" | head -1 | sed 's/ver=//g')")
+            echo "ver=\"$ver\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+
+      - name: "version ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
+            version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+            if [ -z "$version" ]; then
+              sed -i 's/curl -Ls/torsocks curl -Ls/g' "${{ matrix.file }}"
+              version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              if [ -z "$version" ]; then
+                sudo systemctl restart tor.service || systemctl restart tor.service
+                wait
+                version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              fi
+            fi
+            [ -n "$version" ] && echo "version=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+          echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
+
+
+      - name: "test ${{ matrix.file }} 🚧"
+        run: |
+          set -uo pipefail
+          mkdir -p results
+          #script_content=$(curl -Ls "https://raw.githubusercontent.com/${{ github.repository_owner }}/AM/main/programs/x86_64/${{ matrix.file }}")
+          pure_arg=$(echo "${{ matrix.file }}" | sed 's/\-appimage$//g' | sed 's:.*/::')
+          if timeout "$TIMEOUT"m echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"; then
+            # Blacklist some applications
+            if [[ "$pure_arg" =~ (bat-extras|code$|microsoft-edge*|node$|npm|oras|swift) ]]; then
+              echo "This app is blacklisted due to known errors related to GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
+            else
+              # Check if the app needs interaction to be installed
+              if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
+                echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+                LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                if ! test -f /opt/"$LASTDIR"/remove; then
+                  sudo systemctl restart tor.service || systemctl restart tor.service
+                  echo 1 | torsocks am -i "${{ matrix.file }}" --debug 2>&1
+                fi
+              fi
+              # Force installation if first attempt is not success
+              LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+              if ! test -f /opt/"$LASTDIR"/remove; then
+                sudo systemctl restart tor.service || systemctl restart tor.service
+                am -i "${{ matrix.file }}" --debug 2>&1
+                LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                if ! test -f /opt/"$LASTDIR"/remove; then
+                  sudo systemctl restart tor.service || systemctl restart tor.service
+                  torsocks am -i "${{ matrix.file }}" --debug 2>&1
+                  LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                fi
+              fi
+              if [ "$LASTDIR" = am ]; then
+                exit 1
+              fi
+              printf "\n-------------------------------------------------------------\n\n"
+              # Check structure of directories in /opt
+              echo " Structure of the directory in /opt"
+              echo ""
+              if test -f /opt/"$LASTDIR"/remove; then
+                 ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
+              else
+                 exit 1
+              fi
+              printf "\n-------------------------------------------------------------\n\n"
+              # Check the command in /usr/local/bin
+              echo " Command in \$PATH"
+              echo ""
+              command -v "$pure_arg" | tee -a results/log-"${{ matrix.file }}" || command -v "$LASTDIR" | tee -a results/log-"${{ matrix.file }}" || ls /usr/local/bin | tee -a results/log-"${{ matrix.file }}"
+              printf "\n-------------------------------------------------------------\n\n"
+              # Check launchers in /usr/local/share/applications
+              echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
+              echo ""
+              if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
+                 ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+              else
+                 ls /usr/local/share/applications | tee -a results/log-"${{ matrix.file }}"
+              fi
+              printf "\n-------------------------------------------------------------\n\n"
+              # Remove the application
+              am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+            fi
+          else
+            # Determine timeout
+            if [[ $? -eq 124 ]]; then
+               echo "### 💥 ${{ matrix.file }} $TIMEOUT minutes timeout reached" >> $GITHUB_STEP_SUMMARY
+               echo "Installation timeout in $TIMEOUT minutes" >> results/log-"${{ matrix.file }}"
+               echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+            else
+               echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+               echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+            fi
+            echo "Trying again"
+            if timeout "$TIMEOUT"m echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"; then
+              # Blacklist some applications
+              if [[ "$pure_arg" =~ (bat-extras|code$|microsoft-edge*|node$|npm|oras|swift) ]]; then
+                echo "This app is blacklisted due to known errors related to GitHub Actions" | tee -a results/log-"${{ matrix.file }}"
+              else
+                # Check if the app needs interaction to be installed
+                if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
+                  echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
+                  LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                  if ! test -f /opt/"$LASTDIR"/remove; then
+                    sudo systemctl restart tor.service || systemctl restart tor.service
+                    echo 1 | torsocks am -i "${{ matrix.file }}" --debug 2>&1
+                  fi
+                fi
+                # Force installation if first attempt is not success
+                LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                if ! test -f /opt/"$LASTDIR"/remove; then
+                  sudo systemctl restart tor.service || systemctl restart tor.service
+                  am -i "${{ matrix.file }}" --debug 2>&1
+                  LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                  if ! test -f /opt/"$LASTDIR"/remove; then
+                    sudo systemctl restart tor.service || systemctl restart tor.service
+                    torsocks am -i "${{ matrix.file }}" --debug 2>&1
+                    LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+                  fi
+                fi
+                if [ "$LASTDIR" = am ]; then
+                  exit 1
+                fi
+                printf "\n-------------------------------------------------------------\n\n"
+                # Check structure of directories in /opt
+                echo " Structure of the directory in /opt"
+                echo ""
+                if test -f /opt/"$LASTDIR"/remove; then
+                   ls /opt/"$LASTDIR" | tee -a results/log-"${{ matrix.file }}"
+                else
+                   exit 1
+                fi
+                printf "\n-------------------------------------------------------------\n\n"
+                # Check the command in /usr/local/bin
+                echo " Command in \$PATH"
+                echo ""
+                command -v "$pure_arg" | tee -a results/log-"${{ matrix.file }}" || command -v "$LASTDIR" | tee -a results/log-"${{ matrix.file }}" || ls /usr/local/bin | tee -a results/log-"${{ matrix.file }}"
+                printf "\n-------------------------------------------------------------\n\n"
+                # Check launchers in /usr/local/share/applications
+                echo " Launchers in /usr/local/share/applications" | tee -a results/log-"${{ matrix.file }}"
+                echo ""
+                if test -f /usr/local/share/applications/*AM.desktop 2>/dev/null; then
+                   ls /usr/local/share/applications | grep "AM.desktop$" | tee -a results/log-"${{ matrix.file }}"
+                else
+                   ls /usr/local/share/applications | tee -a results/log-"${{ matrix.file }}"
+                fi
+                printf "\n-------------------------------------------------------------\n\n"
+                # Remove the application
+                am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+              fi
+            else
+              # Determine timeout
+              if [[ $? -eq 124 ]]; then
+                 echo "### 💥 ${{ matrix.file }} $TIMEOUT minutes timeout reached" >> $GITHUB_STEP_SUMMARY
+                 echo "Installation timeout in $TIMEOUT minutes" >> results/log-"${{ matrix.file }}"
+                 echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+              else
+                 echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+                 echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
+              fi
+              exit 1
+            fi
+          fi
+
+      - name: "Upload logs ⬆️"
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-${{ matrix.file }}
+          path: programs/x86_64/results/out-${{ matrix.file }}
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Upload KO Results ☝️"
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ko-${{ matrix.file }}
+          path: results/ko-${{ matrix.file }}
+
+      - name: "Upload OK Results ⬆️"
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ok-${{ matrix.file }}
+          path: results/ok-${{ matrix.file }}
+
+  update-results:
+    name: "results 📰"
+    needs: run-actions
+    runs-on: ubuntu-22.04
+    if: always() && ${{ needs.generate-matrix.outputs.skip != 'true' }}
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: "Download results ⬇️"
+        uses: actions/download-artifact@v4
+        with:
+          merge-multiple: true
+          path: results
+
+      - name: "Download appslist"
+        uses: actions/download-artifact@v4
+        with:
+          name: appslist
+
+      - name: "Git Config"
+        run: |
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+
+      - name: "Process log results"
+        run: |
+          mkdir -p results-var
+          echo '-----------------------------------------------------------------'
+          echo 'No GitHub/AppImage +'
+          echo '-----------------------------------------------------------------'
+          for log_file in results/out-*; do
+            [ -f "$log_file" ] || continue
+            appname=$(basename "$log_file" | cut -d'-' -f2-)
+            ko_file="results/ko-$appname"
+            if [[ -f "$ko_file" ]]; then
+              echo "$appname" | tee -a results-var/failing results-var/excluded
+              rm -f "$ko_file"
+              cat "$log_file" >> results-var/log
+              rm -f "$log_file"
+              sort -u results-var/excluded -o results-var/excluded
+              sort -u results-var/failing -o results-var/failing
+            else
+              cat "$log_file" >> results-var/log
+              echo "$appname" >> results-var/tested
+              rm -f "$log_file"
+            fi
+          done
+          sort -u results-var/tested -o results-var/tested
+          git add results-var
+          echo '-----------------------------------------------------------------'
+          echo "Missed results:"
+          echo '-----------------------------------------------------------------'
+          ls -R results/
+          echo '-----------------------------------------------------------------'
+
+      - name: "Show results"
+        if: always() && ${{ needs.generate-matrix.outputs.skip != 'true' }}
+        run: |
+          tested=$(wc -l < results-var/tested 2>/dev/null || echo 0)
+          excluded=$(wc -l < results-var/excluded 2>/dev/null || echo 0)
+          fail=$(wc -l < results-var/failing 2>/dev/null || echo 0)
+          count=$(wc -l < appslist)
+          remaining=$((count - tested - excluded - fail))
+          (( remaining < 0 )) && remaining=0
+          echo "🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
+          if [[ "$fail" != '0' ]]; then
+            echo ":x: $fail excluded now" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [[ "$excluded" != '0' ]]; then
+            echo "😱 $excluded excluded" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+
+      - name: "Push"
+        if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
+        run: |
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+          if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
+            echo "This is a Pull Request. Not saving results."
+            exit 0
+          elif git diff-index --quiet HEAD; then
+            echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          else
+            HASH_LIST=$(git log -5 --branches main --grep "check variables" --grep "noreply@github.com" --pretty=%H)
+            git reset --soft $(git merge-base origin/main HEAD)
+            for HASH in $HASH_LIST; do
+              git cherry-pick --no-commit -X ours $HASH
+            done
+            echo "### Before Push ###"
+            git status
+            git log --oneline -5
+            git diff
+            git add results-var
+            git commit -m "check variables"
+            git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
+          fi
+
+  already-tested:
+    name: "all 🏁"
+    runs-on: ubuntu-22.04
+    needs: generate-matrix
+    if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
+    steps:
+      - name: "Mark as Successfull"
+        run: |
+          echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+          exit 0
