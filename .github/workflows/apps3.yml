@@ -78,6 +78,8 @@ jobs:
       - name: "reset"
         if: ${{ github.event.input.reset_stats == 'true' }}
         run: |
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
           echo "RESET=true" >> $GITHUB_ENV
           echo "Reseting stats" >> $GITHUB_STEP_SUMMARY
           rm -rf results-apps
