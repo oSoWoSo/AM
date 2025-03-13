@@ -393,6 +393,7 @@ jobs:
             echo ":x: $fail failed now" >> $GITHUB_STEP_SUMMARY
             echo "$(cat results-apps/excluded | wc -l) excluded📕" >> $GITHUB_STEP_SUMMARY
           fi
+          mv results/log-* results-apps/
 
       - name: "Push"
         run: |
