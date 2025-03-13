@@ -164,12 +164,12 @@ jobs:
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
 
-    - name: Save cache
-      id: save-cache
-      uses: actions/cache/save@v4
-      with:
-        path: .
-        key: dependencies
+      - name: Save cache
+        id: save-cache
+        uses: actions/cache/save@v4
+        with:
+          path: .
+          key: dependencies
 
   run-actions:
     name: "🔨"
