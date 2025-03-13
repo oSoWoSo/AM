@@ -142,35 +142,6 @@ jobs:
             git push --force
           fi
 
-      - name: Cache dependencies
-        id: cache
-        uses: actions/cache@v4
-        with:
-          name: all
-          path: .
-          key: dependencies
-
-      - name: "Install dependencies 📦️"
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          sudo apt-get -y update 2> /dev/null || apt-get -y update
-          sudo apt-get -y install wget curl torsocks zsync 2> /dev/null || apt-get -y install wget curl torsocks zsync
-          sudo systemctl enable tor.service || systemctl enable tor.service
-          sudo systemctl restart tor.service || systemctl restart tor.service
-
-      - name: "Install AM 🎁"
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          chmod +x ./INSTALL
-          sudo ./INSTALL 2> /dev/null || ./INSTALL
-
-      - name: Save cache
-        id: save-cache
-        uses: actions/cache/save@v4
-        with:
-          path: .
-          key: dependencies
-
   run-actions:
     name: "🔨"
     needs: prepare
@@ -187,14 +158,25 @@ jobs:
         with:
           repository: ${{ env.REPO }}
 
-      - name: Restore cache
-        id: cache-restore
-        uses: actions/cache/restore@v4
+      - name: "Cache dependencies"
+        id: deps
+        uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          path: .
-          key: dependencies
+          packages: wget curl torsocks zsync
+          version: 1.0
+
+      - name: "Install AM 🎁"
+        needs: deps
+        id: am
+        run: |
+          sudo systemctl enable tor.service || systemctl enable tor.service
+          sudo systemctl restart tor.service || systemctl restart tor.service
+          chmod +x ./INSTALL
+          sudo ./INSTALL 2> /dev/null || ./INSTALL
 
       - name: "test ${{ matrix.file }} 🚧"
+        id: test
+        needs: am
         run: |
           set -uo pipefail
           mkdir -p results
@@ -270,11 +252,13 @@ jobs:
           fi
 
       - name: "Rename Failed Results ☝️"
+        needs: test
         if: failure()
         run: |
           mv results/log-${{ matrix.file }} results/ko-${{ matrix.file }}
 
       - name: "Upload KO Results ☝️"
+        needs: test
         if: failure()
         uses: actions/upload-artifact@v4
         with:
@@ -282,6 +266,7 @@ jobs:
           path: results/ko-${{ matrix.file }}
 
       - name: "Upload OK Results ⬆️"
+        needs: test
         if: success()
         uses: actions/upload-artifact@v4
         with:
