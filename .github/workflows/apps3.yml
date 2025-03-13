@@ -306,10 +306,6 @@ jobs:
             exit 1
           fi
 
-            ver=$(eval echo "$(grep -i '^ver=' "${{ matrix.file }}" | head -1 | sed 's/ver=//g')")
-            echo "ver=\"$ver\"" | tee -a results/log-"${{ matrix.file }}"
-          fi
-
       - name: "Upload KO Results ☝️"
         if: failure()
         uses: actions/upload-artifact@v4
