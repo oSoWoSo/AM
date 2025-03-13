@@ -1,0 +1,66 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "DRAW": starting installation script
+
+--2025-03-13 22:08:28--  https://github.com/maaslalani/draw/releases/download/v0.1.1/draw_0.1.1_linux_amd64.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/481431238/4a8031c1-0795-4ce0-b53e-d718072fc108?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220828Z&X-Amz-Expires=300&X-Amz-Signature=828f15fad59254dc9002eb68f77834d66b439ab91272349b723ae3dd49cdbab5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Ddraw_0.1.1_linux_amd64.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-13 22:08:28--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/481431238/4a8031c1-0795-4ce0-b53e-d718072fc108?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220828Z&X-Amz-Expires=300&X-Amz-Signature=828f15fad59254dc9002eb68f77834d66b439ab91272349b723ae3dd49cdbab5&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Ddraw_0.1.1_linux_amd64.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 849187 (829K) [application/octet-stream]
+Saving to: ‘draw_0.1.1_linux_amd64.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  6% 27.9M 0s
+    50K .......... .......... .......... .......... .......... 12% 22.6M 0s
+   100K .......... .......... .......... .......... .......... 18% 62.6M 0s
+   150K .......... .......... .......... .......... .......... 24%  190M 0s
+   200K .......... .......... .......... .......... .......... 30% 30.2M 0s
+   250K .......... .......... .......... .......... .......... 36%  217M 0s
+   300K .......... .......... .......... .......... .......... 42%  249M 0s
+   350K .......... .......... .......... .......... .......... 48%  167M 0s
+   400K .......... .......... .......... .......... .......... 54%  268M 0s
+   450K .......... .......... .......... .......... .......... 60% 35.9M 0s
+   500K .......... .......... .......... .......... .......... 66%  148M 0s
+   550K .......... .......... .......... .......... .......... 72%  179M 0s
+   600K .......... .......... .......... .......... .......... 78%  264M 0s
+   650K .......... .......... .......... .......... .......... 84%  130M 0s
+   700K .......... .......... .......... .......... .......... 90%  279M 0s
+   750K .......... .......... .......... .......... .......... 96%  217M 0s
+   800K .......... .......... .........                       100%  314M=0.01s
+
+2025-03-13 22:08:28 (77.3 MB/s) - ‘draw_0.1.1_linux_amd64.tar.gz’ saved [849187/849187]
+
+
+ [0;32m"DRAW" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ draw 0.1.1
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+draw
+icons
+remove
+version
+/usr/local/bin/draw
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

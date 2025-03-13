@@ -1,0 +1,139 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "ESPI": starting installation script
+
+--2025-03-13 22:07:36--  https://low-hiss.com/
+Resolving low-hiss.com (low-hiss.com)... 51.91.236.255, 2001:41d0:301::29
+Connecting to low-hiss.com (low-hiss.com)|51.91.236.255|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .......... .......... .......... ..........  292K
+    50K ....                                                   39.9M=0.2s
+
+2025-03-13 22:07:37 (319 KB/s) - ‘index.html’ saved [55831]
+
+mv: cannot stat './tmp/*mage': No such file or directory
+chmod: cannot access './espi': No such file or directory
+
+ [0;32m"ESPI" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ espi unknown
+
+============================================================================
+icons
+remove
+version
+LICENSE.txt
+activate-global-python-argcomplete
+aliyun
+am
+apt-fast
+aws
+aws_completer
+azcopy
+azcopy10
+bazel
+bazelisk
+bcp
+bicep
+bin-proxy
+ccmake
+cmake
+cmake-gui
+commander
+console
+corepack
+cpack
+ctest
+dotenv
+fastlane
+grunt
+gulp
+helm
+httpclient
+jmespath.rb
+kind
+kustomize
+lein
+lerna
+match_file
+minikube
+n
+netlify
+newman
+ninja
+node
+now
+npm
+npx
+ntl
+oc
+oras
+packer
+parcel
+phpunit
+pipx
+pulumi
+pulumi-analyzer-policy
+pulumi-analyzer-policy-python
+pulumi-language-dotnet
+pulumi-language-go
+pulumi-language-java
+pulumi-language-nodejs
+pulumi-language-python
+pulumi-language-python-exec
+pulumi-language-yaml
+pulumi-resource-pulumi-nodejs
+pulumi-resource-pulumi-python
+pulumi-watch
+python-argcomplete-check-easy-install-script
+pzstd
+register-python-argcomplete
+rougify
+sam
+session-manager-plugin
+sqlcmd
+sqlpackage
+stack
+swift
+swiftc
+terminal-notifier
+terraform
+tsc
+tsserver
+unzstd
+userpath
+vc
+vcpkg
+vercel
+webpack
+webpack-cli
+ww
+xcodeproj
+xcpretty
+xcpretty-travis-formatter
+yarn
+yarnpkg
+zstd
+zstdcat
+zstdgrep
+zstdless
+zstdmt
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

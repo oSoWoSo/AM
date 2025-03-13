@@ -1,0 +1,69 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "IMGCAT": starting installation script
+
+--2025-03-13 22:07:54--  https://github.com/danielgatis/imgcat/releases/download/v1.0.20/imgcat_1.0.20_Linux_x86_64.tar.gz
+Resolving github.com (github.com)... 140.82.116.3
+Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/298413279/607c821b-0667-4ff5-8e2a-92ef59f9501f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220754Z&X-Amz-Expires=300&X-Amz-Signature=ba9296ff3e7760d852cc5b04f1e7225ee95e68b98487c48b6cb5571a2168a3ad&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dimgcat_1.0.20_Linux_x86_64.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-13 22:07:54--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/298413279/607c821b-0667-4ff5-8e2a-92ef59f9501f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220754Z&X-Amz-Expires=300&X-Amz-Signature=ba9296ff3e7760d852cc5b04f1e7225ee95e68b98487c48b6cb5571a2168a3ad&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dimgcat_1.0.20_Linux_x86_64.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1014411 (991K) [application/octet-stream]
+Saving to: ‘imgcat_1.0.20_Linux_x86_64.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  5% 50.9M 0s
+    50K .......... .......... .......... .......... .......... 10% 59.6M 0s
+   100K .......... .......... .......... .......... .......... 15%  188M 0s
+   150K .......... .......... .......... .......... .......... 20% 56.5M 0s
+   200K .......... .......... .......... .......... .......... 25% 42.9M 0s
+   250K .......... .......... .......... .......... .......... 30%  121M 0s
+   300K .......... .......... .......... .......... .......... 35% 39.0M 0s
+   350K .......... .......... .......... .......... .......... 40% 48.3M 0s
+   400K .......... .......... .......... .......... .......... 45%  165M 0s
+   450K .......... .......... .......... .......... .......... 50% 60.4M 0s
+   500K .......... .......... .......... .......... .......... 55% 45.1M 0s
+   550K .......... .......... .......... .......... .......... 60% 41.6M 0s
+   600K .......... .......... .......... .......... .......... 65%  161M 0s
+   650K .......... .......... .......... .......... .......... 70% 60.0M 0s
+   700K .......... .......... .......... .......... .......... 75% 50.8M 0s
+   750K .......... .......... .......... .......... .......... 80% 27.1M 0s
+   800K .......... .......... .......... .......... .......... 85%  204M 0s
+   850K .......... .......... .......... .......... .......... 90% 13.9M 0s
+   900K .......... .......... .......... .......... .......... 95%  203M 0s
+   950K .......... .......... .......... ..........           100%  189M=0.02s
+
+2025-03-13 22:07:55 (53.3 MB/s) - ‘imgcat_1.0.20_Linux_x86_64.tar.gz’ saved [1014411/1014411]
+
+
+ [0;32m"IMGCAT" INSTALLED[0m (3 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ imgcat 1.0.20
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+icons
+imgcat
+remove
+version
+/usr/local/bin/imgcat
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

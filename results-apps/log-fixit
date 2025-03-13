@@ -1,0 +1,68 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "FIXIT": starting installation script
+
+--2025-03-13 22:08:15--  https://github.com/eugene-babichenko/fixit/releases/download/v0.9.0/fixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/813825047/217eccdf-233a-45cd-a09b-dfc9dad4a7f6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220815Z&X-Amz-Expires=300&X-Amz-Signature=dd00ffc5ccb45d1c187f7687f4e2ab054c0f2959aa59d31b6c5a13594e680139&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-13 22:08:15--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/813825047/217eccdf-233a-45cd-a09b-dfc9dad4a7f6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250313T220815Z&X-Amz-Expires=300&X-Amz-Signature=dd00ffc5ccb45d1c187f7687f4e2ab054c0f2959aa59d31b6c5a13594e680139&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1048878 (1.0M) [application/octet-stream]
+Saving to: ‘fixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  4% 8.30M 0s
+    50K .......... .......... .......... .......... ..........  9% 31.2M 0s
+   100K .......... .......... .......... .......... .......... 14% 13.1M 0s
+   150K .......... .......... .......... .......... .......... 19% 53.8M 0s
+   200K .......... .......... .......... .......... .......... 24% 48.5M 0s
+   250K .......... .......... .......... .......... .......... 29% 16.3M 0s
+   300K .......... .......... .......... .......... .......... 34%  128M 0s
+   350K .......... .......... .......... .......... .......... 39%  163M 0s
+   400K .......... .......... .......... .......... .......... 43% 63.5M 0s
+   450K .......... .......... .......... .......... .......... 48% 54.7M 0s
+   500K .......... .......... .......... .......... .......... 53%  186M 0s
+   550K .......... .......... .......... .......... .......... 58% 22.4M 0s
+   600K .......... .......... .......... .......... .......... 63% 67.0M 0s
+   650K .......... .......... .......... .......... .......... 68%  217M 0s
+   700K .......... .......... .......... .......... .......... 73%  207M 0s
+   750K .......... .......... .......... .......... .......... 78%  229M 0s
+   800K .......... .......... .......... .......... .......... 82%  156M 0s
+   850K .......... .......... .......... .......... .......... 87%  170M 0s
+   900K .......... .......... .......... .......... .......... 92%  266M 0s
+   950K .......... .......... .......... .......... .......... 97% 72.6M 0s
+  1000K .......... .......... ....                            100%  204M=0.02s
+
+2025-03-13 22:08:15 (42.0 MB/s) - ‘fixit-v0.9.0-x86_64-unknown-linux-musl.tar.gz’ saved [1048878/1048878]
+
+
+ [0;32m"FIXIT" INSTALLED[0m (3 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ fixit 0.9.0
+
+============================================================================
+AM-updater
+fixit
+icons
+remove
+version
+/usr/local/bin/fixit
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
