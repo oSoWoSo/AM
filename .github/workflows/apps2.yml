@@ -159,15 +159,12 @@ jobs:
           repository: ${{ env.REPO }}
 
       - name: "Cache dependencies"
-        id: deps
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: wget curl torsocks zsync
           version: 1.0
 
       - name: "Install AM 🎁"
-        needs: deps
-        id: am
         run: |
           sudo systemctl enable tor.service || systemctl enable tor.service
           sudo systemctl restart tor.service || systemctl restart tor.service
@@ -175,8 +172,6 @@ jobs:
           sudo ./INSTALL 2> /dev/null || ./INSTALL
 
       - name: "test ${{ matrix.file }} 🚧"
-        id: test
-        needs: am
         run: |
           set -uo pipefail
           mkdir -p results
@@ -252,13 +247,11 @@ jobs:
           fi
 
       - name: "Rename Failed Results ☝️"
-        needs: test
         if: failure()
         run: |
           mv results/log-${{ matrix.file }} results/ko-${{ matrix.file }}
 
       - name: "Upload KO Results ☝️"
-        needs: test
         if: failure()
         uses: actions/upload-artifact@v4
         with:
@@ -266,7 +259,6 @@ jobs:
           path: results/ko-${{ matrix.file }}
 
       - name: "Upload OK Results ⬆️"
-        needs: test
         if: success()
         uses: actions/upload-artifact@v4
         with:
