@@ -139,6 +139,8 @@ jobs:
             echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
             echo "Removing excluded"
             rm results-apps/excluded
+            git config --global user.name "${{ github.repository_owner }}"
+            git config --global user.email "noreply@github.com"
             git rm results-apps/excluded
             git commit -m "remove excluded"
             git push --force
