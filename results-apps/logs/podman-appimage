@@ -1,0 +1,19 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "PODMAN-APPIMAGE": starting installation script
+
+1741893890 PERROR torsocks[2267]: socks5 libc connect: Connection refused (in socks5_connect() at socks5.c:202)
+http://: Invalid host name.
+
+ 💀 ERROR DURING INSTALLATION, REMOVED "PODMAN-APPIMAGE"!
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+============================================================================
