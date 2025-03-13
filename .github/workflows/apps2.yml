@@ -142,7 +142,16 @@ jobs:
             git push --force
           fi
 
+      - name: Cache dependencies
+        id: cache
+        uses: actions/cache@v4
+        with:
+          name: all
+          path: .
+          key: dependencies
+
       - name: "Install dependencies 📦️"
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           sudo apt-get -y update 2> /dev/null || apt-get -y update
           sudo apt-get -y install wget curl torsocks zsync 2> /dev/null || apt-get -y install wget curl torsocks zsync
@@ -150,9 +159,17 @@ jobs:
           sudo systemctl restart tor.service || systemctl restart tor.service
 
       - name: "Install AM 🎁"
+        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
+
+    - name: Save cache
+      id: save-cache
+      uses: actions/cache/save@v4
+      with:
+        path: .
+        key: dependencies
 
   run-actions:
     name: "🔨"
@@ -169,6 +186,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
+
+      - name: Restore cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: .
+          key: dependencies
 
       - name: "test ${{ matrix.file }} 🚧"
         run: |
