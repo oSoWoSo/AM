@@ -1,0 +1,52 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "JRELEASER": starting installation script
+
+--2025-03-14 06:12:13--  https://github.com/jreleaser/jreleaser-appimage/releases/download/v1.16.0/jreleaser-1.16.0-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/441503626/d651d329-3968-4207-8c08-afcb86495f03?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T061213Z&X-Amz-Expires=300&X-Amz-Signature=cb440bdee523a0fd5a0b69ccd77b72874238f0a524be3e25916070879327298a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Djreleaser-1.16.0-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 06:12:13--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/441503626/d651d329-3968-4207-8c08-afcb86495f03?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T061213Z&X-Amz-Expires=300&X-Amz-Signature=cb440bdee523a0fd5a0b69ccd77b72874238f0a524be3e25916070879327298a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Djreleaser-1.16.0-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 234688 (229K) [application/octet-stream]
+Saving to: ‘jreleaser-1.16.0-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... .......... 21% 20.2M 0s
+    50K .......... .......... .......... .......... .......... 43% 56.4M 0s
+   100K .......... .......... .......... .......... .......... 65% 37.5M 0s
+   150K .......... .......... .......... .......... .......... 87%  103M 0s
+   200K .......... .......... .........                       100%  223M=0.005s
+
+2025-03-14 06:12:13 (43.1 MB/s) - ‘jreleaser-1.16.0-x86_64.AppImage’ saved [234688/234688]
+
+
+ [0;32m"JRELEASER" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ jreleaser 1.16.0
+
+============================================================================
+AM-updater
+icons
+jreleaser
+remove
+version
+/usr/local/bin/jreleaser
+ Launchers in /usr/local/share/applications
+jreleaser-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
