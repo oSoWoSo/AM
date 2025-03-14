@@ -166,7 +166,12 @@ jobs:
           else
             mv totest_tmp.list totest.list
           fi
-          FILES=$(head -n "${{ github.event.inputs.how_many }}" totest.list || cat totest.list)
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "how_many=${{ github.event.inputs.how_many }}" >> $GITHUB_ENV
+          else
+            echo "how_many=200" >> $GITHUB_ENV
+          fi
+          FILES=$(head -n "$how_many" totest.list || cat totest.list)
           MATRIX="{\"include\": ["
           for file in $FILES; do
             MATRIX+="{\"file\": \"$file\"},"
@@ -452,7 +457,7 @@ jobs:
     name: "results 📰"
     needs: run-actions
     runs-on: ubuntu-22.04
-    if: github.event.inputs.reset_stats != 'true'
+    if: (always() && github.event.inputs.reset_stats != 'true')
     steps:
       - name: "Checkout"
         uses: actions/checkout@v4
@@ -497,8 +502,8 @@ jobs:
               cat "$log_file" >> results-var/log
               echo "$appname" >> results-var/tested
             fi
-            echo "size=${size}" >> results-var/log
-            echo "version=${version}" >> results-var/log
+            echo "size=${size}" | tee -a results-var/log
+            echo "version=${version}" | tee -a results-var/log
             echo '-----------------------------------------------------------------' >> results-var/log
             rm -f "$log_file"
           done
@@ -561,17 +566,11 @@ jobs:
             echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
             exit 0
           else
-            HASH_LIST=$(git log -5 --branches main --grep "check variables" --grep "noreply@github.com" --pretty=%H)
-            git reset --soft $(git merge-base origin/main HEAD)
-            for HASH in $HASH_LIST; do
-              git cherry-pick --no-commit -X ours $HASH
-            done
-            echo "### Before Push ###"
-            git status
-            git log --oneline -5
-            git diff
+            #git status
+            #git log --oneline -5
+            #git diff
             git add results-var
-            git commit -m "check variables"
+            git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
           fi
 
