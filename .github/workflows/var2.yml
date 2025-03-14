@@ -92,8 +92,16 @@ jobs:
       - name: "Count stats 📊"
         id: stats
         run: |
-          tested=$(wc -l < results-var/tested 2> /dev/null || echo '0')
-          excluded=$(wc -l < results-var/excluded 2> /dev/null || echo '0')
+          if [ -f results-var/tested ]; then
+            tested=$(wc -l < results-var/tested 2> /dev/null || echo '0')
+          else
+            tested='0'
+          fi
+          if [ -f results-var/excluded ]; then
+            excluded=$(wc -l < results-var/excluded 2> /dev/null || echo '0')
+          else
+            excluded='0'
+          fi
           echo "tested=$tested" >> $GITHUB_OUTPUT
           echo "excluded=$excluded" >> $GITHUB_OUTPUT
 
