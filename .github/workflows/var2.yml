@@ -538,7 +538,6 @@ jobs:
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
 
       - name: "Delete artifacts"
-        if: never()
         uses: geekyeggo/delete-artifact@v5
         with:
           name: |
