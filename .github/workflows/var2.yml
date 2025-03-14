@@ -166,7 +166,7 @@ jobs:
             mv totest_tmp.list totest.list
           fi
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            echo "how_many=${{ github.event.inputs.how_many }}" >> $GITHUB_ENV
+            how_many="${{ github.event.inputs.how_many }}"
           else
             echo "how_many=200" >> $GITHUB_ENV
             echo "how_many=200"
