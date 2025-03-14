@@ -14,3 +14,11 @@ downVer="https://github.com/0ad-matters/0ad-appimage/releases/download/v0.27.0/0
 size=
 version=
 -----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="2ship"
+SITE="HarbourMasters/2ship2harkinian"
+downVer="https://github.com/HarbourMasters/2ship2harkinian/releases/download/1.1.2/2Ship-Satoko-Charlie-Linux.zip"
+size=
+version=
+-----------------------------------------------------------------
