@@ -234,16 +234,20 @@ jobs:
         working-directory: programs/x86_64
         run: |
           if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
-            version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+            echo 'if 1'
+            version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" 2>/dev/null | head -1 | sed 's/version=//g')")
             if [ -z "$version" ]; then
+              echo 'if 2'
               sed -i 's/curl -Ls/torsocks curl -Ls/g' "${{ matrix.file }}"
-              version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" 2>/dev/null | head -1 | sed 's/version=//g')")
               if [ -z "$version" ]; then
+                echo 'if 3'
                 sudo systemctl restart tor.service || systemctl restart tor.service
                 wait
-                version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+                version=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" 2>/dev/null | head -1 | sed 's/version=//g')")
               fi
             fi
+            echo 'including download'
             [ -n "$version" ] && echo "download=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
           else
             echo "what happend?"
