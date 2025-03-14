@@ -83,6 +83,11 @@ jobs:
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
           ls ./
           rm -rf results-var
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+          git rm results-var
+          git commit -m "reset stats"
+          git push --force
 
       - name: "Count stats 📊"
         id: stats
@@ -263,6 +268,7 @@ jobs:
           fi
 
       - name: "test ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
         run: |
           set -uo pipefail
           mkdir -p results
@@ -331,6 +337,7 @@ jobs:
           fi
 
       - name: "second try"
+        working-directory: programs/x86_64
         if: (env.EXIT_CODE == '9')
         run: |
           echo "Trying again" >> $GITHUB_SUMMARY
@@ -406,6 +413,7 @@ jobs:
 
       - name: "Finish output"
         if: always()
+        working-directory: programs/x86_64
         run: |
           size=$(cat results/log-${{ matrix.file }} | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
           version=$(cat results/log-${{ matrix.file }} | grep '◆' | tail -1)
@@ -427,14 +435,14 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ko-${{ matrix.file }}
-          path: results/ko-${{ matrix.file }}
+          path: programs/x86_64/results/ko-${{ matrix.file }}
 
       - name: "Upload OK Results ⬆️"
         if: success()
         uses: actions/upload-artifact@v4
         with:
           name: ok-${{ matrix.file }}
-          path: results/ok-${{ matrix.file }}
+          path: programs/x86_64/results/ok-${{ matrix.file }}
 
   update-results:
     name: "results 📰"
