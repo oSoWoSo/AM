@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       reset_stats:
-        description: "RESET stats (delete results)"
+        description: "RESET stats"
         required: true
         default: false
         type: boolean
@@ -20,7 +20,7 @@ on:
         default: false
         type: boolean
       what_test:
-        description: "App names: (use space)"
+        description: "App names: (space between)"
         required: false
         default: ""
         type: string
@@ -353,14 +353,41 @@ jobs:
           echo "1 attempt"
           echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || sudo systemctl restart tor.service || systemctl restart tor.service
           LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+          # TEST
+          echo '1'
+          size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+          echo "size is $size"
+          version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+          echo "version is $version"
+          echo "size=${size}" | tee -a results-var/log
+          echo "version=${version}" | tee -a results-var/log
+          # TEST
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
             echo "2 attempt"
             echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+            # TEST
+            echo '2'
+            size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+            echo "size is $size"
+            version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+            echo "version is $version"
+            echo "size=${size}" | tee -a results-var/log
+            echo "version=${version}" | tee -a results-var/log
+            # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               echo "3 attempt"
               echo 1 | torsocks am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
+              # TEST
+              echo '3'
+              size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+              echo "size is $size"
+              version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+              echo "version is $version"
+              echo "size=${size}" | tee -a results-var/log
+              echo "version=${version}" | tee -a results-var/log
+              # TEST
             fi
           fi
           # Force installation if first attempt is not success
@@ -368,10 +395,28 @@ jobs:
             echo "4 attempt"
             am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+            # TEST
+            echo '4'
+            size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+            echo "size is $size"
+            version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+            echo "version is $version"
+            echo "size=${size}" | tee -a results-var/log
+            echo "version=${version}" | tee -a results-var/log
+            # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               echo "5 attempt"
               torsocks am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
               LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
+              # TEST
+              echo '5'
+              size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+              echo "size is $size"
+              version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+              echo "version is $version"
+              echo "size=${size}" | tee -a results-var/log
+              echo "version=${version}" | tee -a results-var/log
+              # TEST
             fi
           fi
           # If the last modified directory is /opt/am, the installation has failed
