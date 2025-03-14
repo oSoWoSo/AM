@@ -324,7 +324,7 @@ jobs:
       - name: "second try"
         if: (env.EXIT_CODE == '9')
         run: |
-          echo "Trying again"
+          echo "Trying again" >> $GITHUB_SUMMARY
           if timeout "$TIMEOUT"m echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"; then
             # Blacklist some applications
             # removed 'swift' because will flag swifty which is working
