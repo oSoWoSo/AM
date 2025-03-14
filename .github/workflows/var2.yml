@@ -449,8 +449,6 @@ jobs:
         with:
           merge-multiple: true
           path: results
-          run: |
-            ls -R
 
       - name: "Download appslist"
         uses: actions/download-artifact@v4
@@ -500,9 +498,21 @@ jobs:
       - name: "Show results"
         if: always() && ${{ needs.generate-matrix.outputs.skip != 'true' }}
         run: |
-          tested=$(wc -l < results-var/tested 2>/dev/null || echo 0)
-          excluded=$(wc -l < results-var/excluded 2>/dev/null || echo 0)
-          fail=$(wc -l < failing 2>/dev/null || echo 0)
+          if [[ -f results-var/tested ]]; then
+            tested=$(wc -l < results-var/tested 2>/dev/null || echo 0)
+          else
+            tested='0'
+          fi
+          if [[ -f results-var/excluded ]]; then
+            excluded=$(wc -l < results-var/excluded 2>/dev/null || echo 0)
+          else
+            excluded='0'
+          fi
+          if [[ -f failing ]]; then
+            fail=$(wc -l < failing 2>/dev/null || echo 0)
+          else
+            fail='0'
+          fi
           count=$(wc -l < appslist)
           remaining=$((count - tested - excluded))
           (( remaining < 0 )) && remaining=0
