@@ -54,11 +54,13 @@ jobs:
       excluded: ${{ steps.stats.outputs.excluded }}
     steps:
       - name: "Checkout AM"
+        if: github.event.inputs.reset_stats != 'true'
         uses: actions/checkout@v4
         with:
           repository: ${{ env.REPO }}
 
       - name: "Count programs 📊"
+        if: github.event.inputs.reset_stats != 'true'
         id: count
         run: |
           find programs/x86_64/ -maxdepth 1 -type f -printf "%f\n" | sort > appslist
@@ -66,6 +68,7 @@ jobs:
           echo "all=$x64Count" >> $GITHUB_OUTPUT
 
       - name: "Upload appslist"
+        if: github.event.inputs.reset_stats != 'true'
         uses: actions/upload-artifact@v4
         with:
           name: appslist
