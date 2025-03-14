@@ -2,7 +2,7 @@ name: "Check"
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 */1 * * *"
 
   repository_dispatch:
     types: [check]
@@ -17,7 +17,7 @@ on:
       how_many:
         description: "Apps to test"
         required: true
-        default: '100'
+        default: '200'
         type: integer
 
 concurrency:
