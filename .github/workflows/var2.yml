@@ -359,8 +359,8 @@ jobs:
           echo "size is $size"
           version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
           echo "version is $version"
-          echo "size=${size}" | tee -a results-var/log
-          echo "version=${version}" | tee -a results-var/log
+          echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
+          echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
           # TEST
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
@@ -373,8 +373,8 @@ jobs:
             echo "size is $size"
             version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
-            echo "size=${size}" | tee -a results-var/log
-            echo "version=${version}" | tee -a results-var/log
+            echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
             # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               echo "3 attempt"
@@ -385,8 +385,8 @@ jobs:
               echo "size is $size"
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
-              echo "size=${size}" | tee -a results-var/log
-              echo "version=${version}" | tee -a results-var/log
+              echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
               # TEST
             fi
           fi
@@ -401,8 +401,8 @@ jobs:
             echo "size is $size"
             version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
-            echo "size=${size}" | tee -a results-var/log
-            echo "version=${version}" | tee -a results-var/log
+            echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
             # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               echo "5 attempt"
@@ -414,8 +414,8 @@ jobs:
               echo "size is $size"
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
-              echo "size=${size}" | tee -a results-var/log
-              echo "version=${version}" | tee -a results-var/log
+              echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
               # TEST
             fi
           fi
