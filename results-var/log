@@ -4861,3 +4861,11 @@ downVer="https://github.com/charmbracelet/gum/releases/download/v0.16.0/gum_0.16
 size=
 version=
 -----------------------------------------------------------------
+GITHUB='no'
+APPIMAGE='yes'
+APP="ember"
+SITE="https://www.worldforge.org/"
+downVer="0.7.2"
+size=
+version=
+-----------------------------------------------------------------
