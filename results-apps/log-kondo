@@ -1,0 +1,82 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "KONDO": starting installation script
+
+--2025-03-14 13:32:42--  https://github.com/tbillington/kondo/releases/download/v0.8/kondo-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/236416241/545d03d4-954f-49e4-946f-021f3472c46f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133242Z&X-Amz-Expires=300&X-Amz-Signature=c9ee86b21bc5607d65c8ebf3bdd858cd8c6e3ee6bb523657db04c199b3b87fba&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dkondo-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 13:32:42--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/236416241/545d03d4-954f-49e4-946f-021f3472c46f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133242Z&X-Amz-Expires=300&X-Amz-Signature=c9ee86b21bc5607d65c8ebf3bdd858cd8c6e3ee6bb523657db04c199b3b87fba&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dkondo-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1772345 (1.7M) [application/octet-stream]
+Saving to: ‘kondo-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2% 8.42M 0s
+    50K .......... .......... .......... .......... ..........  5% 25.6M 0s
+   100K .......... .......... .......... .......... ..........  8% 13.2M 0s
+   150K .......... .......... .......... .......... .......... 11% 51.1M 0s
+   200K .......... .......... .......... .......... .......... 14% 62.1M 0s
+   250K .......... .......... .......... .......... .......... 17% 14.4M 0s
+   300K .......... .......... .......... .......... .......... 20%  114M 0s
+   350K .......... .......... .......... .......... .......... 23%  197M 0s
+   400K .......... .......... .......... .......... .......... 25% 76.3M 0s
+   450K .......... .......... .......... .......... .......... 28%  107M 0s
+   500K .......... .......... .......... .......... .......... 31% 98.2M 0s
+   550K .......... .......... .......... .......... .......... 34%  240M 0s
+   600K .......... .......... .......... .......... .......... 37% 17.5M 0s
+   650K .......... .......... .......... .......... .......... 40%  157M 0s
+   700K .......... .......... .......... .......... .......... 43%  146M 0s
+   750K .......... .......... .......... .......... .......... 46%  194M 0s
+   800K .......... .......... .......... .......... .......... 49%  215M 0s
+   850K .......... .......... .......... .......... .......... 51%  155M 0s
+   900K .......... .......... .......... .......... .......... 54%  163M 0s
+   950K .......... .......... .......... .......... .......... 57%  190M 0s
+  1000K .......... .......... .......... .......... .......... 60%  186M 0s
+  1050K .......... .......... .......... .......... .......... 63%  197M 0s
+  1100K .......... .......... .......... .......... .......... 66%  180M 0s
+  1150K .......... .......... .......... .......... .......... 69%  266M 0s
+  1200K .......... .......... .......... .......... .......... 72% 42.2M 0s
+  1250K .......... .......... .......... .......... .......... 75% 52.1M 0s
+  1300K .......... .......... .......... .......... .......... 77%  154M 0s
+  1350K .......... .......... .......... .......... .......... 80%  145M 0s
+  1400K .......... .......... .......... .......... .......... 83%  142M 0s
+  1450K .......... .......... .......... .......... .......... 86%  163M 0s
+  1500K .......... .......... .......... .......... .......... 89%  213M 0s
+  1550K .......... .......... .......... .......... .......... 92%  281M 0s
+  1600K .......... .......... .......... .......... .......... 95%  278M 0s
+  1650K .......... .......... .......... .......... .......... 98%  268M 0s
+  1700K .......... .......... ..........                      100%  264M=0.03s
+
+2025-03-14 13:32:42 (58.2 MB/s) - ‘kondo-x86_64-unknown-linux-musl.tar.gz’ saved [1772345/1772345]
+
+
+ [0;32m"KONDO" INSTALLED[0m (6 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ kondo 0.8
+
+============================================================================
+AM-updater
+icons
+kondo
+remove
+version
+/usr/local/bin/kondo
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

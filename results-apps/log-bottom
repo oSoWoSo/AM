@@ -1,0 +1,187 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "BOTTOM": starting installation script
+
+--2025-03-14 13:32:42--  https://github.com/ClementTsang/bottom/releases/download/nightly/bottom_x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/205042455/d85aab8b-dfa4-4e21-a68f-e0d58cd5e922?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133242Z&X-Amz-Expires=300&X-Amz-Signature=604731af02bc89231c0cdd0cc0c8ac53ea7fe7cf2bb6fa2993204f6b88c4d080&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dbottom_x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 13:32:42--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/205042455/d85aab8b-dfa4-4e21-a68f-e0d58cd5e922?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133242Z&X-Amz-Expires=300&X-Amz-Signature=604731af02bc89231c0cdd0cc0c8ac53ea7fe7cf2bb6fa2993204f6b88c4d080&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dbottom_x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2168890 (2.1M) [application/octet-stream]
+Saving to: ‘bottom_x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2% 7.14M 0s
+    50K .......... .......... .......... .......... ..........  4% 27.4M 0s
+   100K .......... .......... .......... .......... ..........  7% 12.8M 0s
+   150K .......... .......... .......... .......... ..........  9% 57.0M 0s
+   200K .......... .......... .......... .......... .......... 11% 57.8M 0s
+   250K .......... .......... .......... .......... .......... 14% 16.5M 0s
+   300K .......... .......... .......... .......... .......... 16% 74.8M 0s
+   350K .......... .......... .......... .......... .......... 18% 67.4M 0s
+   400K .......... .......... .......... .......... .......... 21% 78.9M 0s
+   450K .......... .......... .......... .......... .......... 23%  190M 0s
+   500K .......... .......... .......... .......... .......... 25%  221M 0s
+   550K .......... .......... .......... .......... .......... 28% 16.6M 0s
+   600K .......... .......... .......... .......... .......... 30%  273M 0s
+   650K .......... .......... .......... .......... .......... 33%  165M 0s
+   700K .......... .......... .......... .......... .......... 35%  116M 0s
+   750K .......... .......... .......... .......... .......... 37%  178M 0s
+   800K .......... .......... .......... .......... .......... 40%  288M 0s
+   850K .......... .......... .......... .......... .......... 42%  127M 0s
+   900K .......... .......... .......... .......... .......... 44%  165M 0s
+   950K .......... .......... .......... .......... .......... 47%  217M 0s
+  1000K .......... .......... .......... .......... .......... 49%  199M 0s
+  1050K .......... .......... .......... .......... .......... 51%  278M 0s
+  1100K .......... .......... .......... .......... .......... 54% 28.2M 0s
+  1150K .......... .......... .......... .......... .......... 56%  227M 0s
+  1200K .......... .......... .......... .......... .......... 59% 80.5M 0s
+  1250K .......... .......... .......... .......... .......... 61%  200M 0s
+  1300K .......... .......... .......... .......... .......... 63%  145M 0s
+  1350K .......... .......... .......... .......... .......... 66%  200M 0s
+  1400K .......... .......... .......... .......... .......... 68%  217M 0s
+  1450K .......... .......... .......... .......... .......... 70%  210M 0s
+  1500K .......... .......... .......... .......... .......... 73%  159M 0s
+  1550K .......... .......... .......... .......... .......... 75%  164M 0s
+  1600K .......... .......... .......... .......... .......... 77%  169M 0s
+  1650K .......... .......... .......... .......... .......... 80%  204M 0s
+  1700K .......... .......... .......... .......... .......... 82%  262M 0s
+  1750K .......... .......... .......... .......... .......... 84%  266M 0s
+  1800K .......... .......... .......... .......... .......... 87%  303M 0s
+  1850K .......... .......... .......... .......... .......... 89%  306M 0s
+  1900K .......... .......... .......... .......... .......... 92%  258M 0s
+  1950K .......... .......... .......... .......... .......... 94%  293M 0s
+  2000K .......... .......... .......... .......... .......... 96%  278M 0s
+  2050K .......... .......... .......... .......... .......... 99%  244M 0s
+  2100K .......... ........                                   100%  217M=0.03s
+
+2025-03-14 13:32:42 (65.3 MB/s) - ‘bottom_x86_64-unknown-linux-musl.tar.gz’ saved [2168890/2168890]
+
+
+ [0;32m"BOTTOM" INSTALLED[0m (6 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ bottom unknown
+
+============================================================================
+AM-updater
+btm
+completion
+icons
+remove
+version
+LICENSE.txt
+activate-global-python-argcomplete
+aliyun
+am
+apt-fast
+aws
+aws_completer
+azcopy
+azcopy10
+bazel
+bazelisk
+bcp
+bicep
+bin-proxy
+btm
+ccmake
+cmake
+cmake-gui
+commander
+console
+corepack
+cpack
+ctest
+dotenv
+fastlane
+grunt
+gulp
+helm
+httpclient
+jmespath.rb
+kind
+kustomize
+lein
+lerna
+match_file
+minikube
+n
+netlify
+newman
+ninja
+node
+now
+npm
+npx
+ntl
+oc
+oras
+packer
+parcel
+phpunit
+pipx
+pulumi
+pulumi-analyzer-policy
+pulumi-analyzer-policy-python
+pulumi-language-dotnet
+pulumi-language-go
+pulumi-language-java
+pulumi-language-nodejs
+pulumi-language-python
+pulumi-language-python-exec
+pulumi-language-yaml
+pulumi-resource-pulumi-nodejs
+pulumi-resource-pulumi-python
+pulumi-watch
+python-argcomplete-check-easy-install-script
+pzstd
+register-python-argcomplete
+rougify
+sam
+session-manager-plugin
+sqlcmd
+sqlpackage
+stack
+swift
+swiftc
+terminal-notifier
+terraform
+tsc
+tsserver
+unzstd
+userpath
+vc
+vcpkg
+vercel
+webpack
+webpack-cli
+ww
+xcodeproj
+xcpretty
+xcpretty-travis-formatter
+yarn
+yarnpkg
+zstd
+zstdcat
+zstdgrep
+zstdless
+zstdmt
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

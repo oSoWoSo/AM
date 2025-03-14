@@ -1,0 +1,77 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "QRSCAN": starting installation script
+
+--2025-03-14 13:33:12--  https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/513472734/2b293d87-627e-4c53-a22c-9f19f4c2b3d1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133313Z&X-Amz-Expires=300&X-Amz-Signature=a691b0abe39855c72be61567f13c152fa85f76b237763bc87066d82340b512ac&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dqrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 13:33:13--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/513472734/2b293d87-627e-4c53-a22c-9f19f4c2b3d1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133313Z&X-Amz-Expires=300&X-Amz-Signature=a691b0abe39855c72be61567f13c152fa85f76b237763bc87066d82340b512ac&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dqrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1424015 (1.4M) [application/octet-stream]
+Saving to: ‘qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  3% 19.0M 0s
+    50K .......... .......... .......... .......... ..........  7%  241M 0s
+   100K .......... .......... .......... .......... .......... 10% 33.0M 0s
+   150K .......... .......... .......... .......... .......... 14%  186M 0s
+   200K .......... .......... .......... .......... .......... 17%  121M 0s
+   250K .......... .......... .......... .......... .......... 21% 41.5M 0s
+   300K .......... .......... .......... .......... .......... 25%  286M 0s
+   350K .......... .......... .......... .......... .......... 28%  211M 0s
+   400K .......... .......... .......... .......... .......... 32%  307M 0s
+   450K .......... .......... .......... .......... .......... 35%  219M 0s
+   500K .......... .......... .......... .......... .......... 39%  190M 0s
+   550K .......... .......... .......... .......... .......... 43% 53.0M 0s
+   600K .......... .......... .......... .......... .......... 46%  153M 0s
+   650K .......... .......... .......... .......... .......... 50%  198M 0s
+   700K .......... .......... .......... .......... .......... 53%  176M 0s
+   750K .......... .......... .......... .......... .......... 57%  235M 0s
+   800K .......... .......... .......... .......... .......... 61%  144M 0s
+   850K .......... .......... .......... .......... .......... 64%  262M 0s
+   900K .......... .......... .......... .......... .......... 68%  147M 0s
+   950K .......... .......... .......... .......... .......... 71%  126M 0s
+  1000K .......... .......... .......... .......... .......... 75%  201M 0s
+  1050K .......... .......... .......... .......... .......... 79%  275M 0s
+  1100K .......... .......... .......... .......... .......... 82%  247M 0s
+  1150K .......... .......... .......... .......... .......... 86%  222M 0s
+  1200K .......... .......... .......... .......... .......... 89%  272M 0s
+  1250K .......... .......... .......... .......... .......... 93%  287M 0s
+  1300K .......... .......... .......... .......... .......... 97%  250M 0s
+  1350K .......... .......... .......... ..........           100%  259M=0.01s
+
+2025-03-14 13:33:13 (114 MB/s) - ‘qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz’ saved [1424015/1424015]
+
+
+ [0;32m"QRSCAN" INSTALLED[0m (4 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ qrscan 0.1.9
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+icons
+qrscan
+remove
+version
+/usr/local/bin/qrscan
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

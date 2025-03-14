@@ -1,0 +1,43 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "NERDFETCH": starting installation script
+
+--2025-03-14 12:15:39--  https://raw.githubusercontent.com/ThatOneCalculator/NerdFetch/main/nerdfetch
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8811 (8.6K) [text/plain]
+Saving to: ‘nerdfetch’
+
+     0K ........                                              100% 53.0M=0s
+
+2025-03-14 12:15:39 (53.0 MB/s) - ‘nerdfetch’ saved [8811/8811]
+
+
+ [0;32m"NERDFETCH" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ nerdfetch 8.3.1
+
+============================================================================
+AM-updater
+icons
+nerdfetch
+remove
+version
+/usr/local/bin/nerdfetch
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

@@ -1,0 +1,92 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "MENYOKI": starting installation script
+
+--2025-03-14 12:16:04--  https://github.com/orhun/menyoki/releases/download/v1.7.0/menyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/255603633/5fc946ff-e21a-4909-a466-85bae97b2791?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T121604Z&X-Amz-Expires=300&X-Amz-Signature=6243d1e4aa93f5b36cb4a7c06b49d7c81fe8df39759c3550efe23f237e1e540f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dmenyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 12:16:04--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/255603633/5fc946ff-e21a-4909-a466-85bae97b2791?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T121604Z&X-Amz-Expires=300&X-Amz-Signature=6243d1e4aa93f5b36cb4a7c06b49d7c81fe8df39759c3550efe23f237e1e540f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dmenyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1946269 (1.9M) [application/octet-stream]
+Saving to: ‘menyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  2% 9.59M 0s
+    50K .......... .......... .......... .......... ..........  5% 15.6M 0s
+   100K .......... .......... .......... .......... ..........  7% 15.4M 0s
+   150K .......... .......... .......... .......... .......... 10% 92.3M 0s
+   200K .......... .......... .......... .......... .......... 13% 20.9M 0s
+   250K .......... .......... .......... .......... .......... 15% 58.1M 0s
+   300K .......... .......... .......... .......... .......... 18% 32.2M 0s
+   350K .......... .......... .......... .......... .......... 21% 98.8M 0s
+   400K .......... .......... .......... .......... .......... 23% 83.0M 0s
+   450K .......... .......... .......... .......... .......... 26% 27.9M 0s
+   500K .......... .......... .......... .......... .......... 28% 78.8M 0s
+   550K .......... .......... .......... .......... .......... 31%  176M 0s
+   600K .......... .......... .......... .......... .......... 34% 37.5M 0s
+   650K .......... .......... .......... .......... .......... 36%  190M 0s
+   700K .......... .......... .......... .......... .......... 39%  167M 0s
+   750K .......... .......... .......... .......... .......... 42%  156M 0s
+   800K .......... .......... .......... .......... .......... 44%  159M 0s
+   850K .......... .......... .......... .......... .......... 47%  185M 0s
+   900K .......... .......... .......... .......... .......... 49%  153M 0s
+   950K .......... .......... .......... .......... .......... 52% 40.1M 0s
+  1000K .......... .......... .......... .......... .......... 55%  153M 0s
+  1050K .......... .......... .......... .......... .......... 57%  200M 0s
+  1100K .......... .......... .......... .......... .......... 60%  143M 0s
+  1150K .......... .......... .......... .......... .......... 63%  262M 0s
+  1200K .......... .......... .......... .......... .......... 65% 52.2M 0s
+  1250K .......... .......... .......... .......... .......... 68%  136M 0s
+  1300K .......... .......... .......... .......... .......... 71%  102M 0s
+  1350K .......... .......... .......... .......... .......... 73%  183M 0s
+  1400K .......... .......... .......... .......... .......... 76%  146M 0s
+  1450K .......... .......... .......... .......... .......... 78%  149M 0s
+  1500K .......... .......... .......... .......... .......... 81%  145M 0s
+  1550K .......... .......... .......... .......... .......... 84%  261M 0s
+  1600K .......... .......... .......... .......... .......... 86%  261M 0s
+  1650K .......... .......... .......... .......... .......... 89%  244M 0s
+  1700K .......... .......... .......... .......... .......... 92%  232M 0s
+  1750K .......... .......... .......... .......... .......... 94%  335M 0s
+  1800K .......... .......... .......... .......... .......... 97%  319M 0s
+  1850K .......... .......... .......... .......... .......... 99%  255M 0s
+  1900K                                                       100% 1.22T=0.03s
+
+2025-03-14 12:16:04 (61.8 MB/s) - ‘menyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz’ saved [1946269/1946269]
+
+
+ [0;32m"MENYOKI" INSTALLED[0m (6 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ menyoki 1.7.0
+
+============================================================================
+AM-updater
+CHANGELOG.md
+LICENSE
+README.md
+completions
+config
+icons
+man
+menyoki
+remove
+version
+/usr/local/bin/menyoki
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

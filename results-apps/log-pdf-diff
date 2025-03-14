@@ -1,0 +1,65 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "PDF-DIFF": starting installation script
+
+--2025-03-14 12:15:11--  https://github.com/serhack/pdf-diff/releases/download/v0.0.1/pdf-diff_0.0.1_Linux_x86_64.tar.gz
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/521398087/28ebcf2c-744c-4397-9aea-d37766716501?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T121511Z&X-Amz-Expires=300&X-Amz-Signature=a9feb4e6a75a3bc5baa89e3cc7cbcb061a81329278af0de34853484b76afe06c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dpdf-diff_0.0.1_Linux_x86_64.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 12:15:11--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/521398087/28ebcf2c-744c-4397-9aea-d37766716501?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T121511Z&X-Amz-Expires=300&X-Amz-Signature=a9feb4e6a75a3bc5baa89e3cc7cbcb061a81329278af0de34853484b76afe06c&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dpdf-diff_0.0.1_Linux_x86_64.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 781035 (763K) [application/octet-stream]
+Saving to: ‘pdf-diff_0.0.1_Linux_x86_64.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  6% 25.9M 0s
+    50K .......... .......... .......... .......... .......... 13%  234M 0s
+   100K .......... .......... .......... .......... .......... 19% 55.7M 0s
+   150K .......... .......... .......... .......... .......... 26%  262M 0s
+   200K .......... .......... .......... .......... .......... 32%  270M 0s
+   250K .......... .......... .......... .......... .......... 39% 73.8M 0s
+   300K .......... .......... .......... .......... .......... 45%  248M 0s
+   350K .......... .......... .......... .......... .......... 52%  309M 0s
+   400K .......... .......... .......... .......... .......... 58%  134M 0s
+   450K .......... .......... .......... .......... .......... 65%  282M 0s
+   500K .......... .......... .......... .......... .......... 72%  265M 0s
+   550K .......... .......... .......... .......... .......... 78%  291M 0s
+   600K .......... .......... .......... .......... .......... 85%  282M 0s
+   650K .......... .......... .......... .......... .......... 91%  254M 0s
+   700K .......... .......... .......... .......... .......... 98%  254M 0s
+   750K .......... ..                                         100%  488M=0.006s
+
+2025-03-14 12:15:11 (128 MB/s) - ‘pdf-diff_0.0.1_Linux_x86_64.tar.gz’ saved [781035/781035]
+
+
+ [0;32m"PDF-DIFF" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ pdf-diff 0.0.1
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+icons
+pdf-diff
+remove
+version
+/usr/local/bin/pdf-diff
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

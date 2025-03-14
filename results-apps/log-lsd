@@ -1,0 +1,83 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "LSD": starting installation script
+
+--2025-03-14 13:33:43--  https://github.com/lsd-rs/lsd/releases/download/v1.1.5/lsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/158927812/722af7a4-15af-4182-a5fa-f3ccd21328c4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133343Z&X-Amz-Expires=300&X-Amz-Signature=c23d5987b2d0e0fc680aec3779c854e531e7ba12d2c137fdcc13fae5a223e7e1&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dlsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 13:33:43--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/158927812/722af7a4-15af-4182-a5fa-f3ccd21328c4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T133343Z&X-Amz-Expires=300&X-Amz-Signature=c23d5987b2d0e0fc680aec3779c854e531e7ba12d2c137fdcc13fae5a223e7e1&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dlsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1603404 (1.5M) [application/octet-stream]
+Saving to: ‘lsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  3% 8.34M 0s
+    50K .......... .......... .......... .......... ..........  6% 25.9M 0s
+   100K .......... .......... .......... .......... ..........  9% 12.5M 0s
+   150K .......... .......... .......... .......... .......... 12% 56.1M 0s
+   200K .......... .......... .......... .......... .......... 15% 57.1M 0s
+   250K .......... .......... .......... .......... .......... 19% 15.0M 0s
+   300K .......... .......... .......... .......... .......... 22%  137M 0s
+   350K .......... .......... .......... .......... .......... 25% 84.3M 0s
+   400K .......... .......... .......... .......... .......... 28% 76.7M 0s
+   450K .......... .......... .......... .......... .......... 31% 78.5M 0s
+   500K .......... .......... .......... .......... .......... 35% 98.2M 0s
+   550K .......... .......... .......... .......... .......... 38% 19.9M 0s
+   600K .......... .......... .......... .......... .......... 41%  144M 0s
+   650K .......... .......... .......... .......... .......... 44%  141M 0s
+   700K .......... .......... .......... .......... .......... 47%  183M 0s
+   750K .......... .......... .......... .......... .......... 51%  139M 0s
+   800K .......... .......... .......... .......... .......... 54%  166M 0s
+   850K .......... .......... .......... .......... .......... 57%  194M 0s
+   900K .......... .......... .......... .......... .......... 60%  153M 0s
+   950K .......... .......... .......... .......... .......... 63%  133M 0s
+  1000K .......... .......... .......... .......... .......... 67%  152M 0s
+  1050K .......... .......... .......... .......... .......... 70%  204M 0s
+  1100K .......... .......... .......... .......... .......... 73%  285M 0s
+  1150K .......... .......... .......... .......... .......... 76% 24.2M 0s
+  1200K .......... .......... .......... .......... .......... 79%  118M 0s
+  1250K .......... .......... .......... .......... .......... 83%  173M 0s
+  1300K .......... .......... .......... .......... .......... 86%  168M 0s
+  1350K .......... .......... .......... .......... .......... 89%  166M 0s
+  1400K .......... .......... .......... .......... .......... 92%  268M 0s
+  1450K .......... .......... .......... .......... .......... 95%  267M 0s
+  1500K .......... .......... .......... .......... .......... 98%  269M 0s
+  1550K .......... .....                                      100%  270M=0.03s
+
+2025-03-14 13:33:43 (52.8 MB/s) - ‘lsd-v1.1.5-x86_64-unknown-linux-musl.tar.gz’ saved [1603404/1603404]
+
+
+ [0;32m"LSD" INSTALLED[0m (4 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ lsd 1.1.5
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+autocomplete
+icons
+lsd
+lsd.1
+remove
+version
+/usr/local/bin/lsd
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
