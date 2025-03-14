@@ -248,8 +248,11 @@ jobs:
               fi
             fi
             echo 'including download'
-            [ -n "$version" ] && echo "downVer=\"$version\"" | tee -a results/out-"${{ matrix.file }}" || echo "No version?" >> $GITHUB_SUMMARY
-            echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
+            if [ -n "$version" ]; then
+              echo "downVer=\"$version\"" 2>/dev/null | tee -a results/out-"${{ matrix.file }}"
+            else
+              echo "Needs more investigation"
+            fi
           else
             echo "what happend?"
           fi
