@@ -15,7 +15,7 @@ on:
         default: false
         type: boolean
       how_many:
-        description: "Enter number of apps to test"
+        description: "Apps to test"
         required: true
         default: '10'
         type: integer
