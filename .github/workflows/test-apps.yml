@@ -1,8 +1,5 @@
 name: "Test random 💯 v2"
 
-env:
-  TERM: xterm
-
 on:
   push:
     branches: main
