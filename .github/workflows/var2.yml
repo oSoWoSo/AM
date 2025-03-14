@@ -311,19 +311,12 @@ jobs:
               am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
             fi
           else
-            # Determine timeout
-            if [[ $? -eq 124 ]]; then
-               echo "### 💥 ${{ matrix.file }} $TIMEOUT minutes timeout reached" >> $GITHUB_STEP_SUMMARY
-               echo "Installation timeout in $TIMEOUT minutes" >> results/log-"${{ matrix.file }}"
-               echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
-            else
-               echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
-               echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
-            fi
+            echo "EXIT_CODE=9" >> $GITHUB_ENV
+            exit 0
           fi
 
       - name: "second try"
-        if: failure()
+        if: (env.EXIT_CODE == '9')
         run: |
           echo "Trying again"
           if timeout "$TIMEOUT"m echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"; then
