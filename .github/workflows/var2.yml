@@ -143,7 +143,6 @@ jobs:
         id: set-matrix
         if: github.event.inputs.retest_excluded != 'true'
         run: |
-          ls
           if [[ -f results-var/tested ]]; then
             if diff -q appslist results-var/tested; then
               echo "Everything checked" >> $GITHUB_STEP_SUMMARY
@@ -170,6 +169,10 @@ jobs:
             echo "how_many=${{ github.event.inputs.how_many }}" >> $GITHUB_ENV
           else
             echo "how_many=200" >> $GITHUB_ENV
+            echo "how_many=200"
+            if [ -z "$how_many" ]; then
+              how_many='200'
+            fi
           fi
           FILES=$(head -n "$how_many" totest.list || cat totest.list)
           MATRIX="{\"include\": ["
