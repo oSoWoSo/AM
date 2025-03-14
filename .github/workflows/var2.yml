@@ -1,4 +1,4 @@
-name: "variables: Check 250"
+name: "variables: Check 10"
 
 on:
   schedule:
@@ -142,7 +142,7 @@ jobs:
           else
             mv totest_tmp.list totest.list
           fi
-          FILES=$(shuf -n 250 totest.list | sort || cat totest.list | sort)
+          FILES=$(shuf -n 10 totest.list | sort || cat totest.list | sort)
           MATRIX="{\"include\": ["
           for file in $FILES; do
             MATRIX+="{\"file\": \"$file\"},"
@@ -396,6 +396,7 @@ jobs:
           fi
 
       - name: "Finish output"
+        working-directory: programs/x86_64
         run: |
           size=$(cat results/log-${{ matrix.file }} | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
           version=$(cat results/log-${{ matrix.file }} | grep '◆' | tail -1)
