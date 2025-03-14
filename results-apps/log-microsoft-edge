@@ -7,6 +7,7 @@ Shell completion has been enabled!
 
  ◆ "MICROSOFT-EDGE": starting installation script
 
+1741980617 PERROR torsocks[2299]: socks5 libc connect: Connection refused (in socks5_connect() at socks5.c:202)
 http://: Invalid host name.
 
  💀 ERROR DURING INSTALLATION, REMOVED "MICROSOFT-EDGE"!
