@@ -255,3 +255,83 @@ APPIMAGE='yes'
 APP="wolai"
 SITE="https://www.wolai.com"
 downVer="https://cdn.wostatic.cn/dist/installers/wolai-1.2.10.AppImage"
+GITHUB='yes'
+APPIMAGE='yes'
+APP="affine-canary"
+SITE="toeverything/AFFiNE"
+downVer="https://github.com/toeverything/AFFiNE/releases/download/v0.21.0-canary.1/affine-0.21.0-canary.1-canary-linux-x64.appimage"
+size=183 MB
+version= ◆ affine-canary 0.21.0
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="agregore"
+SITE="AgregoreWeb/agregore-browser"
+downVer="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.8.2/agregore-browser-2.8.2-linux-x86_64.AppImage"
+size=166 MB
+version= ◆ agregore 2.8.2
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="ai-bot-workspace"
+SITE="jmerle/ai-bot-workspace"
+downVer="https://github.com/jmerle/ai-bot-workspace/releases/download/v2.4.3/ai-bot-workspace-2.4.3-x86_64.AppImage"
+size=54 MB
+version= ◆ ai-bot-workspace 2.4.3
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='no'
+APP="aichat"
+SITE="sigoden/aichat"
+downVer="https://github.com/sigoden/aichat/releases/download/v0.28.0/aichat-v0.28.0-x86_64-unknown-linux-musl.tar.gz"
+size=12 MB
+version= ◆ aichat 0.28.0
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="aidm"
+SITE="Alexsussa/AIDM"
+downVer="https://github.com/Alexsussa/AIDM/releases/download/v0.3/AppImage_Desktop_Maker_v0.3_x86_64.AppImage"
+size=147 MB
+version= ◆ aidm 0.3
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="aillio-ts"
+SITE="roastworld/roast-time-release"
+downVer="https://github.com/roastworld/roast-time-release/releases/download/v1.1.2/aillio-ts-1.1.2-x86_64.AppImage"
+size=62 MB
+version= ◆ aillio-ts 1.1.2
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='no'
+APP="aim"
+SITE="mihaigalos/aim"
+downVer="https://github.com/mihaigalos/aim/releases/download/1.8.6/aim-1.8.6-x86_64-unknown-linux-gnu.tar.gz"
+size=20 MB
+version= ◆ aim 1.8.6
+-----------------------------------------------------------------
+GITHUB='no'
+APPIMAGE='yes'
+APP="aiming-pro"
+SITE="https://aiming.pro"
+downVer="https://aiming.pro//desktop-app/Aiming-Pro-1.0.4.AppImage"
+size=94 MB
+version= ◆ aiming-pro 1.0.4
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="air-controller-desktop"
+SITE="air-controller/air-controller-desktop"
+downVer="https://github.com/air-controller/air-controller-desktop/releases/download/0.4.0/AirController_0.4.0.AppImage"
+size=13 MB
+version= ◆ air-controller-desktop 0.4.0
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="airspaces"
+SITE="foucdeg/x-plane-map-electron"
+downVer="https://github.com/foucdeg/x-plane-map-electron/releases/download/v2.6.0/airspaces-electron-2.6.0-x86_64.AppImage"
+size=56 MB
+version= ◆ airspaces 2.6.0
+-----------------------------------------------------------------
