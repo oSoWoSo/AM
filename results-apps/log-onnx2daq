@@ -1,0 +1,68 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "ONNX2DAQ": starting installation script
+
+--2025-03-14 08:12:05--  https://github.com/JDAI-CV/DNNLibrary/releases/download/v0.9.0/onnx2daq.AppImage
+Resolving github.com (github.com)... 140.82.116.3
+Connecting to github.com (github.com)|140.82.116.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/109795150/49bfa400-438c-11ea-834c-31b6f2f54d1d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081205Z&X-Amz-Expires=300&X-Amz-Signature=bc105c482f7d1b788896e62c845171f9bb02dafc64759fd5555e85fbcdbdb8b7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Donnx2daq.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 08:12:05--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/109795150/49bfa400-438c-11ea-834c-31b6f2f54d1d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081205Z&X-Amz-Expires=300&X-Amz-Signature=bc105c482f7d1b788896e62c845171f9bb02dafc64759fd5555e85fbcdbdb8b7&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Donnx2daq.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1056744 (1.0M) [application/octet-stream]
+Saving to: ‘onnx2daq.AppImage’
+
+     0K .......... .......... .......... .......... ..........  4% 62.3M 0s
+    50K .......... .......... .......... .......... ..........  9% 40.0M 0s
+   100K .......... .......... .......... .......... .......... 14%  159M 0s
+   150K .......... .......... .......... .......... .......... 19%  263M 0s
+   200K .......... .......... .......... .......... .......... 24% 93.4M 0s
+   250K .......... .......... .......... .......... .......... 29%  137M 0s
+   300K .......... .......... .......... .......... .......... 33%  139M 0s
+   350K .......... .......... .......... .......... .......... 38%  263M 0s
+   400K .......... .......... .......... .......... .......... 43%  146M 0s
+   450K .......... .......... .......... .......... .......... 48%  167M 0s
+   500K .......... .......... .......... .......... .......... 53%  153M 0s
+   550K .......... .......... .......... .......... .......... 58%  226M 0s
+   600K .......... .......... .......... .......... .......... 62%  112M 0s
+   650K .......... .......... .......... .......... .......... 67%  138M 0s
+   700K .......... .......... .......... .......... .......... 72%  229M 0s
+   750K .......... .......... .......... .......... .......... 77%  242M 0s
+   800K .......... .......... .......... .......... .......... 82%  225M 0s
+   850K .......... .......... .......... .......... .......... 87%  243M 0s
+   900K .......... .......... .......... .......... .......... 92%  239M 0s
+   950K .......... .......... .......... .......... .......... 96%  277M 0s
+  1000K .......... .......... .......... .                    100%  226M=0.007s
+
+2025-03-14 08:12:05 (140 MB/s) - ‘onnx2daq.AppImage’ saved [1056744/1056744]
+
+
+ [0;32m"ONNX2DAQ" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ onnx2daq 0.9.0
+
+============================================================================
+AM-updater
+icons
+onnx2daq
+remove
+version
+/usr/local/bin/onnx2daq
+ Launchers in /usr/local/share/applications
+onnx2daq-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

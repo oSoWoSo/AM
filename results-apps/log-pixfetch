@@ -1,0 +1,81 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "PIXFETCH": starting installation script
+
+--2025-03-14 08:12:37--  https://github.com/RubixDev/pixfetch/releases/download/v1.0.0/pixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/448091441/27a53cfd-1b62-4714-8dbc-ea28fc61e369?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081237Z&X-Amz-Expires=300&X-Amz-Signature=811d85c9b88ca6b886813cec23a8c72ef5aa01ebda602edc3acbe64bfb294ea6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dpixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 08:12:37--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/448091441/27a53cfd-1b62-4714-8dbc-ea28fc61e369?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081237Z&X-Amz-Expires=300&X-Amz-Signature=811d85c9b88ca6b886813cec23a8c72ef5aa01ebda602edc3acbe64bfb294ea6&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dpixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1535894 (1.5M) [application/octet-stream]
+Saving to: ‘pixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  3% 20.7M 0s
+    50K .......... .......... .......... .......... ..........  6% 59.2M 0s
+   100K .......... .......... .......... .......... .......... 10% 31.6M 0s
+   150K .......... .......... .......... .......... .......... 13% 75.2M 0s
+   200K .......... .......... .......... .......... .......... 16%  178M 0s
+   250K .......... .......... .......... .......... .......... 20% 33.9M 0s
+   300K .......... .......... .......... .......... .......... 23%  221M 0s
+   350K .......... .......... .......... .......... .......... 26%  132M 0s
+   400K .......... .......... .......... .......... .......... 30%  214M 0s
+   450K .......... .......... .......... .......... .......... 33%  269M 0s
+   500K .......... .......... .......... .......... .......... 36%  249M 0s
+   550K .......... .......... .......... .......... .......... 40% 53.5M 0s
+   600K .......... .......... .......... .......... .......... 43%  219M 0s
+   650K .......... .......... .......... .......... .......... 46%  212M 0s
+   700K .......... .......... .......... .......... .......... 50%  214M 0s
+   750K .......... .......... .......... .......... .......... 53%  254M 0s
+   800K .......... .......... .......... .......... .......... 56%  256M 0s
+   850K .......... .......... .......... .......... .......... 60%  260M 0s
+   900K .......... .......... .......... .......... .......... 63%  208M 0s
+   950K .......... .......... .......... .......... .......... 66%  245M 0s
+  1000K .......... .......... .......... .......... .......... 70%  261M 0s
+  1050K .......... .......... .......... .......... .......... 73%  295M 0s
+  1100K .......... .......... .......... .......... .......... 76%  232M 0s
+  1150K .......... .......... .......... .......... .......... 80%  223M 0s
+  1200K .......... .......... .......... .......... .......... 83%  269M 0s
+  1250K .......... .......... .......... .......... .......... 86%  247M 0s
+  1300K .......... .......... .......... .......... .......... 90%  233M 0s
+  1350K .......... .......... .......... .......... .......... 93%  280M 0s
+  1400K .......... .......... .......... .......... .......... 96%  228M 0s
+  1450K .......... .......... .......... .......... ......... 100%  301M=0.01s
+
+2025-03-14 08:12:37 (114 MB/s) - ‘pixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz’ saved [1535894/1535894]
+
+
+ [0;32m"PIXFETCH" INSTALLED[0m (4 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ pixfetch 1.0.0
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+completion
+doc
+icons
+pixfetch
+remove
+version
+/usr/local/bin/pixfetch
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

@@ -1,0 +1,59 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "OMEKASY": starting installation script
+
+--2025-03-14 08:12:30--  https://github.com/ikanago/omekasy/releases/download/v1.3.1/omekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz
+Resolving github.com (github.com)... 140.82.116.4
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/482810633/5fe415ae-7053-4dbf-9345-b95931d4bae3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081231Z&X-Amz-Expires=300&X-Amz-Signature=a595f1cc932006ea7f28e8bf76a53b6c079a70f24e09c67e5d92fe9c9a3a57c2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Domekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 08:12:31--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/482810633/5fe415ae-7053-4dbf-9345-b95931d4bae3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T081231Z&X-Amz-Expires=300&X-Amz-Signature=a595f1cc932006ea7f28e8bf76a53b6c079a70f24e09c67e5d92fe9c9a3a57c2&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Domekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 466338 (455K) [application/octet-stream]
+Saving to: ‘omekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 10% 29.5M 0s
+    50K .......... .......... .......... .......... .......... 21% 39.6M 0s
+   100K .......... .......... .......... .......... .......... 32%  247M 0s
+   150K .......... .......... .......... .......... .......... 43% 54.7M 0s
+   200K .......... .......... .......... .......... .......... 54%  213M 0s
+   250K .......... .......... .......... .......... .......... 65%  244M 0s
+   300K .......... .......... .......... .......... .......... 76%  215M 0s
+   350K .......... .......... .......... .......... .......... 87%  236M 0s
+   400K .......... .......... .......... .......... .......... 98% 90.3M 0s
+   450K .....                                                 100%  136M=0.005s
+
+2025-03-14 08:12:31 (82.0 MB/s) - ‘omekasy-v1.3.1-x86_64-unknown-linux-gnu.tar.gz’ saved [466338/466338]
+
+
+ [0;32m"OMEKASY" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ omekasy 1.3.1
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+icons
+omekasy
+remove
+version
+/usr/local/bin/omekasy
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
