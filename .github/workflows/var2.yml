@@ -87,7 +87,7 @@ jobs:
           git rm -r results-var
           git commit -m "reset stats"
           git push --force
-          git clean
+          git clean -f
 
       - name: "Count stats 📊"
         id: stats
