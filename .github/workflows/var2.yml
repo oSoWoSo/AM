@@ -1,4 +1,4 @@
-name: "variables: Check 10"
+name: "Check"
 
 on:
   schedule:
@@ -466,12 +466,14 @@ jobs:
         with:
           name: appslist
 
-      - name: "Delete appslist"
+      - name: "Delete artifacts"
         uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             appslist
-            results/*
+            results/ok-*
+            results/log-*
+            results/ko-*
 
       - name: "Git Config"
         run: |
