@@ -81,8 +81,7 @@ jobs:
         if: github.event.inputs.reset_stats == 'true'
         run: |
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
-          #ls ./
-          #rm -rf results-var
+          rm -rf results-var
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "noreply@github.com"
           git rm -r results-var
@@ -460,6 +459,8 @@ jobs:
         with:
           merge-multiple: true
           path: results
+          run: |
+            ls -R
 
       - name: "Download appslist"
         uses: actions/download-artifact@v4
