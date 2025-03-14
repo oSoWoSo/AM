@@ -1,0 +1,49 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "FASTCOMPMGR": starting installation script
+
+--2025-03-14 10:47:14--  https://github.com/tycho-kirchner/fastcompmgr/releases/download/v0.5/fastcompmgr
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/796064162/7a301682-d5b6-460a-ac03-7c3bf4c45beb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104714Z&X-Amz-Expires=300&X-Amz-Signature=bf667aafa51917027bd1091ea3d660f763c19749c74c3667ca64868939b37e2f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfastcompmgr&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:47:14--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/796064162/7a301682-d5b6-460a-ac03-7c3bf4c45beb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104714Z&X-Amz-Expires=300&X-Amz-Signature=bf667aafa51917027bd1091ea3d660f763c19749c74c3667ca64868939b37e2f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfastcompmgr&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 52424 (51K) [application/octet-stream]
+Saving to: ‘fastcompmgr’
+
+     0K .......... .......... .......... .......... .......... 97% 46.5M 0s
+    50K .                                                     100% 86.5M=0.001s
+
+2025-03-14 10:47:14 (47.0 MB/s) - ‘fastcompmgr’ saved [52424/52424]
+
+
+ [0;32m"FASTCOMPMGR" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ fastcompmgr 0.5
+
+============================================================================
+AM-updater
+fastcompmgr
+icons
+remove
+version
+/usr/local/bin/fastcompmgr
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

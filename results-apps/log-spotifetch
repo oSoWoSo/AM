@@ -1,0 +1,84 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "SPOTIFETCH": starting installation script
+
+--2025-03-14 10:10:17--  https://github.com/dotzenith/SpotiFetch.rs/releases/download/v0.1.7/spotifetch-x86_64-unknown-linux-gnu.tar.xz
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/720210347/4e552558-ee57-4361-a736-ff4af25cb72b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101017Z&X-Amz-Expires=300&X-Amz-Signature=e45591ff237846e72e88b98fd0cc762b2be62964395d57d913855b47ff36ed53&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dspotifetch-x86_64-unknown-linux-gnu.tar.xz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:10:17--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/720210347/4e552558-ee57-4361-a736-ff4af25cb72b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101017Z&X-Amz-Expires=300&X-Amz-Signature=e45591ff237846e72e88b98fd0cc762b2be62964395d57d913855b47ff36ed53&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dspotifetch-x86_64-unknown-linux-gnu.tar.xz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1765092 (1.7M) [application/octet-stream]
+Saving to: ‘spotifetch-x86_64-unknown-linux-gnu.tar.xz’
+
+     0K .......... .......... .......... .......... ..........  2% 22.6M 0s
+    50K .......... .......... .......... .......... ..........  5% 36.3M 0s
+   100K .......... .......... .......... .......... ..........  8%  120M 0s
+   150K .......... .......... .......... .......... .......... 11%  166M 0s
+   200K .......... .......... .......... .......... .......... 14% 58.6M 0s
+   250K .......... .......... .......... .......... .......... 17% 74.5M 0s
+   300K .......... .......... .......... .......... .......... 20%  204M 0s
+   350K .......... .......... .......... .......... .......... 23%  219M 0s
+   400K .......... .......... .......... .......... .......... 26%  238M 0s
+   450K .......... .......... .......... .......... .......... 29%  260M 0s
+   500K .......... .......... .......... .......... .......... 31%  130M 0s
+   550K .......... .......... .......... .......... .......... 34%  113M 0s
+   600K .......... .......... .......... .......... .......... 37%  245M 0s
+   650K .......... .......... .......... .......... .......... 40%  184M 0s
+   700K .......... .......... .......... .......... .......... 43%  214M 0s
+   750K .......... .......... .......... .......... .......... 46%  231M 0s
+   800K .......... .......... .......... .......... .......... 49%  244M 0s
+   850K .......... .......... .......... .......... .......... 52%  166M 0s
+   900K .......... .......... .......... .......... .......... 55%  265M 0s
+   950K .......... .......... .......... .......... .......... 58%  216M 0s
+  1000K .......... .......... .......... .......... .......... 60%  221M 0s
+  1050K .......... .......... .......... .......... .......... 63%  262M 0s
+  1100K .......... .......... .......... .......... .......... 66%  237M 0s
+  1150K .......... .......... .......... .......... .......... 69%  220M 0s
+  1200K .......... .......... .......... .......... .......... 72%  274M 0s
+  1250K .......... .......... .......... .......... .......... 75%  204M 0s
+  1300K .......... .......... .......... .......... .......... 78%  265M 0s
+  1350K .......... .......... .......... .......... .......... 81%  258M 0s
+  1400K .......... .......... .......... .......... .......... 84%  247M 0s
+  1450K .......... .......... .......... .......... .......... 87%  247M 0s
+  1500K .......... .......... .......... .......... .......... 89%  250M 0s
+  1550K .......... .......... .......... .......... .......... 92%  250M 0s
+  1600K .......... .......... .......... .......... .......... 95%  269M 0s
+  1650K .......... .......... .......... .......... .......... 98%  281M 0s
+  1700K .......... .......... ...                             100%  268M=0.01s
+
+2025-03-14 10:10:17 (140 MB/s) - ‘spotifetch-x86_64-unknown-linux-gnu.tar.xz’ saved [1765092/1765092]
+
+
+ [0;32m"SPOTIFETCH" INSTALLED[0m (6 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ spotifetch 0.1.7
+
+============================================================================
+AM-updater
+LICENSE
+README.md
+icons
+remove
+spotifetch
+version
+/usr/local/bin/spotifetch
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

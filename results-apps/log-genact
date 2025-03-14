@@ -1,0 +1,73 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "GENACT": starting installation script
+
+--2025-03-14 10:47:48--  https://github.com/svenstaro/genact/releases/download/v1.4.2/genact-1.4.2-x86_64-unknown-linux-musl
+Resolving github.com (github.com)... 140.82.116.4
+Connecting to github.com (github.com)|140.82.116.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/1345495/801b58df-5e42-4bf7-beca-e97e56cccb78?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104748Z&X-Amz-Expires=300&X-Amz-Signature=a02764dfe11978da7fec2b5464a0bfe758d6d59628f2b3a1fa8d7dea3faadafa&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dgenact-1.4.2-x86_64-unknown-linux-musl&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:47:48--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/1345495/801b58df-5e42-4bf7-beca-e97e56cccb78?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104748Z&X-Amz-Expires=300&X-Amz-Signature=a02764dfe11978da7fec2b5464a0bfe758d6d59628f2b3a1fa8d7dea3faadafa&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dgenact-1.4.2-x86_64-unknown-linux-musl&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1312624 (1.3M) [application/octet-stream]
+Saving to: ‘genact-1.4.2-x86_64-unknown-linux-musl’
+
+     0K .......... .......... .......... .......... ..........  3% 33.2M 0s
+    50K .......... .......... .......... .......... ..........  7% 71.9M 0s
+   100K .......... .......... .......... .......... .......... 11%  117M 0s
+   150K .......... .......... .......... .......... .......... 15%  154M 0s
+   200K .......... .......... .......... .......... .......... 19%  192M 0s
+   250K .......... .......... .......... .......... .......... 23%  204M 0s
+   300K .......... .......... .......... .......... .......... 27%  124M 0s
+   350K .......... .......... .......... .......... .......... 31%  199M 0s
+   400K .......... .......... .......... .......... .......... 35%  243M 0s
+   450K .......... .......... .......... .......... .......... 39%  258M 0s
+   500K .......... .......... .......... .......... .......... 42%  341M 0s
+   550K .......... .......... .......... .......... .......... 46%  255M 0s
+   600K .......... .......... .......... .......... .......... 50%  399M 0s
+   650K .......... .......... .......... .......... .......... 54%  399M 0s
+   700K .......... .......... .......... .......... .......... 58%  213M 0s
+   750K .......... .......... .......... .......... .......... 62%  194M 0s
+   800K .......... .......... .......... .......... .......... 66%  327M 0s
+   850K .......... .......... .......... .......... .......... 70%  289M 0s
+   900K .......... .......... .......... .......... .......... 74%  284M 0s
+   950K .......... .......... .......... .......... .......... 78%  232M 0s
+  1000K .......... .......... .......... .......... .......... 81%  123M 0s
+  1050K .......... .......... .......... .......... .......... 85%  137M 0s
+  1100K .......... .......... .......... .......... .......... 89%  136M 0s
+  1150K .......... .......... .......... .......... .......... 93%  172M 0s
+  1200K .......... .......... .......... .......... .......... 97%  284M 0s
+  1250K .......... .......... .......... .                    100%  274M=0.008s
+
+2025-03-14 10:47:49 (160 MB/s) - ‘genact-1.4.2-x86_64-unknown-linux-musl’ saved [1312624/1312624]
+
+
+ [0;32m"GENACT" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ genact 1.4.2
+
+============================================================================
+AM-updater
+genact
+icons
+remove
+version
+/usr/local/bin/genact
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

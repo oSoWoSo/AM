@@ -1,0 +1,57 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "RMW": starting installation script
+
+--2025-03-14 10:10:25--  https://github.com/theimpossibleastronaut/rmw/releases/download/v0.9.3/rmw-0.9.3-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/50221863/d86f75b6-2910-495c-a4e8-24d56962e451?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101025Z&X-Amz-Expires=300&X-Amz-Signature=74710b3ba91353584eda24002d308680c8396e4ab8817e10223eb984737967cc&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Drmw-0.9.3-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:10:25--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/50221863/d86f75b6-2910-495c-a4e8-24d56962e451?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101025Z&X-Amz-Expires=300&X-Amz-Signature=74710b3ba91353584eda24002d308680c8396e4ab8817e10223eb984737967cc&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Drmw-0.9.3-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 479880 (469K) [application/octet-stream]
+Saving to: ‘rmw-0.9.3-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... .......... 10% 25.2M 0s
+    50K .......... .......... .......... .......... .......... 21% 98.8M 0s
+   100K .......... .......... .......... .......... .......... 32% 39.5M 0s
+   150K .......... .......... .......... .......... .......... 42%  172M 0s
+   200K .......... .......... .......... .......... .......... 53%  194M 0s
+   250K .......... .......... .......... .......... .......... 64% 51.4M 0s
+   300K .......... .......... .......... .......... .......... 74%  160M 0s
+   350K .......... .......... .......... .......... .......... 85%  191M 0s
+   400K .......... .......... .......... .......... .......... 96%  258M 0s
+   450K .......... ........                                   100%  278M=0.006s
+
+2025-03-14 10:10:25 (76.7 MB/s) - ‘rmw-0.9.3-x86_64.AppImage’ saved [479880/479880]
+
+
+ [0;32m"RMW" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ rmw 0.9.3
+
+============================================================================
+AM-updater
+icons
+remove
+rmw
+version
+/usr/local/bin/rmw
+ Launchers in /usr/local/share/applications
+rmw-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

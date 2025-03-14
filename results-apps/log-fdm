@@ -1,0 +1,52 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "FDM": starting installation script
+
+ This script will create an AppImage on the fly, please wait...
+
+--2025-03-14 10:09:03--  https://raw.githubusercontent.com/ivan-hc/AM/main/appimage-bulder-scripts/x86_64/fdm.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1649 (1.6K) [text/plain]
+Saving to: ‘fdm.sh’
+
+     0K .                                                     100% 38.3M=0s
+
+2025-03-14 10:09:03 (38.3 MB/s) - ‘fdm.sh’ saved [1649/1649]
+
+ Downloading appimagetool...
+ Downloading the .deb package...
+ Extracting the .deb package to the AppDir...
+Creating .DirIcon symlink based on information from desktop file
+Creating 4.0 filesystem on Free_Download_Manager-x86_64.AppImage, block size 131072.
+[=============================================================|] 1961/1961 100%
+Exportable Squashfs 4.0 filesystem, zstd compressed, data block size 131072
+
+ [0;32m"FDM" INSTALLED[0m (56 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ fdm 6.26
+
+============================================================================
+AM-updater
+fdm
+icons
+remove
+version
+/usr/local/bin/fdm
+ Launchers in /usr/local/share/applications
+fdm-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

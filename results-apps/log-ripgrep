@@ -1,0 +1,200 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "RIPGREP": starting installation script
+
+--2025-03-14 10:09:22--  https://github.com/BurntSushi/ripgrep/releases/download/14.1.1/ripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/53631945/c3fb96a4-463b-40d5-8a6b-ee77f4cd30fd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T100922Z&X-Amz-Expires=300&X-Amz-Signature=720f00a70dff3f706c241a07449f8c47ae5bff06124cadd5f367a9c173c79598&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:09:22--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/53631945/c3fb96a4-463b-40d5-8a6b-ee77f4cd30fd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T100922Z&X-Amz-Expires=300&X-Amz-Signature=720f00a70dff3f706c241a07449f8c47ae5bff06124cadd5f367a9c173c79598&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2566310 (2.4M) [application/octet-stream]
+Saving to: ‘ripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz’
+
+     0K .......... .......... .......... .......... ..........  1% 9.37M 0s
+    50K .......... .......... .......... .......... ..........  3% 23.8M 0s
+   100K .......... .......... .......... .......... ..........  5% 11.7M 0s
+   150K .......... .......... .......... .......... ..........  7% 92.4M 0s
+   200K .......... .......... .......... .......... ..........  9% 15.1M 0s
+   250K .......... .......... .......... .......... .......... 11% 83.3M 0s
+   300K .......... .......... .......... .......... .......... 13% 42.8M 0s
+   350K .......... .......... .......... .......... .......... 15%  126M 0s
+   400K .......... .......... .......... .......... .......... 17%  116M 0s
+   450K .......... .......... .......... .......... .......... 19%  169M 0s
+   500K .......... .......... .......... .......... .......... 21% 19.6M 0s
+   550K .......... .......... .......... .......... .......... 23% 83.4M 0s
+   600K .......... .......... .......... .......... .......... 25% 55.3M 0s
+   650K .......... .......... .......... .......... .......... 27%  153M 0s
+   700K .......... .......... .......... .......... .......... 29%  174M 0s
+   750K .......... .......... .......... .......... .......... 31%  126M 0s
+   800K .......... .......... .......... .......... .......... 33%  166M 0s
+   850K .......... .......... .......... .......... .......... 35%  146M 0s
+   900K .......... .......... .......... .......... .......... 37%  161M 0s
+   950K .......... .......... .......... .......... .......... 39%  190M 0s
+  1000K .......... .......... .......... .......... .......... 41%  236M 0s
+  1050K .......... .......... .......... .......... .......... 43% 47.0M 0s
+  1100K .......... .......... .......... .......... .......... 45% 73.0M 0s
+  1150K .......... .......... .......... .......... .......... 47%  106M 0s
+  1200K .......... .......... .......... .......... .......... 49%  246M 0s
+  1250K .......... .......... .......... .......... .......... 51% 88.2M 0s
+  1300K .......... .......... .......... .......... .......... 53%  135M 0s
+  1350K .......... .......... .......... .......... .......... 55%  115M 0s
+  1400K .......... .......... .......... .......... .......... 57%  140M 0s
+  1450K .......... .......... .......... .......... .......... 59%  147M 0s
+  1500K .......... .......... .......... .......... .......... 61%  176M 0s
+  1550K .......... .......... .......... .......... .......... 63%  118M 0s
+  1600K .......... .......... .......... .......... .......... 65%  186M 0s
+  1650K .......... .......... .......... .......... .......... 67%  251M 0s
+  1700K .......... .......... .......... .......... .......... 69%  260M 0s
+  1750K .......... .......... .......... .......... .......... 71%  206M 0s
+  1800K .......... .......... .......... .......... .......... 73%  283M 0s
+  1850K .......... .......... .......... .......... .......... 75%  138M 0s
+  1900K .......... .......... .......... .......... .......... 77%  137M 0s
+  1950K .......... .......... .......... .......... .......... 79%  131M 0s
+  2000K .......... .......... .......... .......... .......... 81%  173M 0s
+  2050K .......... .......... .......... .......... .......... 83%  229M 0s
+  2100K .......... .......... .......... .......... .......... 85%  240M 0s
+  2150K .......... .......... .......... .......... .......... 87%  230M 0s
+  2200K .......... .......... .......... .......... .......... 89%  261M 0s
+  2250K .......... .......... .......... .......... .......... 91%  258M 0s
+  2300K .......... .......... .......... .......... .......... 93%  255M 0s
+  2350K .......... .......... .......... .......... .......... 95%  203M 0s
+  2400K .......... .......... .......... .......... .......... 97%  249M 0s
+  2450K .......... .......... .......... .......... .......... 99%  264M 0s
+  2500K ......                                                100%  209M=0.03s
+
+2025-03-14 10:09:22 (72.6 MB/s) - ‘ripgrep-14.1.1-x86_64-unknown-linux-musl.tar.gz’ saved [2566310/2566310]
+
+
+ [0;32m"RIPGREP" INSTALLED[0m (7 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ ripgrep 14.1.1
+
+============================================================================
+AM-updater
+COPYING
+LICENSE-MIT
+README.md
+UNLICENSE
+complete
+doc
+icons
+remove
+rg
+version
+LICENSE.txt
+activate-global-python-argcomplete
+aliyun
+am
+apt-fast
+aws
+aws_completer
+azcopy
+azcopy10
+bazel
+bazelisk
+bcp
+bicep
+bin-proxy
+ccmake
+cmake
+cmake-gui
+commander
+console
+corepack
+cpack
+ctest
+dotenv
+fastlane
+grunt
+gulp
+helm
+httpclient
+jmespath.rb
+kind
+kustomize
+lein
+lerna
+match_file
+minikube
+n
+netlify
+newman
+ninja
+node
+now
+npm
+npx
+ntl
+oc
+oras
+packer
+parcel
+phpunit
+pipx
+pulumi
+pulumi-analyzer-policy
+pulumi-analyzer-policy-python
+pulumi-language-dotnet
+pulumi-language-go
+pulumi-language-java
+pulumi-language-nodejs
+pulumi-language-python
+pulumi-language-python-exec
+pulumi-language-yaml
+pulumi-resource-pulumi-nodejs
+pulumi-resource-pulumi-python
+pulumi-watch
+python-argcomplete-check-easy-install-script
+pzstd
+register-python-argcomplete
+rg
+rougify
+sam
+session-manager-plugin
+sqlcmd
+sqlpackage
+stack
+swift
+swiftc
+terminal-notifier
+terraform
+tsc
+tsserver
+unzstd
+userpath
+vc
+vcpkg
+vercel
+webpack
+webpack-cli
+ww
+xcodeproj
+xcpretty
+xcpretty-travis-formatter
+yarn
+yarnpkg
+zstd
+zstdcat
+zstdgrep
+zstdless
+zstdmt
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

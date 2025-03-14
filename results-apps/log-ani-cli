@@ -1,0 +1,48 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "ANI-CLI": starting installation script
+
+--2025-03-14 10:47:05--  https://github.com/pystardust/ani-cli/releases/download/v4.9/ani-cli
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/375345894/29fad301-1d6a-4741-8728-85a74928c982?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104705Z&X-Amz-Expires=300&X-Amz-Signature=df499568d0453baabe8b1f97d37d9d73b3b25ce42a1a5b41331039525c4fea6b&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dani-cli&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:47:05--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/375345894/29fad301-1d6a-4741-8728-85a74928c982?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104705Z&X-Amz-Expires=300&X-Amz-Signature=df499568d0453baabe8b1f97d37d9d73b3b25ce42a1a5b41331039525c4fea6b&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dani-cli&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 23148 (23K) [application/octet-stream]
+Saving to: ‘ani-cli’
+
+     0K .......... .......... ..                              100% 80.5M=0s
+
+2025-03-14 10:47:05 (80.5 MB/s) - ‘ani-cli’ saved [23148/23148]
+
+
+ [0;32m"ANI-CLI" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ ani-cli 4.9
+
+============================================================================
+AM-updater
+ani-cli
+icons
+remove
+version
+/usr/local/bin/ani-cli
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

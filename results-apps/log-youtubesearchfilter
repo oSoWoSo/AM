@@ -1,0 +1,52 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "YOUTUBESEARCHFILTER": starting installation script
+
+--2025-03-14 10:09:16--  https://github.com/Lateralus138/YouTubeSearchFilter/releases/download/Continuous/ytsf-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.112.4
+Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/302781607/ec91fb80-0a9f-11eb-8c97-b2db6ed08d00?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T100917Z&X-Amz-Expires=300&X-Amz-Signature=9dee5869e520e9d0247c6b3d1cf26b8a9686f8d4ac62d609919ce33cb35d9468&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dytsf-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:09:17--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/302781607/ec91fb80-0a9f-11eb-8c97-b2db6ed08d00?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T100917Z&X-Amz-Expires=300&X-Amz-Signature=9dee5869e520e9d0247c6b3d1cf26b8a9686f8d4ac62d609919ce33cb35d9468&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dytsf-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 225320 (220K) [application/octet-stream]
+Saving to: ‘ytsf-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... .......... 22% 26.1M 0s
+    50K .......... .......... .......... .......... .......... 45% 66.7M 0s
+   100K .......... .......... .......... .......... .......... 68% 35.7M 0s
+   150K .......... .......... .......... .......... .......... 90%  122M 0s
+   200K .......... ..........                                 100%  193M=0.004s
+
+2025-03-14 10:09:17 (48.0 MB/s) - ‘ytsf-x86_64.AppImage’ saved [225320/225320]
+
+
+ [0;32m"YOUTUBESEARCHFILTER" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ youtubesearchfilter 2021.12.07
+
+============================================================================
+AM-updater
+icons
+remove
+version
+youtubesearchfilter
+/usr/local/bin/youtubesearchfilter
+ Launchers in /usr/local/share/applications
+youtubesearchfilter-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

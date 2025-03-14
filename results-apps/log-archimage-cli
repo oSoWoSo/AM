@@ -1,0 +1,56 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "ARCHIMAGE-CLI": starting installation script
+
+--2025-03-14 10:47:45--  https://api.github.com/repos/ivan-hc/ArchImage/zipball/4.3
+Resolving api.github.com (api.github.com)... 140.82.113.5
+Connecting to api.github.com (api.github.com)|140.82.113.5|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/ivan-hc/ArchImage/legacy.zip/refs/tags/4.3 [following]
+--2025-03-14 10:47:45--  https://codeload.github.com/ivan-hc/ArchImage/legacy.zip/refs/tags/4.3
+Resolving codeload.github.com (codeload.github.com)... 140.82.113.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.113.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/zip]
+Saving to: ‘archimage-cli.zip’
+
+     0K .......... .......... .......... .......... .......... 1.57M
+    50K .......... .........                                   71.0M=0.03s
+
+2025-03-14 10:47:45 (2.15 MB/s) - ‘archimage-cli.zip’ saved [70665]
+
+
+ [0;32m"ARCHIMAGE-CLI" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ archimage-cli 4.3
+
+============================================================================
+AM-updater
+LICENSE
+NEW-junest.sh
+README.md
+archimage-cli
+drafts
+icons
+nvidia-junest.sh
+remove
+sample-junest.sh
+sample-next-junest.sh
+version
+/usr/local/bin/archimage-cli
+ Launchers in /usr/local/share/applications
+cmake-gui.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

@@ -1,0 +1,66 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "RUBIKSCUBE": starting installation script
+
+--2025-03-14 10:10:01--  https://github.com/theoden8/rubikscube/releases/download/0.1.0/RubiksCube-0.1.0-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.112.3
+Connecting to github.com (github.com)|140.82.112.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/229689946/eac7f000-2aaa-11ea-9144-f002e6f5d1a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101002Z&X-Amz-Expires=300&X-Amz-Signature=73202f3f0b3bcb3630be51b5600901408fca3ad9cf1f6091b183de5ce5583472&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DRubiksCube-0.1.0-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:10:02--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/229689946/eac7f000-2aaa-11ea-9144-f002e6f5d1a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T101002Z&X-Amz-Expires=300&X-Amz-Signature=73202f3f0b3bcb3630be51b5600901408fca3ad9cf1f6091b183de5ce5583472&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DRubiksCube-0.1.0-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 925672 (904K) [application/octet-stream]
+Saving to: ‘RubiksCube-0.1.0-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... ..........  5% 22.3M 0s
+    50K .......... .......... .......... .......... .......... 11% 45.9M 0s
+   100K .......... .......... .......... .......... .......... 16% 57.9M 0s
+   150K .......... .......... .......... .......... .......... 22%  141M 0s
+   200K .......... .......... .......... .......... .......... 27% 50.0M 0s
+   250K .......... .......... .......... .......... .......... 33%  163M 0s
+   300K .......... .......... .......... .......... .......... 38%  105M 0s
+   350K .......... .......... .......... .......... .......... 44%  170M 0s
+   400K .......... .......... .......... .......... .......... 49%  275M 0s
+   450K .......... .......... .......... .......... .......... 55%  260M 0s
+   500K .......... .......... .......... .......... .......... 60% 99.8M 0s
+   550K .......... .......... .......... .......... .......... 66%  208M 0s
+   600K .......... .......... .......... .......... .......... 71%  160M 0s
+   650K .......... .......... .......... .......... .......... 77%  275M 0s
+   700K .......... .......... .......... .......... .......... 82%  131M 0s
+   750K .......... .......... .......... .......... .......... 88%  268M 0s
+   800K .......... .......... .......... .......... .......... 94%  390M 0s
+   850K .......... .......... .......... .......... .......... 99%  430M 0s
+   900K ...                                                   100%  248M=0.009s
+
+2025-03-14 10:10:02 (99.7 MB/s) - ‘RubiksCube-0.1.0-x86_64.AppImage’ saved [925672/925672]
+
+
+ [0;32m"RUBIKSCUBE" INSTALLED[0m (2 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ rubikscube 0.1.0
+
+============================================================================
+AM-updater
+icons
+remove
+rubikscube
+version
+/usr/local/bin/rubikscube
+ Launchers in /usr/local/share/applications
+rubikscube-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

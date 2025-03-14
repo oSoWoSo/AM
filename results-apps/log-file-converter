@@ -1,0 +1,56 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "FILE-CONVERTER": starting installation script
+
+--2025-03-14 10:47:16--  https://github.com/TimothySimon123/file-converter/releases/download/0.3-beta/file-converter-0.3-beta-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.114.3
+Connecting to github.com (github.com)|140.82.114.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/407838094/0c46f8e1-5154-4415-8106-36a2521d63c9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104717Z&X-Amz-Expires=300&X-Amz-Signature=6640fdc2ab7665fce0c42fde2e30d285baf6986d7cc66e797ecd95bc434a00ed&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfile-converter-0.3-beta-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 10:47:17--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/407838094/0c46f8e1-5154-4415-8106-36a2521d63c9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T104717Z&X-Amz-Expires=300&X-Amz-Signature=6640fdc2ab7665fce0c42fde2e30d285baf6986d7cc66e797ecd95bc434a00ed&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dfile-converter-0.3-beta-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 447680 (437K) [application/octet-stream]
+Saving to: ‘file-converter-0.3-beta-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... .......... 11% 8.83M 0s
+    50K .......... .......... .......... .......... .......... 22% 24.1M 0s
+   100K .......... .......... .......... .......... .......... 34% 12.3M 0s
+   150K .......... .......... .......... .......... .......... 45% 83.1M 0s
+   200K .......... .......... .......... .......... .......... 57% 62.5M 0s
+   250K .......... .......... .......... .......... .......... 68% 9.02M 0s
+   300K .......... .......... .......... .......... .......... 80% 62.7M 0s
+   350K .......... .......... .......... .......... .......... 91% 70.1M 0s
+   400K .......... .......... .......... .......              100%  345M=0.02s
+
+2025-03-14 10:47:17 (21.5 MB/s) - ‘file-converter-0.3-beta-x86_64.AppImage’ saved [447680/447680]
+
+
+ [0;32m"FILE-CONVERTER" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ file-converter 0.3
+
+============================================================================
+AM-updater
+file-converter
+icons
+remove
+version
+/usr/local/bin/file-converter
+ Launchers in /usr/local/share/applications
+file-converter-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
