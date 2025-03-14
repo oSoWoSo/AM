@@ -410,17 +410,7 @@ jobs:
             exit 1
           fi
 
-      - name: "Finish output"
-        if: always()
-        working-directory: programs/x86_64
-        run: |
-          size=$(cat results/log-${{ matrix.file }} | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-          version=$(cat results/log-${{ matrix.file }} | grep '◆' | tail -1)
-          echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
-          echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
-          echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
-
-      - name: "Upload logs ⬆️"
+      - name: "Upload out ⬆️"
         uses: actions/upload-artifact@v4
         with:
           name: out-${{ matrix.file }}
@@ -467,15 +457,6 @@ jobs:
         with:
           name: appslist
 
-      - name: "Delete artifacts"
-        uses: geekyeggo/delete-artifact@v5
-        with:
-          name: |
-            appslist
-            results/ok-*
-            results/log-*
-            results/ko-*
-
       - name: "Git Config"
         run: |
           git config --global user.name "${{ github.repository_owner }}"
@@ -490,19 +471,23 @@ jobs:
           for log_file in results/out-*; do
             [ -f "$log_file" ] || continue
             appname=$(basename "$log_file" | cut -d'-' -f2-)
+            size=$(cat "$log-file" | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+            version=$(cat "$log-file" | grep '◆' | tail -1)
             ko_file="results/ko-$appname"
             if [[ -f "$ko_file" ]]; then
-              echo "$appname" | tee -a results-var/failing results-var/excluded
+              echo "$appname" | tee -a failing results-var/excluded
               rm -f "$ko_file"
               cat "$log_file" >> results-var/log
-              rm -f "$log_file"
               sort -u results-var/excluded -o results-var/excluded
-              sort -u results-var/failing -o results-var/failing
+              sort -u failing -o failing
             else
               cat "$log_file" >> results-var/log
               echo "$appname" >> results-var/tested
-              rm -f "$log_file"
             fi
+            echo "size=${size}" >> results-var/log
+            echo "version=${version}" >> results-var/log
+            echo '-----------------------------------------------------------------' >> results-var/log
+            rm -f "$log_file"
           done
           sort -u results-var/tested -o results-var/tested
           git add results-var
@@ -517,9 +502,9 @@ jobs:
         run: |
           tested=$(wc -l < results-var/tested 2>/dev/null || echo 0)
           excluded=$(wc -l < results-var/excluded 2>/dev/null || echo 0)
-          fail=$(wc -l < results-var/failing 2>/dev/null || echo 0)
+          fail=$(wc -l < failing 2>/dev/null || echo 0)
           count=$(wc -l < appslist)
-          remaining=$((count - tested - excluded - fail))
+          remaining=$((count - tested - excluded))
           (( remaining < 0 )) && remaining=0
           echo "🏁 $tested tested" >> $GITHUB_STEP_SUMMARY
           if [[ "$fail" != '0' ]]; then
@@ -528,8 +513,16 @@ jobs:
           if [[ "$excluded" != '0' ]]; then
             echo "😱 $excluded excluded" >> $GITHUB_STEP_SUMMARY
           fi
-
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
+
+      - name: "Delete artifacts"
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: |
+            appslist
+            results/ok-*
+            results/log-*
+            results/ko-*
 
       - name: "Push"
         if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
