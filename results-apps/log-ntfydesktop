@@ -1,0 +1,56 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "NTFYDESKTOP": starting installation script
+
+--2025-03-14 00:42:27--  https://github.com/emmaexe/ntfyDesktop/releases/download/v1.4.0/ntfyDesktop-1.4.0.tar.gz
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/612581163/06d3ffca-f24b-46e8-99ed-900c8ae2bc2d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T004227Z&X-Amz-Expires=300&X-Amz-Signature=12a9f0c51bb076634eb3bb29aa6e77bf1cedbf76421e6f52e3c163b8fc57bfcd&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DntfyDesktop-1.4.0.tar.gz&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 00:42:27--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/612581163/06d3ffca-f24b-46e8-99ed-900c8ae2bc2d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T004227Z&X-Amz-Expires=300&X-Amz-Signature=12a9f0c51bb076634eb3bb29aa6e77bf1cedbf76421e6f52e3c163b8fc57bfcd&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DntfyDesktop-1.4.0.tar.gz&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 359734 (351K) [application/octet-stream]
+Saving to: ‘ntfyDesktop-1.4.0.tar.gz’
+
+     0K .......... .......... .......... .......... .......... 14% 8.88M 0s
+    50K .......... .......... .......... .......... .......... 28% 21.9M 0s
+   100K .......... .......... .......... .......... .......... 42% 10.9M 0s
+   150K .......... .......... .......... .......... .......... 56%  145M 0s
+   200K .......... .......... .......... .......... .......... 71% 13.6M 0s
+   250K .......... .......... .......... .......... .......... 85%  216M 0s
+   300K .......... .......... .......... .......... .......... 99% 42.5M 0s
+   350K .                                                     100% 2.43T=0.02s
+
+2025-03-14 00:42:27 (19.6 MB/s) - ‘ntfyDesktop-1.4.0.tar.gz’ saved [359734/359734]
+
+
+ [0;32m"NTFYDESKTOP" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ ntfydesktop 1.4.0
+
+============================================================================
+AM-updater
+bin
+icons
+remove
+share
+version
+/usr/local/bin/ntfydesktop
+ Launchers in /usr/local/share/applications
+ntfydesktop-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------

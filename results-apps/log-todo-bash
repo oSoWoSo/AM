@@ -1,0 +1,52 @@
+Shell completion has been enabled!
+============================================================================
+
+                  [1;34mSTART OF ALL INSTALLATION PROCESSES[0m
+
+============================================================================
+
+ ◆ "TODO-BASH": starting installation script
+
+--2025-03-14 00:44:09--  https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage
+Resolving github.com (github.com)... 140.82.114.4
+Connecting to github.com (github.com)|140.82.114.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/227166626/4bc59500-0f12-11eb-9113-95fa4863d42d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T004409Z&X-Amz-Expires=300&X-Amz-Signature=002096e5d24c603a98618251187a7e3d01b5c8c3d222f15f578b0ee2a4e4a772&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dtodo-x86_64.AppImage&response-content-type=application%2Foctet-stream [following]
+--2025-03-14 00:44:09--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/227166626/4bc59500-0f12-11eb-9113-95fa4863d42d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250314T004409Z&X-Amz-Expires=300&X-Amz-Signature=002096e5d24c603a98618251187a7e3d01b5c8c3d222f15f578b0ee2a4e4a772&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dtodo-x86_64.AppImage&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.109.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 204840 (200K) [application/octet-stream]
+Saving to: ‘todo-x86_64.AppImage’
+
+     0K .......... .......... .......... .......... .......... 24% 38.9M 0s
+    50K .......... .......... .......... .......... .......... 49% 41.2M 0s
+   100K .......... .......... .......... .......... .......... 74%  146M 0s
+   150K .......... .......... .......... .......... .......... 99%  206M 0s
+   200K                                                       100% 1.52M=0.003s
+
+2025-03-14 00:44:10 (64.3 MB/s) - ‘todo-x86_64.AppImage’ saved [204840/204840]
+
+
+ [0;32m"TODO-BASH" INSTALLED[0m (1 MB OF DISK SPACE)
+____________________________________________________________________________
+============================================================================
+
+                  [1;34mEND OF ALL INSTALLATION PROCESSES
+[0m
+             The following new programs have been installed:
+
+ ◆ todo-bash 2021.12.07
+
+============================================================================
+AM-updater
+icons
+remove
+todo-bash
+version
+/usr/local/bin/todo-bash
+ Launchers in /usr/local/share/applications
+todo-bash-AM.desktop
+GITHUB='no'
+APPIMAGE='no'
+-----------------------------------------------------------------
