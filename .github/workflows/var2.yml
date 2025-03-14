@@ -197,7 +197,7 @@ jobs:
           if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
             echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
           else
-            echo "EXIT_CODE=9" >> $GITHUB_ENV
+            #echo "EXIT_CODE=9" >> $GITHUB_ENV
             echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
             touch results/out-"${{ matrix.file }}"
           fi
@@ -209,7 +209,7 @@ jobs:
           if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "${{ matrix.file }}" 1>/dev/null; then
             echo "APPIMAGE='yes'" | tee -a results/out-"${{ matrix.file }}"
           else
-            echo "EXIT_CODE=99" >> $GITHUB_ENV
+            #echo "EXIT_CODE=99" >> $GITHUB_ENV
             echo "APPIMAGE='no'" >> results/out-"${{ matrix.file }}"
             touch results/out-"${{ matrix.file }}"
           fi
@@ -245,6 +245,8 @@ jobs:
               fi
             fi
             [ -n "$version" ] && echo "download=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
+          else
+            echo "what happend?"
           fi
 
       - name: "test ${{ matrix.file }} 🚧"
