@@ -15,10 +15,15 @@ on:
         default: false
         type: boolean
       how_many:
-        description: "Apps to test"
-        required: true
-        default: '200'
+        description: "Apps to test (or 200)"
+        required: false
+        default: ''
         type: integer
+      what_test:
+        description: "Apps to test (separated by whitespace)"
+        required: false
+        default: ""
+        type: string
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -31,6 +36,7 @@ permissions:
 env:
   REPO: ${{ github.repository_owner }}/AM
   BRANCH: main
+  TOTEST: 200
 
 jobs:
   triggered:
@@ -144,37 +150,59 @@ jobs:
         if: github.event.inputs.retest_excluded != 'true'
         run: |
           if [[ -f results-var/tested ]]; then
+            echo "tested exist"
             if diff -q appslist results-var/tested; then
-              echo "Everything checked" >> $GITHUB_STEP_SUMMARY
+              echo "Everything checked"
               echo "skip=true" >> $GITHUB_OUTPUT
               exit 0
             else
+              echio "Getting temp list"
               comm -23 appslist results-var/tested > totest_tmp.list
             fi
           else
-            echo "First run!" >> $GITHUB_STEP_SUMMARY
+            echo "First run!"
             cp appslist totest_tmp.list
           fi
           if [[ -f results-var/excluded ]]; then
+            echo "Excluded exists"
             comm -23 totest_tmp.list results-var/excluded > totest.list
             if [ ! -s totest.list ]; then
+              echo "List is empty"
               echo " 🏁 Nothing to test 🏁" >> $GITHUB_STEP_SUMMARY
               echo "skip=true" >> $GITHUB_OUTPUT
               exit 0
             fi
           else
+            echo "Creating new list"
             mv totest_tmp.list totest.list
           fi
-          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
-            how_many="${{ github.event.inputs.how_many }}"
+          if [ ! -z "${{ github.event.inputs.what_test }}" ]; then
+            echo "Testing only: ${{ github.event.inputs.what_test }}"
+            FILES="${{ github.event.inputs.what_test }}"
           else
-            echo "how_many=200" >> $GITHUB_ENV
-            echo "how_many=200"
-            if [ -z "$how_many" ]; then
-              how_many='200'
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              echo "Used workflow dispatch"
+              how_many="${{ github.event.inputs.how_many }}"
+              if [ -z "$how_many" ]; then
+                echo "Don't have numbers"
+                how_many="${{ env.TOTEST }}"
+              fi
+            else
+              echo "Shedule or push?"
+              echo "how_many=${{ env.TOTEST }}"
+              how_many=${{ env.TOTEST }}
+              if [ -z "$how_many" ]; then
+                echo "Still don't exist"
+                how_many="$TOTEST"
+              fi
             fi
+            FILES=$(head -n "$how_many" totest.list || cat totest.list)
           fi
-          FILES=$(head -n "$how_many" totest.list || cat totest.list)
+          printf "\n-------------------------------------------------------------"
+          echo 'Testing files:'
+          printf "-------------------------------------------------------------"
+          echo "${FILES}"
+          printf "\n-------------------------------------------------------------\n\n"
           MATRIX="{\"include\": ["
           for file in $FILES; do
             MATRIX+="{\"file\": \"$file\"},"
@@ -329,7 +357,7 @@ jobs:
           fi
           # If the last modified directory is /opt/am, the installation has failed
           if [ "$LASTDIR" = am ]; then
-            echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+            #echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
             exit 1
           # If the last modified directory contains a file named "remove", check the installed files
@@ -404,7 +432,7 @@ jobs:
           fi
           # If the last modified directory is /opt/am, the installation has failed
           if [ "$LASTDIR" = am ]; then
-            echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+            #echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
             exit 1
           # If the last modified directory contains a file named "remove", check the installed files
@@ -433,7 +461,7 @@ jobs:
             am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
           # Any other result is a failure
           else
-            echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+            #echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
             exit 1
           fi
@@ -494,26 +522,29 @@ jobs:
           echo '-----------------------------------------------------------------'
           echo 'No GitHub/AppImage +'
           echo '-----------------------------------------------------------------'
-          for log_file in results/out-*; do
-            [ -f "$log_file" ] || continue
-            appname=$(basename "$log_file" | cut -d'-' -f2-)
-            size=$(cat "$log-file" | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-            version=$(cat "$log-file" | grep '◆' | tail -1)
-            ko_file="results/ko-$appname"
-            if [[ -f "$ko_file" ]]; then
+          for LogFile in results/out-*; do
+            [ -f "$LogFile" ] || continue
+            appname=$(basename "$LogFile" | cut -d'-' -f2-)
+            echo "$appname"
+            size=$(cat "$LogFile" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+            echo "size is $size"
+            version=$(cat "$LogFile" | tee /dev/null | grep '◆' | tail -1)
+            echo "version is $version"
+            KoFile="results/ko-$appname"
+            if [[ -f "$KoFile" ]]; then
               echo "$appname" | tee -a failing results-var/excluded
-              rm -f "$ko_file"
-              cat "$log_file" >> results-var/log
+              rm -f "$KoFile"
+              cat "$LogFile" >> results-var/log
               sort -u results-var/excluded -o results-var/excluded
               sort -u failing -o failing
             else
-              cat "$log_file" >> results-var/log
+              cat "$LogFile" >> results-var/log
               echo "$appname" >> results-var/tested
             fi
             echo "size=${size}" | tee -a results-var/log
             echo "version=${version}" | tee -a results-var/log
             echo '-----------------------------------------------------------------' >> results-var/log
-            rm -f "$log_file"
+            rm -f "$LogFile"
           done
           sort -u results-var/tested -o results-var/tested
           git add results-var
@@ -521,6 +552,9 @@ jobs:
           echo "Missed results:"
           echo '-----------------------------------------------------------------'
           ls -R results/
+          for rest in results/*; do
+            cat "$rest"
+          done
           echo '-----------------------------------------------------------------'
 
       - name: "Show results"
@@ -553,15 +587,6 @@ jobs:
           fi
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
 
-      - name: "Delete artifacts"
-        uses: geekyeggo/delete-artifact@v5
-        with:
-          name: |
-            appslist
-            results/ok-*
-            results/log-*
-            results/ko-*
-
       - name: "Push"
         if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
         run: |
@@ -581,6 +606,42 @@ jobs:
             git commit -m "check"
             git push --force-with-lease && echo "sync successfull" >> $GITHUB_STEP_SUMMARY || (git diff && git status)
           fi
+
+  delete-all-artifacts:
+    name: "cleanup 🧹"
+    runs-on: ubuntu-22.04
+    needs: update-results
+    if: always()
+    steps:
+      - name: "Check out repository 🏃"
+        uses: actions/checkout@v4
+
+      - name: "Delete Artifacts 🙈"
+        env:
+          REPO_NAME: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching and deleting all artifacts for run ID: $RUN_ID"
+          PAGE=1
+          DELETED=0
+          while true; do
+            RESPONSE=$(curl -s -H "Authorization: token $TOKEN" \
+             "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=1000&page=$PAGE")
+            ARTIFACT_IDS=$(echo "$RESPONSE" | jq -r '.artifacts[].id')
+            if [[ -z "$ARTIFACT_IDS" ]]; then
+              echo "No more artifacts to delete. Total deleted: $DELETED"
+              break
+            fi
+            for ARTIFACT_ID in $ARTIFACT_IDS; do
+              echo "Deleting artifact with ID: $ARTIFACT_ID"
+              curl -X DELETE -s -H "Authorization: token $TOKEN" \
+               "https://api.github.com/repos/$REPO_NAME/actions/artifacts/$ARTIFACT_ID"
+              ((DELETED+=1))
+            done
+            ((PAGE+=1))
+          done
+          echo "Successfully deleted $DELETED artifacts."
 
   already-tested:
     name: "all 🏁"
