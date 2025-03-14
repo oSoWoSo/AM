@@ -152,7 +152,7 @@ jobs:
           else
             mv totest_tmp.list totest.list
           fi
-          FILES=$(shuf -n "${{ github.event.inputs.how_many }}" totest.list | sort || cat totest.list | sort)
+          FILES=$(head -n "${{ github.event.inputs.how_many }}" totest.list || cat totest.list)
           MATRIX="{\"include\": ["
           for file in $FILES; do
             MATRIX+="{\"file\": \"$file\"},"
