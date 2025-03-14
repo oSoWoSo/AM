@@ -248,7 +248,8 @@ jobs:
               fi
             fi
             echo 'including download'
-            [ -n "$version" ] && echo "download=\"$version\"" | tee -a results/out-"${{ matrix.file }}"
+            [ -n "$version" ] && echo "downVer=\"$version\"" | tee -a results/out-"${{ matrix.file }}" || echo "No version?" >> $GITHUB_SUMMARY
+            echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
           else
             echo "what happend?"
           fi
@@ -396,12 +397,12 @@ jobs:
           fi
 
       - name: "Finish output"
-        working-directory: programs/x86_64
+        if: always()
         run: |
           size=$(cat results/log-${{ matrix.file }} | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
           version=$(cat results/log-${{ matrix.file }} | grep '◆' | tail -1)
           echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
-          echo "size=${version}" | tee -a results/out-"${{ matrix.file }}"
+          echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
           echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
 
       - name: "Upload logs ⬆️"
