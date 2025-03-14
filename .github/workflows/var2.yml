@@ -393,8 +393,8 @@ jobs:
           fi
           size=$(cat results/log-${{ matrix.file }} | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
           version=$(cat results/log-${{ matrix.file }} | grep '◆' | tail -1)
-          echo "size=$size" | tee -a results/out-"${{ matrix.file }}"
-          echo "size=$version" | tee -a results/out-"${{ matrix.file }}"
+          echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+          echo "size=${version}" | tee -a results/out-"${{ matrix.file }}"
           echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
 
       - name: "Upload logs ⬆️"
@@ -437,12 +437,6 @@ jobs:
           merge-multiple: true
           path: results
 
-      - name: "Delete results"
-        uses: geekyeggo/delete-artifact@v5
-        with:
-          name: results
-          #failOnError: false
-
       - name: "Download appslist"
         uses: actions/download-artifact@v4
         with:
@@ -451,7 +445,7 @@ jobs:
       - name: "Delete appslist"
         uses: geekyeggo/delete-artifact@v5
         with:
-          name: appslist
+          name: *
 
       - name: "Git Config"
         run: |
