@@ -8007,3 +8007,82 @@ GITHUB='yes'
 APPIMAGE='no'
 APP="yazi"
 SITE="sxyazi/yazi"
+GITHUB='yes'
+APPIMAGE='yes'
+APP="0ad"
+SITE="0ad-matters/0ad-appimage"
+downVer="https://github.com/0ad-matters/0ad-appimage/releases/download/v0.27.0/0ad-0.27.0-x86_64.AppImage"
+size=1674 MB
+version= ◆ 0ad 0.27.0
+-----------------------------------------------------------------
+GITHUB='no'
+APPIMAGE='no'
+APP="7zip"
+SITE="https://www.7-zip.org"
+downVer="https://www.7-zip.org/a/7z2409-linux-x64.tar.xz"
+size=7 MB
+version= ◆ 7zip 7z2409
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="86box"
+SITE="86Box/86Box"
+downVer="https://github.com/86Box/86Box/releases/download/v4.2.1/86Box-Linux-x86_64-b6130.AppImage"
+size=54 MB
+version= ◆ 86box 4.2.1
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="9launcher"
+SITE="wearrrrr/9Launcher"
+downVer="https://github.com/wearrrrr/9Launcher/releases/download/v.1.3.1/9launcher_1.3.1_amd64.AppImage"
+size=131 MB
+version= ◆ 9launcher 1.3.1
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="abiword"
+SITE="ivan-hc/Abiword-appimage"
+downVer="https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/AbiWord_3.0.6-2-archimage4.3-x86_64.AppImage"
+size=64 MB
+version= ◆ abiword 3.0.6
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="accessimap-lecteur-der"
+SITE="makinacorpus/accessimap-lecteur-der"
+downVer="https://github.com/makinacorpus/accessimap-lecteur-der/releases/download/0.0.35/accessimap-lecteur-der-0.0.34-x86_64.AppImage"
+size=52 MB
+version= ◆ accessimap-lecteur-der 0.0.34
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="acreom"
+SITE="Acreom/releases"
+downVer="https://github.com/Acreom/releases/releases/download/v1.20.2/acreom-1.20.2.AppImage"
+size=162 MB
+version= ◆ acreom 1.20.2
+-----------------------------------------------------------------
+GITHUB='no'
+APPIMAGE='yes'
+APP="admin-tools"
+SITE="https://download.opensuse.org/repositories/home:/dmulder:/YaST:/AppImage/AppImage/admin-tools-latest-x86_64.AppImage"
+size=84 MB
+version= ◆ admin-tools 2025.01.02
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="affine"
+SITE="toeverything/AFFiNE"
+downVer="https://github.com/toeverything/AFFiNE/releases/download/v0.20.5/affine-0.20.5-stable-linux-x64.appimage"
+size=178 MB
+version= ◆ affine 0.20.5
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="agregore"
+SITE="AgregoreWeb/agregore-browser"
+downVer="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.8.2/agregore-browser-2.8.2-linux-x86_64.AppImage"
+size=166 MB
+version= ◆ agregore 2.8.2
+-----------------------------------------------------------------
