@@ -445,7 +445,9 @@ jobs:
       - name: "Delete appslist"
         uses: geekyeggo/delete-artifact@v5
         with:
-          name: *
+          name: |
+            appslist
+            results/*
 
       - name: "Git Config"
         run: |
