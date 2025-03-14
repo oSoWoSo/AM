@@ -81,11 +81,11 @@ jobs:
         if: github.event.inputs.reset_stats == 'true'
         run: |
           echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
-          ls ./
-          rm -rf results-var
+          #ls ./
+          #rm -rf results-var
           git config --global user.name "${{ github.repository_owner }}"
           git config --global user.email "noreply@github.com"
-          git rm results-var
+          git rm -r results-var
           git commit -m "reset stats"
           git push --force
 
