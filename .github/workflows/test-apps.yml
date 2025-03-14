@@ -45,6 +45,9 @@ permissions:
   actions: write
   contents: write
 
+env:
+  TOTEST: 10
+
 jobs:
   rebase-testing-branch:
     name: "prepare 💤"
