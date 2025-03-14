@@ -351,7 +351,7 @@ jobs:
           fi
           # Install the application (first attempt)
           echo "1 attempt"
-          echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || sudo systemctl restart tor.service || systemctl restart tor.service
+          echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || sudo systemctl restart tor.service || systemctl restart tor.service || echo "EXIT_CODE=9" >> $GITHUB_ENV
           LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
           # TEST
           echo '1'
