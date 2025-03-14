@@ -291,36 +291,36 @@ jobs:
         run: |
           set -uo pipefail
           mkdir -p results
-          #script_content=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/main/programs/x86_64/"${{ matrix.file }}")
+          #script_content=$(curl -Ls "https://raw.githubusercontent.com/${{ github.repository_owner }}/AM/main/programs/x86_64/${{ matrix.file }}")
           pure_arg=$(echo "${{ matrix.file }}" | sed 's/\-appimage$//g' | sed 's:.*/::')
           # Allow installing applications even if the command already exists
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
           # Prevent the script from calling the "exit 1" command
-          #sed -i 's/|| exit 1//g' "programs/x86_64/${{ matrix.file }}"
+          #sed -i 's/|| exit 1//g' "${{ matrix.file }}"
           # Special patches
           if [ "$pure_arg" = bat-extras ]; then
-            sed -i 's/if ! command/if command/g' "programs/x86_64/${{ matrix.file }}"
+            sed -i 's/if ! command/if command/g' "${{ matrix.file }}"
           fi
           if [[ "$pure_arg" =~ (node|npm) ]]; then
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
           fi
           # Install the application (first attempt)
-          echo y | am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+          echo y | am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
           LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
-            echo 1 | am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+            echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             if ! test -f /opt/"$LASTDIR"/remove; then
-              echo 1 | torsocks am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1
+              echo 1 | torsocks am -i "${{ matrix.file }}" --debug 2>&1
             fi
           fi
           # Force installation if first attempt is not success
           if ! test -f /opt/"$LASTDIR"/remove; then
-            am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+            am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             if ! test -f /opt/"$LASTDIR"/remove; then
-              torsocks am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1
+              torsocks am -i "${{ matrix.file }}" --debug 2>&1
               LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             fi
           fi
@@ -366,36 +366,36 @@ jobs:
           echo "Trying again" >> $GITHUB_SUMMARY
           set -uo pipefail
           mkdir -p results
-          #script_content=$(curl -Ls https://raw.githubusercontent.com/ivan-hc/AM/main/programs/x86_64/"${{ matrix.file }}")
+          #script_content=$(curl -Ls https://raw.githubusercontent.com/${{ github.repository_owner }}/AM/main/programs/x86_64/"${{ matrix.file }}")
           pure_arg=$(echo "${{ matrix.file }}" | sed 's/\-appimage$//g' | sed 's:.*/::')
           # Allow installing applications even if the command already exists
           sed -i '/command -v "$pure_arg"/d; /command already exists/d' /opt/am/modules/install.am
           # Prevent the script from calling the "exit 1" command
-          #sed -i 's/|| exit 1//g' "programs/x86_64/${{ matrix.file }}"
+          #sed -i 's/|| exit 1//g' "${{ matrix.file }}"
           # Special patches
           if [ "$pure_arg" = bat-extras ]; then
-            sed -i 's/if ! command/if command/g' "programs/x86_64/${{ matrix.file }}"
+            sed -i 's/if ! command/if command/g' "${{ matrix.file }}"
           fi
           if [[ "$pure_arg" =~ (node|npm) ]]; then
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
           fi
           # Install the application (first attempt)
-          echo y | am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+          echo y | am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
           LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
-            echo 1 | am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+            echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             if ! test -f /opt/"$LASTDIR"/remove; then
-              echo 1 | torsocks am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1
+              echo 1 | torsocks am -i "${{ matrix.file }}" --debug 2>&1
             fi
           fi
           # Force installation if first attempt is not success
           if ! test -f /opt/"$LASTDIR"/remove; then
-            am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
+            am -i "${{ matrix.file }}" --debug 2>&1 || sudo systemctl restart tor.service || systemctl restart tor.service
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             if ! test -f /opt/"$LASTDIR"/remove; then
-              torsocks am -i "programs/x86_64/${{ matrix.file }}" --debug 2>&1
+              torsocks am -i "${{ matrix.file }}" --debug 2>&1
               LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
             fi
           fi
