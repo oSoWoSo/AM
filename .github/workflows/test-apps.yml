@@ -1,11 +1,18 @@
-name: "Test random 💯 v2"
+name: "Test random 💯 v3"
 
 on:
+
+  schedule:
+    - cron: '0 */2 * * *'
+
   push:
     branches: main
     paths:
       - 'programs/x86_64/**'
       #- .github/workflows/test-apps.yml
+
+  repository_dispatch:
+    types: [check]
 
   workflow_dispatch:
     inputs:
@@ -14,9 +21,21 @@ on:
         required: true
         default: false
         type: boolean
-
-  schedule:
-    - cron: '*/15 6-8 * * *'
+      retest_excluded:
+        description: "TEST excluded"
+        required: true
+        default: false
+        type: boolean
+      what_test:
+        description: "App names: (space between)"
+        required: false
+        default: ""
+        type: string
+      how_many:
+        description: "Number of apps: (max 499)"
+        required: false
+        default: ''
+        type: integer
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -160,6 +179,7 @@ jobs:
 
   generate-matrix:
     name: "matrix 🌀"
+    if: github.event.inputs.reset_stats != 'true'
     needs: rebase-testing-branch
     runs-on: ubuntu-22.04
     outputs:
@@ -201,7 +221,42 @@ jobs:
           else
             mv totest_tmp.list totest.list
           fi
-          FILES=$(shuf -n 256 totest.list | sort || cat totest.list | sort)
+          if [ ! -z "${{ github.event.inputs.what_test }}" ]; then
+            echo "Testing only: ${{ github.event.inputs.what_test }}"
+            FILES="${{ github.event.inputs.what_test }}"
+          elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
+            echo "Testing excluded"
+            if [ -f excluded ]; then
+              FILES=$(cat excluded)
+            else
+              echo "Nothing excluded!"
+              echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
+              exit 1
+            fi
+          else
+            if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+              echo "Used workflow dispatch"
+              how_many="${{ github.event.inputs.how_many }}"
+              if [ -z "$how_many" ]; then
+                echo "Don't have numbers"
+                how_many="${{ env.TOTEST }}"
+              fi
+            else
+              echo "Shedule or push?"
+              echo "how_many=${{ env.TOTEST }}"
+              how_many=${{ env.TOTEST }}
+              if [ -z "$how_many" ]; then
+                echo "Still don't exist"
+                how_many="$TOTEST"
+              fi
+            fi
+            FILES=$(head -n "$how_many" totest.list || cat totest.list)
+          fi
+          echo '-------------------------------------------------------------'
+          echo 'Testing files:'
+          echo '-------------------------------------------------------------'
+          echo "${FILES}"
+          echo '-------------------------------------------------------------'
           MATRIX="{\"include\": ["
           for file in $FILES; do
             MATRIX+="{\"file\": \"$file\"},"
@@ -456,7 +511,7 @@ jobs:
           DELETED=0
           while true; do
             RESPONSE=$(curl -s -H "Authorization: token $TOKEN" \
-             "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=100&page=$PAGE")
+             "https://api.github.com/repos/$REPO_NAME/actions/runs/$RUN_ID/artifacts?per_page=1000&page=$PAGE")
             ARTIFACT_IDS=$(echo "$RESPONSE" | jq -r '.artifacts[].id')
             if [[ -z "$ARTIFACT_IDS" ]]; then
               echo "No more artifacts to delete. Total deleted: $DELETED"
