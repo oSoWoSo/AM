@@ -25,7 +25,7 @@ on:
         default: ""
         type: string
       how_many:
-        description: "Number of apps: (max 499)"
+        description: "Number of apps: (max 256)"
         required: false
         default: ''
         type: integer
