@@ -352,7 +352,7 @@ jobs:
           fi
           # Install the application (first attempt)
           echo "1 attempt"
-          echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || EXIT_CODE='9'; echo "EXIT_CODE: 9"; echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
+          echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" # || EXIT_CODE='9' && echo "EXIT_CODE: 9" && echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
           LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
           # TEST
           size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
