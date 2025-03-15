@@ -5190,3 +5190,103 @@ downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtch
 etcherSize=151 MB
 etcherVersion= ◆ etcher 2.1.0
 -----------------------------------------------------------------
+APP="eternal-lands"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raduprv/Eternal-Lands"
+downVer="https://github.com/raduprv/Eternal-Lands/releases/download/1.9.7.0-4/EternalLands-Linux-x86_64_1.9.7.0.AppImage"
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="eternalmodmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PowerBall253/EternalModManager-Avalonia"
+downVer="https://github.com/brunoanc/EternalModManager/releases/download/v4.2.1/EternalModManager-4.2.1-x86_64.AppImage"
+size=40 MB
+version= ◆ eternalmodmanager 4.2.1
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="etherealengine-cc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EtherealEngine/etherealengine-control-center"
+downVer="https://github.com/EtherealEngine/ir-engine-launcher/releases/download/v0.4.6/Ethereal-Engine-Control-Center-0.4.6.AppImage"
+size=98 MB
+version= ◆ etherealengine-cc 0.4.6
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="etichetta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trikko/etichetta"
+downVer="https://github.com/trikko/etichetta/releases/download/v0.1.4/etichetta-x86_64.AppImage"
+size=38 MB
+version= ◆ etichetta 0.1.4
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="eudic"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.eudic.net"
+downVer="13.5.2"
+size=231 MB
+version= ◆ eudic 13.5.2
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="evalit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MTDonovan/Evalit"
+downVer="https://github.com/MTDonovan/Evalit/releases/download/1.0.0/Evalit-1.0.0.AppImage"
+size=109 MB
+version= ◆ evalit 1.0.0
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="everdo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://everdo.net"
+downVer="https://release.everdo.net/1.9.0/Everdo-1.9.0.AppImage"
+size=119 MB
+version= ◆ everdo 1.9.0
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="everinst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leo60228/everinst"
+downVer="https://github.com/leo60228/everinst/releases/download/1.0/EverInst-0.1.0.glibc2.18-x86_64.AppImage"
+size=12 MB
+version= ◆ everinst 0.1.0.glibc2.18
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="evince"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Evince-appimage"
+downVer="https://github.com/ivan-hc/Evince-appimage/releases/download/continuous/Document-Viewer_46.3.1-2-archimage4.3-x86_64.AppImage"
+size=60 MB
+version= ◆ evince 46.3.1
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
+APP="evoplex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="evoplex/evoplex"
+downVer="https://github.com/evoplex/evoplex/releases/download/v0.2.1/evoplex-0.2.1.x86_64.AppImage"
+size=27 MB
+version= ◆ evoplex 0.2.1
+size=210 MB
+version= ◆ eternal-lands 1.9.7.0
+-----------------------------------------------------------------
