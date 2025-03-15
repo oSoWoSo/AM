@@ -350,7 +350,7 @@ jobs:
 
           # Special patches
           if [ "$pure_arg" = bat-extras ]; then
-            sed -i 's/if ! command/if command/g' "${{ matrix.file }}"
+            sed -i 's/if ! command/if command/g' ./"${{ matrix.file }}"
           fi
           if [[ "$pure_arg" =~ (node|npm) ]]; then
             sed -i 's/_check_if_script_installs_a_metapackage || return 1//g' /opt/am/modules/install.am
