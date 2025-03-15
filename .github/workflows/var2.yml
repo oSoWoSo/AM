@@ -264,16 +264,12 @@ jobs:
           echo "Creating results directory"
           mkdir -p results
 
-      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
-        id: on-github
+      - name: "APP ${{ matrix.file }} 🚧"
         working-directory: programs/x86_64
         run: |
-          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
-            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
-          else
-            #echo "EXIT_CODE=9" >> $GITHUB_ENV
-            echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
-            touch results/out-"${{ matrix.file }}"
+          if grep -q "^APP=" "${{ matrix.file }}" 2>/dev/null; then
+            APP=$(eval echo "$(grep -i '^APP=' "${{ matrix.file }}" | head -1 | sed 's/APP=//g')")
+            echo "APP=\"$APP\"" | tee -a results/out-"${{ matrix.file }}"
           fi
 
       - name: "Is ${{ matrix.file }} AppImage? 🚧"
@@ -288,12 +284,16 @@ jobs:
             touch results/out-"${{ matrix.file }}"
           fi
 
-      - name: "APP ${{ matrix.file }} 🚧"
+      - name: "Is ${{ matrix.file }} on GitHub? 🚧"
+        id: on-github
         working-directory: programs/x86_64
         run: |
-          if grep -q "^APP=" "${{ matrix.file }}" 2>/dev/null; then
-            APP=$(eval echo "$(grep -i '^APP=' "${{ matrix.file }}" | head -1 | sed 's/APP=//g')")
-            echo "APP=\"$APP\"" | tee -a results/out-"${{ matrix.file }}"
+          if grep -q "api.github.com" "${{ matrix.file }}" 2>/dev/null; then
+            echo "GITHUB='yes'" | tee -a results/out-"${{ matrix.file }}"
+          else
+            #echo "EXIT_CODE=9" >> $GITHUB_ENV
+            echo "GITHUB='no'" >> results/out-"${{ matrix.file }}"
+            touch results/out-"${{ matrix.file }}"
           fi
 
       - name: "SITE ${{ matrix.file }} 🚧"
@@ -586,11 +586,10 @@ jobs:
           echo '-----------------------------------------------------------------'
           for LogFile in results/out-*; do
             echo '-----------------------------------------------------------------'
-            echo "$LogFile log"
+            echo "$LogFile out"
+            echo '-----------------------------------------------------------------'
             cat "$LogFile"
             echo '-----------------------------------------------------------------'
-            echo "$LogFile out"
-            cat "$LogFile"
             echo '-----------------------------------------------------------------'
             [ -f "$LogFile" ] || continue
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
@@ -598,13 +597,13 @@ jobs:
             #size=$(cat "$LogFile" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
             #echo "size is $size"
             if [ -z "$size" ]; then
-              size=$(cat "$LogFile" | grep "$appnameSize")
+              size=$(cat "$LogFile" | grep "$appnameSize" | cut -d'=' -f2)
               echo "size is $size"
             fi
             #version=$(cat "$LogFile" | tee /dev/null | grep '◆' | tail -1)
             #echo "version is $version"
             if [ -z "$version" ]; then
-              version=$(cat "$LogFile" | grep "$appnameVersion")
+              version=$(cat "$LogFile" | grep "$appnameVersion" | cut -d'=' -f2)
               echo "version is $version"
             fi
             KoFile="results/ko-$appname"
