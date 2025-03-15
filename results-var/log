@@ -1,0 +1,7 @@
+APP="bat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/bat"
+size=7 MB
+version=0.25.0
+-----------------------------------------------------------------
