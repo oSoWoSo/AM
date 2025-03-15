@@ -359,8 +359,8 @@ jobs:
           echo "size is $size"
           version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
           echo "version is $version"
-          echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-          echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+          echo "${{ matrix.file }}Size=${size}" | tee -a results/log-"${{ matrix.file }}"
+          echo "${{ matrix.file }}Version=${version}" | tee -a results/log-"${{ matrix.file }}"
           # TEST
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
@@ -585,13 +585,22 @@ jobs:
           echo 'No GitHub/AppImage +'
           echo '-----------------------------------------------------------------'
           for LogFile in results/out-*; do
+            cat "$LogFile"
             [ -f "$LogFile" ] || continue
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
             echo "$appname"
             size=$(cat "$LogFile" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
             echo "size is $size"
+            if [ -z "$size" ]; then
+              size=$(cat "$LogFile" | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+              echo "size is $size"
+            fi
             version=$(cat "$LogFile" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
+            if [ -z "$version" ]; then
+              version=$(cat "$LogFile" | grep '◆' | tail -1)
+              echo "version is $version"
+            fi
             KoFile="results/ko-$appname"
             if [[ -f "$KoFile" ]]; then
               echo "$appname" | tee -a failing results-var/excluded
@@ -603,8 +612,8 @@ jobs:
               cat "$LogFile" >> results-var/log
               echo "$appname" >> results-var/tested
             fi
-            echo "size=${size}" | tee -a results-var/log
-            echo "version=${version}" | tee -a results-var/log
+            echo "size=$size" | tee -a results-var/log
+            echo "version=$version" | tee -a results-var/log
             echo '-----------------------------------------------------------------' >> results-var/log
             rm -f "$LogFile"
           done
