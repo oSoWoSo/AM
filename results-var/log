@@ -5146,3 +5146,47 @@ APP="espi"
 SITE="https://low-hiss.com"
 downVer="https://low-hiss.com/eSPi-1.0.5-x64.AppImage"
 -----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcherSize=151 MB
+etcherVersion= ◆ etcher 2.1.0
+size=GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcherSize=151 MB
+etcherVersion= ◆ etcher 2.1.0
+version=GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcherSize=151 MB
+etcherVersion= ◆ etcher 2.1.0
+-----------------------------------------------------------------
+GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher-latest"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcher-latestSize=151 MB
+etcher-latestVersion= ◆ etcher-latest 2.1.0
+size=GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcherSize=151 MB
+etcherVersion= ◆ etcher 2.1.0
+version=GITHUB='yes'
+APPIMAGE='yes'
+APP="etcher"
+SITE="balena-io/etcher"
+downVer="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+etcherSize=151 MB
+etcherVersion= ◆ etcher 2.1.0
+-----------------------------------------------------------------
