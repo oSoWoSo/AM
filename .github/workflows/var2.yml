@@ -370,7 +370,9 @@ jobs:
             # TEST
             size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
             echo "size is $size"
-            version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+            Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+            echo "pre version is $Preversion"
+            version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
             echo "version is $version"
             echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
             echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
@@ -593,7 +595,9 @@ jobs:
             echo '-----------------------------------------------------------------'
             [ -f "$LogFile" ] || continue
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
+            echo '-----------------------------------------------------------------'
             echo "$appname"
+            echo '-----------------------------------------------------------------'
             #size=$(cat "$LogFile" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
             #echo "size is $size"
             if [ -z "$size" ]; then
