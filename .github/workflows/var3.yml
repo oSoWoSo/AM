@@ -341,8 +341,8 @@ jobs:
           set -uo pipefail
           mkdir -p results
 
-          # Define the content of the script
-          script_content=$(cat ${{ matrix.file }})
+          # Define the content of the script || Alow testing non existent (for workflow tests)
+          script_content=$(cat ${{ matrix.file }}) || echo "Testing non existant (test workflow)"
           # Define the pure name of the app
           pure_arg=$(echo "${{ matrix.file }}" | sed 's/\-appimage$//g' | sed 's:.*/::')
 
