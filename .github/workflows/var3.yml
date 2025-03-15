@@ -401,7 +401,7 @@ jobs:
                || sudo systemctl restart tor.service && echo y \
                | am -i "${{ matrix.file }}" --debug 2>&1 \
                | tee -a results/log-"${{ matrix.file }}" \
-               || EXIT_CODE=9 && echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && echo "exit code is ${{ env.EXIT_CODE }}" && exit 9
+               || EXIT_CODE=9 && echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
               echo "pre version is $Preversion"
@@ -457,12 +457,9 @@ jobs:
             else
               EXIT_CODE=9
               echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
-              echo "$EXIT_CODE"
-              echo "exit code is ${{ env.EXIT_CODE }}"
               exit 9
             fi
           fi
-          echo "exit code is ${{ env.EXIT_CODE }}"
 
       - name: "${{ matrix.file }} second try"
         if: failure() #(env.EXIT_CODE == '9')
