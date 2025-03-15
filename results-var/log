@@ -5,3 +5,10 @@ SITE="eth-p/bat-extras"
 size=7 MB
 version=IS
 -----------------------------------------------------------------
+APP="bat-extras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eth-p/bat-extras"
+size=7 MB
+version=2024
+-----------------------------------------------------------------
