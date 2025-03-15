@@ -1,0 +1,7 @@
+APP="bat-extras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eth-p/bat-extras"
+size=1 MB
+version=2024.08.24
+-----------------------------------------------------------------
