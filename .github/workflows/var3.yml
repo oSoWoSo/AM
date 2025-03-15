@@ -666,12 +666,12 @@ jobs:
             if [[ -f "$KoFile" ]]; then
               echo "$appname" | tee -a failing results-var/excluded
               rm -f "$KoFile"
-              cat "$LogFile" >> results-var/log
+              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results-var/log
               sort -u results-var/excluded -o results-var/excluded
               sort -u failing -o failing
               git add results-var/excluded
             else
-              cat "$LogFile" >> results-var/log
+              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results-var/log
               echo "$appname" >> results-var/tested
             fi
             echo '-----------------------------------------------------------------' >> results-var/log
