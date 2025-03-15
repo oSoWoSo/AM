@@ -359,8 +359,8 @@ jobs:
           echo "size is $size"
           version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
           echo "version is $version"
-          echo "${{ matrix.file }}Size=${size}" | tee -a results/log-"${{ matrix.file }}"
-          echo "${{ matrix.file }}Version=${version}" | tee -a results/log-"${{ matrix.file }}"
+          echo "${{ matrix.file }}Size=${size}" | tee -a results/out-"${{ matrix.file }}"
+          echo "${{ matrix.file }}Version=${version}" | tee -a results/out-"${{ matrix.file }}"
           # TEST
           # Check if the app needs interaction to be installed
           if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
@@ -372,8 +372,8 @@ jobs:
             echo "size is $size"
             version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
-            echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-            echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+            echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
             # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               echo "3 attempt"
@@ -384,7 +384,7 @@ jobs:
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
               echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
-              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
               # TEST
             fi
           fi
@@ -398,8 +398,8 @@ jobs:
             echo "size is $size"
             version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
-            echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-            echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+            echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
             # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               torsocks am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
@@ -410,8 +410,8 @@ jobs:
               echo "size is $size"
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
-              echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+              echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
               # TEST
             fi
           fi
@@ -584,11 +584,14 @@ jobs:
           echo '-----------------------------------------------------------------'
           echo 'No GitHub/AppImage +'
           echo '-----------------------------------------------------------------'
-          for LogFile in results/log-*; do
+          for LogFile in results/out-*; do
+            echo '-----------------------------------------------------------------'
             echo "$LogFile log"
             cat "$LogFile"
+            echo '-----------------------------------------------------------------'
             echo "$LogFile out"
             cat "$LogFile"
+            echo '-----------------------------------------------------------------'
             [ -f "$LogFile" ] || continue
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
             echo "$appname"
