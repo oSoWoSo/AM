@@ -383,8 +383,8 @@ jobs:
               echo "size is $size"
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
-              echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+              echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
               # TEST
             fi
           fi
@@ -398,8 +398,8 @@ jobs:
             echo "size is $size"
             version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
             echo "version is $version"
-            echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-            echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+            echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
             # TEST
             if ! test -f /opt/"$LASTDIR"/remove; then
               torsocks am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
@@ -410,8 +410,8 @@ jobs:
               echo "size is $size"
               version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "version is $version"
-              echo "size=${size}" | tee -a results/log-"${{ matrix.file }}"
-              echo "version=${version}" | tee -a results/log-"${{ matrix.file }}"
+              echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
               # TEST
             fi
           fi
