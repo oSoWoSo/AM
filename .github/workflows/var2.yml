@@ -598,14 +598,10 @@ jobs:
             echo '-----------------------------------------------------------------'
             echo "$appname"
             echo '-----------------------------------------------------------------'
-            #size=$(cat "$LogFile" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-            #echo "size is $size"
             if [ -z "$size" ]; then
               size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
               echo "size is $size"
             fi
-            #version=$(cat "$LogFile" | tee /dev/null | grep '◆' | tail -1)
-            #echo "version is $version"
             if [ -z "$version" ]; then
               version=$(cat "$LogFile" | grep 'version' | cut -d'=' -f2)
               echo "version is $version"
@@ -621,8 +617,6 @@ jobs:
               cat "$LogFile" >> results-var/log
               echo "$appname" >> results-var/tested
             fi
-            echo "size=$size" | tee -a results-var/log
-            echo "version=$version" | tee -a results-var/log
             echo '-----------------------------------------------------------------' >> results-var/log
             rm -f "$LogFile"
           done
