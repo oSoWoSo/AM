@@ -70,6 +70,8 @@ jobs:
       tested: ${{ steps.stats.outputs.tested }}
       excluded: ${{ steps.stats.outputs.excluded }}
     steps:
+      - name: Set run name
+        run: echo "GITHUB_RUN_NAME=Test" >> $GITHUB_OUTPUT
       - name: "Checkout AM"
         if: github.event.inputs.reset_stats != 'true'
         uses: actions/checkout@v4
@@ -398,7 +400,7 @@ jobs:
                || sudo systemctl restart tor.service && echo y \
                | am -i "${{ matrix.file }}" --debug 2>&1 \
                | tee -a results/log-"${{ matrix.file }}" \
-               || EXIT_CODE=9 ; echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
+               || EXIT_CODE=9 ; echo "EXIT_CODE: $EXIT_CODE" >> $GITHUB_ENV && exit 9
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
               echo "pre version is $Preversion"
