@@ -1,4 +1,4 @@
-name: "Check Apps"
+name: "Apps check"
 
 on:
   push:
@@ -34,7 +34,7 @@ on:
         type: integer
 
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/20 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
