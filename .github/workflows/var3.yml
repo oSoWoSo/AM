@@ -465,7 +465,7 @@ jobs:
           echo "exit code is ${{ env.EXIT_CODE }}"
 
       - name: "${{ matrix.file }} second try"
-        if: failed() #(env.EXIT_CODE == '9')
+        if: failure() #(env.EXIT_CODE == '9')
         working-directory: programs/x86_64
         run: |
           set -uo pipefail
