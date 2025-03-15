@@ -34,7 +34,7 @@ on:
         type: integer
 
   schedule:
-    - cron: '*/15 6-8 * * *'
+    - cron: '*/30 * * * *'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
