@@ -368,11 +368,7 @@ jobs:
           else
 
             if [[ "$pure_arg" =~ (libreoffice|mpv|wine) ]]; then
-              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}" \
-               || sudo systemctl restart tor.service && echo 1 \
-               | am -i "${{ matrix.file }}" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}"
+              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
               echo "pre version is $Preversion"
@@ -382,11 +378,7 @@ jobs:
               echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
 
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
-              echo 1 | am -i "$pure_arg" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}" \
-               || sudo systemctl restart tor.service && echo 1 \
-               | am -i "$pure_arg" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}"
+              echo 1 | am -i "$pure_arg" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}"
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -3 | head -1)
               echo "pre version is $Preversion"
@@ -396,12 +388,7 @@ jobs:
               echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
             else
 
-              echo y | am -i "${{ matrix.file }}" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}" \
-               || sudo systemctl restart tor.service && echo y \
-               | am -i "${{ matrix.file }}" --debug 2>&1 \
-               | tee -a results/log-"${{ matrix.file }}" \
-               || EXIT_CODE=9 && echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
+              echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee -a results/log-"${{ matrix.file }}" || EXIT_CODE=9 && echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV && exit 9
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
               echo "pre version is $Preversion"
@@ -456,6 +443,7 @@ jobs:
             # Any other result is a failure
             else
               EXIT_CODE=9
+              echo "else runned"
               echo "EXIT_CODE=$EXIT_CODE" >> $GITHUB_ENV
               exit 9
             fi
