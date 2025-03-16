@@ -159,7 +159,7 @@ jobs:
 
       - name: "Generate Matrix 🏆"
         id: set-matrix
-        if: github.event.inputs.retest_excluded != 'true'
+        if: github.event.inputs.reset_stats != 'true'
         run: |
           if [[ -f results/tested ]]; then
             echo "tested exist"
@@ -193,8 +193,8 @@ jobs:
             FILES="${{ github.event.inputs.what_test }}"
           elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
             echo "Testing excluded"
-            if [ -f result-var/excluded ]; then
-              FILES=$(cat result-var/excluded)
+            if [ -f results/excluded ]; then
+              FILES=$(cat results/excluded)
             else
               echo "Nothing excluded!"
               echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
