@@ -2,7 +2,7 @@ name: "Apps check"
 
 on:
   push:
-    branches: main
+    branches: sf
     paths:
       - 'programs/x86_64/**'
       #- .github/workflows/test-apps.yml
@@ -47,7 +47,7 @@ permissions:
 
 env:
   REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
+  BRANCH: sf
   TOTEST: 250
 
 jobs:
