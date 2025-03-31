@@ -654,9 +654,8 @@ jobs:
       - name: "Upload out ⬆️"
         uses: actions/upload-artifact@v4
         with:
-          name: out-${{ matrix.file }}
-          path: programs/x86_64/results/out-${{ matrix.file }}
-          if-no-files-found: error
+          path: programs/x86_64/results/out-*
+          if-no-files-found: warn
           retention-days: 1
           compression-level: 0
 
@@ -664,8 +663,7 @@ jobs:
         # if: failure()
         uses: actions/upload-artifact@v4
         with:
-          name: ko-${{ matrix.file }}
-          path: programs/x86_64/results/ko-${{ matrix.file }}
+          path: programs/x86_64/results/ko-*
           if-no-files-found: ignore
           retention-days: 1
 
@@ -673,8 +671,7 @@ jobs:
         # if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: ok-${{ matrix.file }}
-          path: programs/x86_64/results/ok-${{ matrix.file }}
+          path: programs/x86_64/results/ok-*
           if-no-files-found: ignore
           retention-days: 1
 
