@@ -504,8 +504,8 @@ jobs:
       - name: "Download ko results"
         uses: actions/download-artifact@v4
         with:
-          path: results/ko-*
-          merge-multiple: true
+          path: results
+          pattern: ko-*
 
       - name: "Process failed results"
         id: proces
