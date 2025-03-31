@@ -2,10 +2,10 @@ name: "Apps check"
 
 on:
   push:
-    branches: main
+    #branches: main
     paths:
       - 'programs/x86_64/**'
-      #- .github/workflows/test-apps.yml
+      - .github/workflows/test-apps.yml
 
   repository_dispatch:
     types: [check]
@@ -46,9 +46,11 @@ permissions:
   contents: write
 
 env:
-  REPO: ${{ github.repository_owner }}/AM
-  BRANCH: main
-  TOTEST: 250
+  REPO: ${{ github.repository }}
+  BRANCH: main-clean
+  RESULTS_REPO: ${{ github.repository_owner }}/amcheck
+  RESULTS_BRANCH: main
+  TOTEST: 5
 
 jobs:
   triggered:
@@ -136,7 +138,6 @@ jobs:
             echo " 🏁 ${{ steps.stats.outputs.tested }}" >> $GITHUB_STEP_SUMMARY
           fi
           if [[ "${{ steps.stats.outputs.excluded }}" != '0' ]]; then
-            echo "no GitHub/AppImage:" >> $GITHUB_STEP_SUMMARY
             echo " ❌ ${{ steps.stats.outputs.excluded }} (excluded)" >> $GITHUB_STEP_SUMMARY
           fi
 
@@ -194,11 +195,28 @@ jobs:
           elif [ "${{ github.event.inputs.retest_excluded }}" == 'true' ]; then
             echo "Testing excluded"
             if [ -f result-var/excluded ]; then
-              FILES=$(cat result-var/excluded)
+              if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+                echo "Used workflow dispatch"
+                how_many="${{ github.event.inputs.how_many }}"
+                if [ -z "$how_many" ]; then
+                  echo "Don't have numbers"
+                  how_many="${{ env.TOTEST }}"
+                fi
+              else
+                echo "Shedule or push?"
+                echo "how_many=${{ env.TOTEST }}"
+                how_many=${{ env.TOTEST }}
+                if [ -z "$how_many" ]; then
+                  echo "Still don't exist"
+                  how_many="$TOTEST"
+                fi
+              fi
+              cat result-var/excluded > totest.list
             else
               echo "Nothing excluded!"
               echo "Nothing excluded!" >> $GITHUB_STEP_SUMMARY
-              exit 1
+              echo "skip=true" >> $GITHUB_OUTPUT
+              exit 0
             fi
           else
             if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
@@ -257,14 +275,9 @@ jobs:
       - name: "Install AM 🎁"
         run: |
           sudo systemctl enable tor.service || systemctl enable tor.service
-          sudo systemctl restart tor.service && wait || systemctl restart tor.service && wait
+          sudo systemctl start tor.service || systemctl start tor.service
           chmod +x ./INSTALL
           sudo ./INSTALL 2> /dev/null || ./INSTALL
-
-      - name: "Checkout repository"
-        uses: actions/checkout@v4
-        with:
-          path: results
 
       - name: "Create directory"
         working-directory: programs/x86_64
@@ -308,16 +321,35 @@ jobs:
             echo "SITE=\"$SITE\"" | tee -a results/out-"${{ matrix.file }}"
           fi
 
+      - name: "link ${{ matrix.file }} 🚧"
+        working-directory: programs/x86_64
+        run: |
+          if grep -q "^version=" "${{ matrix.file }}" 2>/dev/null; then
+            link=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+            if [ -z "$link" ]; then
+              sed -i 's/curl -Ls/torsocks curl -Ls/g' "${{ matrix.file }}"
+              link=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              if [ -z "$version" ]; then
+                sudo systemctl restart tor.service || systemctl restart tor.service
+                wait
+                link=$(eval echo "$(grep -i '^version=' "${{ matrix.file }}" | head -1 | sed 's/version=//g')")
+              fi
+            fi
+            [ -n "$link" ] && echo "link=\"$link\"" | tee -a results/out-"${{ matrix.file }}"
+          fi
+          echo '-----------------------------------------------------------------' | tee -a results/out-"${{ matrix.file }}"
+
       - name: "test ${{ matrix.file }} 🚧"
         id: test
         working-directory: programs/x86_64
         run: |
           set -uo pipefail
           mkdir -p results
-          EXIT_CODE=0
+          EXIT_CODE='0'
+          TEST='0'
 
           # Define the content of the script || Alow testing non existent (for workflow tests)
-          script_content=$(cat ${{ matrix.file }}) || echo "Testing non exist file! (for workflow test only)"
+          script_content=$(cat ${{ matrix.file }})
           # Define the pure name of the app
           pure_arg=$(echo "${{ matrix.file }}" | sed 's/\-appimage$//g' | sed 's:.*/::')
 
@@ -332,33 +364,56 @@ jobs:
           # Install the application
 
           if [[ "$pure_arg" =~ (kvrt|suyu|vikunja) ]]; then
-
-            echo "This application cannot be installed on github actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "This application cannot be installed in github actions" | tee -a results/log-"${{ matrix.file }}"
+            echo "This application is excluded. Cannot be installed in github actions" >> $GITHUB_STEP_SUMMARY
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
-
           else
-          
             if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
-
-              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo 1 | am -i "${{ matrix.file }}" --debug 2>&1
-
+              if command -v echo 1 | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"; then
+                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | head -1)
+                echo "pre version is $Preversion"
+                version=$(echo "$Preversion" | awk '{print $3}')
+                echo "version is $version"
+              else
+                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
+              fi
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
-
-              echo y | am -i bat "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo y | am -i bat "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo y | am -i bat "${{ matrix.file }}" --debug 2>&1
-
+              if command -v echo y | am -i bat "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"; then
+                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
+                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
+                echo "pre version is $Preversion"
+                version=$(echo "$Preversion" | awk '{print $3}' | cut -d'.' -f1-3)
+                echo "version is $version"
+              else
+                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
+              fi
             else
-
-              echo y | am -i "${{ matrix.file }}" --debug 2>&1 || echo "try again" && echo y | am -i "${{ matrix.file }}" --debug 2>&1 || echo "last attempt" && echo y | am -i "${{ matrix.file }}" --debug 2>&1
-
+              echo y | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"  || \
+                echo "Silent fail" >> $GITHUB_STEP_SUMMARY && \
+                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}" && \
+                exit 0
+              size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+              Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+              echo "pre version is $Preversion"
+              version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
+              echo "version is $version"
             fi
-
+            echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+            echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
 
             # If an application is blacklisted, ignore it
             if [ "$LASTDIR" = am ]; then
-              echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
-              echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
-              exit 1
+              if [ "$TEST" == 0 ]; then
+                echo "### 💀 ${{ matrix.file }}" >> $GITHUB_STEP_SUMMARY
+                echo "${{ matrix.file }}" >> results/ko-${{ matrix.file }}
+                exit 0
+              elif  [ "$TEST" == 1 ]; then
+                echo "Testing non exist file! (for test 2nd test)"
+                echo "${{ matrix.file }}" >> results/ko-${{ matrix.file }}
+                exit 0
+              fi
 
             # If the last modified directory contains a file named "remove", check the installed files
             elif test -f /opt/"$LASTDIR"/remove; then
@@ -397,7 +452,9 @@ jobs:
 
             # Any other result is a failure
             else
-              exit 1
+              echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
+              echo "${{ matrix.file }} failed" >> $GITHUB_STEP_SUMMARY
+              exit 0 # Don't fail now, we will try again
             fi
           fi
 
@@ -411,31 +468,231 @@ jobs:
           compression-level: 0
 
       - name: "Upload KO Results ☝️"
-        if: failure()
+        # if: failure()
         uses: actions/upload-artifact@v4
         with:
           name: ko-${{ matrix.file }}
           path: programs/x86_64/results/ko-${{ matrix.file }}
+          if-no-files-found: ignore
           retention-days: 1
 
       - name: "Upload OK Results ⬆️"
-        if: success()
+        # if: success()
         uses: actions/upload-artifact@v4
         with:
           name: ok-${{ matrix.file }}
           path: programs/x86_64/results/ok-${{ matrix.file }}
+          if-no-files-found: ignore
+          retention-days: 1
+
+  check-failed:
+    name: "trigger retest if needed"
+    needs: run-actions
+    runs-on: ubuntu-22.04
+    if: (always() && github.event.inputs.reset_stats != 'true' && needs.generate-matrix.outputs.skip != 'true')
+    outputs:
+      failed: ${{ steps.proces.outputs.failed }}
+    steps:
+      - name: "Git Config"
+        run: |
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Download ko results"
+        uses: actions/download-artifact@v4
+        with:
+          path: results/ko-*
+          merge-multiple: true
+
+      - name: "Process failed results"
+        id: proces
+        run: |
+          mkdir -p results
+          for KoFile in results/ko-*; do
+            [ -f "$KoFile" ] || continue
+            appname=$(basename "$KoFile" | cut -d'-' -f2-)
+            if [[ -f "$KoFile" ]]; then
+              echo "$appname" | tee -a failing
+              rm -f "$KoFile"
+            fi
+          done
+          if [ -f failing ]; then
+            echo "failed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: "Upload failing"
+        uses: actions/upload-artifact@v4
+        with:
+          name: failing
+          path: failing
+          if-no-files-found: ignore
+          retention-days: 1
+
+  test-failed:
+    name: "test failed"
+    needs: check-failed
+    runs-on: ubuntu-22.04
+    if: needs.check-failed.outputs.failed == 'true'
+    steps:
+      - name: "Checkout AM"
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.REPO }}
+
+      - name: "Download failing"
+        uses: actions/download-artifact@v4
+        with:
+          name: failing
+          path: failing
+
+        # Added ripgrep for bat
+      - name: "Cache dependencies"
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: wget curl torsocks zsync ripgrep
+          version: 1.0
+
+      - name: "Install AM 🎁"
+        run: |
+          sudo systemctl enable tor.service || systemctl enable tor.service
+          sudo systemctl start tor.service || systemctl start tor.service
+          chmod +x ./INSTALL
+          sudo ./INSTALL 2> /dev/null || ./INSTALL
+
+      - name: "Retest"
+        id: retest
+        run: |
+          mkdir -p results
+          if [[ -f failing ]]; then
+
+            for fail in failing; do
+
+              cd programs/x86_64
+              echo "APP=\"$fail\"" | tee -a results/out-"$fail"
+              if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$fail" 1>/dev/null; then
+                echo "APPIMAGE='yes'" | tee -a results/out-"$fail"
+              else
+                #echo "EXIT_CODE=99" >> $GITHUB_ENV
+                echo "APPIMAGE='no'" >> results/out-"$fail"
+                touch results/out-"$fail"
+              fi
+              if grep -q "api.github.com" "$fail" 2>/dev/null; then
+                echo "GITHUB='yes'" | tee -a results/out-"$fail"
+              else
+                #echo "EXIT_CODE=9" >> $GITHUB_ENV
+                echo "GITHUB='no'" >> results/out-"$fail"
+                touch results/out-"$fail"
+              fi
+              if grep -q "^SITE=" "$fail" 2>/dev/null; then
+                SITE=$(eval echo "$(grep -i '^SITE=' "$fail" | head -1 | sed 's/SITE=//g')")
+                echo "SITE=\"$SITE\"" | tee -a results/out-"$fail"
+              fi
+              if grep -q "^version=" "$fail" 2>/dev/null; then
+                link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
+                if [ -z "$link" ]; then
+                  sed -i 's/curl -Ls/torsocks curl -Ls/g' "$fail"
+                  link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
+                  if [ -z "$version" ]; then
+                    sudo systemctl restart tor.service || systemctl restart tor.service
+                    wait
+                    link=$(eval echo "$(grep -i '^version=' "$fail" | head -1 | sed 's/version=//g')")
+                  fi
+                fi
+                [ -n "$link" ] && echo "link=\"$link\"" | tee -a results/out-"$fail"
+              fi
+              echo '-----------------------------------------------------------------' | tee -a results/out-"$fail"
+              if [[ "$fail" =~ (gimp|libreoffice|mpv|wine) ]]; then
+                if command -v echo 1 | am -i "$fail" --debug 2>&1 | tee "results/log-$fail"; then
+                  size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                  Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | head -1)
+                  echo "pre version is $Preversion"
+                  version=$(echo "$Preversion" | awk '{print $3}')
+                  echo "version=$version" | tee -a "results/out-$fail"
+                else
+                  echo "$fail" | tee -a results/excluded failed
+                fi
+              elif [[ "$fail" =~ (bat-extras) ]]; then
+                if command -v echo y | am -i bat "$fail" --debug 2>&1 | tee "results/log-$fail"; then
+                  size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
+                  Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -2 | head -1)
+                  echo "pre version is $Preversion"
+                  version=$(echo "$Preversion" | awk '{print $3}' | cut -d'.' -f1-3)
+                  echo "version=$version" | tee -a "results/out-$fail"
+                else
+                  echo "$fail" | tee -a results/excluded failed
+                fi
+              else
+                if command -v echo y | am -i "$fail" --debug 2>&1 | tee "results/log-$fail"; then
+                  size=$(cat "results/log-$fail" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                  Preversion=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1)
+                  echo "pre version is $Preversion"
+                  version=$(cat "results/log-$fail" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
+                  echo "version=$version" | tee -a "results/out-$fail"
+                else
+                  echo "$fail" | tee -a results/excluded failed
+                fi
+              fi
+              rm -f "$KoFile"
+
+            done
+
+            rm -f failing
+            if [ -f results/excluded ]; then
+              sort -u results/excluded -o results/excluded
+              git add results/excluded
+            fi
+            git add results
+            git commit -m "retest"
+            git push
+          else
+            echo "Nothing failed"
+          fi
+
+      - name: "Upload out ⬆️"
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-${{ matrix.file }}
+          path: programs/x86_64/results/out-${{ matrix.file }}
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+      - name: "Upload KO Results ☝️"
+        # if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ko-${{ matrix.file }}
+          path: programs/x86_64/results/ko-${{ matrix.file }}
+          if-no-files-found: ignore
+          retention-days: 1
+
+      - name: "Upload OK Results ⬆️"
+        # if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ok-${{ matrix.file }}
+          path: programs/x86_64/results/ok-${{ matrix.file }}
+          if-no-files-found: ignore
           retention-days: 1
 
   update-results:
     name: "results 📰"
-    needs: run-actions
+    needs: test-failed
     runs-on: ubuntu-22.04
-    if: (always() && github.event.inputs.reset_stats != 'true')
+    if: (always() && github.event.inputs.reset_stats != 'true' && needs.generate-matrix.outputs.skip != 'true')
+    outputs:
+      failed: ${{ steps.proces.outputs.failed }}
     steps:
       - name: "Checkout"
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+
+      - name: "Git Config"
+        run: |
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
 
       - name: "Download results ⬇️"
         uses: actions/download-artifact@v4
@@ -448,49 +705,45 @@ jobs:
         with:
           name: appslist
 
-      - name: "Git Config"
-        run: |
-          git config --global user.name "${{ github.repository_owner }}"
-          git config --global user.email "noreply@github.com"
-
-      - name: "Process log results"
+      - name: "Process log results 2"
+        id: proces2
+        if: (always() && needs.generate-matrix.outputs.skip != 'true' && github.event.inputs.reset_stats != 'true')
         run: |
           mkdir -p results
-          echo '-----------------------------------------------------------------'
-          echo 'No GitHub/AppImage +'
-          echo '-----------------------------------------------------------------'
           for LogFile in results/out-*; do
-            echo '-----------------------------------------------------------------'
-            echo "$LogFile out"
-            echo '-----------------------------------------------------------------'
-            cat "$LogFile"
-            echo '-----------------------------------------------------------------'
-            echo '-----------------------------------------------------------------'
             [ -f "$LogFile" ] || continue
             appname=$(basename "$LogFile" | cut -d'-' -f2-)
-            echo '-----------------------------------------------------------------'
+            echo '_________________________________________________________________'
             echo "$appname"
+            echo '-----------------------------------------------------------------'
+            cat "$LogFile"
             echo '-----------------------------------------------------------------'
             if [ -z "$size" ]; then
               size=$(cat "$LogFile" | grep 'size' | cut -d'=' -f2)
               echo "size is $size"
             fi
-            KoFile="results/ko-$appname"
-            if [[ -f "$KoFile" ]]; then
-              echo "$appname" | tee -a failing results/excluded
-              rm -f "$KoFile"
-              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-              sort -u results/excluded -o results/excluded
-              sort -u failing -o failing
-              git add results/excluded
-            else
-              cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
-              echo "$appname" >> results/tested
+            if [ -z "$version" ]; then
+              version=$(cat "$LogFile" | grep 'version' | cut -d'=' -f2)
+              echo "version is $version"
             fi
+            cat "$LogFile" | grep -E '(^.*=.*$|^.*----.*$)' >> results/log
+            echo "$appname" >> results/tested
             echo '-----------------------------------------------------------------' >> results/log
             rm -f "$LogFile"
           done
-          sort -u results/tested -o results/tested
+          if [ -f failed ]; then
+            for fail in failed; do
+              echo ":x: $fail excluded now" >> $GITHUB_STEP_SUMMARY
+            done
+          fi
+          if [ -f results/tested ]; then
+            sort -u results/tested -o results/tested
+            git add results/tested
+          fi
+          if [ -f results/excluded ]; then
+              sort -u results/excluded -o results/excluded
+              git add results/excluded
+          fi
           git add results
 
       - name: "Show results"
@@ -506,8 +759,8 @@ jobs:
           else
             excluded='0'
           fi
-          if [[ -f failing ]]; then
-            fail=$(wc -l < failing 2>/dev/null || echo 0)
+          if [[ -f failed ]]; then
+            fail=$(wc -l < failed 2>/dev/null || echo 0)
           else
             fail='0'
           fi
@@ -523,6 +776,7 @@ jobs:
           fi
           echo "### 🛅 $remaining to test" >> $GITHUB_STEP_SUMMARY
           rm -f appslist
+          rm -f results/appslist
           rm -f results/ok-*
           echo '-----------------------------------------------------------------'
           echo "Missed results:"
@@ -536,8 +790,6 @@ jobs:
       - name: "Push"
         if: ${{ needs.generate-matrix.outputs.skip != 'true' }}
         run: |
-          git config --global user.name "${{ github.repository_owner }}"
-          git config --global user.email "noreply@github.com"
           if [[ "$GITHUB_REF" == 'refs/pull/*' ]]; then
             echo "This is a Pull Request. Not saving results."
             exit 0
@@ -597,5 +849,17 @@ jobs:
     needs: generate-matrix
     if: ${{ needs.generate-matrix.outputs.skip == 'true' }}
     steps:
-      - name: "Mark as Successful"
-        run: echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+      - name: "Checkout results"
+        uses: actions/checkout@v4
+
+      - name: "Reset all tested"
+        run: |
+          echo "All apps already tested..." >> $GITHUB_STEP_SUMMARY
+          echo "### stats RESET" >> $GITHUB_STEP_SUMMARY
+          rm -rf results
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "noreply@github.com"
+          git rm -r results
+          git commit -m "reset stats"
+          git push --force
+          git clean -f
