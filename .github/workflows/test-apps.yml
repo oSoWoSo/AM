@@ -736,6 +736,7 @@ jobs:
           if [ -f results/tested ]; then
             sort -u results/tested -o results/tested
             git add results/tested
+            git add results/log
           fi
           if [ -f results/excluded ]; then
               sort -u results/excluded -o results/excluded
