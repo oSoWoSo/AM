@@ -1160,3 +1160,48 @@ link="https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/auda
 size=115 MB
 version=3.7.3
 -----------------------------------------------------------------
+APP="audapolis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bugbakery/audapolis"
+link="https://github.com/bugbakery/audapolis/releases/download/v0.3.0/audapolis-linux-x86_64-0.3.0_4.AppImage"
+-----------------------------------------------------------------
+size=282 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="audiomoth"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenAcousticDevices/AudioMoth-Configuration-App"
+link="https://github.com/OpenAcousticDevices/AudioMoth-Configuration-App/releases/download/1.12.1/AudioMothConfigurationAppSetup1.12.1.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=1.12.1
+-----------------------------------------------------------------
+APP="audiorelay"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://audiorelay.net"
+link="https://dl.audiorelay.net/setups/linux/audiorelay-0.27.5.tar.gz"
+-----------------------------------------------------------------
+size=97 MB
+version=0.27.5
+-----------------------------------------------------------------
+APP="augur"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AugurProject/augur-app"
+link="https://github.com/AugurProject/augur-app/releases/download/v1.16.11/linux-Augur-1.16.11.AppImage"
+-----------------------------------------------------------------
+size=159 MB
+version=1.16.11
+-----------------------------------------------------------------
+APP="auryo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Superjo149/auryo"
+link="https://github.com/sneljo1/auryo/releases/download/v2.5.4/Auryo-2.5.4.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=2.5.4
+-----------------------------------------------------------------
