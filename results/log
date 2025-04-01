@@ -1873,3 +1873,48 @@ link="https://github.com/merlinfuchs/blimp/releases/download/v0.4.0/blimp_0.4.0_
 size=9 MB
 version=0.4.0
 -----------------------------------------------------------------
+APP="blink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ychclone/blink"
+link="https://github.com/ychclone/blink/releases/download/1.7.4/Blink-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=1.7.4
+-----------------------------------------------------------------
+APP="blizzard-4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="danielfspencer/blizzard-4"
+link="https://github.com/danielfspencer/blizzard-4/releases/download/v1.4.0/blizzard-4-v1.4.0-linux.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=4
+-----------------------------------------------------------------
+APP="blob-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="MicheleCioccarelli/blob-dl"
+link="https://github.com/MicheleCioccarelli/blob-dl/releases/download/v1.0.2/blob-dl-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=4 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="blobdrop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vimpostor/blobdrop"
+link="https://github.com/vimpostor/blobdrop/releases/download/v2.1/blobdrop-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=2.1
+-----------------------------------------------------------------
+APP="block-dx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BlocknetDX/blockdx-ui"
+link="https://github.com/blocknetdx/block-dx/releases/download/v1.9.5/BLOCK-DX-1.9.5-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=1.9.5
+-----------------------------------------------------------------
