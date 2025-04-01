@@ -624,3 +624,48 @@ link="https://github.com/doron-cohen/antidot/releases/download/v0.6.3/antidot_0.
 size=7 MB
 version=0.6.3
 -----------------------------------------------------------------
+APP="antimicrox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AntiMicroX/antimicrox"
+link="https://github.com/AntiMicroX/antimicrox/releases/download/3.5.1/AntiMicroX-debug-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=3.5.1
+-----------------------------------------------------------------
+APP="anydesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Anydesk-appimage"
+link="https://github.com/ivan-hc/Anydesk-appimage/releases/download/continuous/Anydesk_6.4.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=6.4.2
+-----------------------------------------------------------------
+APP="anything-llm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mintplex-Labs/anything-llm"
+link="v1.7.8"
+-----------------------------------------------------------------
+size=337 MB
+version=1.7.8
+-----------------------------------------------------------------
+APP="anytype"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="anyproto/anytype-ts"
+link="https://github.com/anyproto/anytype-ts/releases/download/v0.45.23-alpha/Anytype-0.45.23-alpha.AppImage"
+-----------------------------------------------------------------
+size=213 MB
+version=0.45.23
+-----------------------------------------------------------------
+APP="anzeigenchef"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://anzeigenchef.roundcube.de"
+link="https://anzeigenchef.roundcubes.de/downloads/linux/AnzeigenChef-x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=2023.09.05
+-----------------------------------------------------------------
