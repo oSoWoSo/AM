@@ -1562,3 +1562,48 @@ link="https://github.com/mario33881/betterSIS/releases/download/1.2.1/BetterSIS-
 size=51 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="beurerscalemanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="daald/beurerscalemanager-appimage"
+link="https://github.com/daald/beurerscalemanager-appimage/releases/download/v0.1-g6da5b6e-pf5d43a8/BeurerScaleManager-x86_64.AppImage"
+-----------------------------------------------------------------
+size=8 MB
+version=0.1
+-----------------------------------------------------------------
+APP="beyond-all-reason"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="beyond-all-reason/BYAR-Chobby"
+link="https://github.com/beyond-all-reason/BYAR-Chobby/releases/download/v1.2988.0/Beyond-All-Reason-1.2988.0.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=1.2988.0
+-----------------------------------------------------------------
+APP="bezique"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Sriep/Bezique"
+link="https://github.com/Sriep/Bezique/releases/download/1.0.1/Bezique-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="bforartists"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bforartists/Bforartists"
+link="https://github.com/Bforartists/Bforartists/releases/download/v4.3.3/Bforartists-4.3.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=495 MB
+version=4.3.3
+-----------------------------------------------------------------
+APP="biblemultithelife"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/hotlittlewhitedog/BibleTheLife"
+link="https://gitlab.com/api/v4/projects/17175284/uploads/caa00a30e4fef52175512637eabf6c76/BibleMultiTheLife-1.27.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=1.27.4
+-----------------------------------------------------------------
