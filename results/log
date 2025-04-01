@@ -1963,3 +1963,48 @@ link="https://github.com/bloomrpc/bloomrpc/releases/download/1.5.3/BloomRPC-1.5.
 size=103 MB
 version=1.5.3
 -----------------------------------------------------------------
+APP="blowfish"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kremalicious/blowfish"
+link="https://github.com/kremalicious/blowfish/releases/download/v1.6.0/Blowfish-1.6.0.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=1.6.0
+-----------------------------------------------------------------
+APP="blueglow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/blue-glow"
+link="https://github.com/antony-jr/blue-glow/releases/download/development/BlueGlow-ad96b38-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=ad96b38
+-----------------------------------------------------------------
+APP="bluetuith"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="darkhz/bluetuith"
+link="https://github.com/bluetuith-org/bluetuith/releases/download/v0.2.3/bluetuith_0.2.3_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="boardgamestar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RyanMcMahon/BoardGameStar"
+link="https://github.com/RyanMcMahon/BoardGameStar/releases/download/v0.2.0/boardgamestar-0.2.0.AppImage"
+-----------------------------------------------------------------
+size=155 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bodacious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bleonard252/bodacious"
+link="https://github.com/bleonard252/bodacious/releases/download/v0.9.0/bodacious-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=0.9.0
+-----------------------------------------------------------------
