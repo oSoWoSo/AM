@@ -1607,3 +1607,48 @@ link="https://gitlab.com/api/v4/projects/17175284/uploads/caa00a30e4fef521755126
 size=69 MB
 version=1.27.4
 -----------------------------------------------------------------
+APP="bidirectional"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="samirdjelal/bidirectional"
+link="https://github.com/samirdjelal/bidirectional/releases/download/app-v0.3.0/bidirectional_0.3.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="bilibili"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="msojocs/bilibili-linux"
+link="https://github.com/msojocs/bilibili-linux/releases/download/v1.16.3-3/bilibili-1.16.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=307 MB
+version=1.16.3
+-----------------------------------------------------------------
+APP="bilibilivideodownload"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blogwy/BilibiliVideoDownload"
+link="https://github.com/BilibiliVideoDownload/BilibiliVideoDownload/releases/download/v3.3.3/BilibiliVideoDownload-3.3.3.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=3.3.3
+-----------------------------------------------------------------
+APP="biliup-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ForgQi/biliup-app"
+link="https://github.com/biliup/biliup-app/releases/download/app-v0.5.3/biliup-app_0.5.3_amd64.AppImage"
+-----------------------------------------------------------------
+size=124 MB
+version=0.5.3
+-----------------------------------------------------------------
+APP="billard-gl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/billard-gl/Billard-GL-1.75-17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=1.75
+-----------------------------------------------------------------
