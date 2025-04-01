@@ -1116,3 +1116,47 @@ link="https://github.com/vleeuwenmenno/AstroShutter/releases/download/v0.0.3/Ast
 size=34 MB
 version=0.0.3
 -----------------------------------------------------------------
+APP="asunder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/asunder/Asunder-CD-Ripper_3.0.1-2-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="atomicwallet"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://get.atomicwallet.io/download"
+-----------------------------------------------------------------
+size=99 MB
+version=atomicwallet-2.76.4.AppImage
+-----------------------------------------------------------------
+APP="atuin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="atuinsh/atuin"
+link="https://github.com/atuinsh/atuin/releases/download/v18.5.0-beta.1/atuin-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=34 MB
+version=18.5.0
+-----------------------------------------------------------------
+APP="audacious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/audacious/Audacious_4.4.2-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=4.4.2
+-----------------------------------------------------------------
+APP="audacity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="audacity/audacity"
+link="https://github.com/audacity/audacity/releases/download/Audacity-3.7.3/audacity-linux-3.7.3-x64-20.04.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=3.7.3
+-----------------------------------------------------------------
