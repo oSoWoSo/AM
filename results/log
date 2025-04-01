@@ -1339,3 +1339,48 @@ link="https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bam
 size=123 MB
 version=02.00.01.50
 -----------------------------------------------------------------
+APP="banban"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HubertK05/banban"
+link="https://github.com/HubertK05/banban/releases/download/v0.2.0/banban_0.2.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bandwhich"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="imsnif/bandwhich"
+link="https://github.com/imsnif/bandwhich/releases/download/v0.23.1/bandwhich-v0.23.1-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=0.23.1
+-----------------------------------------------------------------
+APP="baobab-gtk3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/baobab3/Disk_Usage_Analyzer-3.38.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=3.38.0
+-----------------------------------------------------------------
+APP="barnacal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mike-engel/Barnacal"
+link="https://github.com/mike-engel/Barnacal/releases/download/v0.9.4/Barnacal-0.9.4.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=0.9.4
+-----------------------------------------------------------------
+APP="bastyon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pocketnetteam/pocketnet.gui"
+link="https://github.com/pocketnetteam/pocketnet.gui/releases/download/v0.9.116/Bastyon.AppImage"
+-----------------------------------------------------------------
+size=151 MB
+version=0.9.116
+-----------------------------------------------------------------
