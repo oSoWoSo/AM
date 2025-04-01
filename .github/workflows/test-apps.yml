@@ -369,35 +369,14 @@ jobs:
             echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }}
           else
             if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
-              if command -v echo 1 | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"; then
-                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | head -1)
-                echo "pre version is $Preversion"
-                version=$(echo "$Preversion" | awk '{print $3}')
-                echo "version is $version"
-              else
-                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
-              fi
+              echo 1 | am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
             elif [[ "$pure_arg" =~ (bat-extras) ]]; then
-              if command -v echo y | am -i bat "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"; then
-                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
-                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
-                echo "pre version is $Preversion"
-                version=$(echo "$Preversion" | awk '{print $3}' | cut -d'.' -f1-3)
-                echo "version is $version"
-              else
-                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
-              fi
+              echo y | am -i bat --debug 2>/dev/null | tee /dev/null
+              echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
             else
-              echo y | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}" || echo "Silent fail" >> $GITHUB_STEP_SUMMARY && echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}" && exit 0
-              size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
-              Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
-              echo "pre version is $Preversion"
-              version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
-              echo "version is $version"
+              echo y | am -i "${{ matrix.file }}" --debug 2>&1 | tee "results/log-${{ matrix.file }}"
             fi
-            echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
-            echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
+
             LASTDIR=$(ls -td /opt/* | head -1 | sed 's:.*/::')
 
             # If an application is blacklisted, ignore it
@@ -443,6 +422,30 @@ jobs:
               fi
 
               printf "\n-------------------------------------------------------------\n\n"
+
+                #size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                #Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | head -1)
+                #echo "pre version is $Preversion"
+                #version=$(echo "$Preversion" | awk '{print $3}')
+                #echo "version is $version"
+
+              if [[ "$pure_arg" =~ (gimp|libreoffice|mpv|wine) ]]; then
+                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2 | tail -1)
+                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -2 | head -1)
+                echo "pre version is $Preversion"
+                version=$(echo "$Preversion" | awk '{print $3}' | cut -d'.' -f1-3)
+                echo "version is $version"
+
+              else
+                size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
+                Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
+                echo "pre version is $Preversion"
+                version=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1 | awk '{print $3}')
+                echo "version is $version"
+              fi
+
+              echo "size=${size}" | tee -a results/out-"${{ matrix.file }}"
+              echo "version=${version}" | tee -a results/out-"${{ matrix.file }}"
 
               # Remove the application
               am -R "$LASTDIR" && echo "${{ matrix.file }}" >> results/ok-${{ matrix.file }} || echo "${{ matrix.file }}" >> results/log-${{ matrix.file }}
