@@ -402,3 +402,47 @@ link="https://github.com/ivan-hc/Amarok-appimage/releases/download/continuous/Am
 size=310 MB
 version=3.2.2
 -----------------------------------------------------------------
+APP="amazingmarvin"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://amazingmarvin.com"
+-----------------------------------------------------------------
+size=117 MB
+version=1.66.2
+-----------------------------------------------------------------
+APP="amazon-q"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://aws.amazon.com"
+link="https://desktop-release.q.us-east-1.amazonaws.com/latest/amazon-q.appimage"
+-----------------------------------------------------------------
+size=258 MB
+version=2025.03.21
+-----------------------------------------------------------------
+APP="ambermoon.net"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Pyrdacor/Ambermoon.net"
+link="https://github.com/Pyrdacor/Ambermoon.net/releases/download/v1.10.6/Ambermoon.net-Linux.tar.gz"
+-----------------------------------------------------------------
+size=112 MB
+version=1.10.6
+-----------------------------------------------------------------
+APP="amdgpu_top"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Umio-Yasuno/amdgpu_top"
+link="https://github.com/Umio-Yasuno/amdgpu_top/releases/download/v0.10.3/amdgpu_top-aarch64.AppImage"
+-----------------------------------------------------------------
+size=9 MB
+version=0.10.3
+-----------------------------------------------------------------
+APP="amfora"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="makew0rld/amfora"
+link="https://github.com/makew0rld/amfora/releases/download/v1.10.0/amfora_1.10.0_linux_64-bit"
+-----------------------------------------------------------------
+size=17 MB
+version=1.10.0
+-----------------------------------------------------------------
