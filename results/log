@@ -78,3 +78,12 @@ link="https://github.com/ivan-hc/Abiword-appimage/releases/download/continuous/A
 size=64 MB
 version=3.0.6
 -----------------------------------------------------------------
+APP="3d-puzzles"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="volatilflerovium/3D-Puzzles"
+link="https://raw.githubusercontent.com/volatilflerovium/3D-Puzzles/main/3D-Puzzles-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=3D
+-----------------------------------------------------------------
