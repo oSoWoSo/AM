@@ -1787,3 +1787,47 @@ link="https://github.com/aeosynth/bk/releases/download/v0.6.0/bk-linux"
 size=1 MB
 version=0.6.0
 -----------------------------------------------------------------
+APP="black-chocobo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sithlord48/blackchocobo"
+link="https://github.com/sithlord48/blackchocobo/releases/download/continuous/Black_Chocobo-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=2025.03.16
+-----------------------------------------------------------------
+APP="blacknut"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.blacknut.com"
+link="4.1.0"
+-----------------------------------------------------------------
+size=97 MB
+version=4.1.0
+-----------------------------------------------------------------
+APP="blank"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FPurchess/blank"
+link="https://github.com/FPurchess/blank/releases/download/v1.2.0/blank_1.2.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="blastem"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/blastem"
+link="https://github.com/mantralunar/blastem/releases/download/blastem64-0.6.3-pre-0e3118325c1c/BlastEm-x86_64.AppImage"
+-----------------------------------------------------------------
+size=6 MB
+version=0.6.3
+-----------------------------------------------------------------
+APP="blender"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.blender.org"
+-----------------------------------------------------------------
+size=1120 MB
+version=4.4.0
+-----------------------------------------------------------------
