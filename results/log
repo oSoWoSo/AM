@@ -177,3 +177,48 @@ link="https://github.com/toeverything/AFFiNE/releases/download/v0.21.0-canary.10
 size=184 MB
 version=0.21.0
 -----------------------------------------------------------------
+APP="agregore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AgregoreWeb/agregore-browser"
+link="https://github.com/AgregoreWeb/agregore-browser/releases/download/v2.8.2/agregore-browser-2.8.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=166 MB
+version=2.8.2
+-----------------------------------------------------------------
+APP="ai-bot-workspace"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jmerle/ai-bot-workspace"
+link="https://github.com/jmerle/ai-bot-workspace/releases/download/v2.4.3/ai-bot-workspace-2.4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="aichat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sigoden/aichat"
+link="https://github.com/sigoden/aichat/releases/download/v0.29.0/aichat-v0.29.0-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=12 MB
+version=0.29.0
+-----------------------------------------------------------------
+APP="aidm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alexsussa/AIDM"
+link="https://github.com/Alexsussa/AIDM/releases/download/v0.3/AppImage_Desktop_Maker_v0.3_x86_64.AppImage"
+-----------------------------------------------------------------
+size=147 MB
+version=0.3
+-----------------------------------------------------------------
+APP="aillio-ts"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="roastworld/roast-time-release"
+link="https://github.com/roastworld/roast-time-release/releases/download/v1.1.2/aillio-ts-1.1.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=62 MB
+version=1.1.2
+-----------------------------------------------------------------
