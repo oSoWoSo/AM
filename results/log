@@ -937,3 +937,48 @@ SITE="gennaro-tedesco/archimede"
 size=4 MB
 version=0.0.2
 -----------------------------------------------------------------
+APP="archipel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arso-project/archipel"
+link="https://github.com/arso-project/archipel/releases/download/v0.1.0/archipel-0.1.0.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="archipelago"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArchipelagoMW/Archipelago"
+link="https://github.com/ArchipelagoMW/Archipelago/releases/download/0.5.1/Archipelago_0.5.1.Hotfix1_linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=0.5.1.Hotfix1
+-----------------------------------------------------------------
+APP="archisteamfarm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="JustArchiNET/ArchiSteamFarm"
+link="https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.1.4.3/ASF-linux-x64.zip"
+-----------------------------------------------------------------
+size=53 MB
+version=6.1.4.3
+-----------------------------------------------------------------
+APP="arduino-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arduino/arduino-ide"
+link="https://github.com/arduino/arduino-ide/releases/download/2.3.4/arduino-ide_2.3.4_Linux_64bit.AppImage"
+-----------------------------------------------------------------
+size=183 MB
+version=2.3.4
+-----------------------------------------------------------------
+APP="arena-tracker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="supertriodo/Arena-Tracker"
+link="https://github.com/supertriodo/Arena-Tracker/releases/download/v25.01/ArenaTracker.Linux.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=25.01
+-----------------------------------------------------------------
