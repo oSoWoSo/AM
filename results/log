@@ -713,3 +713,48 @@ link="https://github.com/AplaProject/apla-front/releases/download/v2.2.1/apla-fr
 size=84 MB
 version=2.2.1
 -----------------------------------------------------------------
+APP="app-outlet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppOutlet/AppOutlet"
+link="https://github.com/AppOutlet/AppOutlet/releases/download/v2.1.0/App.Outlet-2.1.0.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="appflowy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppFlowy-IO/AppFlowy"
+link="https://github.com/AppFlowy-IO/AppFlowy/releases/download/0.8.7/AppFlowy-0.8.7-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=0.8.7
+-----------------------------------------------------------------
+APP="apphub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="francesco-gaglione/AppHub"
+link="https://github.com/cosmic-utils/app-hub/releases/download/v0.2.0-beta.1/app-hub_0.2.0-beta.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="appimage-builder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImageCrafters/appimage-builder"
+link="https://github.com/AppImageCrafters/appimage-builder/releases/download/Continuous/appimage-builder-1.1.1.dev32%2Bg2709a3b-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=1.1.1.dev32%2Bg2709a3b
+-----------------------------------------------------------------
+APP="appimage-creator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hiko-Seijuro-23/AppImage-creator"
+link="https://github.com/Hiko-Seijuro-23/AppImage-creator/releases/download/AppImage/AppImage-creator-0.0.1.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=0.0.1
+-----------------------------------------------------------------
