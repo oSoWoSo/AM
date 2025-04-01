@@ -1295,3 +1295,47 @@ link="https://github.com/AXErunners/electrum-axe/releases/download/3.3.8.9/Axe-E
 size=49 MB
 version=3.3.8.9
 -----------------------------------------------------------------
+APP="axolotl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nanu-c/axolotl"
+link="https://github.com/axolotl-chat/axolotl/releases/download/v2.0.1/axolotl_2.0.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="aya"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="liriliri/aya"
+link="https://github.com/liriliri/aya/releases/download/v1.5.0/AYA-1.5.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="badlion"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://client.badlion.net"
+-----------------------------------------------------------------
+size=199 MB
+version=4.5.4
+-----------------------------------------------------------------
+APP="baijimangaviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shizkun/manga-viewer"
+link="https://github.com/jmarioste/manga-viewer/releases/download/v1.2.3/baiji-manga-viewer-1.2.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=1.2.3
+-----------------------------------------------------------------
+APP="bambustudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bambulab/BambuStudio"
+link="https://github.com/bambulab/BambuStudio/releases/download/v02.00.01.50/Bambu_Studio_linux_fedora-v02.00.01.50.AppImage"
+-----------------------------------------------------------------
+size=123 MB
+version=02.00.01.50
+-----------------------------------------------------------------
