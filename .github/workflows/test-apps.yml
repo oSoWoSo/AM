@@ -567,9 +567,9 @@ jobs:
         run: |
           mkdir -p results
           if [[ -f failing ]]; then
-
-            for fail in failing; do
-
+            echo "failing exist"
+            for fail in $(cat failing); do
+              echo "$fail"
               cd programs/x86_64
               echo "APP=\"$fail\"" | tee -a results/out-"$fail"
               if grep -qe "appimage-extract\|mage\$\|tmp/\*mage" "$fail" 1>/dev/null; then
