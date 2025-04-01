@@ -1742,3 +1742,48 @@ link="https://github.com/BitBoxSwiss/bitbox-wallet-app/releases/download/v4.47.2
 size=159 MB
 version=4.47.2
 -----------------------------------------------------------------
+APP="bitfighter"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://bitfighter.org"
+link="https://bitfighter.org/files/bitfighter-022-Build0.glibc2.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=022
+-----------------------------------------------------------------
+APP="bitshares"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bitshares/bitshares-ui"
+link="https://github.com/bitshares/bitshares-ui/releases/download/5.0.210216/BitShares.5.0.210216.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=5.0.210216
+-----------------------------------------------------------------
+APP="bitwarden"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bitwarden/clients"
+link="https://github.com/bitwarden/clients/releases/download/desktop-v2025.2.1/Bitwarden-2025.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=2025.2.1
+-----------------------------------------------------------------
+APP="biying"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iovxw/biying"
+link="https://github.com/iovxw/biying/releases/download/v1.1.1/Biying-v1.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="bk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aeosynth/bk"
+link="https://github.com/aeosynth/bk/releases/download/v0.6.0/bk-linux"
+-----------------------------------------------------------------
+size=1 MB
+version=0.6.0
+-----------------------------------------------------------------
