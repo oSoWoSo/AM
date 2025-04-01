@@ -982,3 +982,48 @@ link="https://github.com/supertriodo/Arena-Tracker/releases/download/v25.01/Aren
 size=22 MB
 version=25.01
 -----------------------------------------------------------------
+APP="aretext"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aretext/aretext"
+link="https://github.com/aretext/aretext/releases/download/v1.4.0/aretext_1.4.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=10 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="ark.desktop.wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArkEcosystem/desktop-wallet"
+link="https://github.com/ArkEcosystem/desktop-wallet/releases/download/2.9.5/ark-desktop-wallet-linux-x86_64-2.9.5.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=2.9.5
+-----------------------------------------------------------------
+APP="arkaway"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="son-link/arkaway"
+link="https://github.com/son-link/arkaway/releases/download/20230301/Arkaway-20230301-x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=20230301
+-----------------------------------------------------------------
+APP="arma3-unix-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muttleyxd/arma3-unix-launcher"
+link="https://github.com/muttleyxd/arma3-unix-launcher/releases/download/commit-420/Arma_3_Unix_Launcher-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=3
+-----------------------------------------------------------------
+APP="armagetronad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArmagetronAd/armagetronad"
+link="https://github.com/ArmagetronAd/armagetronad/releases/download/v0.2.9.2.3/ArmagetronAdvanced.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.2.9.2.3
+-----------------------------------------------------------------
