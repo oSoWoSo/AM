@@ -491,3 +491,47 @@ link="https://github.com/chrisknepper/android-messages-desktop/releases/download
 size=72 MB
 version=3.1.0
 -----------------------------------------------------------------
+APP="android-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zyrouge/android-studio-appimages"
+link="https://github.com/zyrouge/android-studio-appimages/releases/download/v2024.3.1.14/android-studio-2024.3.1.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1221 MB
+version=2024.3.1.14
+-----------------------------------------------------------------
+APP="android-studio-latest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zyrouge/android-studio-appimages"
+link="https://github.com/zyrouge/android-studio-appimages/releases/download/v2024.3.2.9/android-studio-beta-2024.3.2.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1228 MB
+version=2024.3.2.9
+-----------------------------------------------------------------
+APP="android-tools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/android-tools-AppImage"
+-----------------------------------------------------------------
+size=10 MB
+version=36.0.0
+-----------------------------------------------------------------
+APP="ani-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pystardust/ani-cli"
+link="https://github.com/pystardust/ani-cli/releases/download/v4.9/ani-cli"
+-----------------------------------------------------------------
+size=1 MB
+version=4.9
+-----------------------------------------------------------------
+APP="animashooter-junior"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.animashooter.com"
+link="https://www.animatech.ru/download/AnimaShooter_Junior_3.9.9.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=3.9.9.3
+-----------------------------------------------------------------
