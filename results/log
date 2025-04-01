@@ -1918,3 +1918,48 @@ link="https://github.com/blocknetdx/block-dx/releases/download/v1.9.5/BLOCK-DX-1
 size=127 MB
 version=1.9.5
 -----------------------------------------------------------------
+APP="blockbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JannisX11/blockbench"
+link="https://github.com/JannisX11/blockbench/releases/download/v4.12.4/Blockbench_4.12.4.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=4.12.4
+-----------------------------------------------------------------
+APP="blockstream-green"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Blockstream/green_qt"
+link="https://github.com/Blockstream/green_qt/releases/download/release_2.0.23/BlockstreamGreen-x86_64.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=2.0.23
+-----------------------------------------------------------------
+APP="bloks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eoscafe/bloks-desktop"
+link="https://github.com/eoscafe/bloks-desktop/releases/download/2.0.0/Bloks-Linux-2.0.0.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="bloomee"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="HemantKArya/BloomeeTunes"
+link="https://github.com/HemantKArya/BloomeeTunes/releases/download/v2.11.5%2B170/bloomee_tunes_linux_v2.11.5_dev%2B49.zip"
+-----------------------------------------------------------------
+size=58 MB
+version=2.11.5
+-----------------------------------------------------------------
+APP="bloomrpc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="uw-labs/bloomrpc"
+link="https://github.com/bloomrpc/bloomrpc/releases/download/1.5.3/BloomRPC-1.5.3.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.5.3
+-----------------------------------------------------------------
