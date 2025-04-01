@@ -1250,3 +1250,48 @@ link="https://github.com/mean00/avidemux2/releases/download/2.8.1/avidemux_2.8.1
 size=43 MB
 version=2.8.1
 -----------------------------------------------------------------
+APP="avidemux-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Avidemux-unofficial-appimage"
+link="https://github.com/ivan-hc/Avidemux-unofficial-appimage/releases/download/continuous/Avidemux_2.8.1-6-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=2.8.1
+-----------------------------------------------------------------
+APP="avocado"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://avocado-builds.czekanski.info"
+link="https://bitfighter.org/files/bitfighter-022-Build0.glibc2.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=022
+-----------------------------------------------------------------
+APP="avogadro2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenChemistry/avogadroapp"
+link="https://github.com/OpenChemistry/avogadroapp/releases/download/1.100.0/Avogadro2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=136 MB
+version=1.100.0
+-----------------------------------------------------------------
+APP="awakened-poe-trade"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SnosMe/awakened-poe-trade"
+link="https://github.com/SnosMe/awakened-poe-trade/releases/download/v3.25.104/Awakened-PoE-Trade-3.25.104.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=3.25.104
+-----------------------------------------------------------------
+APP="axe-electrum"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AXErunners/electrum-axe"
+link="https://github.com/AXErunners/electrum-axe/releases/download/3.3.8.9/Axe-Electrum-3.3.8.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=3.3.8.9
+-----------------------------------------------------------------
