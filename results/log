@@ -1205,3 +1205,48 @@ link="https://github.com/sneljo1/auryo/releases/download/v2.5.4/Auryo-2.5.4.AppI
 size=90 MB
 version=2.5.4
 -----------------------------------------------------------------
+APP="authme"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Levminer/authme"
+link="https://github.com/Levminer/authme/releases/download/6.0.3/authme-6.0.3-linux-x64.appimage"
+-----------------------------------------------------------------
+size=133 MB
+version=6.0.3
+-----------------------------------------------------------------
+APP="authy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ryuuzaki42/Authy_AppImage"
+link="https://github.com/ryuuzaki42/Authy_AppImage/releases/download/2.5.0/Authy_Desktop-2.5.0.glibc2.17-x86_64-1_JB.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=2.5.0.glibc2.17
+-----------------------------------------------------------------
+APP="autoedit2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenNewsLabs/autoEdit_2"
+link="https://github.com/OpenNewsLabs/autoEdit_2/releases/download/1.0.24/autoEdit2-1.0.24-x86_64.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=1.0.24
+-----------------------------------------------------------------
+APP="avantgarde"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kuiperzone/AvantGarde"
+link="https://github.com/kuiperzone/AvantGarde/releases/download/v1.5.1/AvantGarde.x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="avidemux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mean00/avidemux2"
+link="https://github.com/mean00/avidemux2/releases/download/2.8.1/avidemux_2.8.1.appImage"
+-----------------------------------------------------------------
+size=43 MB
+version=2.8.1
+-----------------------------------------------------------------
