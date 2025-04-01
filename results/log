@@ -1384,3 +1384,46 @@ link="https://github.com/pocketnetteam/pocketnet.gui/releases/download/v0.9.116/
 size=151 MB
 version=0.9.116
 -----------------------------------------------------------------
+APP="bat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/bat"
+-----------------------------------------------------------------
+size=7 MB
+version=0.25.0
+-----------------------------------------------------------------
+APP="bat-extras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eth-p/bat-extras"
+-----------------------------------------------------------------
+size=1 MB
+version=2024.08.24.zip
+-----------------------------------------------------------------
+APP="batch-explorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Azure/BatchExplorer"
+link="https://github.com/Azure/BatchExplorer/releases/download/v2.22.0-stable.1076/BatchExplorer-2.22.0-stable.1076.AppImage"
+-----------------------------------------------------------------
+size=197 MB
+version=2.22.0
+-----------------------------------------------------------------
+APP="battop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="svartalf/rust-battop"
+link="https://github.com/svartalf/rust-battop/releases/download/v0.2.4/battop-v0.2.4-x86_64-unknown-linux-gnu"
+-----------------------------------------------------------------
+size=3 MB
+version=0.2.4
+-----------------------------------------------------------------
+APP="bauh"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vinifmor/bauh"
+link="https://github.com/vinifmor/bauh/releases/download/0.10.7/bauh-0.10.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=0.10.7
+-----------------------------------------------------------------
