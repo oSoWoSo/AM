@@ -389,10 +389,7 @@ jobs:
                 echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}"
               fi
             else
-              echo y | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}"  || \
-                echo "Silent fail" >> $GITHUB_STEP_SUMMARY && \
-                echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}" && \
-                exit 0
+              echo y | am -i "${{ matrix.file }}" --debug 2>/dev/null | tee "results/log-${{ matrix.file }}" || echo "Silent fail" >> $GITHUB_STEP_SUMMARY && echo "${{ matrix.file }}" >> results/ko-"${{ matrix.file }}" && exit 0
               size=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep 'OF DISK SPACE' | cut -d'(' -f2 | cut -d' ' -f1,2)
               Preversion=$(cat "results/log-${{ matrix.file }}" | tee /dev/null | grep '◆' | tail -1)
               echo "pre version is $Preversion"
