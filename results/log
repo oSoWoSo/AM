@@ -1427,3 +1427,48 @@ link="https://github.com/vinifmor/bauh/releases/download/0.10.7/bauh-0.10.7-x86_
 size=80 MB
 version=0.10.7
 -----------------------------------------------------------------
+APP="bazecor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dygmalab/Bazecor"
+link="https://github.com/Dygmalab/Bazecor/releases/download/v1.7.0/Bazecor-1.7.0-x64.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="bbg"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bbg-contributors/bbg"
+link="https://github.com/bbg-contributors/bbg/releases/download/20250311/bbg-20250311-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=20250311
+-----------------------------------------------------------------
+APP="bdash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bdash-app/bdash"
+link="https://github.com/bdash-app/bdash/releases/download/v1.17.1/Bdash-1.17.1.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=1.17.1
+-----------------------------------------------------------------
+APP="beam-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BeamMW/beam-ui"
+link="https://github.com/BeamMW/beam-ui/releases/download/beam-7.5.13840.5763/Linux-Beam-Wallet-7.5.13840.5763.zip"
+-----------------------------------------------------------------
+size=168 MB
+version=7.5.13840.5763.zip
+-----------------------------------------------------------------
+APP="bearly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bearlyai/releases"
+link="https://github.com/bearlyai/releases/releases/download/v3.0.0/Bearly-3.0.0.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=3.0.0
+-----------------------------------------------------------------
