@@ -535,3 +535,47 @@ link="https://www.animatech.ru/download/AnimaShooter_Junior_3.9.9.3-x86_64.AppIm
 size=51 MB
 version=3.9.9.3
 -----------------------------------------------------------------
+APP="animashooter-pioneer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.animashooter.com"
+link="https://www.animatech.ru/download/AnimaShooter_Pioneer_3.9.9.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=3.9.9.3
+-----------------------------------------------------------------
+APP="animos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keerthivasansa/animos"
+link="https://github.com/keerthivasansa/animos/releases/download/v0.5.8/Animos-0.5.8.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=0.5.8
+-----------------------------------------------------------------
+APP="aniship"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="progzone122/AniShip"
+link="https://github.com/progzone122/AniShip/releases/download/v0.0.4.2night/setup-0.0.4-2.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.0.4
+-----------------------------------------------------------------
+APP="ankama-launcher"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://ankama.com"
+-----------------------------------------------------------------
+size=166 MB
+version=3.12.38
+-----------------------------------------------------------------
+APP="anki"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ankitects/anki"
+link="https://github.com/ankitects/anki/releases/download/25.02/anki-25.02-linux-qt6.tar.zst"
+-----------------------------------------------------------------
+size=473 MB
+version=25.02
+-----------------------------------------------------------------
