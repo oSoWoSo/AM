@@ -267,3 +267,48 @@ link="https://github.com/mgord9518/aisap/releases/download/continuous/aisap-0.10
 size=3 MB
 version=0.10.5
 -----------------------------------------------------------------
+APP="aisleriot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Aisleriot-appimage"
+link="https://github.com/ivan-hc/Aisleriot-appimage/releases/download/continuous/AisleRiot-Solitaire_3.22.35-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=66 MB
+version=3.22.35
+-----------------------------------------------------------------
+APP="akasha"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AkashaProject/Community"
+link="https://github.com/AKASHAorg/Community/releases/download/0.7.2/AKASHA-0.7.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="akuse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="akuse-app/akuse"
+link="https://github.com/akuse-app/akuse/releases/download/1.10.1/linux-akuse-1.10.1.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=1.10.1
+-----------------------------------------------------------------
+APP="albafetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="alba4k/albafetch"
+link="https://github.com/alba4k/albafetch/releases/download/v4.2.1/albafetch-linux-x64-static.zip"
+-----------------------------------------------------------------
+size=1 MB
+version=4.2.1
+-----------------------------------------------------------------
+APP="alduin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Xstoudi/alduin"
+link="https://github.com/AlduinApp/alduin/releases/download/v3.2.0/alduin_3.2.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=3.2.0
+-----------------------------------------------------------------
