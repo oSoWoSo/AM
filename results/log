@@ -3,3 +3,13 @@ APPIMAGE='yes'
 GITHUB='no'
 SITE="volatilflerovium/3D-Puzzles"
 -----------------------------------------------------------------
+APP="2ship"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HarbourMasters/2ship2harkinian"
+-----------------------------------------------------------------
+APP="abiword"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Abiword-appimage"
+-----------------------------------------------------------------
