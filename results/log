@@ -3663,3 +3663,48 @@ link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreTi
 size=29 MB
 version=d5f6110
 -----------------------------------------------------------------
+APP="coreuniverse"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreUniverse-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="cosmic-comics"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nytuo/CosmicComics"
+link="https://github.com/Nytuo/CosmicComics/releases/download/v2.1.1/Cosmic-Comics_2.1.1_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=2.1.1
+-----------------------------------------------------------------
+APP="cosmonium"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cosmonium/cosmonium"
+link="https://github.com/cosmonium/cosmonium/releases/download/v0.3.0.dev876/cosmonium-0.3.0.dev876_manylinux2014_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=603 MB
+version=0.3.0.dev876
+-----------------------------------------------------------------
+APP="cowitness"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="stolenusername/cowitness"
+link="https://github.com/stolenusername/cowitness/releases/download/1.3/cowitness_1.3_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=6 MB
+version=1.3
+-----------------------------------------------------------------
+APP="cozydrive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cozy-labs/cozy-desktop"
+link="https://github.com/cozy-labs/cozy-desktop/releases/download/v3.43.0-beta.1/Cozy-Drive-3.43.0-beta.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=3.43.0
+-----------------------------------------------------------------
