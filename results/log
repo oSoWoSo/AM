@@ -3035,3 +3035,48 @@ link="https://github.com/rossprogram/circle-z/releases/download/v1.14.0/Circle-Z
 size=118 MB
 version=1.14.0
 -----------------------------------------------------------------
+APP="circuitblocks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CircuitMess/CircuitBlocks"
+link="https://github.com/CircuitMess/CircuitBlocks/releases/download/v1.10.0/CircuitBlocks-1.10.0-Linux.AppImage"
+-----------------------------------------------------------------
+size=145 MB
+version=1.10.0
+-----------------------------------------------------------------
+APP="citron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Citron-AppImage"
+link="https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-b25c7653e-anylinux-x86_64_v3.AppImage"
+-----------------------------------------------------------------
+size=124 MB
+version=b25c7653e
+-----------------------------------------------------------------
+APP="citron-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Citron-AppImage"
+link="https://github.com/pkgforge-dev/Citron-AppImage/releases/download/nightly/Citron-b25c7653e-anylinux-x86_64_v3.AppImage"
+-----------------------------------------------------------------
+size=124 MB
+version=b25c7653e
+-----------------------------------------------------------------
+APP="city-hub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CityChainFoundation/city-hub"
+link="https://github.com/CityChainFoundation/city-hub/releases/download/v1.0.35/City.Hub-1.0.35-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=1.0.35
+-----------------------------------------------------------------
+APP="clamtk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dave-theunsub/clamtk"
+link="https://github.com/dave-theunsub/clamtk/releases/download/v6.18/clamtk-6.18.tar.xz"
+-----------------------------------------------------------------
+size=3 MB
+version=6.18
+-----------------------------------------------------------------
