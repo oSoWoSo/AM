@@ -3573,3 +3573,48 @@ link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreIn
 size=33 MB
 version=d5f6110
 -----------------------------------------------------------------
+APP="corekeyboard"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreKeyboard-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corepad"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CorePad-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corepaint"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CorePaint-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corepins"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CorePins-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corerenamer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreRenamer-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
