@@ -3304,3 +3304,48 @@ link="https://github.com/YaShock/color-generator/releases/download/0.22/ColorGen
 size=7 MB
 version=0.22
 -----------------------------------------------------------------
+APP="colorpicker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Toinane/colorpicker"
+link="https://github.com/Toinane/colorpicker/releases/download/2.2.2/Colorpicker-2.2.2.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=2.2.2
+-----------------------------------------------------------------
+APP="colorstatic-bash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/colorstatic-bash"
+link="https://github.com/Lateralus138/colorstatic-bash/releases/download/Continuous/colorstatic.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="comic-book-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="binarynonsense/comic-book-reader"
+link="https://github.com/binarynonsense/comic-book-reader/releases/download/v3.10.1/ACBR_Linux_AppImage.zip"
+-----------------------------------------------------------------
+size=180 MB
+version=3.10.1
+-----------------------------------------------------------------
+APP="comic-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Pong420/Comic-Reader"
+link="https://github.com/Pong420/Comic-Reader/releases/download/6.0.1/Comic.Reader-6.0.1.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=6.0.1
+-----------------------------------------------------------------
+APP="comics-downloader"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Girbons/comics-downloader"
+link="https://github.com/Girbons/comics-downloader/releases/download/v0.33.9/comics-downloader-linux-x86-64"
+-----------------------------------------------------------------
+size=12 MB
+version=0.33.9
+-----------------------------------------------------------------
