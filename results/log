@@ -3842,3 +3842,48 @@ link="https://github.com/schollz/croc/releases/download/v10.2.2/croc_v10.2.2_Lin
 size=15 MB
 version=10.2.2
 -----------------------------------------------------------------
+APP="crock"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mirumirumi/crock"
+link="https://github.com/mirumirumi/crock/releases/download/1.0.0/crock"
+-----------------------------------------------------------------
+size=2 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="cromagrally"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/CroMagRally"
+link="https://github.com/jorio/CroMagRally/releases/download/3.0.1/CroMagRally-3.0.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="cromberg"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="z17/home-accounting-system"
+link="https://github.com/z17/home-accounting-system/releases/download/v1.5.0/Cromberg-1.5.0.AppImage"
+-----------------------------------------------------------------
+size=123 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="cromite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Cromite-AppImage"
+link="https://github.com/pkgforge-dev/Cromite-AppImage/releases/download/v134.0.6998.108/Cromite-v134.0.6998.108-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=198 MB
+version=134.0.6998.108
+-----------------------------------------------------------------
+APP="crosscode-map-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CCDirectLink/crosscode-map-editor"
+link="https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v1.8.1/cc-map-editor-1.8.1-linux.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.8.1
+-----------------------------------------------------------------
