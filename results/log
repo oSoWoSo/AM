@@ -3169,3 +3169,48 @@ link="https://github.com/clipr/clipr/releases/download/v1.0.26/clipr-1.0.26-x86_
 size=55 MB
 version=1.0.26
 -----------------------------------------------------------------
+APP="clipse"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="savedra1/clipse"
+link="https://github.com/savedra1/clipse/releases/download/v1.1.0/clipse_1.1.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="cloud-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lemourin/libcloudstorage"
+link="https://github.com/lemourin/libcloudstorage/releases/download/1.9/Cloud_Browser-x86_64.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=1.9
+-----------------------------------------------------------------
+APP="clownmaped"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Clownacy/ClownMapEd"
+link="https://github.com/Clownacy/ClownMapEd/releases/download/v1.2.0.1/ClownMapEd-v1.2.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=1.2.0.1
+-----------------------------------------------------------------
+APP="clownmdemu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Clownacy/clownmdemu-frontend"
+link="https://github.com/Clownacy/clownmdemu-frontend/releases/download/v1.2.1/ClownMDEmu-v1.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=3 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="cncjs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cncjs/cncjs"
+link="https://github.com/cncjs/cncjs/releases/download/v1.10.5/cncjs-app-1.10.5-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.10.5
+-----------------------------------------------------------------
