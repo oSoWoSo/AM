@@ -2453,3 +2453,48 @@ link="https://github.com/cabal-club/cabal-desktop/releases/download/v8.0.0/cabal
 size=115 MB
 version=8.0.0
 -----------------------------------------------------------------
+APP="cacher"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.cacher.io"
+link="https://s3.amazonaws.com/download.cacher.io/Cacher-2.47.6.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.47.6
+-----------------------------------------------------------------
+APP="cadmus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="josh-richardson/cadmus"
+link="https://github.com/josh-richardson/cadmus/releases/download/0.0.3/cadmus.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="caesium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="larygwil/caesium-image-compressor"
+link="https://github.com/larygwil/caesium-image-compressor/releases/download/v2.6.0/Caesium_Image_Compressor-x86_64_v2.6.0_ubu20_qt66.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=2.6.0
+-----------------------------------------------------------------
+APP="calibre"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE=""
+link="https://github.com/kovidgoyal/calibre/releases/download/v8.1.1/calibre-8.1.1-x86_64.txz"
+-----------------------------------------------------------------
+size=232 MB
+version=8.1.1
+-----------------------------------------------------------------
+APP="calm-circles"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/calm"
+link="https://github.com/VitoVan/calm/releases/download/1.3.2/Circles.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=1.3.2
+-----------------------------------------------------------------
