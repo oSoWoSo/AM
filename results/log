@@ -2052,3 +2052,48 @@ link="https://github.com/Hunlongyu/bookmarks-manager/releases/download/v0.1.2/Bo
 size=98 MB
 version=0.1.2
 -----------------------------------------------------------------
+APP="boost-note"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BoostIO/BoostNote-App"
+link="https://github.com/BoostIO/BoostNote-App/releases/download/v0.23.1/boost-note-linux.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=0.23.1
+-----------------------------------------------------------------
+APP="boostchanger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nbebaw/boostchanger"
+link="https://github.com/nbebaw/boostchanger/releases/download/v5.0.3/boostchanger-5.0.3.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=5.0.3
+-----------------------------------------------------------------
+APP="botclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DarkGuy10/BotClient"
+link="https://github.com/DarkGuy10/BotClient/releases/download/v0.12.1-alpha/BotClient-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=134 MB
+version=0.12.1
+-----------------------------------------------------------------
+APP="botframework-emulator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="microsoft/BotFramework-Emulator"
+link="https://github.com/microsoft/BotFramework-Emulator/releases/download/v4.15.1/BotFramework-Emulator-4.15.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=255 MB
+version=4.15.1
+-----------------------------------------------------------------
+APP="botim"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://botim.me"
+link="https://cdn-web-sg.botim.me/downloads/desktop/linux/1.7.5/Botim-1.7.5.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=1.7.5
+-----------------------------------------------------------------
