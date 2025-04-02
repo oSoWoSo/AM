@@ -2900,3 +2900,48 @@ link="https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.17/Cherry
 size=127 MB
 version=1.1.17
 -----------------------------------------------------------------
+APP="cherrytree"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="giuspen/cherrytree"
+link="https://github.com/giuspen/cherrytree/releases/download/v1.4.0/CherryTree-1.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="chiaki"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://git.sr.ht/~thestr4ng3r/chiaki"
+link="v2.2.0"
+-----------------------------------------------------------------
+size=31 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="chimeradesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="morrolinux/ChimeraDesk"
+link="https://github.com/morrolinux/ChimeraDesk/releases/download/0.0.4/ChimeraDesk-KVM-40dae09-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=40dae09
+-----------------------------------------------------------------
+APP="chimeradesk-kvm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="morrolinux/ChimeraDesk"
+link="https://github.com/morrolinux/ChimeraDesk/releases/download/0.0.4/ChimeraDesk-KVM-40dae09-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=40dae09
+-----------------------------------------------------------------
+APP="chromium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chromium-Web-Browser-appimage"
+link="https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-stable-134.0.6998.165-x86_64.AppImage"
+-----------------------------------------------------------------
+size=149 MB
+version=134.0.6998.165
+-----------------------------------------------------------------
