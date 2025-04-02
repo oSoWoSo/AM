@@ -2945,3 +2945,48 @@ link="https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download
 size=149 MB
 version=134.0.6998.165
 -----------------------------------------------------------------
+APP="chromium-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chromium-Web-Browser-appimage"
+link="https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-beta-135.0.7049.28-x86_64.AppImage"
+-----------------------------------------------------------------
+size=148 MB
+version=135.0.7049.28
+-----------------------------------------------------------------
+APP="chromium-bsu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/chromium-bsu/Chromium-B.S.U._0.9.16.1-3-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=0.9.16.1
+-----------------------------------------------------------------
+APP="chromium-edge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chromium-Web-Browser-appimage"
+link="https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-edge-136.0.7091.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=136.0.7091.2
+-----------------------------------------------------------------
+APP="chromium-rc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chromium-Web-Browser-appimage"
+link="https://github.com/ivan-hc/Chromium-Web-Browser-appimage/releases/download/continuous/Chromium-candidate-134.0.6998.165-x86_64.AppImage"
+-----------------------------------------------------------------
+size=149 MB
+version=134.0.6998.165
+-----------------------------------------------------------------
+APP="chrysalis-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keyboardio/Chrysalis"
+link="https://github.com/keyboardio/Chrysalis/releases/download/v0.13.3/Chrysalis-0.13.3-x64.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=0.13.3
+-----------------------------------------------------------------
