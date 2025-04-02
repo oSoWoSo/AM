@@ -2275,3 +2275,48 @@ link="https://github.com/ttalvitie/browservice/releases/download/v0.9.11.1/brows
 size=258 MB
 version=0.9.11.1
 -----------------------------------------------------------------
+APP="brs-emu-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lvcabral/brs-emu-app"
+link="https://github.com/lvcabral/brs-desktop/releases/download/v1.4.0/brs-desktop-1.4.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="bruno"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="usebruno/bruno"
+link="https://github.com/usebruno/bruno/releases/download/v2.0.0/bruno_2.0.0_x86_64_linux.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="brutespray"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="x90skysn3k/brutespray"
+link="https://github.com/x90skysn3k/brutespray/releases/download/v2.3.1/brutespray_2.3.1_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=27 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="bscanfftwebcam"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/FDOCT"
+link="https://github.com/hn-88/FDOCT/releases/download/v1.20/BscanFFTwebcam1.20-x86_64.AppImage"
+-----------------------------------------------------------------
+size=16 MB
+version=1.20
+-----------------------------------------------------------------
+APP="btop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aristocratos/btop"
+link="https://github.com/aristocratos/btop/releases/download/v1.4.0/btop-x86_64-linux-musl.tbz"
+-----------------------------------------------------------------
+size=3 MB
+version=1.4.0
+-----------------------------------------------------------------
