@@ -3483,3 +3483,48 @@ link="https://gitlab.com/coolercontrol/coolercontrol/-/releases/1.4.5/downloads/
 size=81 MB
 version=1.4.5
 -----------------------------------------------------------------
+APP="coolercontrold"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/coolercontrol"
+link="https://gitlab.com/coolercontrol/coolercontrol/-/releases/2.0.1/downloads/packages/CoolerControlD-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="copytranslator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CopyTranslator/CopyTranslator"
+link="https://github.com/CopyTranslator/CopyTranslator/releases/download/v10.0.0-beta.2/copytranslator-10.0.0-beta.2.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=10.0.0
+-----------------------------------------------------------------
+APP="cordlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ProtocolONE/cord.launcher"
+link="https://github.com/ProtocolONE/cord.launcher/releases/download/v0.1.2/cordlauncher-0.1.2.AppImage"
+-----------------------------------------------------------------
+size=64 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="coreaction"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreAction-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corearchiver"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreArchiver-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=d5f6110
+-----------------------------------------------------------------
