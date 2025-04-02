@@ -3214,3 +3214,48 @@ link="https://github.com/cncjs/cncjs/releases/download/v1.10.5/cncjs-app-1.10.5-
 size=103 MB
 version=1.10.5
 -----------------------------------------------------------------
+APP="cncra2yr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/cncra2yr_AppImage"
+link="https://github.com/mmtrt/cncra2yr_AppImage/releases/download/dotnet-wp/cncra2yr-8.67.3-dotnet_WP-x86_64.AppImage"
+-----------------------------------------------------------------
+size=591 MB
+version=8.67.3
+-----------------------------------------------------------------
+APP="coal-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bobuxstation/Coal-Launcher"
+link="https://github.com/Bobuxstation/Coal-Launcher/releases/download/v1.3.6/coal-launcher-1.3.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=1.3.6
+-----------------------------------------------------------------
+APP="cocomusic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xtuJSer/CoCoMusic"
+link="https://cocomusic-1252075019.file.myqcloud.com/2.0.7/CocoMusic%202.0.7.AppImage"
+-----------------------------------------------------------------
+size=62 MB
+version=2.0.7
+-----------------------------------------------------------------
+APP="code"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="https://code.visualstudio.com"
+link="https://github.com/microsoft/vscode/releases/tag/1.98.2"
+-----------------------------------------------------------------
+size=409 MB
+version=1.98.2
+-----------------------------------------------------------------
+APP="code-notes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lauthieb/code-notes"
+link="https://github.com/lauthieb/code-notes/releases/download/1.2.4/code-notes-1.2.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=1.2.4
+-----------------------------------------------------------------
