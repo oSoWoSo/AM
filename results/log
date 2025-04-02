@@ -2633,3 +2633,48 @@ link="https://github.com/sealangdotorg/sea/releases/download/0.6.0/casm-linux-x8
 size=4 MB
 version=0.6.0
 -----------------------------------------------------------------
+APP="casterr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sbondCo/Casterr"
+link="https://github.com/sbondCo/Casterr/releases/download/v2.0.0/Casterr-2.0.0.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="castersoundboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="covarianttensor/CasterSoundboard"
+link="https://github.com/covarianttensor/CasterSoundboard/releases/download/continuous/CasterSoundboard-1a84315-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=1a84315
+-----------------------------------------------------------------
+APP="catalyst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CatalystDevOrg/Catalyst"
+link="https://github.com/CatalystDevOrg/Catalyst/releases/download/v3.9.6/catalyst-3.9.6.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=3.9.6
+-----------------------------------------------------------------
+APP="catapult"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="qrrk/Catapult"
+link="https://github.com/qrrk/Catapult/releases/download/24.11a/catapult-linux-x64-24.11a"
+-----------------------------------------------------------------
+size=59 MB
+version=24.11a
+-----------------------------------------------------------------
+APP="catcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="testathor/CATcher"
+link="https://github.com/CATcher-org/CATcher/releases/download/V3.4.7/CATcher-3.4.7.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=3.4.7
+-----------------------------------------------------------------
