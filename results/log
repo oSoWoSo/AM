@@ -2856,3 +2856,47 @@ link="https://github.com/Chatterino/chatterino2/releases/download/nightly-build/
 size=36 MB
 version=2025.03.29
 -----------------------------------------------------------------
+APP="cheat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cheat/cheat"
+-----------------------------------------------------------------
+size=11 MB
+version=4.4.2
+-----------------------------------------------------------------
+APP="cheatbreaker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CheatBreakerNet/Launcher"
+link="https://github.com/CheatBreakerNet/Launcher/releases/download/3.0.4/CheatBreaker.AppImage"
+-----------------------------------------------------------------
+size=123 MB
+version=3.0.4
+-----------------------------------------------------------------
+APP="checkra1n"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://checkra.in/"
+link="0.12.4"
+-----------------------------------------------------------------
+size=10 MB
+version=0.12.4
+-----------------------------------------------------------------
+APP="chemcanvas"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ksharindam/chemcanvas"
+link="https://github.com/ksharindam/chemcanvas/releases/download/v0.6.0/ChemCanvas-x86_64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="cherry-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kangfenmao/cherry-studio"
+link="https://github.com/CherryHQ/cherry-studio/releases/download/v1.1.17/Cherry-Studio-1.1.17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=1.1.17
+-----------------------------------------------------------------
