@@ -3752,3 +3752,48 @@ link="https://github.com/LivacoNew/CrabFetch/releases/download/v0.5.4/crabfetch-
 size=4 MB
 version=0.5.4
 -----------------------------------------------------------------
+APP="craftos-pc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MCJack123/craftos2"
+link="https://github.com/MCJack123/craftos2/releases/download/v2.8.3-luajit/CraftOS-PC.x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=2.8.3
+-----------------------------------------------------------------
+APP="crankshaft"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KraXen72/crankshaft"
+link="https://github.com/KraXen72/crankshaft/releases/download/1.9.0/crankshaft-portable-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="creality-print"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.creality.com"
+link="https://github.com/CrealityOfficial/CrealityPrint/releases/download/v5.1.7/Creality_Print-v5.1.7.10514-x86_64-Release.AppImage"
+-----------------------------------------------------------------
+size=266 MB
+version=5.1.7.10514
+-----------------------------------------------------------------
+APP="crg-data-tool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AdamSmasherDerby/CRG-To-Statsbook"
+link="https://github.com/AdamSmasherDerby/CRG-To-Statsbook/releases/download/v2.4.3/CRG.Data.Tool-2.4.3.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="cric"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/cric"
+link="https://github.com/trixon/cric/releases/download/v24.12/CRIC-24.12-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=24.12
+-----------------------------------------------------------------
