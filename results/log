@@ -2097,3 +2097,47 @@ link="https://cdn-web-sg.botim.me/downloads/desktop/linux/1.7.5/Botim-1.7.5.AppI
 size=101 MB
 version=1.7.5
 -----------------------------------------------------------------
+APP="bottlebats"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZeusWPI/MOZAIC"
+link="https://github.com/ZeusWPI/MOZAIC/releases/download/0.4.0/bottlebats-0.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="bottlenose"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quinton-ashley/bottlenose"
+link="https://github.com/quinton-ashley/nostlan/releases/download/2.6.x/nostlan.AppImage"
+-----------------------------------------------------------------
+size=135 MB
+version=2.6
+-----------------------------------------------------------------
+APP="bottles"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Bottles-appimage"
+link="https://github.com/ivan-hc/Bottles-appimage/releases/download/51.17-3/Bottles_51.17-3-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=274 MB
+version=51.17
+-----------------------------------------------------------------
+APP="bottom"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ClementTsang/bottom"
+-----------------------------------------------------------------
+size=6 MB
+version=unknown
+-----------------------------------------------------------------
+APP="boxxy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="queer/boxxy"
+link="https://github.com/queer/boxxy/releases/download/v0.8.5/boxxy-v0.8.5-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=33 MB
+version=0.8.5
+-----------------------------------------------------------------
