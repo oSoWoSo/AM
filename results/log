@@ -2812,3 +2812,47 @@ link="https://github.com/ai-shifu/ChatALL/releases/download/v1.84.109/ChatALL-1.
 size=88 MB
 version=1.84.109
 -----------------------------------------------------------------
+APP="chatbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bin-Huang/chatbox"
+link="https://github.com/chatboxai/chatbox/releases/download/v0.10.4/Chatbox.CE-0.10.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.10.4
+-----------------------------------------------------------------
+APP="chatgpt-next-web"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ChatGPTNextWeb/ChatGPT-Next-Web"
+link="https://github.com/ChatGPTNextWeb/NextChat/releases/download/v2.15.8/next-chat_2.15.8_amd64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=2.15.8
+-----------------------------------------------------------------
+APP="chatpad-ai"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://chatpad.ai"
+-----------------------------------------------------------------
+size=101 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="chatterino2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chatterino/chatterino2"
+link="https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=2025.03.29
+-----------------------------------------------------------------
+APP="chatterino2-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chatterino/chatterino2"
+link="https://github.com/Chatterino/chatterino2/releases/download/nightly-build/Chatterino-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=2025.03.29
+-----------------------------------------------------------------
