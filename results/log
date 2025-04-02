@@ -2767,3 +2767,48 @@ link="https://github.com/cerebral/cerebral-debugger/releases/download/v3.1.0/cer
 size=51 MB
 version=3.1.0
 -----------------------------------------------------------------
+APP="cerebro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cerebroapp/cerebro"
+link="https://github.com/cerebroapp/cerebro/releases/download/v0.11.0/Cerebro-0.11.0.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="chain-desktop-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="crypto-com/chain-desktop-wallet"
+link="https://github.com/crypto-com/chain-desktop-wallet/releases/download/v1.5.1/Crypto.com-DeFi-Desktop-Wallet-1.5.1.AppImage"
+-----------------------------------------------------------------
+size=237 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="chainx-signer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chainx-org/chainx-signer"
+link="https://github.com/chainx-org/chainx-signer/releases/download/v1.1.0/ChainX-Signer-1.1.0.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="chat-gpt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lencx/ChatGPT"
+link="https://github.com/lencx/ChatGPT/releases/download/v1.1.0/ChatGPT_1.1.0_linux_x86_64.AppImage.tar.gz"
+-----------------------------------------------------------------
+size=79 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="chatall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sunner/ChatALL"
+link="https://github.com/ai-shifu/ChatALL/releases/download/v1.84.109/ChatALL-1.84.109-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=1.84.109
+-----------------------------------------------------------------
