@@ -2141,3 +2141,48 @@ link="https://github.com/queer/boxxy/releases/download/v0.8.5/boxxy-v0.8.5-x86_6
 size=33 MB
 version=0.8.5
 -----------------------------------------------------------------
+APP="brainverse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ReproNim/brainverse"
+link="https://github.com/ReproNim/brainverse/releases/download/v0.0.8-alpha/BrainVerse-0.0.8-alpha-x86_64.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=0.0.8
+-----------------------------------------------------------------
+APP="brainwaves"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="makebrainwaves/BrainWaves"
+link="https://github.com/makebrainwaves/BrainWaves/releases/download/v0.15.1/BrainWaves-0.15.1.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="brave"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link="https://github.com/brave/brave-browser/releases/download/v1.76.82/brave-browser-1.76.82-linux-amd64.zip"
+-----------------------------------------------------------------
+size=389 MB
+version=1.76.82
+-----------------------------------------------------------------
+APP="brave-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link="https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-stable/Brave-Web-Browser-stable-1.76.82-x86_64.AppImage"
+-----------------------------------------------------------------
+size=155 MB
+version=1.76.82
+-----------------------------------------------------------------
+APP="brave-beta"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link="https://github.com/brave/brave-browser/releases/download/v1.78.72/brave-browser-beta-1.78.72-linux-amd64.zip"
+-----------------------------------------------------------------
+size=391 MB
+version=1.78.72
+-----------------------------------------------------------------
