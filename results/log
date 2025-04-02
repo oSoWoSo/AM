@@ -3393,3 +3393,48 @@ link="https://github.com/Shabang-Systems/Condution/releases/download/v1.2.1/Cond
 size=92 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="conky"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="brndnmtthws/conky"
+link="https://github.com/brndnmtthws/conky/releases/download/v1.22.1/conky-ubuntu-22.04-x86_64-v1.22.1.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=22.04
+-----------------------------------------------------------------
+APP="consoleworkbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="easyops-cn/console-workbench"
+link="https://github.com/easyops-cn/console-workbench/releases/download/v1.3.3/console-workbench-1.3.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=58 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="contour"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="contour-terminal/contour"
+link="https://github.com/contour-terminal/contour/releases/download/v0.6.1.7494/contour-0.6.1.7494.AppImage"
+-----------------------------------------------------------------
+size=316 MB
+version=0.6.1.7494
+-----------------------------------------------------------------
+APP="conty"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Kron4ek/Conty"
+link="https://github.com/Kron4ek/Conty/releases/download/1.27.2/conty.sh"
+-----------------------------------------------------------------
+size=1870 MB
+version=1.27.2
+-----------------------------------------------------------------
+APP="conty-lite"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Kron4ek/Conty"
+link="https://github.com/Kron4ek/Conty/releases/download/1.27.2/conty_lite.sh"
+-----------------------------------------------------------------
+size=1184 MB
+version=1.27.2
+-----------------------------------------------------------------
