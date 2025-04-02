@@ -3887,3 +3887,48 @@ link="https://github.com/CCDirectLink/crosscode-map-editor/releases/download/v1.
 size=103 MB
 version=1.8.1
 -----------------------------------------------------------------
+APP="crossmobile"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="crossmob/CrossMobile"
+link="https://github.com/crossmob/CrossMobile/releases/download/v3.4.0/CrossMobile-3.4.0.x86_64.appimage"
+-----------------------------------------------------------------
+size=53 MB
+version=3.4.0
+-----------------------------------------------------------------
+APP="crow-translate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="crow-translate/crow-translate"
+link="https://github.com/crow-translate/crow-translate/releases/download/2.11.1/Crow_Translate-2.11.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=2.11.1
+-----------------------------------------------------------------
+APP="cryplicity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kthulu120/mangle"
+link="https://github.com/Kthulu120/Cryplicity/releases/download/v0.0.1/Cryplicity-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="crypter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HR/Crypter"
+link="https://github.com/HR/Crypter/releases/download/v5.0.0/Crypter-5.0.0.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=5.0.0
+-----------------------------------------------------------------
+APP="cryptocam-companion"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/cryptocam"
+link="https://gitlab.com/cryptocam/cryptocam-companion/-/jobs/1246114289/artifacts/raw/Cryptocam%20Companion-0.2.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=Cryptocam%20Companion
+-----------------------------------------------------------------
