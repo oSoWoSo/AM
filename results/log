@@ -3349,3 +3349,47 @@ link="https://github.com/Girbons/comics-downloader/releases/download/v0.33.9/com
 size=12 MB
 version=0.33.9
 -----------------------------------------------------------------
+APP="comictagger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="comictagger/comictagger"
+link="https://github.com/comictagger/comictagger/releases/download/1.6.0-beta.4/ComicTagger-x86_64.AppImage"
+-----------------------------------------------------------------
+size=194 MB
+version=1.6.0
+-----------------------------------------------------------------
+APP="communicator-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=66 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="compass"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hpuhr/ATSDB"
+link="https://github.com/hpuhr/COMPASS/releases/download/v0.8.0/COMPASS-v0.8.0_hf2_newos.AppImage"
+-----------------------------------------------------------------
+size=636 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="concordium-desktop-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Concordium/concordium-desktop-wallet"
+link="https://github.com/Concordium/concordium-desktop-wallet/releases/download/v1.8.0/concordium-desktop-wallet-1.8.0.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=1.8.0
+-----------------------------------------------------------------
+APP="conduction"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Shabang-Systems/Condution"
+link="https://github.com/Shabang-Systems/Condution/releases/download/v1.2.1/Condution-1.2.1.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=1.2.1
+-----------------------------------------------------------------
