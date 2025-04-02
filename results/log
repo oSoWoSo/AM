@@ -2588,3 +2588,48 @@ link="https://github.com/cardo-podcast/cardo/releases/download/1.10.0/cardo_1.10
 size=88 MB
 version=1.10.0
 -----------------------------------------------------------------
+APP="cargo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="StratusFearMe21/cargo-appimage"
+link="https://github.com/StratusFearMe21/cargo-appimage/releases/download/v2.2.0/cargo-appimage-runner.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="carpenters"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="uhlibraries-digital/carpenters"
+link="https://github.com/uhlibraries-digital/carpenters/releases/download/v2.5.2/carpenters-2.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=2.5.2
+-----------------------------------------------------------------
+APP="carta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CARTAvis/carta"
+link="https://github.com/CARTAvis/carta/releases/download/v4.1.0/carta-v4.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=4.1.0
+-----------------------------------------------------------------
+APP="cask"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cask-pkg/cask.rs"
+link="https://github.com/cask-pkg/cask.rs/releases/download/v0.4.13/cask-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=0.4.13
+-----------------------------------------------------------------
+APP="casm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="casm-lang/casm"
+link="https://github.com/sealangdotorg/sea/releases/download/0.6.0/casm-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.6.0
+-----------------------------------------------------------------
