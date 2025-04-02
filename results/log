@@ -3797,3 +3797,48 @@ link="https://github.com/trixon/cric/releases/download/v24.12/CRIC-24.12-x86_64.
 size=59 MB
 version=24.12
 -----------------------------------------------------------------
+APP="criteria-geo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ARPA-SIMC/CRITERIA1D"
+link="https://github.com/ARPA-SIMC/CRITERIA1D/releases/download/v1.8.7/CRITERIA_GEO-x86_64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=1.8.7
+-----------------------------------------------------------------
+APP="criteria1d"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ARPA-SIMC/CRITERIA1D"
+link="https://github.com/ARPA-SIMC/CRITERIA1D/releases/download/v1.8.7/CRITERIA1D-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=1.8.7
+-----------------------------------------------------------------
+APP="criteria1d-pro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ARPA-SIMC/CRITERIA1D"
+link="https://github.com/ARPA-SIMC/CRITERIA1D/releases/download/v1.8.7/CRITERIA1D_PRO-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=CRITERIA1D
+-----------------------------------------------------------------
+APP="cro-chain-desktop-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="crypto-com/chain-desktop-wallet"
+link="https://github.com/crypto-com/chain-desktop-wallet/releases/download/v1.5.1/Crypto.com-DeFi-Desktop-Wallet-1.5.1.AppImage"
+-----------------------------------------------------------------
+size=237 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="croc"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="schollz/croc"
+link="https://github.com/schollz/croc/releases/download/v10.2.2/croc_v10.2.2_Linux-64bit.tar.gz"
+-----------------------------------------------------------------
+size=15 MB
+version=10.2.2
+-----------------------------------------------------------------
