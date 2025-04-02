@@ -2408,3 +2408,48 @@ link="https://github.com/bunqCommunity/bunqDesktop/releases/download/0.9.10/bunq
 size=80 MB
 version=0.9.10
 -----------------------------------------------------------------
+APP="burning-series"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DATL4G/BurningSeries-Android"
+link="https://github.com/DatL4g/Burning-Series/releases/download/v6.1.0/Burning-Series-v6.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=195 MB
+version=6.1.0
+-----------------------------------------------------------------
+APP="buttercup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="buttercup/buttercup-desktop"
+link="https://github.com/buttercup/buttercup-desktop/releases/download/v2.28.1/Buttercup-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=2.28.1
+-----------------------------------------------------------------
+APP="bypass-cors"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chrishham/BypassCors"
+link="https://github.com/chrishham/BypassCors/releases/download/v0.4.3/Bypass-Cors-0.4.3.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=0.4.3
+-----------------------------------------------------------------
+APP="bytespeichertrayicon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bytespeicher/BytespeicherTrayIcon"
+link="https://github.com/Bytespeicher/BytespeicherTrayIcon/releases/download/20190425140011/byteicon-d94707a-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=d94707a
+-----------------------------------------------------------------
+APP="cabal-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cabal-club/cabal-desktop"
+link="https://github.com/cabal-club/cabal-desktop/releases/download/v8.0.0/cabal-desktop-8.0.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=8.0.0
+-----------------------------------------------------------------
