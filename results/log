@@ -3438,3 +3438,48 @@ link="https://github.com/Kron4ek/Conty/releases/download/1.27.2/conty_lite.sh"
 size=1184 MB
 version=1.27.2
 -----------------------------------------------------------------
+APP="conty-wine"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Kron4ek/Conty"
+link="https://github.com/Kron4ek/Conty/releases/download/1.27.2/conty_wine.sh"
+-----------------------------------------------------------------
+size=780 MB
+version=starting
+-----------------------------------------------------------------
+APP="converseen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Faster3ck/Converseen"
+link="https://github.com/Faster3ck/Converseen/releases/download/v0.13.0.1/Converseen-0.13.0.1-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.13.0.1
+-----------------------------------------------------------------
+APP="converter432hz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mysteryx93/NaturalGroundingPlayer"
+link="https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Converter432Hz-3.3.2_Linux_x64.AppImage"
+-----------------------------------------------------------------
+size=16 MB
+version=3.3.2
+-----------------------------------------------------------------
+APP="cool-retro-term"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Swordfish90/cool-retro-term"
+link="https://github.com/Swordfish90/cool-retro-term/releases/download/continuous/Cool_Retro_Term-dac2b4f-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=dac2b4f
+-----------------------------------------------------------------
+APP="coolercontrol"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/coolercontrol"
+link="https://gitlab.com/coolercontrol/coolercontrol/-/releases/1.4.5/downloads/packages/CoolerControl-x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=1.4.5
+-----------------------------------------------------------------
