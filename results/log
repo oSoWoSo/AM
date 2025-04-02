@@ -2365,3 +2365,46 @@ link="https://github.com/jorio/Bugdom2/releases/download/v4.0.0/Bugdom2-4.0.0-li
 size=130 MB
 version=4.0.0
 -----------------------------------------------------------------
+APP="buho-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=59 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="bulkreviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bulk-reviewer/bulk-reviewer"
+link="https://github.com/bulk-reviewer/bulk-reviewer/releases/download/v0.3.1/BulkReviewer-0.3.1.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="bulkurlopener"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EuanRiggans/BulkURLOpener"
+link="https://github.com/EuanRiggans/BulkURLOpener/releases/download/1.12.0/bulkurlopener-1.12.0-linux.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=1.12.0
+-----------------------------------------------------------------
+APP="bunnyfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Rosettea/bunnyfetch"
+-----------------------------------------------------------------
+size=6 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="bunqdesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BunqCommunity/BunqDesktop"
+link="https://github.com/bunqCommunity/bunqDesktop/releases/download/0.9.10/bunqDesktop-0.9.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=0.9.10
+-----------------------------------------------------------------
