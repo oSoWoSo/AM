@@ -3708,3 +3708,47 @@ link="https://github.com/cozy-labs/cozy-desktop/releases/download/v3.43.0-beta.1
 size=122 MB
 version=3.43.0
 -----------------------------------------------------------------
+APP="cpeditor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cpeditor/cpeditor"
+link="https://github.com/cpeditor/cpeditor/releases/download/7.0.1/cpeditor-7.0.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=7.0.1
+-----------------------------------------------------------------
+APP="cpod"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="z-------------/CPod"
+link="https://github.com/z-------------/CPod/releases/download/v1.28.2/CPod-1.28.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=1.28.2
+-----------------------------------------------------------------
+APP="cpu-x"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheTumultuousUnicornOfDarkness/CPU-X"
+-----------------------------------------------------------------
+size=34 MB
+version=5.2.0
+-----------------------------------------------------------------
+APP="cpufetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Dr-Noob/cpufetch"
+link="https://github.com/Dr-Noob/cpufetch/releases/download/v1.06/cpufetch_x86-64_linux"
+-----------------------------------------------------------------
+size=2 MB
+version=1.06
+-----------------------------------------------------------------
+APP="crabfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="LivacoNew/CrabFetch"
+link="https://github.com/LivacoNew/CrabFetch/releases/download/v0.5.4/crabfetch-0.5.4_amd64"
+-----------------------------------------------------------------
+size=4 MB
+version=0.5.4
+-----------------------------------------------------------------
