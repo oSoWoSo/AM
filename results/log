@@ -2186,3 +2186,48 @@ link="https://github.com/brave/brave-browser/releases/download/v1.78.72/brave-br
 size=391 MB
 version=1.78.72
 -----------------------------------------------------------------
+APP="brave-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link="https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-beta/Brave-Web-Browser-beta-1.78.72-x86_64.AppImage"
+-----------------------------------------------------------------
+size=155 MB
+version=1.78.72
+-----------------------------------------------------------------
+APP="brave-nightly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="brave/brave-browser"
+link="https://github.com/brave/brave-browser/releases/download/v1.79.21/brave-browser-nightly-1.79.21-linux-amd64.zip"
+-----------------------------------------------------------------
+size=392 MB
+version=1.79.21
+-----------------------------------------------------------------
+APP="brave-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Brave-appimage"
+link="https://github.com/ivan-hc/Brave-appimage/releases/download/continuous-nightly/Brave-Web-Browser-nightly-1.79.20-x86_64.AppImage"
+-----------------------------------------------------------------
+size=155 MB
+version=1.79.20
+-----------------------------------------------------------------
+APP="bread"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pegvin/bread"
+link="https://github.com/pegvin/bread/releases/download/v0.7.2/bread-0.7.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="breaktimer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tom-james-watson/breaktimer-app"
+link="https://github.com/tom-james-watson/breaktimer-app/releases/download/v1.3.2/BreakTimer.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=1.3.2
+-----------------------------------------------------------------
