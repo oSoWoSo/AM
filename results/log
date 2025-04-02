@@ -3259,3 +3259,48 @@ link="https://github.com/lauthieb/code-notes/releases/download/1.2.4/code-notes-
 size=89 MB
 version=1.2.4
 -----------------------------------------------------------------
+APP="code-radio"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="JasonWei512/code-radio-cli"
+link="https://github.com/JasonWei512/code-radio-cli/releases/download/v1.0.5/code-radio-1.0.5-ubuntu-x86_64-gnu"
+-----------------------------------------------------------------
+size=14 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="coinstac"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trendscenter/coinstac"
+link="https://github.com/trendscenter/coinstac/releases/download/v6.9.2/COINSTAC-6.9.2-linux.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=6.9.2
+-----------------------------------------------------------------
+APP="colobot"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://colobot.info"
+link="https://colobot.info/files/releases/0.2.2-alpha/Colobot-0.2.2-alpha-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="colon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chhekur/colon-ide"
+link="https://github.com/Chhekur/colon-ide/releases/download/v1.4.4/Colon-1.4.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=1.4.4
+-----------------------------------------------------------------
+APP="colorgenerator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="YaShock/color-generator"
+link="https://github.com/YaShock/color-generator/releases/download/0.22/ColorGenerator-x86_64.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=0.22
+-----------------------------------------------------------------
