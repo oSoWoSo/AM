@@ -3528,3 +3528,48 @@ link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreAr
 size=29 MB
 version=d5f6110
 -----------------------------------------------------------------
+APP="corefm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreFM-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="coregarage"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreGarage-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="corehunt"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreHunt-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="coreimage"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreImage-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=d5f6110
+-----------------------------------------------------------------
+APP="coreinfo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cubocore.org"
+link="https://gitlab.com/cubocore/packages/-/raw/main/appimages/v3.0.0LTS/CoreInfo-d5f6110-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=d5f6110
+-----------------------------------------------------------------
