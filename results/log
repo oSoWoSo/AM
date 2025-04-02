@@ -2723,3 +2723,47 @@ link="https://download.opensuse.org/repositories/home:/munix9/AppImage/celestia-
 size=51 MB
 version=1.6.4+git11.ca0d641
 -----------------------------------------------------------------
+APP="celestia-dev"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://celestiaproject.space"
+link="https://download.opensuse.org/repositories/home:/munix9:/unstable/AppImage/celestia-1.7.0~git20250316+d9a82c1-lp154.26.1.Build26.1.glibc2.17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=242 MB
+version=1.7.0~git20250316+d9a82c1
+-----------------------------------------------------------------
+APP="celestia-enanched"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Celestia-appimage"
+link="https://github.com/ivan-hc/Celestia-appimage/releases/download/continuous/Celestia-Enanced_1.6.4-3-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=191 MB
+version=1.6.4
+-----------------------------------------------------------------
+APP="celoterminal-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zviadm/celoterminal"
+link="https://github.com/zviadm/celoterminal/releases/download/v2.4.3/Celo-Terminal-2.4.3-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="cemu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cemu-project/Cemu"
+-----------------------------------------------------------------
+size=59 MB
+version=2.6
+-----------------------------------------------------------------
+APP="cerebral-debugger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cerebral/cerebral-debugger"
+link="https://github.com/cerebral/cerebral-debugger/releases/download/v3.1.0/cerebral-debugger-3.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=3.1.0
+-----------------------------------------------------------------
