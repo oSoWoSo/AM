@@ -3977,3 +3977,48 @@ link="https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7-linux-a
 size=14 MB
 version=0.7.7
 -----------------------------------------------------------------
+APP="cudatext"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://cudatext.github.io"
+link="1.222.5.0"
+-----------------------------------------------------------------
+size=24 MB
+version=1.222.5.0
+-----------------------------------------------------------------
+APP="cura"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Ultimaker/Cura"
+link="https://github.com/Ultimaker/Cura/releases/download/5.10.0/UltiMaker-Cura-5.10.0-linux-X64.AppImage"
+-----------------------------------------------------------------
+size=266 MB
+version=5.10.0
+-----------------------------------------------------------------
+APP="cura-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Ultimaker/Cura"
+link="https://github.com/Ultimaker/Cura/releases/download/5.10.0-beta.1/UltiMaker-Cura-5.10.0-beta.1-linux-X64.AppImage"
+-----------------------------------------------------------------
+size=271 MB
+version=5.10.0
+-----------------------------------------------------------------
+APP="curlie"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="rs/curlie"
+link="https://github.com/rs/curlie/releases/download/v1.8.2/curlie_1.8.2_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=1.8.2
+-----------------------------------------------------------------
+APP="cursor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.cursor.com"
+link="https://downloads.cursor.com/production/1649e229afdef8fd1d18ea173f063563f1e722ef/linux/x64/Cursor-0.48.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=178 MB
+version=0.48.6
+-----------------------------------------------------------------
