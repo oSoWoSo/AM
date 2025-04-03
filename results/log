@@ -4472,3 +4472,46 @@ link="https://cdn.dezor.net/updates/net.dezor.browser/linux/Dezor-v1.5.8-x86_64.
 size=97 MB
 version=1.5.8
 -----------------------------------------------------------------
+APP="dfdemo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="julien-montmartin/statcl-df-demo"
+link="https://github.com/julien-montmartin/statcl-df-demo/releases/download/8.6.9/dfDemo-x86_64.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=8.6.9
+-----------------------------------------------------------------
+APP="dfilemanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/dfilemanager"
+link="https://github.com/probonopd/dfilemanager/releases/download/continuous/DFileManager-6117950-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=6117950
+-----------------------------------------------------------------
+APP="dicomautomaton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hdclark/DICOMautomaton"
+link="https://github.com/hdclark/DICOMautomaton/releases/download/20220203.1/dicomautomaton_dispatcher-x86_64.AppImage"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="didder"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="makew0rld/didder"
+link="https://github.com/makew0rld/didder/releases/download/v1.3.0/didder_1.3.0_linux_64-bit"
+-----------------------------------------------------------------
+size=4 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="die-engine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="horsicq/DIE-engine"
+link="https://github.com/horsicq/DIE-engine/releases/download/3.10/Detect_It_Easy-3.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=3.10
+-----------------------------------------------------------------
