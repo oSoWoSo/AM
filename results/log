@@ -5677,3 +5677,48 @@ link="https://github.com/AlexandruIstrate/ExeQt/releases/download/v1.2.2/ExeQt-v
 size=33 MB
 version=1
 -----------------------------------------------------------------
+APP="exifcleaner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="szTheory/exifcleaner"
+link="https://github.com/szTheory/exifcleaner/releases/download/v3.6.0/ExifCleaner-3.6.0.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=3.6.0
+-----------------------------------------------------------------
+APP="eximchain-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eximchain/EximchainWallet"
+link="https://github.com/Eximchain/EximchainWallet/releases/download/v1.0.0-prerelease%2Bbuild/linux-x86_64_1.0.0-prerelease_EximchainWallet.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="exodus"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://exodus.com"
+link="https://downloads.exodus.com/releases/exodus-linux-x64-25.13.3.zip"
+-----------------------------------------------------------------
+size=400 MB
+version=25.13.3.zip
+-----------------------------------------------------------------
+APP="explorook"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Rookout/explorook"
+link="https://github.com/Rookout/explorook/releases/download/v1.16.5/Rookout-Desktop-App-1.16.5.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.16.5
+-----------------------------------------------------------------
+APP="exportoo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NiklasMerz/exportoo"
+link="https://github.com/NiklasMerz/exportoo/releases/download/v1.2.0/exportoo-1.2.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=1.2.0
+-----------------------------------------------------------------
