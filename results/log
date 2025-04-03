@@ -4157,3 +4157,48 @@ link="https://github.com/valicm/dbeaver-ce-appimage/releases/download/latest/dbe
 size=125 MB
 version=2025.03.24
 -----------------------------------------------------------------
+APP="dbee"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="murat-cileli/dbee"
+link="https://github.com/murat-cileli/dbee/releases/download/v0.2.2/dbee_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=6 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="dbet-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="decent-bet/platform-wallet"
+link="https://github.com/decent-bet/platform-wallet/releases/download/v2.0.4/dbet-wallet-2.0.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=2.0.4
+-----------------------------------------------------------------
+APP="dbgate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dbgate/dbgate"
+link="https://github.com/dbgate/dbgate/releases/download/v6.3.2/dbgate-6.3.2-linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=6.3.2
+-----------------------------------------------------------------
+APP="dbin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="xplshn/dbin"
+link="https://github.com/xplshn/dbin/releases/download/1.2/dbin_amd64"
+-----------------------------------------------------------------
+size=11 MB
+version=1.2
+-----------------------------------------------------------------
+APP="deadbeef"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://deadbeef.sourceforge.io"
+link="https://sourceforge.net/projects/deadbeef/files/travis/linux/1.10.0/deadbeef-static_1.10.0-1_x86_64.tar.bz2/download"
+-----------------------------------------------------------------
+size=21 MB
+version=1.10.0
+-----------------------------------------------------------------
