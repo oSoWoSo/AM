@@ -4960,3 +4960,48 @@ link="https://code.soundsoftware.ac.uk/attachments/download/2430/EasyMercurial-1
 size=22 MB
 version=1.4
 -----------------------------------------------------------------
+APP="ecency-surfer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ecency/ecency-vision"
+link="https://github.com/ecency/ecency-vision/releases/download/3.0.35/Ecency-3.0.35.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=3.0.35
+-----------------------------------------------------------------
+APP="ecode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SpartanJ/ecode"
+link="https://github.com/SpartanJ/ecode/releases/download/ecode-0.7.0/ecode-linux-0.7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="edex-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GitSquared/edex-ui"
+link="https://github.com/GitSquared/edex-ui/releases/download/v2.2.8/eDEX-UI-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=2.2.8
+-----------------------------------------------------------------
+APP="effer"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Merkoba/Effer"
+link="https://github.com/Merkoba/Effer/releases/download/v2.0.3/effer"
+-----------------------------------------------------------------
+size=12 MB
+version=2.0.3
+-----------------------------------------------------------------
+APP="eget"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zyedidia/eget"
+link="https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=7 MB
+version=1.3.4
+-----------------------------------------------------------------
