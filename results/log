@@ -5543,3 +5543,48 @@ link="https://low-hiss.com/eSPi-1.0.5-x64.AppImage"
 size=126 MB
 version=1.0.5
 -----------------------------------------------------------------
+APP="etcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="balena-io/etcher"
+link="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+-----------------------------------------------------------------
+size=151 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="etcher-latest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="balena-io/etcher"
+link="https://github.com/balena-io/etcher/releases/download/v2.1.0/balenaEtcher-2.1.0-x64.AppImage"
+-----------------------------------------------------------------
+size=151 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="eternal-lands"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raduprv/Eternal-Lands"
+link="https://github.com/raduprv/Eternal-Lands/releases/download/1.9.7.0-4/EternalLands-Linux-x86_64_1.9.7.0.AppImage"
+-----------------------------------------------------------------
+size=210 MB
+version=1.9.7.0
+-----------------------------------------------------------------
+APP="eternalmodmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PowerBall253/EternalModManager-Avalonia"
+link="https://github.com/brunoanc/EternalModManager/releases/download/v4.2.1/EternalModManager-4.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=4.2.1
+-----------------------------------------------------------------
+APP="etherealengine-cc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EtherealEngine/etherealengine-control-center"
+link="https://github.com/EtherealEngine/ir-engine-launcher/releases/download/v0.4.6/Ethereal-Engine-Control-Center-0.4.6.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=0.4.6
+-----------------------------------------------------------------
