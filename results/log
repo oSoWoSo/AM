@@ -4202,3 +4202,48 @@ link="https://sourceforge.net/projects/deadbeef/files/travis/linux/1.10.0/deadbe
 size=21 MB
 version=1.10.0
 -----------------------------------------------------------------
+APP="deadbeef-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/DeaDBeef-AppImage"
+link="https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/continuous/DeaDBeeF-1.9.6-1-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=1.9.6
+-----------------------------------------------------------------
+APP="deadbeef-nightly"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://deadbeef.sourceforge.io"
+link="https://sourceforge.net/projects/deadbeef/files/travis/linux/master/deadbeef-static_devel-1_x86_64.tar.bz2/download"
+-----------------------------------------------------------------
+size=21 MB
+version=1
+-----------------------------------------------------------------
+APP="deadbeef-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/DeaDBeef-AppImage"
+link="https://github.com/pkgforge-dev/DeaDBeeF-AppImage/releases/download/continuous/DeaDBeeF_Nightly-2025-03-31-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=2025
+-----------------------------------------------------------------
+APP="deadgame-2048"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TKNgu/DeadGame-2048"
+link="https://github.com/TKNgu/DeadGame-2048/releases/download/v2.0.3/DeadGame-2048-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=2048
+-----------------------------------------------------------------
+APP="deb2appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simoniz0r/deb2appimage"
+link="https://github.com/simoniz0r/deb2appimage/releases/download/v0.0.5/deb2appimage-0.0.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=8 MB
+version=0.0.5
+-----------------------------------------------------------------
