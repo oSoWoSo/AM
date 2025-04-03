@@ -4247,3 +4247,48 @@ link="https://github.com/simoniz0r/deb2appimage/releases/download/v0.0.5/deb2app
 size=8 MB
 version=0.0.5
 -----------------------------------------------------------------
+APP="deckboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rivafarabi/deckboard"
+link="https://github.com/rivafarabi/deckboard/releases/download/v3.1.2/Deckboard-3.1.2.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=3.1.2
+-----------------------------------------------------------------
+APP="dedop-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DeDop/dedop-studio"
+link="https://github.com/DeDop/dedop-studio/releases/download/v1.5.1/DeDop-studio-1.5.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="deepl-linux-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kumakichi/Deepl-linux-electron"
+link="https://github.com/kumakichi/Deepl-linux-electron/releases/download/v1.6.1/Deepl-Linux-Electron-1.6.1.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=1.6.1
+-----------------------------------------------------------------
+APP="deeplx"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="OwO-Network/DeepLX"
+link="https://github.com/OwO-Network/DeepLX/releases/download/v1.0.6/deeplx_linux_amd64"
+-----------------------------------------------------------------
+size=15 MB
+version=1.0.6
+-----------------------------------------------------------------
+APP="deepnotes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DeepNotesApp/DeepNotes"
+link="https://github.com/DeepNotesApp/DeepNotes/releases/download/v1.0.25/DeepNotes-1.0.25.AppImage"
+-----------------------------------------------------------------
+size=159 MB
+version=1.0.25
+-----------------------------------------------------------------
