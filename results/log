@@ -5632,3 +5632,48 @@ link="https://github.com/leo60228/everinst/releases/download/1.0/EverInst-0.1.0.
 size=12 MB
 version=0.1.0.glibc2.18
 -----------------------------------------------------------------
+APP="evince"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Evince-appimage"
+link="https://github.com/ivan-hc/Evince-appimage/releases/download/continuous/Document-Viewer_48.0-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=48.0
+-----------------------------------------------------------------
+APP="evoplex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="evoplex/evoplex"
+link="https://github.com/evoplex/evoplex/releases/download/v0.2.1/evoplex-0.2.1.x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="excel-parser-processor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="btargac/excel-parser-processor"
+link="https://github.com/btargac/excel-parser-processor/releases/download/v1.3.1/Excel-Parser-Processor-1.3.1.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="exe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="exelearning/iteexe"
+link="https://github.com/exelearning/iteexe/releases/download/2.9/eXeLearning-2.9.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=2.9.glibc2.29
+-----------------------------------------------------------------
+APP="exeqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AlexandruIstrate/ExeQt"
+link="https://github.com/AlexandruIstrate/ExeQt/releases/download/v1.2.2/ExeQt-v1-2-2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=1
+-----------------------------------------------------------------
