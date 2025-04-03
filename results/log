@@ -5319,3 +5319,47 @@ link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action
 size=181 MB
 version=14231993989
 -----------------------------------------------------------------
+APP="emacs-x11"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-x11-x86_64.AppImage"
+-----------------------------------------------------------------
+size=182 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-x11-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14231993989/Emacs-master-x11-x86_64.AppImage"
+-----------------------------------------------------------------
+size=182 MB
+version=x11
+-----------------------------------------------------------------
+APP="embedded-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinribelotta/embedded-ide"
+link="https://github.com/martinribelotta/embedded-ide/releases/download/continuous/Embedded_IDE-6961d5f-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=6961d5f
+-----------------------------------------------------------------
+APP="ember"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.worldforge.org/"
+-----------------------------------------------------------------
+size=56 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="emoji-keyboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OzymandiasTheGreat/emoji-keyboard"
+link="https://github.com/OzymandiasTheGreat/emoji-keyboard/releases/download/v4.0.0/emoji-keyboard_4.0.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=4.0.0
+-----------------------------------------------------------------
