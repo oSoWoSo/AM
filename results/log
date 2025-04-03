@@ -5588,3 +5588,47 @@ link="https://github.com/EtherealEngine/ir-engine-launcher/releases/download/v0.
 size=98 MB
 version=0.4.6
 -----------------------------------------------------------------
+APP="etichetta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trikko/etichetta"
+link="https://github.com/trikko/etichetta/releases/download/v0.1.4/etichetta-x86_64.AppImage"
+-----------------------------------------------------------------
+size=38 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="eudic"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.eudic.net"
+-----------------------------------------------------------------
+size=231 MB
+version=13.5.2
+-----------------------------------------------------------------
+APP="evalit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MTDonovan/Evalit"
+link="https://github.com/MTDonovan/Evalit/releases/download/1.0.0/Evalit-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="everdo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://everdo.net"
+link="https://release.everdo.net/1.9.0/Everdo-1.9.0.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="everinst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leo60228/everinst"
+link="https://github.com/leo60228/everinst/releases/download/1.0/EverInst-0.1.0.glibc2.18-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=0.1.0.glibc2.18
+-----------------------------------------------------------------
