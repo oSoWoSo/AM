@@ -4337,3 +4337,48 @@ link="https://github.com/deltachat/deltachat-desktop/releases/download/v1.56.0/D
 size=151 MB
 version=1.56.0
 -----------------------------------------------------------------
+APP="demonizer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="IoriBranford/demonizer"
+link="https://github.com/IoriBranford/demonizer/releases/download/0.3.0-demo/Demonizer_Demo-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="densify"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hkdb/Densify"
+link="https://github.com/hkdb/Densify/releases/download/v0.3.2/Densify-v0.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=136 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="deployer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ziishaned/deployer"
+link="https://github.com/ziishaned/deployer/releases/download/v0.0.1/deployer-0.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="deskreen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pavlobu/deskreen"
+link="https://github.com/pavlobu/deskreen/releases/download/v2.0.4/Deskreen-2.0.4.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=2.0.4
+-----------------------------------------------------------------
+APP="desmume"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/DeSmuME-AppImage"
+link="https://github.com/pkgforge-dev/DeSmuME-AppImage/releases/download/20250216-141051/desmume-0.9.13-1-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=0.9.13
+-----------------------------------------------------------------
