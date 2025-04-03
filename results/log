@@ -4915,3 +4915,48 @@ link="https://github.com/speed47/dvdisaster/releases/download/v0.79.10-pl3/dvdis
 size=11 MB
 version=0.79.10
 -----------------------------------------------------------------
+APP="dwarf-fortress"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="McArcady/lnp-forge"
+link="https://github.com/McArcady/lnp-forge/releases/download/0.47.05-r8/Dwarf_Fortress-0.47.05-r8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=0.47.05
+-----------------------------------------------------------------
+APP="dwyco-phoo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blindchimp/dwyco"
+link="https://github.com/blindchimp/dwyco/releases/download/continuous/Dwyco_Phoo-efea752-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=efea752
+-----------------------------------------------------------------
+APP="e2-sat-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ctlcltd/e2-sat-editor"
+link="https://github.com/ctlcltd/e2-sat-editor/releases/download/v1.8.0/e2-sat-editor-1.8.0-x86_64-linux.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=e2
+-----------------------------------------------------------------
+APP="eaglemode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/eaglemode"
+link="https://github.com/probonopd/eaglemode/releases/download/continuous/Eagle_Mode-ba297f6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=ba297f6
+-----------------------------------------------------------------
+APP="easymercurial"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://easyhg.org"
+link="https://code.soundsoftware.ac.uk/attachments/download/2430/EasyMercurial-1.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=1.4
+-----------------------------------------------------------------
