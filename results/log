@@ -5363,3 +5363,48 @@ link="https://github.com/OzymandiasTheGreat/emoji-keyboard/releases/download/v4.
 size=72 MB
 version=4.0.0
 -----------------------------------------------------------------
+APP="emudeck"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EmuDeck/emudeck-electron"
+link="https://github.com/EmuDeck/emudeck-electron/releases/download/v2.4.3/EmuDeck-2.4.3.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="en-croissant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="franciscoBSalgueiro/en-croissant"
+link="https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.11.1/en-croissant_0.11.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.11.1
+-----------------------------------------------------------------
+APP="encryptpad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="evpo/EncryptPad"
+link="https://github.com/evpo/EncryptPad/releases/download/v0.5.0.4/encryptpad0_5_0_4.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=5
+-----------------------------------------------------------------
+APP="endless-sky"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="endless-sky/endless-sky"
+link="https://github.com/endless-sky/endless-sky/releases/download/continuous/Endless_Sky-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=343 MB
+version=2025.04.03
+-----------------------------------------------------------------
+APP="enoseannotator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Tilagiho/eNoseAnnotator"
+link="https://github.com/Tilagiho/eNoseAnnotator/releases/download/continuous/eNoseAnnotator-12e032a-x86_64.AppImage"
+-----------------------------------------------------------------
+size=128 MB
+version=12e032a
+-----------------------------------------------------------------
