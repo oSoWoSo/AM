@@ -4872,3 +4872,46 @@ link="https://github.com/adam-mcdaniel/dune/releases/download/v0.1.9/dune_linux_
 size=8 MB
 version=0.1.9
 -----------------------------------------------------------------
+APP="dunst"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/dunst-AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=2025
+-----------------------------------------------------------------
+APP="duskplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Aveek-Saha/DuskPlayer"
+link="https://github.com/Aveek-Saha/DuskPlayer/releases/download/v7.0.0/DuskPlayer-7.0.0.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=7.0.0
+-----------------------------------------------------------------
+APP="dust"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bootandy/dust"
+-----------------------------------------------------------------
+size=4 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="dust3d"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="huxingyi/dust3d"
+link="https://github.com/huxingyi/dust3d/releases/download/1.0.0-rc.9/dust3d-1.0.0-rc.9.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="dvdisaster"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="speed47/dvdisaster"
+link="https://github.com/speed47/dvdisaster/releases/download/v0.79.10-pl3/dvdisaster-v0.79.10-pl3-x86_64-test.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=0.79.10
+-----------------------------------------------------------------
