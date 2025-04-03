@@ -4515,3 +4515,48 @@ link="https://github.com/horsicq/DIE-engine/releases/download/3.10/Detect_It_Eas
 size=29 MB
 version=3.10
 -----------------------------------------------------------------
+APP="diffuse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="icidasset/diffuse"
+link="https://github.com/icidasset/diffuse/releases/download/3.5.0/diffuse_3.5.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=167 MB
+version=3.5.0
+-----------------------------------------------------------------
+APP="digikam"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://files.kde.org/digikam/"
+link="https://files.kde.org/digikam/digiKam-8.7.0-20250403T055553-Qt6-x86-64.appimage"
+-----------------------------------------------------------------
+size=286 MB
+version=8.7.0
+-----------------------------------------------------------------
+APP="dingtalk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nashaofu/dingtalk"
+link="https://github.com/nashaofu/dingtalk/releases/download/v2.1.22/dingtalk-2.1.22-latest-x86_64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=2.1.22
+-----------------------------------------------------------------
+APP="disass"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Satharus/Disass"
+link="https://github.com/Satharus/Disass/releases/download/v0.07/Disass-v0.07-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=0.07
+-----------------------------------------------------------------
+APP="discord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/discord-appimage"
+link="https://github.com/srevinsaju/discord-appimage/releases/download/stable/Discord-0.0.90-x86_64.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=0.0.90
+-----------------------------------------------------------------
