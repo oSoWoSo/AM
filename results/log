@@ -4112,3 +4112,48 @@ link="https://github.com/GordonSmith/dashy-app/releases/download/v0.7.3/dashy-ap
 size=53 MB
 version=0.7.3
 -----------------------------------------------------------------
+APP="database-dossier"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nshiell/database-dossier"
+link="https://github.com/nshiell/database-dossier/releases/download/v2.0.0/Database-Dossier-v2.0.0.AppImage"
+-----------------------------------------------------------------
+size=313 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="dataset-annotator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="omenyayl/dataset-annotator"
+link="https://github.com/omenyayl/dataset-annotator/releases/download/v0.8.0/dataset-annotator-0.8.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="datcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gamingdoom/datcord"
+link="https://github.com/gamingdoom/datcord/releases/download/0.5.2/Datcord-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="dawnlightsearch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chg-hou/DawnlightSearch"
+link="https://github.com/chg-hou/DawnlightSearch/releases/download/v0.1.2.6a/DawnlightSearch-0.1.2.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=0.1.2.6
+-----------------------------------------------------------------
+APP="dbeaver-ce"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="valicm/dbeaver-ce-appimage"
+link="https://github.com/valicm/dbeaver-ce-appimage/releases/download/latest/dbeaver-ce-x86_64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=2025.03.24
+-----------------------------------------------------------------
