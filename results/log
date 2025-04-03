@@ -5005,3 +5005,48 @@ link="https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-linux
 size=7 MB
 version=1.3.4
 -----------------------------------------------------------------
+APP="ehdev-shell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EHDFE/ehdev-shell"
+link="https://github.com/EHDFE/ehdev-shell/releases/download/v0.6.1/ehdev-shell-0.6.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.6.1
+-----------------------------------------------------------------
+APP="eka2l1"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="EKA2L1/EKA2L1"
+link="https://github.com/EKA2L1/EKA2L1/releases/download/continous/EKA2L1-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=2024.04.10
+-----------------------------------------------------------------
+APP="eksplode.re"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AmarOk1412/Eksplode.re"
+link="https://github.com/AmarOk1412/Eksplode.re/releases/download/v0.0.0/Eksplode.re-x86_64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=0.0.0
+-----------------------------------------------------------------
+APP="elcalc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elcalc/elcalc"
+link="https://github.com/elcalc/elcalc/releases/download/6.1.3/elcalc-6.1.3.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=6.1.3
+-----------------------------------------------------------------
+APP="eldumper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rodri042/el-dumper"
+link="https://github.com/afska/el-dumper/releases/download/v1.0.0/ElDumper.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=1.0.0
+-----------------------------------------------------------------
