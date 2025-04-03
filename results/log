@@ -5408,3 +5408,48 @@ link="https://github.com/Tilagiho/eNoseAnnotator/releases/download/continuous/eN
 size=128 MB
 version=12e032a
 -----------------------------------------------------------------
+APP="ente-auth"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ente-io/ente"
+link="https://github.com/ente-io/ente/releases/download/auth-v4.3.2/ente-auth-v4.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=4.3.2
+-----------------------------------------------------------------
+APP="ente-photos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ente-io/photos-desktop"
+link="https://github.com/ente-io/photos-desktop/releases/download/v1.7.12-beta/ente-1.7.12-beta-x86_64.AppImage"
+-----------------------------------------------------------------
+size=424 MB
+version=1.7.12
+-----------------------------------------------------------------
+APP="enve"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MaurycyLiebner/enve"
+link="https://github.com/MaurycyLiebner/enve/releases/download/continuous-linux/enve-d919d4d-9_25_22-x86_64.AppImage"
+-----------------------------------------------------------------
+size=144 MB
+version=d919d4d
+-----------------------------------------------------------------
+APP="envkey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="envkey/envkey-ui"
+link="https://github.com/envkey/envkey-app/releases/download/linux-x64-prod-v1.5.10/EnvKey-1.5.10.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=1.5.10
+-----------------------------------------------------------------
+APP="eosvc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bedrich-schindler/e-osvc"
+link="https://github.com/bedrich-schindler/e-osvc/releases/download/v1.1.0/eOSVC-1.1.0.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=1.1.0
+-----------------------------------------------------------------
