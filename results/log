@@ -5184,3 +5184,48 @@ SITE="https://www.namecoin.org"
 size=51 MB
 version=4.0.6
 -----------------------------------------------------------------
+APP="electrum-ravencoin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Electrum-RVN-SIG/electrum-ravencoin"
+link="https://github.com/Electrum-RVN-SIG/electrum-ravencoin/releases/download/v1.2.4/electrum-ravencoin-v1.2.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=58 MB
+version=1.2.4
+-----------------------------------------------------------------
+APP="electrumfair"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="faircoin/electrumfair"
+link="https://github.com/faircoin/electrumfair/releases/download/3.3.4/ElectrumFair-3.3.4.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=3.3.4
+-----------------------------------------------------------------
+APP="element"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/element-appimage"
+link="https://github.com/srevinsaju/element-appimage/releases/download/stable/Element-v1.11.70.glibc2.35.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=1.11.70
+-----------------------------------------------------------------
+APP="elementary-code"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="titenko/elementary-code"
+link="https://github.com/titenko/elementary-code/releases/download/6.2.0/io.elementary.code-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=6.2.0
+-----------------------------------------------------------------
+APP="elements"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FlorianFe/Elements"
+link="https://github.com/FlorianFe/Elements/releases/download/v1.2.1/Elements.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=1.2.1
+-----------------------------------------------------------------
