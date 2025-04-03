@@ -4648,3 +4648,48 @@ link="https://github.com/digimezzo/dopamine/releases/download/v3.0.0-preview.37/
 size=139 MB
 version=3.0.0
 -----------------------------------------------------------------
+APP="dosemu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/doesemu2-factory"
+link="https://github.com/probonopd/doesemu2-factory/releases/download/continuous/dosemu2-58bf3c115-x86_64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=58bf3c115
+-----------------------------------------------------------------
+APP="dotto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LibreSprite/Dotto"
+link="https://github.com/LibreSprite/Dotto/releases/download/v0.1/Dotto-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=0.1
+-----------------------------------------------------------------
+APP="doublecmd-gtk"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://rsync.opensuse.org/repositories/home:/Alexx2000"
+link="https://rsync.opensuse.org/repositories/home:/Alexx2000/AppImage/doublecmd-gtk-0-Build1.3.glibc2.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=0
+-----------------------------------------------------------------
+APP="doublecmd-qt"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://rsync.opensuse.org/repositories/home:/Alexx2000"
+link="https://rsync.opensuse.org/repositories/home:/Alexx2000/AppImage/doublecmd-qt-0-Build1.3.glibc2.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=16 MB
+version=0
+-----------------------------------------------------------------
+APP="downline"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stefnotch/downline"
+link="https://github.com/stefnotch/downline/releases/download/v4.0.2/downline_4.0.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=4.0.1
+-----------------------------------------------------------------
