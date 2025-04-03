@@ -4828,3 +4828,47 @@ link="https://github.com/l1xnan/duckling/releases/download/v0.0.42/Duckling_0.0.
 size=107 MB
 version=0.0.42
 -----------------------------------------------------------------
+APP="duckstation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stenzek/duckstation"
+link="https://api.github.com/repos/stenzek/duckstation/releases/206009636"
+-----------------------------------------------------------------
+size=64 MB
+version=206009636
+-----------------------------------------------------------------
+APP="duelyst"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="open-duelyst/duelyst"
+-----------------------------------------------------------------
+size=758 MB
+version=1.97.13
+-----------------------------------------------------------------
+APP="duf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="muesli/duf"
+link="https://github.com/muesli/duf/releases/download/v0.8.1/duf_0.8.1_linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="dukto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cpuuntery/dukto"
+link="https://github.com/cpuuntery/dukto/releases/download/Latest/dukto-6.0-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=6.0
+-----------------------------------------------------------------
+APP="dune"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="adam-mcdaniel/dune"
+link="https://github.com/adam-mcdaniel/dune/releases/download/v0.1.9/dune_linux_v0.1.9"
+-----------------------------------------------------------------
+size=8 MB
+version=0.1.9
+-----------------------------------------------------------------
