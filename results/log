@@ -5229,3 +5229,48 @@ link="https://github.com/FlorianFe/Elements/releases/download/v1.2.1/Elements.Ap
 size=77 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="elk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elk-zone/elk-native"
+link="https://github.com/elk-zone/elk-native/releases/download/elk-native-v0.4.0/Elk_0.4.0_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="ellas-war"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="V-Paranoiaque/Ellas-War"
+link="https://github.com/V-Paranoiaque/Ellas-War/releases/download/v2.1.5/EllasWar-2.1.5.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=2.1.5
+-----------------------------------------------------------------
+APP="elphyre-walletshell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elphyrecoin/elphyre-wallet-electron"
+link="https://github.com/SpookyPool/elphyre-wallet-electron/releases/download/2.0.4/Elphyre-WalletShell-v2.0.4-linux.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=2.0.4
+-----------------------------------------------------------------
+APP="elvish"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://elv.sh"
+link="https://dl.elv.sh/linux-amd64/elvish-v0.21.0.tar.gz"
+-----------------------------------------------------------------
+size=10 MB
+version=0.21.0
+-----------------------------------------------------------------
+APP="elzabrowser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elzabrowser/elza"
+link="https://github.com/elzabrowser/elza/releases/download/v0.6.1/ElzaBrowser.Setup.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=0.6.1
+-----------------------------------------------------------------
