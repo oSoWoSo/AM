@@ -5498,3 +5498,48 @@ link="https://github.com/fxdave/ERScaffold/releases/download/v0.6-alpha/erscaffo
 size=88 MB
 version=0.6
 -----------------------------------------------------------------
+APP="es-de"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://es-de.org"
+link="v3.1.1"
+-----------------------------------------------------------------
+size=129 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="escrcpy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="viarotel-org/escrcpy"
+link="https://github.com/viarotel-org/escrcpy/releases/download/v1.29.3/Escrcpy-1.29.3-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=293 MB
+version=1.29.3
+-----------------------------------------------------------------
+APP="esearch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xushengfeng/eSearch"
+link="https://github.com/xushengfeng/eSearch/releases/download/14.6.2/eSearch-14.6.2-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=369 MB
+version=14.6.2
+-----------------------------------------------------------------
+APP="espanso"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="espanso/espanso"
+link="https://github.com/espanso/espanso/releases/download/v2.2.3/Espanso-X11.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=2.2.3
+-----------------------------------------------------------------
+APP="espi"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://low-hiss.com"
+link="https://low-hiss.com/eSPi-1.0.5-x64.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=1.0.5
+-----------------------------------------------------------------
