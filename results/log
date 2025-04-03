@@ -5274,3 +5274,48 @@ link="https://github.com/elzabrowser/elza/releases/download/v0.6.1/ElzaBrowser.S
 size=114 MB
 version=0.6.1
 -----------------------------------------------------------------
+APP="emacs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Emacs-appimage"
+link="https://github.com/ivan-hc/Emacs-appimage/releases/download/continuous/Emacs_30.1-4-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=162 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-nox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-nox-x86_64.AppImage"
+-----------------------------------------------------------------
+size=177 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-nox-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14231993989/Emacs-master-nox-x86_64.AppImage"
+-----------------------------------------------------------------
+size=177 MB
+version=14231993989
+-----------------------------------------------------------------
+APP="emacs-pgtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-13644002952/Emacs-30.1-pgtk-x86_64.AppImage"
+-----------------------------------------------------------------
+size=181 MB
+version=30.1
+-----------------------------------------------------------------
+APP="emacs-pgtk-daily"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/emacs-appimage"
+link="https://github.com/blahgeek/emacs-appimage/releases/download/github-action-build-14231993989/Emacs-master-pgtk-x86_64.AppImage"
+-----------------------------------------------------------------
+size=181 MB
+version=14231993989
+-----------------------------------------------------------------
