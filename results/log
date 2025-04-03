@@ -5453,3 +5453,48 @@ link="https://github.com/bedrich-schindler/e-osvc/releases/download/v1.1.0/eOSVC
 size=89 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="eplee"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Janglee123/eplee"
+link="https://github.com/Janglee123/eplee/releases/download/%24%28tagName%29/eplee-x86_64-0.4.0.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="eqonomize"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eqonomize/Eqonomize"
+link="https://github.com/Eqonomize/Eqonomize/releases/download/v1.5.9/Eqonomize-1.5.9.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=1.5.9
+-----------------------------------------------------------------
+APP="equibop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Equicord/Equibop"
+link="https://github.com/Equicord/Equibop/releases/download/v2.1.2/Equibop-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=2.1.2
+-----------------------------------------------------------------
+APP="era"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://era.sh"
+link="2.3.1"
+-----------------------------------------------------------------
+size=107 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="erscaffold"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fxdave/ERScaffold"
+link="https://github.com/fxdave/ERScaffold/releases/download/v0.6-alpha/erscaffold-linux.1.0.0.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=0.6
+-----------------------------------------------------------------
