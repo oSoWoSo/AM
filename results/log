@@ -4693,3 +4693,48 @@ link="https://github.com/stefnotch/downline/releases/download/v4.0.2/downline_4.
 size=70 MB
 version=4.0.1
 -----------------------------------------------------------------
+APP="dra"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="devmatteini/dra"
+link="https://github.com/devmatteini/dra/releases/download/0.8.1/dra-0.8.1-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="dragdrop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fernzi/dragdrop"
+link="https://github.com/fernzi/dragdrop/releases/download/v1.1.0/DragDrop-1.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="dragula"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sarthology/dragula"
+link="https://github.com/sarthology/dragula/releases/download/v1.0.4/dragula-1.0.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=1.0.4
+-----------------------------------------------------------------
+APP="draw"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="maaslalani/draw"
+link="https://github.com/maaslalani/draw/releases/download/v0.1.1/draw_0.1.1_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="draw.io"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jgraph/drawio-desktop"
+link="https://github.com/jgraph/drawio-desktop/releases/download/v26.2.2/drawio-x86_64-26.2.2.AppImage"
+-----------------------------------------------------------------
+size=141 MB
+version=26.2.2
+-----------------------------------------------------------------
