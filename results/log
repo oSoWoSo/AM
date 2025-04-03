@@ -5722,3 +5722,48 @@ link="https://github.com/NiklasMerz/exportoo/releases/download/v1.2.0/exportoo-1
 size=76 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="exsplode.re"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AmarOk1412/Eksplode.re"
+link="https://github.com/AmarOk1412/Eksplode.re/releases/download/v0.0.0/Eksplode.re-x86_64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=0.0.0
+-----------------------------------------------------------------
+APP="extraterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sedwards2009/extraterm"
+link="https://github.com/sedwards2009/extraterm/releases/download/v0.81.0/ExtratermQt-0.81.0.glibc2.34-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=0.81.0.glibc2.34
+-----------------------------------------------------------------
+APP="extrema"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="esternin/eXtrema"
+link="https://github.com/esternin/eXtrema/releases/download/v4.7.0/eXtrema-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=4.7.0
+-----------------------------------------------------------------
+APP="extremetuxracer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/extremetuxracer/Extreme_Tux_Racer-0.8.2-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=0.8.2
+-----------------------------------------------------------------
+APP="eyestalker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tbrouns/eyestalker"
+link="https://github.com/tbrouns/eyestalker/releases/download/v1.0.2/EyeStalker-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.0.2
+-----------------------------------------------------------------
