@@ -5811,3 +5811,48 @@ link="https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.0.0%2B378/fa
 size=24 MB
 version=2.0.0%2B378
 -----------------------------------------------------------------
+APP="fairshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fairdataihub/FAIRshare"
+link="https://github.com/fairdataihub/FAIRshare/releases/download/v2.1.0/FAIRshare-2.1.0.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="fakedata"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lucapette/fakedata"
+link="https://github.com/lucapette/fakedata/releases/download/v1.5.0/fakedata_1.5.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="falkon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/falkon/Falkon_24.12.3-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=345 MB
+version=24.12.3
+-----------------------------------------------------------------
+APP="fantascene-dynamic-wallpaper"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://github.com/dependon/fantascene-dynamic-wallpaper"
+link="https://sourceforge.net/projects/fantascene-dynamic-wallpaper/files/1.9.8/fantacy_x86-64-1.9.8.AppImage/download"
+-----------------------------------------------------------------
+size=150 MB
+version=1.9.8
+-----------------------------------------------------------------
+APP="fantasia-archive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Elvanos/fantasia-archive"
+link="https://github.com/vishiri/fantasia-archive-v1/releases/download/v0.1.15/Fantasia.Archive-0.1.15-linux-appImage.zip"
+-----------------------------------------------------------------
+size=174 MB
+version=0.1.15
+-----------------------------------------------------------------
