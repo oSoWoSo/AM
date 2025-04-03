@@ -4783,3 +4783,48 @@ link="https://github.com/GameGodS3/DropPoint/releases/download/v1.2.1/DropPoint-
 size=76 MB
 version=1.2.1
 -----------------------------------------------------------------
+APP="dsda-doom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kraflab/dsda-doom"
+link="https://github.com/kraflab/dsda-doom/releases/download/v0.28.3/dsda-doom-0.28.3-Linux.appimage"
+-----------------------------------------------------------------
+size=17 MB
+version=0.28.3
+-----------------------------------------------------------------
+APP="dstask"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="naggie/dstask"
+link="https://github.com/naggie/dstask/releases/download/0.27/dstask-import-linux-amd64"
+-----------------------------------------------------------------
+size=9 MB
+version=0.27
+-----------------------------------------------------------------
+APP="dtmate"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jftuga/DateTimeMate"
+link="https://github.com/jftuga/DateTimeMate/releases/download/v1.3.1/DateTimeMate_1.3.1_linux_amd64.tar.xz"
+-----------------------------------------------------------------
+size=10 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="dua"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Byron/dua-cli"
+link="https://github.com/Byron/dua-cli/releases/download/v2.30.0/dua-v2.30.0-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=2.30.0
+-----------------------------------------------------------------
+APP="duckling"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="l1xnan/duckling"
+link="https://github.com/l1xnan/duckling/releases/download/v0.0.42/Duckling_0.0.42_amd64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=0.0.42
+-----------------------------------------------------------------
