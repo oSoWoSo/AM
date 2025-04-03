@@ -4022,3 +4022,48 @@ link="https://downloads.cursor.com/production/1649e229afdef8fd1d18ea173f063563f1
 size=178 MB
 version=0.48.6
 -----------------------------------------------------------------
+APP="customrpc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KurozeroPB/CustomRPC"
+link="https://github.com/Pepijn98/CustomRPC/releases/download/v0.0.1/custom-rpc_0.0.1.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="cutechess"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cutechess/cutechess"
+link="https://github.com/cutechess/cutechess/releases/download/v1.4.0-beta3/Cute_Chess-1.4.0-beta3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="cutepeaks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="labsquare/CutePeaks"
+link="https://github.com/labsquare/CutePeaks/releases/download/0.2.3/cutepeaks-c309871-x86_64.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=c309871
+-----------------------------------------------------------------
+APP="cutevariant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="labsquare/CuteVariant-cpp"
+link="https://github.com/labsquare/CuteVariant-cpp/releases/download/untagged-6ee6832e2a52d39e42e4/CuteVariant-0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.1
+-----------------------------------------------------------------
+APP="cutter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rizinorg/cutter"
+link="https://github.com/rizinorg/cutter/releases/download/v2.3.4/Cutter-v2.3.4-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=2.3.4
+-----------------------------------------------------------------
