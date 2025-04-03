@@ -4067,3 +4067,48 @@ link="https://github.com/rizinorg/cutter/releases/download/v2.3.4/Cutter-v2.3.4-
 size=158 MB
 version=2.3.4
 -----------------------------------------------------------------
+APP="czkawka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qarmin/czkawka"
+link="https://github.com/qarmin/czkawka/releases/download/9.0.0/linux_czkawka_gui.AppImage"
+-----------------------------------------------------------------
+size=38 MB
+version=9.0.0
+-----------------------------------------------------------------
+APP="dana"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="b00f/dana"
+link="https://github.com/b00f/dana/releases/download/v1.5/Dana-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=1.5
+-----------------------------------------------------------------
+APP="darktable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="darktable-org/darktable"
+link="https://github.com/darktable-org/darktable/releases/download/release-5.0.1/Darktable-5.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=173 MB
+version=5.0.1
+-----------------------------------------------------------------
+APP="darktable-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="darktable-org/darktable"
+link="https://github.com/darktable-org/darktable/releases/download/nightly/Darktable-5.1.0%2B575.g7bbf4340a2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=160 MB
+version=5.1.0%2B575.g7bbf4340a2
+-----------------------------------------------------------------
+APP="dashy-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GordonSmith/dashy-app"
+link="https://github.com/GordonSmith/dashy-app/releases/download/v0.7.3/dashy-app.0.7.3.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=0.7.3
+-----------------------------------------------------------------
