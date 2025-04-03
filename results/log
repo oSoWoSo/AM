@@ -4292,3 +4292,48 @@ link="https://github.com/DeepNotesApp/DeepNotes/releases/download/v1.0.25/DeepNo
 size=159 MB
 version=1.0.25
 -----------------------------------------------------------------
+APP="deeptags"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SZinedine/DeepTags"
+link="https://github.com/SZinedine/DeepTags/releases/download/0.8.0/DeepTags_0.8.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="deerportal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deerportal/deerportal"
+link="https://github.com/deerportal/deerportal/releases/download/v0.8.1/DeerPortal-0.8.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="deezer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aunetx/deezer-linux"
+link="https://github.com/aunetx/deezer-linux/releases/download/v7.0.40/deezer-desktop-7.0.40-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=7.0.40
+-----------------------------------------------------------------
+APP="defichain-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BirthdayResearch/defichain-app"
+link="https://github.com/DeFiCh/defichain-app/releases/download/v4.2.5/DeFi-Wallet-4.2.5.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=4.2.5
+-----------------------------------------------------------------
+APP="deltachat-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deltachat/deltachat-desktop"
+link="https://github.com/deltachat/deltachat-desktop/releases/download/v1.56.0/DeltaChat-1.56.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=151 MB
+version=1.56.0
+-----------------------------------------------------------------
