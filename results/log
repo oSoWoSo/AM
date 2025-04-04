@@ -6469,3 +6469,48 @@ link="https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_6
 size=17 MB
 version=2.4
 -----------------------------------------------------------------
+APP="flycast-dojo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blueminder/flycast-dojo"
+link="https://github.com/blueminder/flycast-dojo/releases/download/dojo-6.53/linux-flycast-dojo-6.53.zip"
+-----------------------------------------------------------------
+size=15 MB
+version=6.53.zip
+-----------------------------------------------------------------
+APP="flyctl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="superfly/flyctl"
+link="https://github.com/superfly/flyctl/releases/download/v0.3.98/flyctl_0.3.98_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=90 MB
+version=0.3.98
+-----------------------------------------------------------------
+APP="flyingcarpet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spieglt/flyingcarpet"
+link="https://github.com/spieglt/FlyingCarpet/releases/download/v9.0.0/linux_FlyingCarpet_9.0.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=9.0.0
+-----------------------------------------------------------------
+APP="fman"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nore-dev/fman"
+link="https://github.com/nore-dev/fman/releases/download/v1.20.1/fman_1.20.1_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=8 MB
+version=1.20.1
+-----------------------------------------------------------------
+APP="fmradio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dmooney65/fmradio"
+link="https://github.com/dmooney65/fmradio/releases/download/untagged-d88616653b8f7b6d1402/fmradio-0.9.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=0.9.4
+-----------------------------------------------------------------
