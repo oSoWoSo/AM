@@ -6379,3 +6379,48 @@ link="https://download.unstable.life/upload/fp14.0.1_lin_main_20250222.7z"
 size=2370 MB
 version=fp14.0.1
 -----------------------------------------------------------------
+APP="flawesome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ashishBharadwaj/flawesome"
+link="https://github.com/ashishBharadwaj/flawesome/releases/download/v0.2.3/Flawesome-0.2.3.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="flb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FLB-Music/FLB-Music-Player"
+link="https://github.com/FLB-Music/FLB-Music-Player/releases/download/v1.2.1/FLB-Music-1.2.1.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="flightgear"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.flightgear.org"
+link="https://gitlab.com/flightgear/fgmeta/-/jobs/9261456028/artifacts/raw/FlightGear-2024.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=541 MB
+version=2024.1.1
+-----------------------------------------------------------------
+APP="flightgear-airports"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Portree-Kid/flightgear-airports"
+link="https://github.com/Portree-Kid/flightgear-airports/releases/download/v0.0.34/flightgear-airports-0.0.34.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=0.0.34
+-----------------------------------------------------------------
+APP="flippy-qualitative-testbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flippy-fyp/flippy-qualitative-testbench"
+link="https://github.com/flippy-fyp/flippy-qualitative-testbench/releases/download/v0.1.2/Flippy-Qualitative-Testbench-0.1.2.AppImage"
+-----------------------------------------------------------------
+size=178 MB
+version=0.1.2
+-----------------------------------------------------------------
