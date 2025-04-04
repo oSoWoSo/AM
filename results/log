@@ -5900,3 +5900,46 @@ link="https://github.com/Factom-Asset-Tokens/wallet/releases/download/v1.0.3/FAT
 size=78 MB
 version=1.0.3
 -----------------------------------------------------------------
+APP="fchat"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://wiki.f-list.net"
+-----------------------------------------------------------------
+size=67 MB
+version=3.0.16
+-----------------------------------------------------------------
+APP="fcp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Svetlitski/fcp"
+link="https://github.com/Svetlitski/fcp/releases/download/v0.2.1/fcp-0.2.1-x86_64-unknown-linux-gnu.zip"
+-----------------------------------------------------------------
+size=1 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="fd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/fd"
+-----------------------------------------------------------------
+size=5 MB
+version=10.2.0
+-----------------------------------------------------------------
+APP="fdc3-sail"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="finos/FDC3-Sail"
+link="https://github.com/finos/FDC3-Sail/releases/download/v22.12.6-1030/FDC3-Sail-22.12.6-1030.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=FDC3
+-----------------------------------------------------------------
+APP="fdm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE=""
+link="6.26.1"
+-----------------------------------------------------------------
+size=56 MB
+version=6.26.1
+-----------------------------------------------------------------
