@@ -6032,3 +6032,48 @@ link="https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version
 size=20 MB
 version=22.0.2.zip
 -----------------------------------------------------------------
+APP="fflogs-uploader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RPGLogs/Uploaders-fflogs"
+link="https://github.com/RPGLogs/Uploaders-fflogs/releases/download/v8.16.31/fflogs-v8.16.31.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=8.16.31
+-----------------------------------------------------------------
+APP="ffsend"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="timvisee/ffsend"
+link="https://github.com/timvisee/ffsend/releases/download/v0.2.77/ffsend-v0.2.77-linux-x64"
+-----------------------------------------------------------------
+size=12 MB
+version=0.2.77
+-----------------------------------------------------------------
+APP="ffvim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fivim/fivim"
+link="https://github.com/enassi/enassi/releases/download/v2.1.1/enassi_2.1.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=2.1.1
+-----------------------------------------------------------------
+APP="ficus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Thysrael/Ficus"
+link="https://github.com/Thysrael/Ficus/releases/download/v0.2.1/ficus-0.2.1.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="fidias-database-migration-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="open-fidias/db-migration-app"
+link="https://github.com/open-fidias/db-migration-app/releases/download/v0.1.4/db-migration-app-0.1.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=58 MB
+version=0.1.4
+-----------------------------------------------------------------
