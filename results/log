@@ -6872,3 +6872,47 @@ link="https://github.com/Munoida/FNF-PsychEngine-Linux-Releases/releases/downloa
 size=230 MB
 version=PsyEngLinx073.zip
 -----------------------------------------------------------------
+APP="funterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zhangfuwen/FunTerm"
+link="https://github.com/zhangfuwen/FunTerm/releases/download/v0.1/FunTerm-a764287-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=a764287
+-----------------------------------------------------------------
+APP="fx"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="antonmedv/fx"
+link="https://github.com/antonmedv/fx/releases/download/35.0.0/fx_linux_amd64"
+-----------------------------------------------------------------
+size=16 MB
+version=35.0.0
+-----------------------------------------------------------------
+APP="fynodoro"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tomsquest/fynodoro"
+link="https://github.com/tomsquest/fynodoro/releases/download/v1.16.0/fynodoro_1.16.0_linux_amd64"
+-----------------------------------------------------------------
+size=9 MB
+version=1.16.0
+-----------------------------------------------------------------
+APP="fzf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="junegunn/fzf"
+-----------------------------------------------------------------
+size=4 MB
+version=0.61.0
+-----------------------------------------------------------------
+APP="gaiasky"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://zah.uni-heidelberg.de"
+link="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.7.5160f2cfe_x86_64.appimage"
+-----------------------------------------------------------------
+size=89 MB
+version=3.6.7.5160f2cfe
+-----------------------------------------------------------------
