@@ -7319,3 +7319,47 @@ link="https://github.com/weedz/git-good/releases/download/v0.1.1/git-good-0.1.1.
 size=87 MB
 version=0.1.1
 -----------------------------------------------------------------
+APP="gitbutler"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitbutler.com"
+-----------------------------------------------------------------
+size=211 MB
+version=0.14.14
+-----------------------------------------------------------------
+APP="githoard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jojobyte/githoard"
+link="https://github.com/beepboopbangbang/githoard/releases/download/v0.4.0/githoard-0.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="github-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shiftkey/desktop"
+link="https://github.com/shiftkey/desktop/releases/download/release-3.4.9-linux1/GitHubDesktop-linux-x86_64-3.4.9-linux1.AppImage"
+-----------------------------------------------------------------
+size=170 MB
+version=3.4.9
+-----------------------------------------------------------------
+APP="gitify"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gitify-app/gitify"
+link="https://github.com/gitify-app/gitify/releases/download/v6.2.0/Gitify-6.2.0.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=6.2.0
+-----------------------------------------------------------------
+APP="gitjournal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GitJournal/GitJournal"
+link="https://github.com/GitJournal/GitJournal/releases/download/v1.80.0/GitJournal-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=1.80.0
+-----------------------------------------------------------------
