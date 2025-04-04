@@ -6290,3 +6290,48 @@ link="https://github.com/kawuchuu/firetail/releases/download/v0.7.0/Firetail-0.7
 size=107 MB
 version=0.7.0
 -----------------------------------------------------------------
+APP="firetv-toolkit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AnthonyGress/Android-Toolkit"
+link="https://github.com/AnthonyGress/Android-Toolkit/releases/download/v1.5.25/Android-Toolkit-x86_64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=1.5.25
+-----------------------------------------------------------------
+APP="firework"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://firework.cloud"
+link="4.39"
+-----------------------------------------------------------------
+size=339 MB
+version=4.39
+-----------------------------------------------------------------
+APP="fish"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Maverobot/fish.AppImage"
+link="https://github.com/Maverobot/fish.AppImage/releases/download/v3.7.0/fish-3.7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=3.7.0
+-----------------------------------------------------------------
+APP="fishing-funds"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="1zilc/fishing-funds"
+link="https://github.com/1zilc/fishing-funds/releases/download/v8.4.2/Fishing-Funds-8.4.2.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=8.4.2
+-----------------------------------------------------------------
+APP="fishterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kuronekouwu/FishTerm"
+link="https://github.com/mrwan2546/FishTerm/releases/download/v0.0.1-alpha.1/fishterm-0.0.1-alpha.1.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=0.0.1
+-----------------------------------------------------------------
