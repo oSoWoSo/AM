@@ -7496,3 +7496,48 @@ link="https://github.com/dino-/glulxe-appimage-build/releases/download/054.0/glu
 size=1 MB
 version=054.0
 -----------------------------------------------------------------
+APP="glyphr-studio-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="glyphr-studio/Glyphr-Studio-Desktop"
+link="https://github.com/glyphr-studio/Glyphr-Studio-Desktop/releases/download/v0.6.0/Glyphr.Studio-0.6.0.AppImage"
+-----------------------------------------------------------------
+size=147 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="gm-companion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PhilInTheGaps/GM-Companion"
+link="https://github.com/PhilInTheGaps/GM-Companion/releases/download/1.2.1/gm-companion_1.2.1_x86_64.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="gmail-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timche/gmail-desktop"
+link="https://github.com/timche/meru/releases/download/v2.25.3/gmail-desktop-2.25.3-linux.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=2.25.3
+-----------------------------------------------------------------
+APP="gncdu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bastengao/gncdu"
+link="https://github.com/bastengao/gncdu/releases/download/v0.7.0/gncdu-linux-amd64"
+-----------------------------------------------------------------
+size=5 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="gnome-boxes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Boxes-appimage"
+link="https://github.com/ivan-hc/Boxes-appimage/releases/download/continuous/Boxes_48.0-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=185 MB
+version=48.0
+-----------------------------------------------------------------
