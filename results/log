@@ -7229,3 +7229,48 @@ link="https://github.com/monocasual/giada/releases/download/1.1.0/Giada-1.1.0-x8
 size=20 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="gibs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sierdzio/gibs"
+link="https://github.com/sierdzio/gibs/releases/download/v0.0.4/gibs-x86_64-2018-07-14.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=2018
+-----------------------------------------------------------------
+APP="gickup"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cooperspencer/gickup"
+link="https://github.com/cooperspencer/gickup/releases/download/v0.10.37/gickup_0.10.37_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=20 MB
+version=0.10.37
+-----------------------------------------------------------------
+APP="gifcurry"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/gifcurry"
+link="https://github.com/lettier/gifcurry/releases/download/6.0.1.0/gifcurry-6.0.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=6.0.1.0
+-----------------------------------------------------------------
+APP="gimp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://www.gimp.org"
+link="https://download.gimp.org/gimp/v3.0/linux/GIMP-3.0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=488 MB
+version=starting
+-----------------------------------------------------------------
+APP="gimp-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/GIMP-appimage"
+link="https://github.com/ivan-hc/GIMP-appimage/releases/download/continuous-dev/GNU-Image-Manipulation-Program_DEV_3.0.0rc3-1-archimage3.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=212 MB
+version=starting
+-----------------------------------------------------------------
