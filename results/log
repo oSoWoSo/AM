@@ -5856,3 +5856,47 @@ link="https://github.com/vishiri/fantasia-archive-v1/releases/download/v0.1.15/F
 size=174 MB
 version=0.1.15
 -----------------------------------------------------------------
+APP="farmhand"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeremyckahn/farmhand"
+link="https://github.com/jeremyckahn/farmhand/releases/download/1.18.26/Farmhand-1.18.26.AppImage"
+-----------------------------------------------------------------
+size=230 MB
+version=1.18.26
+-----------------------------------------------------------------
+APP="fastcompmgr"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tycho-kirchner/fastcompmgr"
+-----------------------------------------------------------------
+size=1 MB
+version=0.5
+-----------------------------------------------------------------
+APP="fastfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="fastfetch-cli/fastfetch"
+link="https://github.com/fastfetch-cli/fastfetch/releases/download/2.40.1/fastfetch-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=29 MB
+version=2.40.1
+-----------------------------------------------------------------
+APP="fasttrack"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FastTrackOrg/FastTrack"
+link="https://github.com/FastTrackOrg/FastTrack/releases/download/v6.3.4/FastTrack-x86_64.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=6.3.4
+-----------------------------------------------------------------
+APP="fat-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Factom-Asset-Tokens/wallet"
+link="https://github.com/Factom-Asset-Tokens/wallet/releases/download/v1.0.3/FAT.Wallet-1.0.3.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.0.3
+-----------------------------------------------------------------
