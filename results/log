@@ -7453,3 +7453,46 @@ link="https://gitlab.com/gitlab-org/cli/-/releases/v1.55.0/downloads/glab_1.55.0
 size=26 MB
 version=1.55.0
 -----------------------------------------------------------------
+APP="glabels"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jimevins/glabels-qt"
+link="https://github.com/jimevins/glabels-qt/releases/download/glabels-3.99-master564/glabels-3.99-master564-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=3.99
+-----------------------------------------------------------------
+APP="glaxnimate"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://glaxnimate.mattbas.org"
+-----------------------------------------------------------------
+size=175 MB
+version=0.5.80
+-----------------------------------------------------------------
+APP="glow"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/glow"
+-----------------------------------------------------------------
+size=17 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="gltf-insight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lighttransport/gltf-insight"
+link="https://github.com/lighttransport/gltf-insight/releases/download/continuous/gltf-insight-7cf61f1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=7cf61f1
+-----------------------------------------------------------------
+APP="glulxe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dino-/glulxe-appimage-build"
+link="https://github.com/dino-/glulxe-appimage-build/releases/download/054.0/glulxe-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=054.0
+-----------------------------------------------------------------
