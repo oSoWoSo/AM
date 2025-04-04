@@ -7541,3 +7541,48 @@ link="https://github.com/ivan-hc/Boxes-appimage/releases/download/continuous/Box
 size=185 MB
 version=48.0
 -----------------------------------------------------------------
+APP="gnome-calculator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Gnome-calculator-appimage"
+link="https://github.com/ivan-hc/Gnome-calculator-appimage/releases/download/continuous/Calculator_48.0.2-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=48.0.2
+-----------------------------------------------------------------
+APP="gnome-tweaks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Gnome-tweaks-appimage"
+link="https://github.com/ivan-hc/Gnome-tweaks-appimage/releases/download/continuous/Tweaks_46.1-1-archimage3.4.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=192 MB
+version=46.1
+-----------------------------------------------------------------
+APP="gnumeric"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Gnumeric-appimage"
+link="https://github.com/ivan-hc/Gnumeric-appimage/releases/download/continuous/Gnumeric_1.12.59-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=1.12.59
+-----------------------------------------------------------------
+APP="go-pd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ManuelReschke/go-pd"
+link="https://github.com/ManuelReschke/go-pd/releases/download/v1.5.0/go-pd_1.5.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=12 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="go-pd-gui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ManuelReschke/go-pd-gui"
+link="v1.2.0"
+-----------------------------------------------------------------
+size=29 MB
+version=1.2.0
+-----------------------------------------------------------------
