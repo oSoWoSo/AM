@@ -7676,3 +7676,48 @@ link="https://github.com/tanaikech/goodls/releases/download/v2.0.5/goodls_linux_
 size=13 MB
 version=2.0.5
 -----------------------------------------------------------------
+APP="goofcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Milkshiift/GoofCord"
+link="https://github.com/Milkshiift/GoofCord/releases/download/v1.8.5/GoofCord-1.8.5-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=1.8.5
+-----------------------------------------------------------------
+APP="google-chrome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chrome-appimage"
+link="https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-stable-135.0.7049.52-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=135.0.7049.52
+-----------------------------------------------------------------
+APP="google-chrome-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chrome-appimage"
+link="https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-beta-136.0.7103.17-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=136.0.7103.17
+-----------------------------------------------------------------
+APP="google-chrome-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Chrome-appimage"
+link="https://github.com/ivan-hc/Chrome-appimage/releases/download/continuous/Google-Chrome-unstable-136.0.7091.2-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=145 MB
+version=136.0.7091.2
+-----------------------------------------------------------------
+APP="google-docs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Comp-Labs/Google-Docs"
+link="https://github.com/Comp-Labs/Google-Docs/releases/download/v2022.12.1/Google-Docs-linux-x86_64-2022.12.1.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=2022.12.1
+-----------------------------------------------------------------
