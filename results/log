@@ -6916,3 +6916,48 @@ link="https://gaia.ari.uni-heidelberg.de/gaiasky/releases/latest/gaiasky_3.6.7.5
 size=89 MB
 version=3.6.7.5160f2cfe
 -----------------------------------------------------------------
+APP="galacteek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eversum/galacteek"
+link="https://github.com/PancakesArchitect/galacteek/releases/download/v0.5.0/Galacteek-0.5.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=237 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="gallery-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mikf/gallery-dl"
+link="https://github.com/mikf/gallery-dl/releases/download/v1.29.3/gallery-dl.bin"
+-----------------------------------------------------------------
+size=25 MB
+version=1.29.3
+-----------------------------------------------------------------
+APP="gameconqueror"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lucasmz1/Game_Conqueror_AppImage"
+link="https://github.com/lucasmz1/Game_Conqueror_AppImage/releases/download/0.17_2/Game_Conqueror2.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=0.17
+-----------------------------------------------------------------
+APP="gamehub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tkashkin/GameHub"
+link="https://github.com/tkashkin/GameHub/releases/download/0.16.3-6-dev/GameHub-jammy-0.16.3-6-dev-0e3146a-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=0.16.3
+-----------------------------------------------------------------
+APP="gameimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruanformigoni/gameimage"
+link="https://github.com/ruanformigoni/gameimage/releases/download/v1.6.1/gameimage.flatimage"
+-----------------------------------------------------------------
+size=99 MB
+version=1.6.1
+-----------------------------------------------------------------
