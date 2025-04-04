@@ -6165,3 +6165,46 @@ link="https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmula
 size=41 MB
 version=0.11.1
 -----------------------------------------------------------------
+APP="fingrom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lyskouski/app-finance"
+link="https://github.com/lyskouski/app-finance/releases/download/v6.3.0/fingrom_Linux.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=6.3.0
+-----------------------------------------------------------------
+APP="firealpaca"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://firealpaca.com"
+link="2.12.0"
+-----------------------------------------------------------------
+size=135 MB
+version=2.12.0
+-----------------------------------------------------------------
+APP="firedragon"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://firedragon.garudalinux.org"
+link="https://gitlab.com/api/v4/projects/55893651/packages/generic/firedragon-catppuccin/11.25.0-1/firedragon-catppuccin-v11.25.0-1.appimage-x86_64.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=11.25.0
+-----------------------------------------------------------------
+APP="firefly-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iotaledger/firefly"
+link="https://github.com/iotaledger/firefly/releases/download/desktop-shimmer-2.1.16/firefly-shimmer-desktop-2.1.16.AppImage"
+-----------------------------------------------------------------
+size=128 MB
+version=2.1.16
+-----------------------------------------------------------------
+APP="firefox"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=259 MB
+version=137.0
+-----------------------------------------------------------------
