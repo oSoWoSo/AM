@@ -6738,3 +6738,47 @@ link="https://github.com/matthew-matvei/freeman/releases/download/v0.9.1/freeman
 size=60 MB
 version=0.9.1
 -----------------------------------------------------------------
+APP="freeshow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ChurchApps/FreeShow"
+link="https://github.com/ChurchApps/FreeShow/releases/download/v1.4.0-beta.2/FreeShow-1.4.0-beta.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=136 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="freetexturepacker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="odrick/free-tex-packer"
+link="https://github.com/odrick/free-tex-packer/releases/download/v0.6.7/FreeTexturePacker-x86_64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.6.7
+-----------------------------------------------------------------
+APP="freetube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeTubeApp/FreeTube"
+link="https://github.com/FreeTubeApp/FreeTube/releases/download/v0.23.3-beta/freetube-0.23.3-amd64.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.23.3
+-----------------------------------------------------------------
+APP="freeze"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/freeze"
+-----------------------------------------------------------------
+size=14 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="freezer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eNV25/freezer-releases"
+link="https://github.com/eNV25/freezer-releases/releases/download/pc1.1.24/Freezer-1.1.24.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=1.1.24
+-----------------------------------------------------------------
