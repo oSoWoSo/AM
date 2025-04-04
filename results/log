@@ -6603,3 +6603,48 @@ link="https://github.com/forkgram/tdesktop/releases/download/v5.13.1/Telegram.ta
 size=58 MB
 version=5.13.1
 -----------------------------------------------------------------
+APP="four"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FYDesktop/FOUR"
+link="https://github.com/FYDesktop/FOUR/releases/download/1.0.0/four-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="foxfolio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="foxfolio/foxfolio-desktop"
+link="https://github.com/foxfolio/foxfolio-desktop/releases/download/v0.0.10/foxfolio-0.0.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.0.10
+-----------------------------------------------------------------
+APP="fpm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jlambert360/FPM-AppImage"
+link="https://github.com/jlambert360/FPM-AppImage/releases/download/v3.0.5/Faster_Project_Plus-x86-64.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=3.0.5
+-----------------------------------------------------------------
+APP="fractale"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PJK136/Fractale"
+link="https://github.com/PJK136/Fractale/releases/download/continuous/Fractale-cadfc6e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=cadfc6e
+-----------------------------------------------------------------
+APP="fraidycat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kickscondor/fraidycat"
+link="https://github.com/kickscondor/fraidycat/releases/download/v1.1.7/Fraidycat-1.1.7.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=1.1.7
+-----------------------------------------------------------------
