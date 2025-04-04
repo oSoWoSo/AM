@@ -7586,3 +7586,48 @@ link="v1.2.0"
 size=29 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="go-spotify-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Envoy49/go-spotify-cli"
+link="https://github.com/Envoy49/go-spotify-cli/releases/download/v1.0.80/go-spotify-cli_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=1.0.80
+-----------------------------------------------------------------
+APP="godmode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smol-ai/GodMode"
+link="https://github.com/smol-ai/GodMode/releases/download/v1.0.0-beta.10/GodMode-1.0.0-beta.10.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="godot"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="godotengine/godot"
+link="https://github.com/godotengine/godot/releases/download/4.4.1-stable/Godot_v4.4.1-stable_linux.x86_64.zip"
+-----------------------------------------------------------------
+size=123 MB
+version=4.4.1
+-----------------------------------------------------------------
+APP="gojq"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="itchyny/gojq"
+link="https://github.com/itchyny/gojq/releases/download/v0.12.17/gojq_v0.12.17_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=0.12.17
+-----------------------------------------------------------------
+APP="gokey"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cloudflare/gokey"
+link="https://github.com/cloudflare/gokey/releases/download/v0.1.3/gokey-v0.1.3-linux-amd64"
+-----------------------------------------------------------------
+size=4 MB
+version=0.1.3
+-----------------------------------------------------------------
