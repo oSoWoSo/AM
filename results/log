@@ -6424,3 +6424,48 @@ link="https://github.com/flippy-fyp/flippy-qualitative-testbench/releases/downlo
 size=178 MB
 version=0.1.2
 -----------------------------------------------------------------
+APP="floorp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Floorp-Projects/Floorp"
+link="https://github.com/Floorp-Projects/Floorp/releases/download/v11.25.0/floorp-11.25.0.linux-x86_64.tar.bz2"
+-----------------------------------------------------------------
+size=292 MB
+version=11.25.0.linux
+-----------------------------------------------------------------
+APP="flowinity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Flowinity/Desktop"
+link="https://github.com/Flowinity/Desktop/releases/download/1.0.7/flowinity-desktop-1.0.7.AppImage"
+-----------------------------------------------------------------
+size=144 MB
+version=1.0.7
+-----------------------------------------------------------------
+APP="fluent-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yang991178/fluent-reader"
+link="https://github.com/yang991178/fluent-reader/releases/download/v1.1.4/Fluent.Reader.1.1.4.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=1.1.4
+-----------------------------------------------------------------
+APP="fluffychat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="krille-chan/fluffychat"
+link="https://github.com/krille-chan/fluffychat/releases/download/v1.25.0/fluffychat-linux-x64.tar.gz"
+-----------------------------------------------------------------
+size=89 MB
+version=1.25.0
+-----------------------------------------------------------------
+APP="flycast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flyinghead/flycast"
+link="https://github.com/flyinghead/flycast/releases/download/v2.4/flycast-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=2.4
+-----------------------------------------------------------------
