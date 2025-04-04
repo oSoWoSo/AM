@@ -6782,3 +6782,48 @@ link="https://github.com/eNV25/freezer-releases/releases/download/pc1.1.24/Freez
 size=84 MB
 version=1.1.24
 -----------------------------------------------------------------
+APP="freshfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="K4rakara/freshfetch"
+link="https://docs.github.com/rest"
+-----------------------------------------------------------------
+size=11 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="friction"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="friction2d/friction"
+link="https://github.com/friction2d/friction/releases/download/v1.0.0-rc.1/Friction-1.0.0-rc.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="friture"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tlecomte/friture"
+link="https://github.com/tlecomte/friture/releases/download/v0.51/friture-0.51-20240722.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=0.51
+-----------------------------------------------------------------
+APP="fromscratch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kilian/fromscratch"
+link="https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch.1.4.3.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="frontimer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="seita1996/frontimer"
+link="https://github.com/seita1996/frontimer/releases/download/v0.1.17/frontimer-0.1.17.AppImage"
+-----------------------------------------------------------------
+size=186 MB
+version=0.1.17
+-----------------------------------------------------------------
