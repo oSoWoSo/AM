@@ -6335,3 +6335,47 @@ link="https://github.com/mrwan2546/FishTerm/releases/download/v0.0.1-alpha.1/fis
 size=105 MB
 version=0.0.1
 -----------------------------------------------------------------
+APP="fixit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="eugene-babichenko/fixit"
+-----------------------------------------------------------------
+size=3 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="flacon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flacon/flacon"
+link="https://github.com/flacon/flacon/releases/download/v12.0.0/flacon-12.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=12.0.0
+-----------------------------------------------------------------
+APP="flameshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flameshot-org/flameshot"
+link="https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/Flameshot-12.1.0.x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=12.1.0
+-----------------------------------------------------------------
+APP="flare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="flareteam/flare-game"
+link="https://github.com/flareteam/flare-game/releases/download/v1.14/flare-linux64-v1.14.AppImage"
+-----------------------------------------------------------------
+size=128 MB
+version=1.14
+-----------------------------------------------------------------
+APP="flashpoint"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://flashpointarchive.org"
+link="https://download.unstable.life/upload/fp14.0.1_lin_main_20250222.7z"
+-----------------------------------------------------------------
+size=2370 MB
+version=fp14.0.1
+-----------------------------------------------------------------
