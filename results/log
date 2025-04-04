@@ -6827,3 +6827,48 @@ link="https://github.com/seita1996/frontimer/releases/download/v0.1.17/frontimer
 size=186 MB
 version=0.1.17
 -----------------------------------------------------------------
+APP="fspy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stuffmatic/fSpy"
+link="https://github.com/stuffmatic/fSpy/releases/download/1.1.0-beta.3/fSpy-1.1.0-beta.3.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="fukayo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JiPaix/Fukayo"
+link="https://github.com/JiPaix/Fukayo/releases/download/v0.20.7-beta/Fukayo-0.20.7-beta.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=0.20.7
+-----------------------------------------------------------------
+APP="funkin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FunkinCrew/Funkin"
+link="https://github.com/FunkinCrew/Funkin/releases/download/v0.5.3/funkin-linux-64bit.zip"
+-----------------------------------------------------------------
+size=829 MB
+version=64bit.zip
+-----------------------------------------------------------------
+APP="funkin-legacy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="NotHyper-474/Funkin-Legacy-Linux"
+link="https://github.com/NotHyper-474/Funkin-Legacy-Linux/releases/download/v0.5.3/funkin-linux-64bit-unofficial.tar.gz"
+-----------------------------------------------------------------
+size=830 MB
+version=64bit
+-----------------------------------------------------------------
+APP="funkin-psych"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Munoida/FNF-PsychEngine-Linux-Releases"
+link="https://github.com/Munoida/FNF-PsychEngine-Linux-Releases/releases/download/0.7.3/PsyEngLinx073.zip"
+-----------------------------------------------------------------
+size=230 MB
+version=PsyEngLinx073.zip
+-----------------------------------------------------------------
