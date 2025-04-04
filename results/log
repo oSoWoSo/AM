@@ -7631,3 +7631,48 @@ link="https://github.com/cloudflare/gokey/releases/download/v0.1.3/gokey-v0.1.3-
 size=4 MB
 version=0.1.3
 -----------------------------------------------------------------
+APP="goland"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.jetbrains.com"
+link="https://download.jetbrains.com/go/goland-2024.3.5.tar.gz"
+-----------------------------------------------------------------
+size=2857 MB
+version=2024.3.5
+-----------------------------------------------------------------
+APP="goldencheetah"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GoldenCheetah/GoldenCheetah"
+link="https://github.com/GoldenCheetah/GoldenCheetah/releases/download/v3.7/GoldenCheetah_v3.7_x64.AppImage"
+-----------------------------------------------------------------
+size=245 MB
+version=3.7
+-----------------------------------------------------------------
+APP="goldendict"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Abs62/goldendict"
+link="https://github.com/Abs62/goldendict/releases/download/continuous/GoldenDict-661dd4d-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=661dd4d
+-----------------------------------------------------------------
+APP="gooboxfileshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GooBox/file-share-desktop"
+link="https://github.com/GooBox/file-share-desktop/releases/download/v0.3.4/GooboxFileShare-0.3.4.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=0.3.4
+-----------------------------------------------------------------
+APP="goodls"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tanaikech/goodls"
+link="https://github.com/tanaikech/goodls/releases/download/v2.0.5/goodls_linux_amd64"
+-----------------------------------------------------------------
+size=13 MB
+version=2.0.5
+-----------------------------------------------------------------
