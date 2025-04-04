@@ -5943,3 +5943,47 @@ link="6.26.1"
 size=56 MB
 version=6.26.1
 -----------------------------------------------------------------
+APP="feather-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="feather-wallet/feather"
+link="https://github.com/feather-wallet/feather/releases/download/2.7.0/feather-2.7.0.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=2.7.0
+-----------------------------------------------------------------
+APP="feebas"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timzatko/feebas"
+link="https://github.com/timzatko/feebas/releases/download/v0.3.0/feebas-desktop-app-0.3.0.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="feedseries"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="matthieuy/feedseries"
+link="https://github.com/matthieuy/feedseries/releases/download/v1.3.3/FeedSeries-1.3.3.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="feidao"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://oss.fei-dao.com"
+-----------------------------------------------------------------
+size=92 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="feishin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeffvli/feishin"
+link="https://github.com/jeffvli/feishin/releases/download/v0.12.3/Feishin-0.12.3-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.12.3
+-----------------------------------------------------------------
