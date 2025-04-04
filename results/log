@@ -7408,3 +7408,48 @@ link="https://github.com/filhodanuvem/gitql/releases/download/v2.3.1/gitql_2.3.1
 size=10 MB
 version=2.3.1
 -----------------------------------------------------------------
+APP="gitqlient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="francescmm/GitQlient"
+link="https://github.com/francescmm/GitQlient/releases/download/dev-latest/GitQlient-bd4f38c4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=bd4f38c4
+-----------------------------------------------------------------
+APP="gittyup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Murmele/Gittyup"
+link="https://github.com/Murmele/Gittyup/releases/download/development/Gittyup-1.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="gitui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="extrawurst/gitui"
+link="https://github.com/gitui-org/gitui/releases/download/v0.27.0/gitui-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=0.27.0
+-----------------------------------------------------------------
+APP="gl-warp2mp4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/GL_warp2mp4"
+link="https://github.com/hn-88/GL_warp2mp4/releases/download/v1.10/GL_warp2mp41.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=warp2mp41.10
+-----------------------------------------------------------------
+APP="glab"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://gitlab.com/gitlab-org/cli"
+link="https://gitlab.com/gitlab-org/cli/-/releases/v1.55.0/downloads/glab_1.55.0_linux_386.tar.gz"
+-----------------------------------------------------------------
+size=26 MB
+version=1.55.0
+-----------------------------------------------------------------
