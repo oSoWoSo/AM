@@ -7006,3 +7006,48 @@ link="https://github.com/angrykoala/gaucho/releases/download/1.1.0/Gaucho_Linux_
 size=82 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="gdesktopsuite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alexkim205/G-Desktop-Suite"
+link="https://github.com/alexkim205/G-Desktop-Suite/releases/download/v0.3.1/G-Desktop-Suite-0.3.1.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="gdevelop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="4ian/GDevelop"
+link="https://github.com/4ian/GDevelop/releases/download/v5.5.228/GDevelop-5-5.5.228.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=5
+-----------------------------------------------------------------
+APP="gdlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gorilla-devs/GDLauncher"
+link="https://github.com/gorilla-devs/GDLauncher/releases/download/v1.1.30/GDLauncher-linux-setup.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=1.1.30
+-----------------------------------------------------------------
+APP="gdm-settings"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gdm-settings/gdm-settings"
+link="https://github.com/gdm-settings/gdm-settings/releases/download/v5.0/GDM_Settings.AppImage"
+-----------------------------------------------------------------
+size=66 MB
+version=5.0
+-----------------------------------------------------------------
+APP="geany"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ecmu/geany.AppImage"
+link="https://github.com/ecmu/geany.AppImage/releases/download/2.0.0/Geany-2.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=2.0.0
+-----------------------------------------------------------------
