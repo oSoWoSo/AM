@@ -6208,3 +6208,44 @@ GITHUB='no'
 size=259 MB
 version=137.0
 -----------------------------------------------------------------
+APP="firefox-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link="https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox/firefox-137.0.r20250327043313-x86_64.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=137.0.r20250327043313
+-----------------------------------------------------------------
+APP="firefox-beta"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=262 MB
+version=138.0
+-----------------------------------------------------------------
+APP="firefox-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link="https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-beta/firefox-beta-138.0.r20250402091540-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=138.0.r20250402091540
+-----------------------------------------------------------------
+APP="firefox-dev"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=262 MB
+version=138.0
+-----------------------------------------------------------------
+APP="firefox-devedition-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/Firefox-Appimage"
+link="https://github.com/srevinsaju/Firefox-Appimage/releases/download/firefox-devedition/firefox-devedition-138.0.r20250402091540-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=138.0.r20250402091540
+-----------------------------------------------------------------
