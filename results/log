@@ -7140,3 +7140,47 @@ link="https://github.com/m59peacemaker/gerbv-appimage/releases/download/2.7.0-2/
 size=5 MB
 version=2
 -----------------------------------------------------------------
+APP="gert"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mcdallas/gert"
+link="https://github.com/mcdallas/gert/releases/download/v0.2.6/gert_v0.2.6_x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=0.2.6
+-----------------------------------------------------------------
+APP="getthermal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="groupgets/GetThermal"
+link="https://github.com/groupgets/GetThermal/releases/download/v0.1.4/GetThermal-v0.1.4-x86_64-Linux.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="gextractwinicons"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muflone/gextractwinicons"
+link="https://github.com/muflone/gextractwinicons/releases/download/0.5.2/gextractwinicons-0.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="gh"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cli/cli"
+link="https://github.com/cli/cli/releases/download/v2.69.0/gh_2.69.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=43 MB
+version=2.69.0
+-----------------------------------------------------------------
+APP="gh-eco"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jrnxf/gh-eco"
+-----------------------------------------------------------------
+size=19 MB
+version=0.1.5
+-----------------------------------------------------------------
