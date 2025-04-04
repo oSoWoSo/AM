@@ -6121,3 +6121,47 @@ link="https://github.com/TimothySimon123/file-converter/releases/download/0.3-be
 size=1 MB
 version=0.3
 -----------------------------------------------------------------
+APP="file-to-c"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Wallby/file-to-c"
+link="https://github.com/Wallby/file-to-c/releases/download/1.0.0/file-to-c-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="filen"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://filen.io"
+-----------------------------------------------------------------
+size=119 MB
+version=3.0.47
+-----------------------------------------------------------------
+APP="filen-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FilenCloudDienste/filen-cli"
+link="https://github.com/FilenCloudDienste/filen-cli/releases/download/v0.0.32/filen-cli-v0.0.32-linux-x64"
+-----------------------------------------------------------------
+size=127 MB
+version=0.0.32
+-----------------------------------------------------------------
+APP="filezilla"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://filezilla-project.org"
+link="https://dl3.cdn.filezilla-project.org/client/FileZilla_3.68.1_x86_64-linux-gnu.tar.xz?h=MkwOEELRe-KwW_pNzwvOpA&x=1743747266"
+-----------------------------------------------------------------
+size=48 MB
+version=3.68.1
+-----------------------------------------------------------------
+APP="filmulator-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CarVac/filmulator-gui"
+link="https://github.com/CarVac/filmulator-gui/releases/download/v0.11.1/Filmulator_v0.11.1.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=0.11.1
+-----------------------------------------------------------------
