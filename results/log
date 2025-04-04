@@ -6648,3 +6648,48 @@ link="https://github.com/kickscondor/fraidycat/releases/download/v1.1.7/Fraidyca
 size=115 MB
 version=1.1.7
 -----------------------------------------------------------------
+APP="fraktal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fraktal-JS/fraktal"
+link="https://github.com/Fraktal-JS/fraktal/releases/download/v1.1.1/fraktal-1.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="frame-eth-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="floating/frame"
+link="https://github.com/floating/frame/releases/download/v0.6.11/Frame-0.6.11.AppImage"
+-----------------------------------------------------------------
+size=170 MB
+version=0.6.11
+-----------------------------------------------------------------
+APP="francetv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Paullux/FranceTV"
+link="https://github.com/Paullux/FranceTV/releases/download/1.1/FranceTV-1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=250 MB
+version=1.1
+-----------------------------------------------------------------
+APP="franz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="meetfranz/franz"
+link="https://github.com/meetfranz/franz/releases/download/v5.10.0/Franz-5.10.0.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=5.10.0
+-----------------------------------------------------------------
+APP="frappebooks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="frappe/books"
+link="https://github.com/frappe/books/releases/download/v0.28.0/Frappe-Books-0.28.0.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=0.28.0
+-----------------------------------------------------------------
