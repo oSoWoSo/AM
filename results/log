@@ -6693,3 +6693,48 @@ link="https://github.com/frappe/books/releases/download/v0.28.0/Frappe-Books-0.2
 size=100 MB
 version=0.28.0
 -----------------------------------------------------------------
+APP="freac"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="enzo1982/freac"
+link="https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=1.1.7
+-----------------------------------------------------------------
+APP="freecad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeCAD/FreeCAD-Bundle"
+link="https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/devel-qt5/FreeCAD_devel-qt5-40655-conda-Linux-x86_64-py311.AppImage"
+-----------------------------------------------------------------
+size=650 MB
+version=qt5
+-----------------------------------------------------------------
+APP="freecad-assembly3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="realthunder/FreeCAD"
+link="https://github.com/realthunder/FreeCAD/releases/download/20241003stable/FreeCAD-Link-Stable-Linux-x86_64-py3.11-20241003.AppImage"
+-----------------------------------------------------------------
+size=850 MB
+version=py3.11
+-----------------------------------------------------------------
+APP="freefilesync"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="hkneptune/FreeFileSync"
+link="https://github.com/hkneptune/FreeFileSync/releases/download/v14.3/FreeFileSync_14.3_Linux.tar.gz"
+-----------------------------------------------------------------
+size=33 MB
+version=14.3
+-----------------------------------------------------------------
+APP="freeman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="matthew-matvei/freeman"
+link="https://github.com/matthew-matvei/freeman/releases/download/v0.9.1/freeman-0.9.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=0.9.1
+-----------------------------------------------------------------
