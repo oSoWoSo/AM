@@ -6558,3 +6558,48 @@ link="https://github.com/probonopd/focuswriter/releases/download/continuous/Focu
 size=32 MB
 version=a9815c7
 -----------------------------------------------------------------
+APP="fontbase"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://fontba.se"
+link="https://releases.fontba.se/linux/FontBase-2.21.0.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=2.21.0
+-----------------------------------------------------------------
+APP="fontforge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fontforge/fontforge"
+link="https://github.com/fontforge/fontforge/releases/download/20230101/FontForge-2023-01-01-a1dad3e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=2023
+-----------------------------------------------------------------
+APP="fontlet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fontlet/fontlet-explorer"
+link="https://github.com/akuru-io/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.0.29
+-----------------------------------------------------------------
+APP="foobar2000"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/foobar2000_AppImage"
+link="https://github.com/mmtrt/foobar2000_AppImage/releases/download/stable64-wp/foobar2000-x64_2.24.3_WP-x86_64.AppImage"
+-----------------------------------------------------------------
+size=289 MB
+version=2.24.3
+-----------------------------------------------------------------
+APP="forkgram"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="forkgram/tdesktop"
+link="https://github.com/forkgram/tdesktop/releases/download/v5.13.1/Telegram.tar.xz"
+-----------------------------------------------------------------
+size=58 MB
+version=5.13.1
+-----------------------------------------------------------------
