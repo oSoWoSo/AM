@@ -6961,3 +6961,48 @@ link="https://github.com/ruanformigoni/gameimage/releases/download/v1.6.1/gameim
 size=99 MB
 version=1.6.1
 -----------------------------------------------------------------
+APP="gams-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GAMS-dev/studio"
+link="https://github.com/GAMS-dev/studio/releases/download/v1.20.4/GAMS_Studio-1.20.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=163 MB
+version=1.20.4
+-----------------------------------------------------------------
+APP="ganache"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trufflesuite/ganache-ui"
+link="https://github.com/trufflesuite/ganache-ui/releases/download/v2.7.1/ganache-2.7.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=348 MB
+version=2.7.1
+-----------------------------------------------------------------
+APP="gaphor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gaphor/gaphor"
+link="https://github.com/gaphor/gaphor/releases/download/2.18.1/Gaphor-2.18.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=2.18.1
+-----------------------------------------------------------------
+APP="gargoyle-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="garglk/garglk"
+link="https://github.com/garglk/garglk/releases/download/2023.1/Gargoyle-x86_64.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=2023.1
+-----------------------------------------------------------------
+APP="gaucho"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="angrykoala/gaucho"
+link="https://github.com/angrykoala/gaucho/releases/download/1.1.0/Gaucho_Linux_1.1.0.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=1.1.0
+-----------------------------------------------------------------
