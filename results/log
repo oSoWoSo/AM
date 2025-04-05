@@ -7945,3 +7945,47 @@ link="https://github.com/vzhd1701/gridplayer/releases/download/v0.5.3/GridPlayer
 size=115 MB
 version=0.5.3
 -----------------------------------------------------------------
+APP="gridsync"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gridsync/gridsync"
+link="https://github.com/gridsync/gridsync/releases/download/v0.6.1/Gridsync-Linux.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=0.6.1
+-----------------------------------------------------------------
+APP="grinplusplus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GrinPlusPlus/GrinPlusPlus"
+link="https://github.com/GrinPlusPlus/GrinPlusPlus/releases/download/v1.2.9/GrinPlusPlus-1.2.9.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=1.2.9
+-----------------------------------------------------------------
+APP="grist-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gristlabs/grist-desktop"
+link="https://github.com/gristlabs/grist-desktop/releases/download/v0.3.2/grist-desktop-0.3.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=250 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="gron"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="tomnomnom/gron"
+-----------------------------------------------------------------
+size=7 MB
+version=0.7.1.tgz
+-----------------------------------------------------------------
+APP="gron.awk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="xonixx/gron.awk"
+link="https://api.github.com/repos/xonixx/gron.awk/tarball/v0.3.0"
+-----------------------------------------------------------------
+size=1 MB
+version=0.3.0
+-----------------------------------------------------------------
