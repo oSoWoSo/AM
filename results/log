@@ -8922,3 +8922,48 @@ link="https://github.com/xx10t4/iotalk/releases/download/0.1.3/iotalk-0.1.3-x86_
 size=57 MB
 version=0.1.3
 -----------------------------------------------------------------
+APP="ipfs-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ipfs/ipfs-desktop"
+link="https://github.com/ipfs/ipfs-desktop/releases/download/v0.42.0/ipfs-desktop-0.42.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=171 MB
+version=0.42.0
+-----------------------------------------------------------------
+APP="iptracker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="modernben/iptracker"
+link="https://github.com/modernben/iptracker/releases/download/1.2.2/IPTracker-1.2.2.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="iptvnator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="4gray/iptvnator"
+link="https://github.com/4gray/iptvnator/releases/download/app-v1.0.0-5/iptvnator_1.0.0-5_amd64.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="ipuissance-4d"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://beroux.com"
+link="http://download.beroux.com/iPuissance_4D-x86_64.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=4D
+-----------------------------------------------------------------
+APP="irccloud-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="irccloud/irccloud-desktop"
+link="https://github.com/irccloud/irccloud-desktop/releases/download/v0.16.0/IRCCloud-0.16.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=0.16.0
+-----------------------------------------------------------------
