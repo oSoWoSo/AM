@@ -9102,3 +9102,48 @@ link="https://sourceforge.net/projects/jdreplace/files/4.3/jdReplace-4.3-Linux.A
 size=95 MB
 version=4.3
 -----------------------------------------------------------------
+APP="jdtextedit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdtextedit"
+link="https://sourceforge.net/projects/jdtextedit/files/11.2/jdTextEdit-11.2-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=111 MB
+version=11.2
+-----------------------------------------------------------------
+APP="jellyamp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="m0ngr31/jellyamp"
+link="https://github.com/m0ngr31/jellyamp/releases/download/v1.1.2/jellyamp-1.1.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=1.1.2
+-----------------------------------------------------------------
+APP="jellyfin"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://jellyfin.org"
+link="https://repo.jellyfin.org/files/server/linux/latest-stable/amd64/jellyfin_10.10.6-amd64.tar.gz"
+-----------------------------------------------------------------
+size=211 MB
+version=10.10.6
+-----------------------------------------------------------------
+APP="jetbrains-toolbox"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.jetbrains.com"
+link="https://download.jetbrains.com/toolbox/jetbrains-toolbox-2.5.4.38621.tar.gz"
+-----------------------------------------------------------------
+size=80 MB
+version=2.5.4.38621
+-----------------------------------------------------------------
+APP="jexiftoolgui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hvdwolf/jExifToolGUI"
+link="https://github.com/hvdwolf/jExifToolGUI/releases/download/2.0.2/jExifToolGUI-2.0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=64 MB
+version=2.0.2
+-----------------------------------------------------------------
