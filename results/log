@@ -8832,3 +8832,48 @@ link="https://gitlab.com/inkscape/inkscape/-/jobs/9630701992/artifacts/download"
 size=177 MB
 version=9630701992
 -----------------------------------------------------------------
+APP="innerbreeze"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="naoxio/inbreeze"
+link="https://github.com/naoxio/inbreeze/releases/download/1.4.0/InnerBreeze-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="insight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/insight"
+link="https://github.com/antony-jr/insight/releases/download/5afb39f/Insight-arm-linux-gnueabi-5afb39f-x86_64.AppImage"
+-----------------------------------------------------------------
+size=140 MB
+version=5afb39f
+-----------------------------------------------------------------
+APP="insomnia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kong/insomnia"
+link="https://github.com/Kong/insomnia/releases/download/core%4011.0.2/Insomnia.Core-11.0.2.AppImage"
+-----------------------------------------------------------------
+size=159 MB
+version=4011.0.2
+-----------------------------------------------------------------
+APP="insomnium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArchGPT/insomnium"
+link="https://github.com/ArchGPT/insomnium/releases/download/core%400.2.3-a/Insomnium.Core-0.2.3-a.AppImage"
+-----------------------------------------------------------------
+size=132 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="instead"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="instead-hub/instead"
+link="https://github.com/instead-hub/instead/releases/download/3.5.2/INSTEAD-3.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=3.5.2
+-----------------------------------------------------------------
