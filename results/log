@@ -9192,3 +9192,48 @@ link="https://github.com/icewolfz/jiMUD/releases/download/v1.6.1/jiMUD-1.6.1.App
 size=115 MB
 version=1.6.1
 -----------------------------------------------------------------
+APP="jira-timer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alexcroox/jira-timer-menubar"
+link="https://github.com/alexcroox/jira-timer-menubar/releases/download/v1.0.31/jira-timer-1.0.31-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=1.0.31
+-----------------------------------------------------------------
+APP="jitsi-meet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jitsi/jitsi-meet-electron"
+link="https://github.com/jitsi/jitsi-meet-electron/releases/download/v2025.2.0/jitsi-meet-x86_64.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2025.2.0
+-----------------------------------------------------------------
+APP="jklubtv"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/chess-round-robin-manager"
+link="https://sourceforge.net/projects/chess-round-robin-manager/files/JKlubTV-4.0.68-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=60 MB
+version=4.0.68
+-----------------------------------------------------------------
+APP="jless"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PaulJuliusMartinez/jless"
+link="https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip"
+-----------------------------------------------------------------
+size=3 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="jnv"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ynqa/jnv"
+link="https://github.com/ynqa/jnv/releases/download/v0.6.0/jnv-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=10 MB
+version=0.6.0
+-----------------------------------------------------------------
