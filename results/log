@@ -9327,3 +9327,48 @@ link="https://github.com/noahgorstein/jqp/releases/download/v0.7.0/jqp_Linux_x86
 size=12 MB
 version=0.7.0
 -----------------------------------------------------------------
+APP="jreleaser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jreleaser/jreleaser-appimage"
+link="https://github.com/jreleaser/jreleaser-appimage/releases/download/v1.16.0/jreleaser-1.16.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=1.16.0
+-----------------------------------------------------------------
+APP="jrom-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="optyfr/JRomManager"
+link="https://github.com/optyfr/JRomManager/releases/download/3.0.5/JRomManager-3.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="js-design"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://js.design"
+link="https://img.js.design/assets/download/%E5%8D%B3%E6%97%B6%E8%AE%BE%E8%AE%A1%20Linux%E7%89%88.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=2023.04.13
+-----------------------------------------------------------------
+APP="jscad-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jscad/jscad-desktop"
+link="https://github.com/jscad/jscad-desktop/releases/download/v0.5.0/jscad-desktop-0.5.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="juggernaut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LN-Juggernaut/juggernaut-desktop"
+link="https://github.com/LN-Juggernaut/juggernaut-desktop/releases/download/0.1.2/Juggernaut-linux-x86_64-v0.1.2.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.1.2
+-----------------------------------------------------------------
