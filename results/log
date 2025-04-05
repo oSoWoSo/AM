@@ -9372,3 +9372,48 @@ link="https://github.com/LN-Juggernaut/juggernaut-desktop/releases/download/0.1.
 size=73 MB
 version=0.1.2
 -----------------------------------------------------------------
+APP="julius"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bvschaik/julius"
+link="https://github.com/bvschaik/julius/releases/download/v1.7.0/julius-1.7.0-linux.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="junest"
+APPIMAGE='no'
+GITHUB='no'
+SITE="fsquillace/junest"
+link="7.4.10"
+-----------------------------------------------------------------
+size=1 MB
+version=7.4.10
+-----------------------------------------------------------------
+APP="kade"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shawnbanasick/kade"
+link="https://github.com/shawnbanasick/kade/releases/download/v1.3.1/KADE-1.3.1.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="kadium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probablykasper/kadium"
+link="https://github.com/probablykasper/kadium/releases/download/v1.7.1/kadium_1.7.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=1.7.1
+-----------------------------------------------------------------
+APP="kage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WayzDev/Kage"
+link="https://github.com/Zerx0r/Kage/releases/download/v0.1.1-beta/Kage.0.1.1-beta_linux.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.1.1
+-----------------------------------------------------------------
