@@ -8569,3 +8569,45 @@ link="https://github.com/ivan-hc/Hypnotix-appimage/releases/download/continuous/
 size=114 MB
 version=4.9
 -----------------------------------------------------------------
+APP="i3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/i3-AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=4.24
+-----------------------------------------------------------------
+APP="i3-auto-layout"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pando85/i3-auto-layout"
+-----------------------------------------------------------------
+size=2 MB
+version=i3
+-----------------------------------------------------------------
+APP="i3lock-color"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Raymo111/i3lock-color"
+-----------------------------------------------------------------
+size=1 MB
+version=i3lock
+-----------------------------------------------------------------
+APP="iagoncloudapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Iagonorg/Iagon-storage-node"
+link="https://github.com/Iagonorg/testnet-iagon-storage-node/releases/download/v1.1.0/Iagon-Storage-Node_v1.1.0.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="ibus-rime"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hchunhui/ibus-rime.AppImage"
+link="https://github.com/hchunhui/ibus-rime.AppImage/releases/download/continuous/ibus-rime-x86_64.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=2025.02.09
+-----------------------------------------------------------------
