@@ -8700,3 +8700,48 @@ link="https://github.com/scheckmedia/ImageMosaicWall/releases/download/v0.3/Imag
 size=26 MB
 version=0.3
 -----------------------------------------------------------------
+APP="imagine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="meowtec/Imagine"
+link="https://github.com/meowtec/Imagine/releases/download/v0.7.5/Imagine-0.7.5.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=0.7.5
+-----------------------------------------------------------------
+APP="imapsyncclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ridaamirini/ImapSyncClient"
+link="https://github.com/ridaamirini/ImapSyncClient/releases/download/v1.0.1/ImapSync-Client-1.0.1.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="imgbrd-grabber"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bionus/imgbrd-grabber"
+link="https://github.com/Bionus/imgbrd-grabber/releases/download/v7.13.0/Grabber_v7.13.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=7.13.0
+-----------------------------------------------------------------
+APP="imgcat"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="danielgatis/imgcat"
+link="https://github.com/danielgatis/imgcat/releases/download/v1.0.20/imgcat_1.0.20_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=1.0.20
+-----------------------------------------------------------------
+APP="imhex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WerWolv/ImHex"
+link="https://github.com/WerWolv/ImHex/releases/download/v1.37.4/imhex-1.37.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=1.37.4
+-----------------------------------------------------------------
