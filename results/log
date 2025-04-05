@@ -9147,3 +9147,48 @@ link="https://github.com/hvdwolf/jExifToolGUI/releases/download/2.0.2/jExifToolG
 size=64 MB
 version=2.0.2
 -----------------------------------------------------------------
+APP="jfcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chicken/JFCord"
+link="https://github.com/Chicken/JFCord/releases/download/v4.2.1/jfcord-4.2.1.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=4.2.1
+-----------------------------------------------------------------
+APP="jgenesis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jsgroth/jgenesis"
+link="https://github.com/jsgroth/jgenesis/releases/download/v0.9.0/jgenesis-gui_0.9.0_x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="jgenesis-cli"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jsgroth/jgenesis"
+link="https://github.com/jsgroth/jgenesis/releases/download/v0.9.0/jgenesis-cli_0.9.0_x86_64.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="jgrasp"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.jgrasp.org"
+link="https://www.jgrasp.org/dl4g/jgrasp/jgrasp_bdl206_17.zip"
+-----------------------------------------------------------------
+size=379 MB
+version=bdl206
+-----------------------------------------------------------------
+APP="jimud"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="icewolfz/jiMUD"
+link="https://github.com/icewolfz/jiMUD/releases/download/v1.6.1/jiMUD-1.6.1.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=1.6.1
+-----------------------------------------------------------------
