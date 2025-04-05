@@ -8391,3 +8391,47 @@ link="https://github.com/xgi/houdoku/releases/download/v2.16.0/Houdoku-2.16.0.Ap
 size=167 MB
 version=2.16.0
 -----------------------------------------------------------------
+APP="hpack"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/hpack"
+link="https://github.com/antony-jr/hpack/releases/download/continuous/hpack.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="hsinstall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dino-/hsinstall"
+link="https://github.com/dino-/hsinstall/releases/download/2.8/hsinstall-2.8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=6 MB
+version=2.8
+-----------------------------------------------------------------
+APP="htmldoc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KurtPfeifle/htmldoc"
+link="https://github.com/pdfkungfoo/htmldoc/releases/download/continuous/htmldoc-v1.9.3-travisbuild.26-travisbranch.master-git.4ab539d-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=1.9.3
+-----------------------------------------------------------------
+APP="htop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/htop-AppImage"
+-----------------------------------------------------------------
+size=3 MB
+version=3.4.0
+-----------------------------------------------------------------
+APP="httpie-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="httpie/desktop"
+link="https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-2025.2.0.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=2025.2.0
+-----------------------------------------------------------------
