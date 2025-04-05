@@ -7989,3 +7989,48 @@ link="https://api.github.com/repos/xonixx/gron.awk/tarball/v0.3.0"
 size=1 MB
 version=0.3.0
 -----------------------------------------------------------------
+APP="groot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BehaviorTree/Groot"
+link="https://github.com/BehaviorTree/Groot/releases/download/1.0.0/Groot-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="gsequencer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gsequencer/gsequencer"
+link="https://github.com/gsequencer/gsequencer/releases/download/6.5.2/GSequencer-6.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=262 MB
+version=6.5.2
+-----------------------------------------------------------------
+APP="gsubs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sanjevirau/gsubs"
+link="https://github.com/sanjevirau/gsubs/releases/download/v1.0.3/gSubs.1.0.3.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="guarda"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="guardaco/guarda-desktop-releases"
+link="https://github.com/guardaco/guarda-desktop-releases/releases/download/v1.0.20/Guarda-1.0.20.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=1.0.20
+-----------------------------------------------------------------
+APP="guglielmo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="marcogrecopriolo/guglielmo"
+link="https://github.com/marcogrecopriolo/guglielmo/releases/download/0.6/guglielmo-x86_64-v0.6.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=0.6
+-----------------------------------------------------------------
