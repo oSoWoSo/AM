@@ -8967,3 +8967,48 @@ link="https://github.com/irccloud/irccloud-desktop/releases/download/v0.16.0/IRC
 size=81 MB
 version=0.16.0
 -----------------------------------------------------------------
+APP="irscrutinizer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bengtmartensson/harctoolboxbundle"
+link="https://github.com/bengtmartensson/IrScrutinizer/releases/download/ci-build/IrScrutinizer-2.4.3-SNAPSHOT-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=2.4.3
+-----------------------------------------------------------------
+APP="isle-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="isle-project/isle-editor"
+link="https://github.com/isle-project/isle-editor/releases/download/v0.76.23/isle-editor-0.76.23-x86_64.AppImage"
+-----------------------------------------------------------------
+size=225 MB
+version=0.76.23
+-----------------------------------------------------------------
+APP="isolate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="seenaburns/isolate"
+link="https://github.com/seenaburns/isolate/releases/download/v2.0.2/isolate-2.0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=2.0.2
+-----------------------------------------------------------------
+APP="itusb1-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bloguetronica/itusb1-mngr"
+link="https://github.com/bloguetronica/itusb1-mngr/releases/download/v3.4/ITUSB1_Manager-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=ITUSB1
+-----------------------------------------------------------------
+APP="jabref"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="JabRef/jabref"
+link="https://github.com/JabRef/jabref/releases/download/v6.0-alpha/JabRef-6.0-portable_linux.tar.gz"
+-----------------------------------------------------------------
+size=351 MB
+version=6.0
+-----------------------------------------------------------------
