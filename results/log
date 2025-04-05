@@ -9551,3 +9551,45 @@ link="https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-ma
 size=184 MB
 version=10012
 -----------------------------------------------------------------
+APP="kdeutils"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/KDE-utils-appimage"
+link="https://github.com/ivan-hc/KDE-utils-appimage/releases/download/continuous/KDE-utils_24.12-2-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=369 MB
+version=24.12
+-----------------------------------------------------------------
+APP="kdiskmark"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JonMagon/KDiskMark"
+link="https://github.com/JonMagon/KDiskMark/releases/download/3.1.4/KDiskMark-3.1.4-fio-3.35-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=3.1.4
+-----------------------------------------------------------------
+APP="keepassxc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keepassxreboot/keepassxc"
+link="https://github.com/keepassxreboot/keepassxc/releases/download/2.7.10/KeePassXC-2.7.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=47 MB
+version=2.7.10
+-----------------------------------------------------------------
+APP="keepassxc-devel"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://snapshot.keepassxc.org/latest/"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="keeweb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keeweb/keeweb"
+link="https://github.com/keeweb/keeweb/releases/download/v1.18.7/KeeWeb-1.18.7.linux.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=1.18.7
+-----------------------------------------------------------------
