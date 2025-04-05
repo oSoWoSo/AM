@@ -9012,3 +9012,48 @@ link="https://github.com/JabRef/jabref/releases/download/v6.0-alpha/JabRef-6.0-p
 size=351 MB
 version=6.0
 -----------------------------------------------------------------
+APP="jag"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="seleznevae/jag"
+link="https://github.com/seleznevae/jag/releases/download/v.0.1.1.1/jag-x86_64.AppImage"
+-----------------------------------------------------------------
+size=19 MB
+version=0.1.1.1
+-----------------------------------------------------------------
+APP="james"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="james-proxy/james"
+link="https://github.com/james-proxy/james/releases/download/v2.1.2/james-2.1.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=2.1.2
+-----------------------------------------------------------------
+APP="jan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="janhq/jan"
+link="https://github.com/menloresearch/jan/releases/download/v0.5.16/jan-linux-x86_64-0.5.16.AppImage"
+-----------------------------------------------------------------
+size=1558 MB
+version=0.5.16
+-----------------------------------------------------------------
+APP="jazz2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deathkiller/jazz2"
+link="https://github.com/deathkiller/jazz2/releases/download/3.2.0/Jazz2_3.2.0_Linux.zip"
+-----------------------------------------------------------------
+size=5 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="jdappstreamedit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdappstreamedit"
+link="https://sourceforge.net/projects/jdappstreamedit/files/9.2/jdAppStreamEdit-9.2-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=105 MB
+version=9.2
+-----------------------------------------------------------------
