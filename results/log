@@ -8435,3 +8435,48 @@ link="https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-2025.
 size=99 MB
 version=2025.2.0
 -----------------------------------------------------------------
+APP="hugin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aferrero2707/hugin-appimage"
+link="https://github.com/aferrero2707/hugin-appimage/releases/download/continuous/Hugin_Panorama_Creator-2019.0.0-20190407-x86_64.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=2019.0.0
+-----------------------------------------------------------------
+APP="hugor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="realnc/hugor"
+link="https://github.com/realnc/hugor/releases/download/v3.0/Hugor-3.0-Linux-x64.AppImage.tar.gz"
+-----------------------------------------------------------------
+size=31 MB
+version=3.0
+-----------------------------------------------------------------
+APP="humanlog"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="humanlogio/humanlog"
+link="https://github.com/humanlogio/humanlog/releases/download/v0.7.8/humanlog_0.7.8_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=18 MB
+version=0.7.8
+-----------------------------------------------------------------
+APP="huwinterpreter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="huwdp/huwinterpreter"
+link="https://github.com/huwdp/huwinterpreter/releases/download/v1.0.0.4/HuwInterpreter-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=1.0.0.4
+-----------------------------------------------------------------
+APP="hw-probe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="linuxhw/hw-probe"
+link="https://github.com/linuxhw/hw-probe/releases/download/1.6/hw-probe-1.6.4-186-x86_64.AppImage"
+-----------------------------------------------------------------
+size=6 MB
+version=1.6.4
+-----------------------------------------------------------------
