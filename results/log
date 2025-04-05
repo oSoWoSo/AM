@@ -8611,3 +8611,47 @@ link="https://github.com/hchunhui/ibus-rime.AppImage/releases/download/continuou
 size=7 MB
 version=2025.02.09
 -----------------------------------------------------------------
+APP="icalingua++"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Icalingua-plus-plus/Icalingua-plus-plus"
+link="https://github.com/Icalingua-plus-plus/Icalingua-plus-plus/releases/download/v2.12.28/Icalingua%2B%2B-2.12.28.AppImage"
+-----------------------------------------------------------------
+size=154 MB
+version=Icalingua%2B%2B
+-----------------------------------------------------------------
+APP="icecat"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.gnu.org/software/gnuzilla"
+link="https://icecatbrowser.org/assets/icecat/115.22.0/icecat-115.22.0.en-US.linux-x86_64.tar.bz2"
+-----------------------------------------------------------------
+size=227 MB
+version=115.22.0.en
+-----------------------------------------------------------------
+APP="icedrive"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://icedrive.net"
+-----------------------------------------------------------------
+size=94 MB
+version=2.0
+-----------------------------------------------------------------
+APP="icestudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FPGAwars/icestudio"
+link="https://github.com/FPGAwars/icestudio/releases/download/v0.12/icestudio-0.12-linux64.AppImage"
+-----------------------------------------------------------------
+size=236 MB
+version=0.12
+-----------------------------------------------------------------
+APP="ideamerit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.ideamerit.com"
+link="https://www.ideamerit.com/downloads/Ideamerit Designer-2.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=2.0.0
+-----------------------------------------------------------------
