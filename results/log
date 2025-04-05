@@ -8213,3 +8213,48 @@ link="https://github.com/juzzlin/Heimer/releases/download/4.5.0/Heimer-4.5.0-x86
 size=25 MB
 version=4.5.0
 -----------------------------------------------------------------
+APP="helio"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://helio.fm"
+link="https://ci.helio.fm/helio-3.14-x64.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=3.14
+-----------------------------------------------------------------
+APP="helioslauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dscalzi/HeliosLauncher"
+link="https://github.com/dscalzi/HeliosLauncher/releases/download/v2.2.1/Helios-Launcher-setup-2.2.1.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=2.2.1
+-----------------------------------------------------------------
+APP="helix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="helix-editor/helix"
+link="https://github.com/helix-editor/helix/releases/download/25.01.1/helix-25.01.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=25.01.1
+-----------------------------------------------------------------
+APP="henson"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="NotAName320/Henson"
+link="https://github.com/NotAName320/Henson/releases/download/v1.5.2/henson-linux-x64.zip"
+-----------------------------------------------------------------
+size=40 MB
+version=1.5.2
+-----------------------------------------------------------------
+APP="hermesmessenger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HermesMessenger/HermesDesktop"
+link="https://github.com/HermesMessenger/HermesDesktop/releases/download/v1.0.0-11/HermesMessenger-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=1.0.0
+-----------------------------------------------------------------
