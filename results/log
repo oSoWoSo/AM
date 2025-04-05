@@ -7900,3 +7900,48 @@ link="https://github.com/graphql/graphql-playground/releases/download/v1.8.10/gr
 size=75 MB
 version=1.8.10
 -----------------------------------------------------------------
+APP="graviton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Graviton-Code-Editor/Graviton-App"
+link="https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/v2.3.0/Graviton-Editor_Installer_2.3.0_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=2.3.0
+-----------------------------------------------------------------
+APP="greenlight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="unknownskl/greenlight"
+link="https://github.com/unknownskl/greenlight/releases/download/v2.3.1/Greenlight-2.3.1.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="gridcoin-research"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gridcoin-community/Gridcoin-Research"
+link="https://github.com/gridcoin-community/Gridcoin-Research/releases/download/5.4.7.0/GridcoinResearch-5.4.7.0-x86-64.appimage"
+-----------------------------------------------------------------
+size=43 MB
+version=5.4.7.0
+-----------------------------------------------------------------
+APP="gridea"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="getgridea/gridea"
+link="https://github.com/getgridea/gridea/releases/download/v0.9.3/Gridea-0.9.3.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=0.9.3
+-----------------------------------------------------------------
+APP="gridplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vzhd1701/gridplayer"
+link="https://github.com/vzhd1701/gridplayer/releases/download/v0.5.3/GridPlayer-0.5.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=0.5.3
+-----------------------------------------------------------------
