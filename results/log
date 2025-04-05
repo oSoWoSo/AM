@@ -8524,3 +8524,48 @@ SITE="sharkdp/hyperfine"
 size=2 MB
 version=1.19.0
 -----------------------------------------------------------------
+APP="hyperionide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="HyperionScripting/HyperionIDE"
+link="https://github.com/HyperionScripting/HyperionIDE/releases/download/v0.1.1/HyperionIDE-0.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="hyperkeys"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xurei/hyperkeys"
+link="https://github.com/xurei/hyperkeys/releases/download/v1.3.4/HyperKeys-1.3.4.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=1.3.4
+-----------------------------------------------------------------
+APP="hypersomnia"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://hypersomnia.xyz"
+link="1.2.9167"
+-----------------------------------------------------------------
+size=30 MB
+version=1.2.9167
+-----------------------------------------------------------------
+APP="hyperspace"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alicerunsonfedora/hyperspace"
+link="https://github.com/hyperspacedev/hyperspace-classic/releases/download/0.7.0/Hyperspace.0.7.0.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="hypnotix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Hypnotix-appimage"
+link="https://github.com/ivan-hc/Hypnotix-appimage/releases/download/continuous/Hypnotix_4.9-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=4.9
+-----------------------------------------------------------------
