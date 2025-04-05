@@ -7811,3 +7811,47 @@ link="https://docs.github.com/rest"
 size=19 MB
 version=1.3.0.zip
 -----------------------------------------------------------------
+APP="goverlay"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="benjamimgois/goverlay"
+link="https://github.com/benjamimgois/goverlay/releases/download/nightly/GOverlay-d611b6fd3-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=d611b6fd3
+-----------------------------------------------------------------
+APP="gpg-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orhun/gpg-tui"
+link="https://github.com/orhun/gpg-tui/releases/download/v0.11.0/gpg-tui-0.11.0-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="gpgfrontend"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="saturneric/GpgFrontend"
+link="https://github.com/saturneric/GpgFrontend/releases/download/nightly/Gpg_Frontend-ef1c36e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=ef1c36e
+-----------------------------------------------------------------
+APP="gping"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orf/gping"
+-----------------------------------------------------------------
+size=4 MB
+version=1.18.0
+-----------------------------------------------------------------
+APP="gpredict"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="csete/gpredict"
+link="https://github.com/csete/gpredict/releases/download/v2.2.1/Gpredict-2.2.1.glibc2.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=9 MB
+version=2.2.1.glibc2.14
+-----------------------------------------------------------------
