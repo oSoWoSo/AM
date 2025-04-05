@@ -7855,3 +7855,48 @@ link="https://github.com/csete/gpredict/releases/download/v2.2.1/Gpredict-2.2.1.
 size=9 MB
 version=2.2.1.glibc2.14
 -----------------------------------------------------------------
+APP="gpt-anywhere"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JinayJain/gpt-anywhere"
+link="https://github.com/JinayJain/gpt-anywhere/releases/download/app-v0.0.2/gpt-anywhere_0.0.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="gpupad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="houmain/gpupad"
+link="https://github.com/houmain/gpupad/releases/download/1.35.1/GPUpad-1.35.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=1.35.1
+-----------------------------------------------------------------
+APP="gqrx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="csete/gqrx"
+link="https://github.com/gqrx-sdr/gqrx/releases/download/v2.17.6/Gqrx-2.17.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=2.17.6
+-----------------------------------------------------------------
+APP="grabscr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thepeshka/grabscr"
+link="https://github.com/thepeshka/grabscr/releases/download/v0.0.7/GrabSCR-0.0.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.0.7
+-----------------------------------------------------------------
+APP="graphql-playground"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="graphcool/graphql-playground"
+link="https://github.com/graphql/graphql-playground/releases/download/v1.8.10/graphql-playground-electron-1.8.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=1.8.10
+-----------------------------------------------------------------
