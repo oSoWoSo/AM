@@ -7766,3 +7766,48 @@ link="https://github.com/GopeedLab/gopeed/releases/download/v1.6.10/Gopeed-v1.6.
 size=23 MB
 version=1.6.10
 -----------------------------------------------------------------
+APP="gospel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ksharindam/gospel-pdf-viewer"
+link="https://github.com/ksharindam/gospel-pdf-viewer/releases/download/v3.2.0/Gospel_PDF-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="gost-shred"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pedroalbanese/gost-shred"
+link="https://github.com/pedroalbanese/gost-shred/releases/download/v1.0.0/gost-shred_linux-x86.zip"
+-----------------------------------------------------------------
+size=2 MB
+version=x86.zip
+-----------------------------------------------------------------
+APP="got"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="melbahja/got"
+link="https://github.com/melbahja/got/releases/download/v0.7.0/got_0.7.0_Linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="gotimer"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nwillc/gotimer"
+link="https://github.com/nwillc/gotimer/releases/download/v1.2.3/gotimer_linux_amd64.zip"
+-----------------------------------------------------------------
+size=6 MB
+version=1.2.3
+-----------------------------------------------------------------
+APP="goto"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="grafviktor/goto"
+link="https://docs.github.com/rest"
+-----------------------------------------------------------------
+size=19 MB
+version=1.3.0.zip
+-----------------------------------------------------------------
