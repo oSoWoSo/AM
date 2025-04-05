@@ -9638,3 +9638,48 @@ link="https://keycombiner.com/download/KeyCombiner-0.8.0.AppImage"
 size=101 MB
 version=0.8.0
 -----------------------------------------------------------------
+APP="keymanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keymanager/keymanager"
+link="https://github.com/keymanager/keymanager/releases/download/v0.19.10/KeyManager-0.19.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=0.19.10
+-----------------------------------------------------------------
+APP="keyrier-json"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="magoo-magoo/keyrier-json"
+link="https://github.com/magoo-magoo/keyrier-json/releases/download/v1.2.1/Keyrier.JSON-1.1.38.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="keys"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keys-pub/app"
+link="https://github.com/keys-pub/app/releases/download/v0.2.4/Keys-0.2.4.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=0.2.4
+-----------------------------------------------------------------
+APP="kibi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ilai-deutel/kibi"
+link="https://github.com/ilai-deutel/kibi/releases/download/v0.2.2/kibi-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=1 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="kicad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CyberCircuits/kicad-appimage"
+link="https://sourceforge.net/projects/kicad-appimage/files/v8/KiCad-8.0.9.glibc2.29-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=212 MB
+version=8
+-----------------------------------------------------------------
