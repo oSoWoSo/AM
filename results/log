@@ -8877,3 +8877,48 @@ link="https://github.com/instead-hub/instead/releases/download/3.5.2/INSTEAD-3.5
 size=18 MB
 version=3.5.2
 -----------------------------------------------------------------
+APP="international-doom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JNechaevsky/international-doom"
+link="https://github.com/JNechaevsky/international-doom/releases/download/8.1/inter-doom-8.1-linux.appimage"
+-----------------------------------------------------------------
+size=9 MB
+version=8.1
+-----------------------------------------------------------------
+APP="internxt-drive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="internxt/drive-desktop-linux"
+link="https://github.com/internxt/drive-desktop-linux/releases/download/v2.4.7/Internxt-2.4.7.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=2.4.7
+-----------------------------------------------------------------
+APP="intiface"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="intiface/intiface-desktop"
+link="https://github.com/intiface/intiface-desktop/releases/download/v27.0.0/intiface-desktop-27.0.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=27.0.0
+-----------------------------------------------------------------
+APP="invoice-generator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bhavyaagg/Invoice-Generator-Electron"
+link="https://github.com/bhavyaagg/Invoice-Generator-Electron/releases/download/v1.0.0/invoice-generator-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="iota1k"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xx10t4/iota1k"
+link="https://github.com/xx10t4/iotalk/releases/download/0.1.3/iotalk-0.1.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.1.3
+-----------------------------------------------------------------
