@@ -9683,3 +9683,48 @@ link="https://sourceforge.net/projects/kicad-appimage/files/v8/KiCad-8.0.9.glibc
 size=212 MB
 version=8
 -----------------------------------------------------------------
+APP="kiibohd-configurator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kiibohd/configurator"
+link="https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="kiku"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="angus6b23/kiku"
+link="https://github.com/angus6b23/kiku/releases/download/v0.0.4/kiku-linux-0.0.4.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=0.0.4
+-----------------------------------------------------------------
+APP="kimitzu-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kimitzu/kimitzu-client"
+link="https://github.com/kimitzu/kimitzu-client/releases/download/v0.4.1-beta/Kimitzu-Client-0.4.1-beta.AppImage"
+-----------------------------------------------------------------
+size=176 MB
+version=0.4.1
+-----------------------------------------------------------------
+APP="kinopio"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://kinopio.club"
+link="https://dl.todesktop.com/201223j48l03cxi"
+-----------------------------------------------------------------
+size=107 MB
+version=201223j48l03cxi
+-----------------------------------------------------------------
+APP="kitty"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="kovidgoyal/kitty"
+link="https://github.com/kovidgoyal/kitty/releases/download/nightly/kitten-linux-amd64"
+-----------------------------------------------------------------
+size=16 MB
+version=2025.04.05
+-----------------------------------------------------------------
