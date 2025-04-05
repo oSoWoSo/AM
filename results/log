@@ -9057,3 +9057,48 @@ link="https://sourceforge.net/projects/jdappstreamedit/files/9.2/jdAppStreamEdit
 size=105 MB
 version=9.2
 -----------------------------------------------------------------
+APP="jddesktopentryedit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jddesktopentryedit"
+link="https://sourceforge.net/projects/jddesktopentryedit/files/1.5/jdDesktopEntryEdit-1.5-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=94 MB
+version=1.5
+-----------------------------------------------------------------
+APP="jdminecraftlauncher"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdminecraftlauncher"
+link="https://sourceforge.net/projects/jdminecraftlauncher/files/6.2/jdMinecraftLauncher-6.2-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=192 MB
+version=6.2
+-----------------------------------------------------------------
+APP="jdmrpackinstaller"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdmrpackinstaller/"
+link="https://sourceforge.net/projects/jdmrpackinstaller/files/1.1/jdMrpackInstaller-1.1-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=94 MB
+version=1.1
+-----------------------------------------------------------------
+APP="jdnbtexplorer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdnbtexplorer"
+link="https://sourceforge.net/projects/jdnbtexplorer/files/2.3/jdNBTExplorer-2.3-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=98 MB
+version=2.3
+-----------------------------------------------------------------
+APP="jdreplace"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/jdreplace/"
+link="https://sourceforge.net/projects/jdreplace/files/4.3/jdReplace-4.3-Linux.AppImage/download"
+-----------------------------------------------------------------
+size=95 MB
+version=4.3
+-----------------------------------------------------------------
