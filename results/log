@@ -9507,3 +9507,47 @@ link="https://github.com/CamiloGarciaLaRotta/kboard/releases/download/v0.1.4/kbo
 size=9 MB
 version=0.1.4
 -----------------------------------------------------------------
+APP="kcov"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="julien-montmartin/kcov-appimage"
+link="https://github.com/julien-montmartin/kcov-appimage/releases/download/v36/kcov-x86_64.AppImage"
+-----------------------------------------------------------------
+size=8 MB
+version=36
+-----------------------------------------------------------------
+APP="kdeconnect"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/kdeconnect-AppImage"
+link="https://github.com/pkgforge-dev/kdeconnect-AppImage/releases/download/24.12.3-1/kdeconnect-24.12.3-1-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=24.12.3
+-----------------------------------------------------------------
+APP="kdegames"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/KDE-games-suite-appimage"
+link="https://github.com/ivan-hc/KDE-games-suite-appimage/releases/download/continuous/KDE-games-suite_24.12-2-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=369 MB
+version=24.12
+-----------------------------------------------------------------
+APP="kdenlive"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://kdenlive.org"
+-----------------------------------------------------------------
+size=181 MB
+version=24.12.3
+-----------------------------------------------------------------
+APP="kdenlive-daily"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://kdenlive.org"
+link="https://cdn.kde.org/ci-builds/multimedia/kdenlive/master/linux/kdenlive-master-10012-linux-gcc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=184 MB
+version=10012
+-----------------------------------------------------------------
