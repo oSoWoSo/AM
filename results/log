@@ -8347,3 +8347,47 @@ link="https://github.com/Rosettea/Hilbish/releases/download/v2.3.4/hilbish-v2.3.
 size=10 MB
 version=2.3.4
 -----------------------------------------------------------------
+APP="himalaya"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pimalaya/himalaya"
+link="https://github.com/pimalaya/himalaya/releases/download/v1.0.0-beta.4/himalaya.x86_64-linux.zip"
+-----------------------------------------------------------------
+size=57 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="hmcl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="HMCL-dev/HMCL"
+link="https://github.com/HMCL-dev/HMCL/releases/download/release-3.6.12/HMCL-3.6.12.sh"
+-----------------------------------------------------------------
+size=6 MB
+version=3.6.12.sh
+-----------------------------------------------------------------
+APP="hoptodesk"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.hoptodesk.com"
+-----------------------------------------------------------------
+size=57 MB
+version=1.42.9
+-----------------------------------------------------------------
+APP="hotspot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KDAB/hotspot"
+link="https://github.com/KDAB/hotspot/releases/download/v1.5.1/hotspot-v1.5.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=66 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="houdoku"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xgi/houdoku"
+link="https://github.com/xgi/houdoku/releases/download/v2.16.0/Houdoku-2.16.0.AppImage"
+-----------------------------------------------------------------
+size=167 MB
+version=2.16.0
+-----------------------------------------------------------------
