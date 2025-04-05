@@ -9417,3 +9417,48 @@ link="https://github.com/Zerx0r/Kage/releases/download/v0.1.1-beta/Kage.0.1.1-be
 size=51 MB
 version=0.1.1
 -----------------------------------------------------------------
+APP="kaidan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KaidanIM/Kaidan"
+link="https://github.com/KaidanIM/Kaidan/releases/download/v0.3.2/Kaidan-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="kalba"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BrewingWeasel/Kalba"
+link="https://github.com/BrewingWeasel/Kalba/releases/download/kalba-v0.3.6/Kalba_0.3.6_amd64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=0.3.6
+-----------------------------------------------------------------
+APP="kalc"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bgkillas/kalc"
+link="https://github.com/bgkillas/kalc/releases/download/v1.4.3/kalc-x86_64-gnu"
+-----------------------------------------------------------------
+size=4 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="kalker"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PaddiM8/kalker"
+link="https://github.com/PaddiM8/kalker/releases/download/v2.2.1/kalker-linux"
+-----------------------------------------------------------------
+size=4 MB
+version=2.2.1
+-----------------------------------------------------------------
+APP="kando"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kando-menu/kando"
+link="https://github.com/kando-menu/kando/releases/download/v1.8.0/Kando-1.8.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=1.8.0
+-----------------------------------------------------------------
