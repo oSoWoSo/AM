@@ -8655,3 +8655,48 @@ link="https://www.ideamerit.com/downloads/Ideamerit Designer-2.0.0-x86_64.AppIma
 size=109 MB
 version=2.0.0
 -----------------------------------------------------------------
+APP="igdm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ifedapoolarewaju/igdm"
+link="https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm-3.0.4.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=3.0.4
+-----------------------------------------------------------------
+APP="iheartradio-webapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ItzSwirlz/iheartradio-webapp"
+link="https://github.com/ItzSwirlz/iheartradio-webapp/releases/download/1.4.0/iHeartRadio-1.4.0.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="imagemagick-clang"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ImageMagick/ImageMagick"
+link="https://github.com/ImageMagick/ImageMagick/releases/download/7.1.1-47/ImageMagick-82572af-clang-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=82572af
+-----------------------------------------------------------------
+APP="imagemagick-gcc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ImageMagick/ImageMagick"
+link="https://github.com/ImageMagick/ImageMagick/releases/download/7.1.1-47/ImageMagick-82572af-gcc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=82572af
+-----------------------------------------------------------------
+APP="imagemosaicwall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="scheckmedia/ImageMosaicWall"
+link="https://github.com/scheckmedia/ImageMosaicWall/releases/download/v0.3/ImageMosaicWall-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=0.3
+-----------------------------------------------------------------
