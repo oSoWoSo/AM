@@ -8034,3 +8034,48 @@ link="https://github.com/marcogrecopriolo/guglielmo/releases/download/0.6/guglie
 size=39 MB
 version=0.6
 -----------------------------------------------------------------
+APP="guiscrcpy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/guiscrcpy"
+link="https://github.com/srevinsaju/guiscrcpy/releases/download/continuous/guiscrcpy-v2023.1.1-5-g077adac.dev.m.glibc2.35-x86_64.AppImage"
+-----------------------------------------------------------------
+size=64 MB
+version=2023.1.1
+-----------------------------------------------------------------
+APP="guitar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="soramimi/Guitar"
+link="https://github.com/soramimi/Guitar/releases/download/continuous/Guitar-c228ce5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=c228ce5
+-----------------------------------------------------------------
+APP="gum"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/gum"
+link="https://github.com/charmbracelet/gum/releases/download/v0.16.0/gum_0.16.0_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=0.16.0
+-----------------------------------------------------------------
+APP="gvim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vim/vim-appimage"
+link="https://github.com/vim/vim-appimage/releases/download/v9.1.1276/GVim-v9.1.1276.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=45 MB
+version=9.1.1276.glibc2.29
+-----------------------------------------------------------------
+APP="gxc-smart-contract-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gxchain/gxc-smart-contract-ide"
+link="https://github.com/gxchain/gxc-smart-contract-ide/releases/download/v1.1.0/gxc-smart-contract-ide.1.1.0.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=1.1.0
+-----------------------------------------------------------------
