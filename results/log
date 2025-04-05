@@ -8480,3 +8480,47 @@ link="https://github.com/linuxhw/hw-probe/releases/download/1.6/hw-probe-1.6.4-1
 size=6 MB
 version=1.6.4
 -----------------------------------------------------------------
+APP="hydra"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hydralauncher/hydra"
+link="https://github.com/hydralauncher/hydra/releases/download/v3.3.1/hydralauncher-3.3.1.AppImage"
+-----------------------------------------------------------------
+size=194 MB
+version=3.3.1
+-----------------------------------------------------------------
+APP="hydrogen-music"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hydrogen-music/hydrogen"
+link="https://github.com/hydrogen-music/hydrogen/releases/download/1.2.4/Hydrogen-1.2.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=1.2.4
+-----------------------------------------------------------------
+APP="hyper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vercel/hyper"
+link="https://github.com/vercel/hyper/releases/download/v4.0.0-canary.5/Hyper-4.0.0-canary.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="hyperdex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lukechilds/hyperdex"
+link="https://github.com/atomiclabs/hyperdex/releases/download/v0.4.0/hyperdex-0.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="hyperfine"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/hyperfine"
+-----------------------------------------------------------------
+size=2 MB
+version=1.19.0
+-----------------------------------------------------------------
