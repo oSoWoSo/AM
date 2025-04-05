@@ -8168,3 +8168,48 @@ link="https://github.com/Aveek-Saha/HastyHeroes/releases/download/v1.0.0/HastyHe
 size=48 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="haveno-reto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="retoaccess1/haveno-reto"
+link="https://github.com/retoaccess1/haveno-reto/releases/download/v1.0.18/haveno-linux-appimage.zip"
+-----------------------------------------------------------------
+size=271 MB
+version=1.0.18
+-----------------------------------------------------------------
+APP="hctl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="xx4h/hctl"
+link="https://github.com/xx4h/hctl/releases/download/v0.6.0/hctl_linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=12 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="hdrmerge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jcelaya/hdrmerge"
+link="https://github.com/jcelaya/hdrmerge/releases/download/nightly/hdrmerge_master_continuous-68-g69e3c5f_20191005.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=68
+-----------------------------------------------------------------
+APP="heat1d"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ARPA-SIMC/CRITERIA1D"
+link="https://github.com/ARPA-SIMC/CRITERIA1D/releases/download/v1.8.7/HEAT1D-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=1.8.7
+-----------------------------------------------------------------
+APP="heimer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="juzzlin/Heimer"
+link="https://github.com/juzzlin/Heimer/releases/download/4.5.0/Heimer-4.5.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=4.5.0
+-----------------------------------------------------------------
