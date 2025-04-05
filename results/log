@@ -8745,3 +8745,47 @@ link="https://github.com/WerWolv/ImHex/releases/download/v1.37.4/imhex-1.37.4-x8
 size=142 MB
 version=1.37.4
 -----------------------------------------------------------------
+APP="impact"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lxndr/impact"
+link="https://github.com/lxndr/impact/releases/download/1.0.0-alpha.4/impact-1.0.0-alpha.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="impposter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="imp-dance/imp-poster"
+link="https://github.com/imp-dance/imp-poster/releases/download/0.1.0/ImpPoster.0.1.0.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="inboxer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="denysdovhan/inboxer"
+link="https://github.com/denysdovhan/inboxer/releases/download/v1.3.2/inboxer-1.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=1.3.2
+-----------------------------------------------------------------
+APP="index-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=315 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="infection-monkey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="guardicore/monkey"
+link="https://github.com/guardicore/monkey/releases/download/v2.3.0/InfectionMonkey-v2.3.0.AppImage"
+-----------------------------------------------------------------
+size=154 MB
+version=2.3.0
+-----------------------------------------------------------------
