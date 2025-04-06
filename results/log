@@ -10067,3 +10067,39 @@ link="https://download.opensuse.org/repositories/home:/pbartfai/AppImage.15.4/ld
 size=27 MB
 version=0
 -----------------------------------------------------------------
+APP="leaflet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PotatoProject/Leaflet"
+link="https://github.com/PotatoProject/Leaflet/releases/download/2.0.0%2B20/Leaflet-2.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="leapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="https://asset.noovolari.com"
+link="https://asset.noovolari.com/latest/Leapp-0.26.1.AppImage"
+-----------------------------------------------------------------
+size=141 MB
+version=0.26.1
+-----------------------------------------------------------------
+APP="led.custom.palette"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jukben/keyboardio-led-custom-palette"
+link="https://github.com/jukben/keyboardio-led-custom-palette/releases/download/1.1.0/keyboardio-led-custom-palette-1.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="ledger-live-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LedgerHQ/ledger-live-desktop"
+link="https://github.com/LedgerHQ/ledger-live-desktop/releases/download/v2.42.0/ledger-live-desktop-2.42.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=2.42.0
+-----------------------------------------------------------------
