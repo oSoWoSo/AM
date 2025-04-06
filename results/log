@@ -10767,3 +10767,48 @@ link="https://github.com/myst6re/makoureactor/releases/download/continuous/makou
 size=37 MB
 version=2025.03.01
 -----------------------------------------------------------------
+APP="malice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Cloud-V/Malice"
+link="https://github.com/AUCOHL/Malice/releases/download/continuous/Malice_x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.08
+-----------------------------------------------------------------
+APP="manager-io"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Manager-io/Manager"
+link="https://github.com/Manager-io/Manager/releases/download/25.4.3.2227/Manager-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=25.4.3.2227
+-----------------------------------------------------------------
+APP="mandelbulber2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="buddhi1980/mandelbulber2"
+link="https://github.com/buddhi1980/mandelbulber2/releases/download/continuous/Mandelbulber_v2-a631a7e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=2
+-----------------------------------------------------------------
+APP="manga-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="josueBarretogit/manga-tui"
+link="https://github.com/josueBarretogit/manga-tui/releases/download/v0.7.0/manga-tui-0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=15 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="mangadesk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="darylhjd/mangadesk"
+link="https://github.com/darylhjd/mangadesk/releases/download/v0.7.8/mangadesk_v0-7-8_x64"
+-----------------------------------------------------------------
+size=9 MB
+version=0
+-----------------------------------------------------------------
