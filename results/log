@@ -10493,3 +10493,39 @@ link="https://github.com/lockbook/lockbook/releases/download/0.9.21/lockbook-lin
 size=67 MB
 version=0.9.21
 -----------------------------------------------------------------
+APP="lofi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dvx/lofi"
+link="https://github.com/dvx/lofi/releases/download/v2.0.2/lofi.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.0.2
+-----------------------------------------------------------------
+APP="loginized"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="juhaku/loginized"
+link="https://github.com/juhaku/loginized/releases/download/1.4.0/Loginized-1.4.0.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="logseq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="logseq/logseq"
+link="https://github.com/logseq/logseq/releases/download/nightly/Logseq-linux-x64-0.10.10-alpha%2Bnightly.20241216.AppImage"
+-----------------------------------------------------------------
+size=178 MB
+version=0.10.10
+-----------------------------------------------------------------
+APP="looofix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DoginUwU/LooofiX"
+link="https://github.com/DoginUwU/LooofiX/releases/download/0.0.1/LooofiX.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.0.1
+-----------------------------------------------------------------
