@@ -10990,3 +10990,48 @@ link="https://github.com/fougue/mayo/releases/download/v0.9.0/Mayo-0.9.0-x86_64.
 size=58 MB
 version=0.9.0
 -----------------------------------------------------------------
+APP="mazesolver"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Arquanite/MazeSolver"
+link="https://github.com/Arquanite/MazeSolver/releases/download/continuous/MazeSolver-2a1032a-x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=2a1032a
+-----------------------------------------------------------------
+APP="mbcord"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SandwichFox/MBCord"
+link="https://github.com/SandwichFox/MBCord/releases/download/3.0.7/mbcord-3.0.7.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=3.0.7
+-----------------------------------------------------------------
+APP="mcfly"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="cantino/mcfly"
+link="https://github.com/cantino/mcfly/releases/download/v0.9.3/mcfly-v0.9.3-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=6 MB
+version=0.9.3
+-----------------------------------------------------------------
+APP="mcpelauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="minecraft-linux/appimage-builder"
+link="v1.1.1.802"
+-----------------------------------------------------------------
+size=113 MB
+version=1.1.1.802
+-----------------------------------------------------------------
+APP="mcpodcast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="McInkay/McPodcast"
+link="https://github.com/AlMcKinlay/McPodcast/releases/download/v0.7.0/McPodcast-0.7.0.AppImage"
+-----------------------------------------------------------------
+size=140 MB
+version=0.7.0
+-----------------------------------------------------------------
