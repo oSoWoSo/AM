@@ -10601,3 +10601,38 @@ link="https://github.com/bjornbytes/lovr/releases/download/v0.18.0/lovr-v0.18.0-
 size=4 MB
 version=0.18.0
 -----------------------------------------------------------------
+APP="lowfi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="talwat/lowfi"
+link="https://github.com/talwat/lowfi/releases/download/1.6.4-dev/lowfi-linux-x86_64"
+-----------------------------------------------------------------
+size=8 MB
+version=1.6.4
+-----------------------------------------------------------------
+APP="lpub3d"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trevorsandy/lpub3d"
+link="https://github.com/trevorsandy/lpub3d/releases/download/continuous/LPub3D-2.4.9.86.4133_20250319-x86_64.AppImage"
+-----------------------------------------------------------------
+size=297 MB
+version=2.4.9.86.4133
+-----------------------------------------------------------------
+APP="lsd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lsd-rs/lsd"
+-----------------------------------------------------------------
+size=4 MB
+version=1.1.5
+-----------------------------------------------------------------
+APP="lumi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lumieducation/lumi"
+link="https://github.com/Lumieducation/Lumi/releases/download/v1.0.0-beta.23/Lumi-1.0.0-beta.23.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=1.0.0
+-----------------------------------------------------------------
