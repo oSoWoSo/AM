@@ -11346,3 +11346,48 @@ link="https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/M
 size=214 MB
 version=136.0.3227.1
 -----------------------------------------------------------------
+APP="midori"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="goastian/midori-desktop"
+link="https://github.com/goastian/midori-desktop/releases/download/v11.5/Midori-11.5.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=11.5
+-----------------------------------------------------------------
+APP="miesimulatorgui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VirtualPhotonics/MieSimulatorGUI"
+link="https://github.com/VirtualPhotonics/MieSimulatorGUI/releases/download/continuous/MieSimulatorGUI-359f6d9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=359f6d9
+-----------------------------------------------------------------
+APP="mightymike"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/MightyMike"
+link="https://github.com/jorio/MightyMike/releases/download/v3.0.2/MightyMike-3.0.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=3.0.2
+-----------------------------------------------------------------
+APP="migu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NoCrypt/migu"
+link="https://github.com/NoCrypt/migu/releases/download/v5.6.4/linux-migu-5.6.4.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="milkytracker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="milkytracker/MilkyTracker"
+link="https://github.com/milkytracker/MilkyTracker/releases/download/v1.05.01/Milkytracker-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=1.05.01
+-----------------------------------------------------------------
