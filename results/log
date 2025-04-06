@@ -10031,3 +10031,39 @@ link="https://github.com/martinribelotta/launcher/releases/download/continuous/A
 size=22 MB
 version=166f94e
 -----------------------------------------------------------------
+APP="lbry-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lbryio/lbry-desktop"
+link="https://github.com/lbryio/lbry-desktop/releases/download/v0.53.9/LBRY_0.53.9.AppImage"
+-----------------------------------------------------------------
+size=325 MB
+version=0.53.9
+-----------------------------------------------------------------
+APP="lcedit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fulgen301/LCEdit"
+link="https://github.com/Fulgen301/LCEdit/releases/download/continuous/LCEdit-7213bef-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=7213bef
+-----------------------------------------------------------------
+APP="ldtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deepnight/ldtk"
+link="https://github.com/deepnight/ldtk/releases/download/v1.5.3/ubuntu-distribution.zip"
+-----------------------------------------------------------------
+size=109 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="ldview"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/pbartfai"
+link="https://download.opensuse.org/repositories/home:/pbartfai/AppImage.15.4/ldview-0-Build1103.9.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=0
+-----------------------------------------------------------------
