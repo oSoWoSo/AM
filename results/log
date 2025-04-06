@@ -10457,3 +10457,39 @@ link="https://installers.lmstudio.ai/linux/x64/0.3.14-5/LM-Studio-0.3.14-5-x64.A
 size=1006 MB
 version=0.3.14
 -----------------------------------------------------------------
+APP="local-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Chhekur/local-browser"
+link="https://github.com/Chhekur/local-browser/releases/download/v1.0.1/local-browser-1.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="localsend"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="localsend/localsend"
+link="https://github.com/localsend/localsend/releases/download/v1.17.0/LocalSend-1.17.0-linux-x86-64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.17.0
+-----------------------------------------------------------------
+APP="lockbook-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lockbook/lockbook"
+link="https://github.com/lockbook/lockbook/releases/download/0.9.21/lockbook-cli-linux"
+-----------------------------------------------------------------
+size=25 MB
+version=0.9.21
+-----------------------------------------------------------------
+APP="lockbook-desktop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lockbook/lockbook"
+link="https://github.com/lockbook/lockbook/releases/download/0.9.21/lockbook-linux"
+-----------------------------------------------------------------
+size=67 MB
+version=0.9.21
+-----------------------------------------------------------------
