@@ -11125,3 +11125,48 @@ link="https://github.com/fupdec/mediaChips/releases/download/v0.11.3-beta/MediaC
 size=157 MB
 version=0.11.3
 -----------------------------------------------------------------
+APP="mediaelch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Komet/MediaElch"
+link="https://github.com/Komet/MediaElch/releases/download/v2.12.0/MediaElch_linux_2.12.0_2024-10-13_git-8032465.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=2.12.0
+-----------------------------------------------------------------
+APP="median-xl"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.median-xl.com"
+link="https://get.median-xl.com/launcher/linux/medianxl-x86_64.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=2019.04.23
+-----------------------------------------------------------------
+APP="mediathekview"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mediathekview.de"
+link="https://download.mediathekview.de/stabil/MediathekView-14.2.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=14.2.0
+-----------------------------------------------------------------
+APP="megaglest"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MegaGlest/megaglest-source"
+link="https://github.com/MegaGlest/megaglest-source/releases/download/snapshot/MegaGlest-snapshot-x86_64.AppImage"
+-----------------------------------------------------------------
+size=305 MB
+version=2025.03.30
+-----------------------------------------------------------------
+APP="mellowplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ColinDuquesnoy/MellowPlayer"
+link="https://github.com/ColinDuquesnoy/MellowPlayer/releases/download/3.4.0/MellowPlayer-x86_64.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=3.4.0
+-----------------------------------------------------------------
