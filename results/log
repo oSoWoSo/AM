@@ -9853,3 +9853,39 @@ link="https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prea
 size=354 MB
 version=5.3.0
 -----------------------------------------------------------------
+APP="krunker"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://krunker.io"
+link="https://client2.krunker.io/setup.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=2021.07.21
+-----------------------------------------------------------------
+APP="ksnip"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DamirPorobic/ksnip"
+link="https://github.com/ksnip/ksnip/releases/download/continuous/ksnip-1.11.0-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=1.11.0
+-----------------------------------------------------------------
+APP="kubeman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="walmartlabs/kubeman"
+link="https://github.com/walmartlabs/kubeman/releases/download/0.5.0/kubeman.0.5.0.appimage"
+-----------------------------------------------------------------
+size=94 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="kubenav"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kubenav/kubenav"
+link="https://github.com/kubenav/kubenav/releases/download/v4.2.3/kubenav-x86_64.AppImage"
+-----------------------------------------------------------------
+size=47 MB
+version=4.2.3
+-----------------------------------------------------------------
