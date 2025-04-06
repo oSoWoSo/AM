@@ -11215,3 +11215,46 @@ link="https://github.com/memospot/memospot/releases/download/v1.0.0/Memospot_1.0
 size=106 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="mendeley"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mendeley.com"
+link="https://static.mendeley.com/bin/desktop/mendeley-reference-manager-2.132.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=227 MB
+version=2.132.1
+-----------------------------------------------------------------
+APP="menyoki"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orhun/menyoki"
+link="https://github.com/orhun/menyoki/releases/download/v1.7.0/menyoki-1.7.0-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=6 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="meow-sql"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ragnar-lodbrok/meow-sql"
+link="https://github.com/ragnar-lodbrok/meow-sql/releases/download/v0.4.18-alpha/Linux_MeowSQL_0.4.18-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.4.18
+-----------------------------------------------------------------
+APP="mercury"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+-----------------------------------------------------------------
+size=247 MB
+version=129.0.2
+-----------------------------------------------------------------
+APP="mercury-avx2"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Alex313031/Mercury"
+-----------------------------------------------------------------
+size=259 MB
+version=129.0.2
+-----------------------------------------------------------------
