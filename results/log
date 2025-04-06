@@ -10636,3 +10636,45 @@ link="https://github.com/Lumieducation/Lumi/releases/download/v1.0.0-beta.23/Lum
 size=142 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="kristall"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://kristall.random-projects.net"
+link="0.4-4-"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="luna"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rvpanoz/luna"
+link="https://github.com/rvpanoz/luna/releases/download/v.3.4.6/luna-3.4.6.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=3.4.6
+-----------------------------------------------------------------
+APP="lunar-client"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://lunarclient.com"
+-----------------------------------------------------------------
+size=122 MB
+version=3.3.6
+-----------------------------------------------------------------
+APP="lunatask"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lunatask/lunatask"
+link="https://github.com/lunatask/lunatask/releases/download/v2.0.19/Lunatask-2.0.19.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=2.0.19
+-----------------------------------------------------------------
+APP="lutris"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Lutris-AppImage"
+link="https://github.com/pkgforge-dev/Lutris-AppImage/releases/download/0.5.19-2/Lutris%2Bwine-0.5.19-2-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=521 MB
+version=0.5.19
+-----------------------------------------------------------------
