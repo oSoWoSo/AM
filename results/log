@@ -10244,3 +10244,39 @@ link="LibreOffice-25.2.2.2.standard.help-x86_64.AppImage"
 size=274 MB
 version=starting
 -----------------------------------------------------------------
+APP="librepcb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://librepcb.org"
+link="https://download.librepcb.org/releases/1.3.0/librepcb-1.3.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="libresprite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LibreSprite/LibreSprite"
+link="https://github.com/LibreSprite/LibreSprite/releases/download/v1.1/libresprite-development-linux-x86_64.zip"
+-----------------------------------------------------------------
+size=45 MB
+version=1.1
+-----------------------------------------------------------------
+APP="librewolf"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://librewolf.net"
+link="https://gitlab.com/api/v4/projects/24386000/packages/generic/librewolf/136.0.4-1/LibreWolf.x86_64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=136.0.4
+-----------------------------------------------------------------
+APP="lightning"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lightninglabs/lightning-app"
+link="https://github.com/lightninglabs/lightning-app/releases/download/v0.5.9-alpha/Lightning-linux-x86_64v0.5.9-alpha.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=0.5.9
+-----------------------------------------------------------------
