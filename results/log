@@ -10139,3 +10139,38 @@ link="https://github.com/Project-LemonLime/Project_LemonLime/releases/download/0
 size=29 MB
 version=0.2.8
 -----------------------------------------------------------------
+APP="lens"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://k8slens.dev"
+-----------------------------------------------------------------
+size=328 MB
+version=2024.11.261604
+-----------------------------------------------------------------
+APP="leocad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leozide/leocad"
+link="https://github.com/leozide/leocad/releases/download/continuous/LeoCAD-Linux-75e6537a-x86_64.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=75e6537a
+-----------------------------------------------------------------
+APP="leonflix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://leonflix.net"
+link="0.7.0"
+-----------------------------------------------------------------
+size=76 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="lepton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hackjutsu/Lepton"
+link="https://github.com/hackjutsu/Lepton/releases/download/v1.10.0/Lepton-1.10.0.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=1.10.0
+-----------------------------------------------------------------
