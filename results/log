@@ -10723,3 +10723,47 @@ link="https://github.com/martin-azpillaga/M/releases/download/v0.3.1/m.AppImage"
 size=138 MB
 version=0.3.1
 -----------------------------------------------------------------
+APP="macchina"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Macchina-CLI/macchina"
+-----------------------------------------------------------------
+size=4 MB
+version=6.1.8
+-----------------------------------------------------------------
+APP="magento2-upgrade-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="elgentos/magento2-upgrade-gui"
+link="https://github.com/elgentos/magento2-upgrade-gui/releases/download/v1.3.5/magento2-upgrade-gui-1.3.5.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=magento2
+-----------------------------------------------------------------
+APP="magicfountain"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Aztorius/magicfountain"
+link="https://github.com/Aztorius/magicfountain/releases/download/1.0.0/MagicFountain-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="makagiga"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://makagiga.sourceforge.io"
+link="https://sourceforge.net/projects/makagiga/files/Makagiga%206.x/6.30/Makagiga.AppImage/download"
+-----------------------------------------------------------------
+size=54 MB
+version=6.30
+-----------------------------------------------------------------
+APP="makoureactor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="myst6re/makoureactor"
+link="https://github.com/myst6re/makoureactor/releases/download/continuous/makoureactor-continuous-gui-linux64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=2025.03.01
+-----------------------------------------------------------------
