@@ -10565,3 +10565,39 @@ link="https://github.com/mifi/lossless-cut/releases/download/v3.65.0/LosslessCut
 size=177 MB
 version=3.65.0
 -----------------------------------------------------------------
+APP="love"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="love2d/love"
+link="https://github.com/love2d/love/releases/download/11.5/love-11.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=11.5
+-----------------------------------------------------------------
+APP="lovelive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LoveLiveMusicPlayer/LoveLiveMusicPlayer"
+link="https://github.com/LoveLiveMusicPlayer/LoveLiveMusicPlayer/releases/download/1.5.0/LLMP-1.5.0-x64-linux.AppImage"
+-----------------------------------------------------------------
+size=116 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="lovesay"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dotzenith/lovesay.rs"
+link="https://github.com/dotzenith/lovesay.rs/releases/download/v1.0.2/lovesay-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=2 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="lovr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bjornbytes/lovr"
+link="https://github.com/bjornbytes/lovr/releases/download/v0.18.0/lovr-v0.18.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.18.0
+-----------------------------------------------------------------
