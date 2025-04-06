@@ -10856,3 +10856,48 @@ link="https://github.com/trixon/mapollage/releases/download/v24.10.06/Mapollage-
 size=54 MB
 version=24.10.06
 -----------------------------------------------------------------
+APP="mapton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/mapton"
+link="https://github.com/trixon/mapton/releases/download/v3.1.0/Mapton-3.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=236 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="mark-mind"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MarkMindLtd/Mark-Mind"
+link="https://github.com/MarkMindCkm/Mark-Mind/releases/download/v1.3.1/Mark.Mind-1.3.1.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="markflowy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="drl990114/MarkFlowy"
+link="https://github.com/drl990114/MarkFlowy/releases/download/v0.6.2/mark-flowy_0.6.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="markman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xemxx/markman-client"
+link="https://github.com/xemxx/markman/releases/download/v0.3.1/markman-0.3.1.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="marktext"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="marktext/marktext"
+link="https://github.com/marktext/marktext/releases/download/v0.17.1/marktext-x86_64.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=0.17.1
+-----------------------------------------------------------------
