@@ -10812,3 +10812,47 @@ link="https://github.com/darylhjd/mangadesk/releases/download/v0.7.8/mangadesk_v
 size=9 MB
 version=0
 -----------------------------------------------------------------
+APP="mangal"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="metafates/mangal"
+-----------------------------------------------------------------
+size=26 MB
+version=4.0.6
+-----------------------------------------------------------------
+APP="mangbandclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mangband/mangband"
+link="https://github.com/mangband/mangband/releases/download/v1.5.3/MAngbandClient-1.5.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="manta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hql287/Manta"
+link="https://github.com/hql287/Manta/releases/download/v1.1.4/Manta-1.1.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.1.4
+-----------------------------------------------------------------
+APP="mapeo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="digidem/mapeo-desktop"
+link="https://github.com/digidem/mapeo-desktop/releases/download/v5.6.4/Install_Mapeo_v5.6.4_linux.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="mapollage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/mapollage"
+link="https://github.com/trixon/mapollage/releases/download/v24.10.06/Mapollage-24.10.06-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=24.10.06
+-----------------------------------------------------------------
