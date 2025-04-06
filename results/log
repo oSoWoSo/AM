@@ -10678,3 +10678,48 @@ link="https://github.com/pkgforge-dev/Lutris-AppImage/releases/download/0.5.19-2
 size=521 MB
 version=0.5.19
 -----------------------------------------------------------------
+APP="lux"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://bitbucket.org"
+link="https://bitbucket.org/kfj/pv/downloads/lux-1.2.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="lx-music-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lyswhut/lx-music-desktop"
+link="https://github.com/lyswhut/lx-music-desktop/releases/download/v2.10.0/lx-music-desktop_2.10.0_x64.AppImage"
+-----------------------------------------------------------------
+size=116 MB
+version=2.10.0
+-----------------------------------------------------------------
+APP="lxtask"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/lxtask/Task_Manager-0.1.10-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.1.10
+-----------------------------------------------------------------
+APP="lyricistant"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wardellbagby/lyricistant"
+link="https://github.com/wardellbagby/lyricistant/releases/download/v3.4.7/lyricistant-linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=3.4.7
+-----------------------------------------------------------------
+APP="m"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martin-azpillaga/M"
+link="https://github.com/martin-azpillaga/M/releases/download/v0.3.1/m.AppImage"
+-----------------------------------------------------------------
+size=138 MB
+version=0.3.1
+-----------------------------------------------------------------
