@@ -10208,3 +10208,39 @@ SITE="gokcehan/lf"
 size=6 MB
 version=r34
 -----------------------------------------------------------------
+APP="libassist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Supermegadex/libassist-client"
+link="https://github.com/danielnoon/libassist-client/releases/download/v1.0.0/libassist-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="libertem"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LiberTEM/LiberTEM"
+link="https://github.com/LiberTEM/LiberTEM/releases/download/continuous/LiberTEM-e271a59-x86_64.AppImage"
+-----------------------------------------------------------------
+size=428 MB
+version=e271a59
+-----------------------------------------------------------------
+APP="librecad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LibreCAD/LibreCAD"
+link="https://github.com/LibreCAD/LibreCAD/releases/download/2.2.1.1_rc-latest/LibreCAD-v2.2.1.1-10-gd57b53e75-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=2.2.1.1
+-----------------------------------------------------------------
+APP="libreoffice"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.libreoffice.org"
+link="LibreOffice-25.2.2.2.standard.help-x86_64.AppImage"
+-----------------------------------------------------------------
+size=274 MB
+version=starting
+-----------------------------------------------------------------
