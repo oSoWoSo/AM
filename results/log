@@ -10901,3 +10901,48 @@ link="https://github.com/marktext/marktext/releases/download/v0.17.1/marktext-x8
 size=109 MB
 version=0.17.1
 -----------------------------------------------------------------
+APP="marlin-conf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="akaJes/marlin-config"
+link="https://github.com/akaJes/marlin-config/releases/download/v2.10.7/marlin-conf-2.10.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=2.10.7
+-----------------------------------------------------------------
+APP="martian"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="drex44/martian"
+link="https://github.com/drex44/martian/releases/download/v0.5.2/Martian-alpha.0.5.2.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="marvin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rolandbernard/marvin"
+link="https://github.com/rolandbernard/marvin/releases/download/v0.4.9/Marvin-0.4.9.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=0.4.9
+-----------------------------------------------------------------
+APP="mastervyrn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LightouchDev/MasterVyrn"
+link="https://github.com/LightouchDev/MasterVyrn/releases/download/v0.4.6/MasterVyrn-0.4.6-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=0.4.6
+-----------------------------------------------------------------
+APP="mate-system-monitor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/mate-system-monitor/MATE_System_Monitor-171-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=171
+-----------------------------------------------------------------
