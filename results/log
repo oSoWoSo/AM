@@ -11301,3 +11301,48 @@ link="https://github.com/andreaswilli/meta-grabber/releases/download/v1.1.0/Meta
 size=106 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="mgba"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgba-emu/mgba"
+link="https://github.com/mgba-emu/mgba/releases/download/0.10.5/mGBA-0.10.5-appimage-x64.appimage"
+-----------------------------------------------------------------
+size=25 MB
+version=0.10.5
+-----------------------------------------------------------------
+APP="micropad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MicroPad/Electron"
+link="https://github.com/MicroPad/MicroPad-Electron/releases/download/v4.5.2/micropad-4.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=116 MB
+version=4.5.2
+-----------------------------------------------------------------
+APP="microsoft-edge"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link="https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-stable-135.0.3179.54-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=210 MB
+version=135.0.3179.54
+-----------------------------------------------------------------
+APP="microsoft-edge-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link="https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-beta-135.0.3179.54-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=210 MB
+version=135.0.3179.54
+-----------------------------------------------------------------
+APP="microsoft-edge-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/MS-Edge-appimage"
+link="https://github.com/ivan-hc/MS-Edge-appimage/releases/download/continuous/Microsoft-Edge-dev-136.0.3227.1-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=214 MB
+version=136.0.3227.1
+-----------------------------------------------------------------
