@@ -10529,3 +10529,39 @@ link="https://github.com/DoginUwU/LooofiX/releases/download/0.0.1/LooofiX.AppIma
 size=91 MB
 version=0.0.1
 -----------------------------------------------------------------
+APP="loopauditioneer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/loopauditioneer"
+link="https://sourceforge.net/projects/loopauditioneer/files/LoopAuditioneer-0.9/LoopAuditioneer-0.9.82-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=39 MB
+version=0.9
+-----------------------------------------------------------------
+APP="lore-forge"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://loreforge.com"
+link="https://storage.googleapis.com/lore-forge-downloads/Lore-Forge-1.2.0.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="lorien"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mbrlabs/Lorien"
+link="https://github.com/mbrlabs/Lorien/releases/download/v0.6.0/Lorien_v0.6.0_Linux.tar.xz"
+-----------------------------------------------------------------
+size=66 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="losslesscut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mifi/lossless-cut"
+link="https://github.com/mifi/lossless-cut/releases/download/v3.65.0/LosslessCut-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=177 MB
+version=3.65.0
+-----------------------------------------------------------------
