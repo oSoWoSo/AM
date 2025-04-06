@@ -10316,3 +10316,36 @@ link="https://github.com/Lime3DS/lime3ds-archive/releases/download/2119.1/lime3d
 size=96 MB
 version=2119.1
 -----------------------------------------------------------------
+APP="linedancer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="karjonas/Linedancer"
+link="https://github.com/karjonas/Linedancer/releases/download/v02/Linedancer-e0b8395-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=e0b8395
+-----------------------------------------------------------------
+APP="linked"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lostdesign/linked"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="linphone"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.linphone.org"
+link="https://download.linphone.org/releases/linux/app/Linphone-5.2.6.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=5.2.6
+-----------------------------------------------------------------
+APP="linux-intel-undervolt-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lukechadwick/linux-intel-undervolt-gui"
+link="https://github.com/sp-hy/linux-intel-undervolt-gui/releases/download/1.0.1/linux-intel-undervolt-gui-1.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=64 MB
+version=1.0.1
+-----------------------------------------------------------------
