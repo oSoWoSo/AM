@@ -10385,3 +10385,39 @@ link="https://github.com/LiskHQ/lisk-desktop/releases/download/v4.0.0/lisk-linux
 size=121 MB
 version=4.0.0
 -----------------------------------------------------------------
+APP="listen.moe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LISTEN-moe/desktop-app"
+link="https://github.com/LISTEN-moe/desktop-app/releases/download/0.3.0/LISTEN.moe-0.3.0.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="listen1-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="listen1/listen1_desktop"
+link="https://github.com/listen1/listen1_desktop/releases/download/v2.32.0/listen1_2.32.0_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=listen1
+-----------------------------------------------------------------
+APP="lite-xl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lite-xl/lite-xl"
+link="https://github.com/lite-xl/lite-xl/releases/download/v2.1.7/LiteXL-v2.1.7-addons-x86_64.AppImage"
+-----------------------------------------------------------------
+size=3 MB
+version=2.1.7
+-----------------------------------------------------------------
+APP="liteide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="visualfc/liteide"
+link="https://github.com/visualfc/liteide/releases/download/x38.3/liteidex38.3.linux64-qt4.8.7.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=38.3
+-----------------------------------------------------------------
