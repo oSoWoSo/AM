@@ -10280,3 +10280,39 @@ link="https://github.com/lightninglabs/lightning-app/releases/download/v0.5.9-al
 size=118 MB
 version=0.5.9
 -----------------------------------------------------------------
+APP="lightning-peach-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LightningPeach/lightning-peach-wallet"
+link="https://github.com/LightningPeach/peach-wallet-desktop/releases/download/v0.5.0-mainnet-beta/peach-wallet-desktop-0.5.0-mainnet-beta-x86_64.AppImage"
+-----------------------------------------------------------------
+size=316 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="liground"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ml-research/liground"
+link="https://github.com/ml-research/liground/releases/download/0.4.0/liground-0.4.0-linux.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="liketaskmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rejuce/LikeTaskManager"
+link="https://github.com/rejuce/LikeTaskManager/releases/download/v2.4/LikeTaskManager-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=2.4
+-----------------------------------------------------------------
+APP="lime3ds"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lime3DS/lime3ds-archive"
+link="https://github.com/Lime3DS/lime3ds-archive/releases/download/2119.1/lime3ds-2119.1-linux-appimage.tar.gz"
+-----------------------------------------------------------------
+size=96 MB
+version=2119.1
+-----------------------------------------------------------------
