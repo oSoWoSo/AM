@@ -9995,3 +9995,39 @@ link="https://github.com/christofferok/langly/releases/download/v0.3.2/langly-0.
 size=52 MB
 version=0.3.2
 -----------------------------------------------------------------
+APP="lanshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="abdularis/LAN-Share"
+link="https://github.com/abdularis/LAN-Share/releases/download/continuous/LANShare-3ccbe2c-x86_64.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=3ccbe2c
+-----------------------------------------------------------------
+APP="lapce"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lapce/lapce"
+link="https://github.com/lapce/lapce/releases/download/v0.4.2/lapce-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=56 MB
+version=0.4.2
+-----------------------------------------------------------------
+APP="laravel-kit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tarequemdhanif/laravel-kit"
+link="https://github.com/tmdh/laravel-kit/releases/download/v2.0.9/Laravel-Kit-2.0.9.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2.0.9
+-----------------------------------------------------------------
+APP="launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinribelotta/launcher"
+link="https://github.com/martinribelotta/launcher/releases/download/continuous/Application_Launcher-166f94e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=166f94e
+-----------------------------------------------------------------
