@@ -9923,3 +9923,39 @@ link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/dow
 size=165 MB
 version=24.12.3
 -----------------------------------------------------------------
+APP="labplot"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://labplot.kde.org"
+link="https://download.kde.org/stable/labplot/labplot-2.11.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=398 MB
+version=2.11.1
+-----------------------------------------------------------------
+APP="lagrange"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="skyjake/lagrange"
+link="https://github.com/skyjake/lagrange/releases/download/v1.18.5/clagrange-1.18.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=1.18.5
+-----------------------------------------------------------------
+APP="laidout"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Laidout/laidout"
+link="https://github.com/Laidout/laidout/releases/download/continuous/Laidout-ae6b35e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=ae6b35e
+-----------------------------------------------------------------
+APP="laigter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="azagaya/laigter"
+link="https://github.com/azagaya/laigter/releases/download/1.12.1/Laigter-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=1.12.1
+-----------------------------------------------------------------
