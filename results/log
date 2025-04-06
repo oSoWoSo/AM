@@ -9817,3 +9817,39 @@ link="https://github.com/koodo-reader/koodo-reader/releases/download/v1.9.0/Kood
 size=124 MB
 version=1.9.0
 -----------------------------------------------------------------
+APP="kopia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kopia/kopia"
+link="https://github.com/kopia/kopia/releases/download/v0.19.0/KopiaUI-0.19.0.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=0.19.0
+-----------------------------------------------------------------
+APP="koreader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="koreader/koreader"
+link="https://github.com/koreader/koreader/releases/download/v2024.11/koreader-appimage-x86_64-linux-gnu-v2024.11.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=2024.11
+-----------------------------------------------------------------
+APP="krita"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://krita.org"
+link="https://download.kde.org/stable/krita/5.2.9/krita-5.2.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=351 MB
+version=5.2.9
+-----------------------------------------------------------------
+APP="krita-devel"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cdn.kde.org/ci-builds/graphics/krita"
+link="https://cdn.kde.org/ci-builds/graphics/krita/master/linux/krita-5.3.0-prealpha-647fcbf1ae-x86_64.AppImage"
+-----------------------------------------------------------------
+size=354 MB
+version=5.3.0
+-----------------------------------------------------------------
