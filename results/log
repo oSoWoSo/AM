@@ -9959,3 +9959,39 @@ link="https://github.com/azagaya/laigter/releases/download/1.12.1/Laigter-x86_64
 size=35 MB
 version=1.12.1
 -----------------------------------------------------------------
+APP="lambda-lantern"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/lambda-lantern"
+link="https://github.com/lettier/lambda-lantern/releases/download/0.0.0.0/lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=0.0.0.0
+-----------------------------------------------------------------
+APP="lan-mouse"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="feschber/lan-mouse"
+link="https://api.github.com/repos/feschber/lan-mouse/releases/184233338"
+-----------------------------------------------------------------
+size=10 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="landrop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://landrop.app"
+link="2.7.2"
+-----------------------------------------------------------------
+size=113 MB
+version=2.7.2
+-----------------------------------------------------------------
+APP="langly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="christofferok/langly"
+link="https://github.com/christofferok/langly/releases/download/v0.3.2/langly-0.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=0.3.2
+-----------------------------------------------------------------
