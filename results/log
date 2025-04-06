@@ -11080,3 +11080,48 @@ link="https://github.com/ORNL-AMO/AMO-Tools-Desktop/releases/download/v1.5.10/ME
 size=203 MB
 version=1.5.10
 -----------------------------------------------------------------
+APP="mechtype"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SurajRaika/MechType"
+link="https://github.com/SurajRaika/MechType/releases/download/app-v0.0.1/mech-type_0.0.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="mechvibes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hainguyents13/mechvibes"
+link="https://github.com/hainguyents13/mechvibes/releases/download/v2.3.6/Mechvibes-2.3.6-hotfix.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=2.3.6
+-----------------------------------------------------------------
+APP="media-downloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gaeljacquin/media-downloader"
+link="https://github.com/gaeljacquin/media-downloader/releases/download/v0.8.1/media-downloader_0.8.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="media-dupes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yafp/media-dupes"
+link="https://github.com/yafp/media-dupes/releases/download/0.10.3/media-dupes-0.10.3-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=116 MB
+version=0.10.3
+-----------------------------------------------------------------
+APP="mediachips"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fupdec/mediaChips"
+link="https://github.com/fupdec/mediaChips/releases/download/v0.11.3-beta/MediaChips.v0.11.3.Linux.AppImage"
+-----------------------------------------------------------------
+size=157 MB
+version=0.11.3
+-----------------------------------------------------------------
