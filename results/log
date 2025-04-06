@@ -10946,3 +10946,47 @@ link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/dow
 size=30 MB
 version=171
 -----------------------------------------------------------------
+APP="materialious"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Materialious/Materialious"
+link="https://github.com/Materialious/Materialious/releases/download/1.7.19/Materialious-1.7.19-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=1.7.19
+-----------------------------------------------------------------
+APP="mathcha-notebook"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mathcha.io/notebook/"
+-----------------------------------------------------------------
+size=117 MB
+version=1.0.440
+-----------------------------------------------------------------
+APP="matm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="crolbar/matm"
+link="https://github.com/crolbar/matm/releases/download/v2.3.1/matm_x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="mattermost-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mattermost/desktop"
+link="https://github.com/mattermost/desktop/releases/download/v5.11.2/mattermost-desktop-5.11.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=5.11.2
+-----------------------------------------------------------------
+APP="mayo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fougue/mayo"
+link="https://github.com/fougue/mayo/releases/download/v0.9.0/Mayo-0.9.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=58 MB
+version=0.9.0
+-----------------------------------------------------------------
