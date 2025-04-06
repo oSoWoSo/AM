@@ -9889,3 +9889,37 @@ link="https://github.com/kubenav/kubenav/releases/download/v4.2.3/kubenav-x86_64
 size=47 MB
 version=4.2.3
 -----------------------------------------------------------------
+APP="kure"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="GGP1/kure"
+link="https://github.com/GGP1/kure/releases/download/v1.2.1/kure_v1.2.1_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="kuro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="davidsmorais/kuro"
+link="https://github.com/davidsmorais/kuro/releases/download/v9.0.0/Kuro-9.0.0.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=9.0.0
+-----------------------------------------------------------------
+APP="kvrt"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.kaspersky.com"
+link="-//W3C//DTD"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="kwave"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/kwave/Kwave_24.12.3-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=165 MB
+version=24.12.3
+-----------------------------------------------------------------
