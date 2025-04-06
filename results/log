@@ -10174,3 +10174,37 @@ link="https://github.com/hackjutsu/Lepton/releases/download/v1.10.0/Lepton-1.10.
 size=94 MB
 version=1.10.0
 -----------------------------------------------------------------
+APP="lescovex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lescovex/LSCX"
+link="https://github.com/Lescovex/LSCX/releases/download/v1.0.15/lescovex-1.0.15-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=1.0.15
+-----------------------------------------------------------------
+APP="levior"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/api/v4/projects/37138263"
+link="https://gitlab.com/cipres/levior/-/releases/continuous-master/downloads/levior-latest-x86_64.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=2024.07.25
+-----------------------------------------------------------------
+APP="lexido"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="micr0-dev/lexido"
+-----------------------------------------------------------------
+size=16 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="lf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="gokcehan/lf"
+-----------------------------------------------------------------
+size=6 MB
+version=r34
+-----------------------------------------------------------------
