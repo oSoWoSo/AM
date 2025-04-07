@@ -12463,3 +12463,47 @@ link="https://github.com/Lunarequest/NightPDF/releases/download/v3.0.0/NightPDF-
 size=110 MB
 version=3.0.0
 -----------------------------------------------------------------
+APP="nightwave-plaza-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jjoshm/nightwave-plaza-electron"
+link="https://github.com/jjoshm/nightwave-plaza-electron/releases/download/v0.5.1-alpha/nightwave-plaza-electron_v0.5.1-alpha_linux.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=0.5.1
+-----------------------------------------------------------------
+APP="nimbus-weather"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tgrowden/nimbus-weather"
+link="https://github.com/tgrowden/nimbus-weather/releases/download/v0.9.0/nimbus-weather-electron-0.9.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="nitch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ssleert/nitch"
+-----------------------------------------------------------------
+size=1 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="nitrokey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nitrokey/nitrokey-app"
+link="https://github.com/Nitrokey/nitrokey-app/releases/download/v1.5-RC8/Nitrokey_App-x86_64-nitrokey-app-v1.5-RC8.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=1.5
+-----------------------------------------------------------------
+APP="nix-bucks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="margual56/nix-bucks"
+link="https://github.com/margual56/nix-bucks/releases/download/v0.1.3/nix-bucks_0.1.3_amd64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=0.1.3
+-----------------------------------------------------------------
