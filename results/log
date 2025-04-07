@@ -11525,3 +11525,48 @@ link="v0.6.2"
 size=43 MB
 version=0.6.2
 -----------------------------------------------------------------
+APP="miteiru"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hockyy/miteiru"
+link="https://github.com/hockyy/miteiru/releases/download/v2.2.0/miteiru-2.2.0-linux-22.04-x86_64.AppImage"
+-----------------------------------------------------------------
+size=320 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="mjml-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mjmlio/mjml-app"
+link="https://github.com/mjmlio/mjml-app/releases/download/v3.1.0-beta/mjml-app-3.1.0-beta-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="mk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orangekame3/mk"
+link="https://github.com/orangekame3/mk/releases/download/v0.0.16/mk_0.0.16_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=8 MB
+version=0.0.16
+-----------------------------------------------------------------
+APP="mki3dgame"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mki1967/mki3dgame"
+link="https://github.com/mki1967/mki3dgame/releases/download/v3.05/mki3dgame-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=3.05
+-----------------------------------------------------------------
+APP="mkvtoolnix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mkvtoolnix.download"
+link="https://mkvtoolnix.download/appimage/MKVToolNix_GUI-91.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=91.0
+-----------------------------------------------------------------
