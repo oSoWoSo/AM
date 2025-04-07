@@ -11749,3 +11749,48 @@ link="https://github.com/coslyk/moonplayer/releases/download/v4.3/MoonPlayer--x8
 size=112 MB
 version=4.3
 -----------------------------------------------------------------
+APP="moose"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ritz078/moose"
+link="https://github.com/ritz078/moose/releases/download/v0.6.2/moose-0.6.2.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=0.6.2
+-----------------------------------------------------------------
+APP="moosync"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Moosync/Moosync"
+link="https://github.com/Moosync/Moosync/releases/download/Moosync-v11.0.2/Moosync_11.0.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=185 MB
+version=11.0.2
+-----------------------------------------------------------------
+APP="motrix"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="agalwood/Motrix"
+link="https://github.com/agalwood/Motrix/releases/download/v1.8.19/Motrix-1.8.19.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=1.8.19
+-----------------------------------------------------------------
+APP="movie-monad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lettier/movie-monad"
+link="https://github.com/lettier/movie-monad/releases/download/0.0.7.0/movie-monad-0.0.7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=0.0.7.0
+-----------------------------------------------------------------
+APP="moyu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trueleaf/moyu"
+link="https://github.com/trueleaf/moyu/releases/download/0.8.0-beta/moyu-0.8.0.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=0.8.0
+-----------------------------------------------------------------
