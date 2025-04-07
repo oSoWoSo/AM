@@ -12641,3 +12641,48 @@ link="https://github.com/notable/notable/releases/download/v1.8.4/Notable-1.8.4.
 size=70 MB
 version=1.8.4
 -----------------------------------------------------------------
+APP="notedown"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ruralad/notedown"
+link="https://github.com/ruralad/notedown/releases/download/v0.8.0/notedown_0.8.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="notekit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blackhole89/notekit"
+link="https://github.com/blackhole89/notekit/releases/download/v0.2.0/notekit-0.2.0%2Bgit1.73c1a86-Build6.1.glibc2.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=0.2.0%2Bgit1.73c1a86
+-----------------------------------------------------------------
+APP="notemaster"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LiamRiddell/NoteMaster"
+link="https://github.com/LiamRiddell/NoteMaster/releases/download/v0.3.1/NoteMaster-0.3.1.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="notepad++"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/notepad-plus-plus_AppImage"
+link="https://github.com/mmtrt/notepad-plus-plus_AppImage/releases/download/stable/notepad-plus-plus-8.6.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=267 MB
+version=8.6.9
+-----------------------------------------------------------------
+APP="notepadnext"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dail8859/NotepadNext"
+link="https://github.com/dail8859/NotepadNext/releases/download/v0.11/NotepadNext-v0.11-x86_64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=0.11
+-----------------------------------------------------------------
