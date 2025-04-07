@@ -11435,3 +11435,48 @@ link="https://github.com/marcoancona/MineTime/releases/download/v1.9.0/MineTime-
 size=182 MB
 version=1.9.0
 -----------------------------------------------------------------
+APP="mini-diary"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="samuelmeuli/mini-diary"
+link="https://github.com/samuelmeuli/mini-diary/releases/download/v3.3.0/Mini-Diary-3.3.0.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="mini-qml"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrickelectric/mini-qml"
+link="https://github.com/patrickelectric/mini-qml/releases/download/continuous/mini-qml.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=2021.12.06
+-----------------------------------------------------------------
+APP="minififa"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="theoden8/mini-fifa"
+link="https://github.com/theoden8/mini-fifa/releases/download/0.0.1/MiniFifa-Client-0.0.1-x84_64-preview.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="minimal-podcasts-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="son-link/minimal-podcasts-player"
+link="https://github.com/son-link/minimal-podcasts-player/releases/download/continuous/Minimal_Podcasts_Player-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="minions"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blahgeek/Minions"
+link="https://github.com/blahgeek/Minions/releases/download/v0.5.3/Minions-0.5.3-d2ec2b.glibc2.18-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=0.5.3
+-----------------------------------------------------------------
