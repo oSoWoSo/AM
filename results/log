@@ -12998,3 +12998,47 @@ link="https://github.com/aandrew-me/odicto/releases/download/v0.7.0/odicto_0.7.0
 size=75 MB
 version=0.7.0
 -----------------------------------------------------------------
+APP="oh"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="michaelmacinnis/oh"
+link="https://github.com/michaelmacinnis/oh/releases/download/v0.8.3/oh-v0.8.3-linux-amd64"
+-----------------------------------------------------------------
+size=3 MB
+version=0.8.3
+-----------------------------------------------------------------
+APP="oh-my-git"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://ohmygit.org"
+-----------------------------------------------------------------
+size=44 MB
+version=0.6.5
+-----------------------------------------------------------------
+APP="oh-mymd"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="virtua1thread/support.ohmymd.app"
+link="https://github.com/virtua1thread/support.ohmymd.app/releases/download/0.5.0/Oh.Mymd-0.5.0.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="olive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="olive-editor/olive"
+link="https://github.com/olive-editor/olive/releases/download/0.2.0-nightly/Olive-8ac191ce-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=148 MB
+version=8ac191ce
+-----------------------------------------------------------------
+APP="olive-legacy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="olive-editor/olive"
+link="https://github.com/olive-editor/olive/releases/download/0.1.0/Olive-1e3cf53-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=1e3cf53
+-----------------------------------------------------------------
