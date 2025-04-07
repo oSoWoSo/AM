@@ -11970,3 +11970,48 @@ link="https://github.com/muse-sequencer/muse/releases/download/latest/MusE-maste
 size=56 MB
 version=2025.02.20
 -----------------------------------------------------------------
+APP="museeks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KeitIG/museeks"
+link="https://github.com/martpie/museeks/releases/download/0.20.9/Museeks_0.20.9_amd64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=0.20.9
+-----------------------------------------------------------------
+APP="musescore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="musescore/MuseScore"
+link="https://github.com/musescore/MuseScore/releases/download/v4.5.1/MuseScore-Studio-4.5.1.250800846-x86_64.AppImage"
+-----------------------------------------------------------------
+size=170 MB
+version=4.5.1.250800846
+-----------------------------------------------------------------
+APP="music-assistant-companion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="music-assistant/companion"
+link="https://github.com/music-assistant/tauri-companion-app/releases/download/v0.0.85/Music.Assistant.Companion_0.0.85_amd64.AppImage"
+-----------------------------------------------------------------
+size=238 MB
+version=0.0.85
+-----------------------------------------------------------------
+APP="music-blocks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sugarlabs/musicblocks-launcher"
+link="https://github.com/sugarlabs/musicblocks-launcher/releases/download/continuous/MusicBlocks-3.5.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=132 MB
+version=3.5.1
+-----------------------------------------------------------------
+APP="music-kitten"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CorySanin/Kitten-for-CSGO"
+link="https://github.com/CorySanin/Kitten-for-CSGO/releases/download/v2.5.0/Music.Kitten-2.5.1.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=2.5.0
+-----------------------------------------------------------------
