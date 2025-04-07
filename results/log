@@ -12864,3 +12864,47 @@ link="https://github.com/nxshell/nxshell/releases/download/v1.9.3/NxShell-x86_64
 size=85 MB
 version=1.9.3
 -----------------------------------------------------------------
+APP="nyaa"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Beastwick18/nyaa"
+-----------------------------------------------------------------
+size=13 MB
+version=0.9.1
+-----------------------------------------------------------------
+APP="nyan"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="toshimaru/nyan"
+link="https://github.com/toshimaru/nyan/releases/download/v1.0.10/nyan_Linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=10 MB
+version=1.0.10
+-----------------------------------------------------------------
+APP="nychess"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nnisarggada/NyChess"
+link="https://github.com/hect1k/NyChess/releases/download/Linux/NyChess_Chess_Game.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=2023.05.11
+-----------------------------------------------------------------
+APP="nym-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nymtech/nym"
+link="https://github.com/nymtech/nym/releases/download/nym-wallet-v1.2.17/nym-wallet_1.2.17_amd64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=1.2.17
+-----------------------------------------------------------------
+APP="nyrna"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Merrit/nyrna"
+link="https://github.com/Merrit/nyrna/releases/download/v2.24.0/Nyrna-Linux-Portable.tar.gz"
+-----------------------------------------------------------------
+size=25 MB
+version=2.24.0
+-----------------------------------------------------------------
