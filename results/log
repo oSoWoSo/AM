@@ -12329,3 +12329,48 @@ link="https://github.com/nest-desktop/nest-desktop-AppImage/releases/download/v4
 size=153 MB
 version=4.0.5
 -----------------------------------------------------------------
+APP="netbeans"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="codelerity/netbeans-installers"
+link="https://github.com/codelerity/netbeans-installers/releases/download/v25-build1/Apache_NetBeans-25-x86_64.AppImage"
+-----------------------------------------------------------------
+size=702 MB
+version=25
+-----------------------------------------------------------------
+APP="netpad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tareqimbasher/NetPad"
+link="https://github.com/tareqimbasher/NetPad/releases/download/v0.8.0/netpad-0.8.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=137 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="netpanzer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="netpanzer/netpanzer"
+link="https://github.com/netpanzer/netpanzer/releases/download/v0.9.0/NetPanzer-0.9.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=45 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="newlogic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ericm/newlogic"
+link="https://github.com/ericm/newlogic/releases/download/v0.1.5-beta/newlogic-0.1.5-beta-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="newton-adventure"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://play.devnewton.fr"
+link="https://codeberg.org/api/packages/devnewton/generic/newton_adventure/1.18/Newton_Adventure-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=1.18
+-----------------------------------------------------------------
