@@ -11480,3 +11480,48 @@ link="https://github.com/blahgeek/Minions/releases/download/v0.5.3/Minions-0.5.3
 size=36 MB
 version=0.5.3
 -----------------------------------------------------------------
+APP="minizinc-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MiniZinc/MiniZincIDE"
+link="https://github.com/MiniZinc/MiniZincIDE/releases/download/edge/MiniZincIDE-build1704325677-x86_64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=build1704325677
+-----------------------------------------------------------------
+APP="mira-backup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="myazarc/mira-backup"
+link="https://github.com/myazarc/mira-backup/releases/download/v1.0.0-beta.1/mira-backup-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mirage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mirukana/mirage"
+link="https://github.com/mirukana/mirage/releases/download/v0.7.2/Mirage-v0.7.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.7.2
+-----------------------------------------------------------------
+APP="miru"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ThaUnknown/miru"
+link="https://github.com/ThaUnknown/miru/releases/download/v5.5.10/linux-Miru-5.5.10.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=5.5.10
+-----------------------------------------------------------------
+APP="mission-center"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://missioncenter.io"
+link="v0.6.2"
+-----------------------------------------------------------------
+size=43 MB
+version=0.6.2
+-----------------------------------------------------------------
