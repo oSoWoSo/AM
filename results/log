@@ -12686,3 +12686,47 @@ link="https://github.com/dail8859/NotepadNext/releases/download/v0.11/NotepadNex
 size=32 MB
 version=0.11
 -----------------------------------------------------------------
+APP="noter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PabloF7/noter"
+link="https://github.com/doquen/noter/releases/download/v0.3-alpha/NoTer-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=0.3
+-----------------------------------------------------------------
+APP="notes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuttyartist/notes"
+link="https://github.com/nuttyartist/notes/releases/download/v2.3.1/Notes_2.3.1-Qt5.15.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=2.3.1
+-----------------------------------------------------------------
+APP="notes-nc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mscharley/notes-nc"
+link="https://github.com/mscharley/notes-nc/releases/download/v0.8.0/Notes-0.8.0.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="noteshrink-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="clapautius/noteshrink-qt"
+link="https://github.com/clapautius/noteshrink-qt/releases/download/v11-beta/noteshrink-qt-v11-beta-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=11
+-----------------------------------------------------------------
+APP="notesnook"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://notesnook.com"
+-----------------------------------------------------------------
+size=107 MB
+version=3.0.32
+-----------------------------------------------------------------
