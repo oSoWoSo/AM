@@ -12507,3 +12507,48 @@ link="https://github.com/margual56/nix-bucks/releases/download/v0.1.3/nix-bucks_
 size=91 MB
 version=0.1.3
 -----------------------------------------------------------------
+APP="nixnote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="robert7/nixnote2"
+link="https://github.com/robert7/nixnote2/releases/download/continuous/NixNote2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=2024.07.19
+-----------------------------------------------------------------
+APP="nmeasimulator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="panaaj/nmeasimulator"
+link="https://github.com/panaaj/nmeasimulator/releases/download/v1.6.1/NMEASimulator-1.6.1.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=1.6.1
+-----------------------------------------------------------------
+APP="nnn"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="jarun/nnn"
+link="https://github.com/jarun/nnn/releases/download/v5.1/nnn-emoji-static-5.1.x86_64.tar.gz"
+-----------------------------------------------------------------
+size=1 MB
+version=5.1
+-----------------------------------------------------------------
+APP="no-fwl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lencx/nofwl"
+link="https://github.com/lencx/nofwl/releases/download/v0.1.0/NoFWL_0.1.0_linux_x86_64.AppImage.tar.gz"
+-----------------------------------------------------------------
+size=74 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="node"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://nodejs.org"
+link="https://nodejs.org/dist/latest/node-v23.11.0-linux-x64.tar.gz"
+-----------------------------------------------------------------
+size=196 MB
+version=23.11.0
+-----------------------------------------------------------------
