@@ -12953,3 +12953,48 @@ link="https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.8/obsidian
 size=5 MB
 version=0.1.8
 -----------------------------------------------------------------
+APP="ocat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ic005k/OCAuxiliaryTools"
+link="https://github.com/ic005k/OCAuxiliaryTools/releases/download/20240004/OCAT-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=ic005k
+-----------------------------------------------------------------
+APP="ocenaudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/ocenaudio-appimage"
+link="https://github.com/ivan-hc/ocenaudio-appimage/releases/download/continuous/ocenaudio_3.14.10-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=3.14.10
+-----------------------------------------------------------------
+APP="ocvvid2fulldome"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/OCVvid2fulldome"
+link="https://github.com/hn-88/OCVvid2fulldome/releases/download/v1.61/OCVvid2fulldome-1.61-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=OCVvid2dome
+-----------------------------------------------------------------
+APP="ocvwarp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hn-88/OCVWarp"
+link="https://github.com/hn-88/OCVWarp/releases/download/v4.01/OCVWarp-4.01-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=4.01
+-----------------------------------------------------------------
+APP="odicto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aandrew-me/odicto"
+link="https://github.com/aandrew-me/odicto/releases/download/v0.7.0/odicto_0.7.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.7.0
+-----------------------------------------------------------------
