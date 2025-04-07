@@ -12730,3 +12730,48 @@ SITE="https://notesnook.com"
 size=107 MB
 version=3.0.32
 -----------------------------------------------------------------
+APP="novelwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vkbo/novelwriter"
+link="https://github.com/vkbo/novelWriter/releases/download/v2.6.3/novelWriter-2.6.3.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=2.6.3
+-----------------------------------------------------------------
+APP="nrf-connect"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NordicSemiconductor/pc-nrfconnect-core"
+link="https://github.com/NordicSemiconductor/pc-nrfconnect-launcher/releases/download/v5.1.0/nrfconnect-5.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=208 MB
+version=5.1.0
+-----------------------------------------------------------------
+APP="nteract"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nteract/nteract"
+link="https://github.com/nteract/nteract/releases/download/v0.28.0/nteract-0.28.0.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=0.28.0
+-----------------------------------------------------------------
+APP="ntfydesktop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="emmaexe/ntfyDesktop"
+link="https://github.com/emmaexe/ntfyDesktop/releases/download/v1.4.0/ntfyDesktop-1.4.0.tar.gz"
+-----------------------------------------------------------------
+size=1 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="nu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="nushell/nushell"
+link="https://github.com/nushell/nushell/releases/download/0.103.0/nu-0.103.0-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=184 MB
+version=0.103.0
+-----------------------------------------------------------------
