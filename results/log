@@ -12775,3 +12775,47 @@ link="https://github.com/nushell/nushell/releases/download/0.103.0/nu-0.103.0-x8
 size=184 MB
 version=0.103.0
 -----------------------------------------------------------------
+APP="nuclear"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nukeop/nuclear"
+link="https://github.com/nukeop/nuclear/releases/download/v0.6.46/nuclear-v0.6.46-x86_64.AppImage"
+-----------------------------------------------------------------
+size=186 MB
+version=0.6.46
+-----------------------------------------------------------------
+APP="nuclia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuclia/frontend"
+link="https://github.com/nuclia/frontend/releases/download/2.7.9/NucliaDesktop-2.7.9.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=2.7.9
+-----------------------------------------------------------------
+APP="nuclino"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.nuclino.com"
+-----------------------------------------------------------------
+size=105 MB
+version=1.6.8
+-----------------------------------------------------------------
+APP="numara"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bornova/numara-calculator"
+link="https://github.com/bornova/numara-calculator/releases/download/v5.8.3/Numara-5.8.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=5.8.3
+-----------------------------------------------------------------
+APP="nuxeo-drive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuxeo/nuxeo-drive"
+link="https://github.com/nuxeo/nuxeo-drive/releases/tag/release-5.5.1"
+-----------------------------------------------------------------
+size=69 MB
+version=5.5.1
+-----------------------------------------------------------------
