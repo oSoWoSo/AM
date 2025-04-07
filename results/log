@@ -12105,3 +12105,48 @@ link="https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-
 size=72 MB
 version=1.7.17
 -----------------------------------------------------------------
+APP="mypaint"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mypaint/mypaint"
+link="https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1-alt.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="mystiq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="swl-x/MystiQ"
+link="https://github.com/swl-x/MystiQ/releases/download/continuous/MystiQ-master--603-x86_64.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=603
+-----------------------------------------------------------------
+APP="mytonwallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mytonwalletorg/mytonwallet"
+link="https://github.com/mytonwalletorg/mytonwallet/releases/download/v3.5.2/MyTonWallet-x86_64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=3.5.2
+-----------------------------------------------------------------
+APP="n3h"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="holochain/n3h"
+link="https://github.com/holochain/n3h/releases/download/v0.0.20-alpha/n3h-0.0.20-alpha-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=0.0.20
+-----------------------------------------------------------------
+APP="naev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="naev/naev"
+link="https://github.com/naev/naev/releases/download/v0.12.4/naev-0.12.4-linux-x86-64.AppImage"
+-----------------------------------------------------------------
+size=482 MB
+version=0.12.4
+-----------------------------------------------------------------
