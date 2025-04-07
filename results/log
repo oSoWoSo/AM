@@ -12150,3 +12150,47 @@ link="https://github.com/naev/naev/releases/download/v0.12.4/naev-0.12.4-linux-x
 size=482 MB
 version=0.12.4
 -----------------------------------------------------------------
+APP="nami"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="txthinking/nami"
+link="https://github.com/txthinking/nami/releases/download/v20240902/nami_linux_amd64"
+-----------------------------------------------------------------
+size=9 MB
+version=20240902
+-----------------------------------------------------------------
+APP="nanosaur"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Nanosaur"
+link="https://github.com/jorio/Nanosaur/releases/download/v1.4.4/Nanosaur-1.4.4-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=1.4.4
+-----------------------------------------------------------------
+APP="nanosaur2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/Nanosaur2"
+link="https://github.com/jorio/Nanosaur2/releases/download/v2.1.0/Nanosaur2-2.1.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="nanovault"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cronoh/nanovault"
+link="https://github.com/cronoh/nanovault/releases/download/v1.2.1/NanoVault-1.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="nap"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="maaslalani/nap"
+-----------------------------------------------------------------
+size=7 MB
+version=0.1.1
+-----------------------------------------------------------------
