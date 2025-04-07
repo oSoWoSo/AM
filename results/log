@@ -12015,3 +12015,48 @@ link="https://github.com/CorySanin/Kitten-for-CSGO/releases/download/v2.5.0/Musi
 size=56 MB
 version=2.5.0
 -----------------------------------------------------------------
+APP="music-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LucasHazardous/music-player"
+link="https://github.com/LucasHazardous/music-player/releases/download/v2.12.5/music-player-2.12.5.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=2.12.5
+-----------------------------------------------------------------
+APP="music-quiz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MusicQuizCPP/Music-Quiz_CPP"
+link="https://github.com/MusicQuizCPP/Music-Quiz_CPP/releases/download/221/MusicQuizGUI.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=221
+-----------------------------------------------------------------
+APP="musicalypse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tgambet/musicalypse"
+link="https://github.com/tgambet/musicalypse/releases/download/v1.0.0/Musicalypse-1.0.0-x64.AppImage"
+-----------------------------------------------------------------
+size=117 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mutool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="m59peacemaker/mupdf-appimage"
+link="https://github.com/m59peacemaker/mupdf-appimage/releases/download/1.18.0/MuPDF-1.18.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=1.18.0
+-----------------------------------------------------------------
+APP="muwire"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zlatinb/muwire"
+link="https://github.com/zlatinb/muwire/releases/download/0.8.13-beta5/MuWire-0.8.13-beta5.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=0.8.13
+-----------------------------------------------------------------
