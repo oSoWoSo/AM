@@ -13132,3 +13132,48 @@ link="https://github.com/onionware-github/OnionMedia-X/releases/download/2.0.0.2
 size=358 MB
 version=2.0.0.2
 -----------------------------------------------------------------
+APP="onlyoffice"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ONLYOFFICE/DesktopEditors"
+link="https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v8.3.2/DesktopEditors-x86_64.AppImage"
+-----------------------------------------------------------------
+size=411 MB
+version=8.3.2
+-----------------------------------------------------------------
+APP="onlyrefs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Fantasy-programming/Onlyrefs"
+link="https://github.com/Fantasy-programming/Onlyrefs/releases/download/v0.0.4/only-refs_0.0.4_amd64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.0.4
+-----------------------------------------------------------------
+APP="onnx2bnn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JDAI-CV/dabnn"
+link="https://github.com/JDAI-CV/dabnn/releases/download/v0.2.6/onnx2bnn.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=0.2.6
+-----------------------------------------------------------------
+APP="onnx2daq"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JDAI-CV/DNNLibrary"
+link="https://github.com/JDAI-CV/DNNLibrary/releases/download/v0.9.0/onnx2daq.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="onshape"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="develar/onshape-desktop-shell"
+link="https://github.com/develar/onshape-desktop-shell/releases/download/v0.5.18/Onshape-0.5.18-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=0.5.18
+-----------------------------------------------------------------
