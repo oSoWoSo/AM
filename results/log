@@ -12060,3 +12060,48 @@ link="https://github.com/zlatinb/muwire/releases/download/0.8.13-beta5/MuWire-0.
 size=53 MB
 version=0.8.13
 -----------------------------------------------------------------
+APP="my-budget"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="reZach/my-budget"
+link="https://github.com/reZach/my-budget/releases/download/3.4.2-beta/my-budget-3.4.2-beta-x86_64.AppImage"
+-----------------------------------------------------------------
+size=157 MB
+version=3.4.2
+-----------------------------------------------------------------
+APP="my-jira"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dhso/my-jira"
+link="https://github.com/dhso/my-jira/releases/download/linux-x64-prod-v0.0.5/My.Jira.0.0.5.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=0.0.5
+-----------------------------------------------------------------
+APP="mybelka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Leinnan/mybelka"
+link="https://github.com/Leinnan/mybelka/releases/download/MyBelka-v0.1.72/MyBelka-0ec48da-x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=0ec48da
+-----------------------------------------------------------------
+APP="mycroft-ai"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AIIX/Mycroft-Ai-QtApplication"
+link="https://github.com/AIIX/Mycroft-Ai-QtApplication/releases/download/V1.3/Mycroft-QtApplication-x86_64.AppImage"
+-----------------------------------------------------------------
+size=373 MB
+version=1.3
+-----------------------------------------------------------------
+APP="mycrypto"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MyCryptoHQ/MyCrypto"
+link="https://github.com/MyCryptoHQ/MyCrypto/releases/download/1.7.17/linux-x86-64_1.7.17_MyCrypto.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=1.7.17
+-----------------------------------------------------------------
