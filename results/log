@@ -13222,3 +13222,48 @@ link="https://github.com/Open-Typer/Open-Typer/releases/download/v5.2.1/Open-Typ
 size=45 MB
 version=5.2.1
 -----------------------------------------------------------------
+APP="open-video-downloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="StefanLobbenmeier/youtube-dl-gui"
+link="https://github.com/StefanLobbenmeier/youtube-dl-gui/releases/download/v2.5.5/Open-Video-Downloader-2.5.5.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=2.5.5
+-----------------------------------------------------------------
+APP="openapi-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zaghaghi/openapi-tui"
+link="https://github.com/zaghaghi/openapi-tui/releases/download/0.10.2/openapi-tui-0.10.2-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=16 MB
+version=0.10.2
+-----------------------------------------------------------------
+APP="openarena"
+APPIMAGE='no'
+GITHUB='no'
+SITE="http://openarena.ws"
+link="https://sourceforge.net/projects/oarena/files/openarena-0.8.8.zip/download"
+-----------------------------------------------------------------
+size=428 MB
+version=0.8.8.zip
+-----------------------------------------------------------------
+APP="openaudible"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openaudible/openaudible"
+link="https://github.com/openaudible/openaudible/releases/download/v4.5.3/OpenAudible_4.5.3_x86_64.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=4.5.3
+-----------------------------------------------------------------
+APP="openblok"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmatyas/openblok"
+link="https://github.com/mmatyas/openblok/releases/download/v0.8.7/openblok_v087_linux-x64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=087
+-----------------------------------------------------------------
