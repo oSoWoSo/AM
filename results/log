@@ -12552,3 +12552,48 @@ link="https://nodejs.org/dist/latest/node-v23.11.0-linux-x64.tar.gz"
 size=196 MB
 version=23.11.0
 -----------------------------------------------------------------
+APP="nodeflow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="maxnth/NodeFlow"
+link="https://github.com/maxnth/NodeFlow/releases/download/0.0.2-alpha/NodeFlow-0.0.2.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="nodes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nodes-io/nodes-io"
+link="https://github.com/nodes-io/nodes-io/releases/download/v1.0.0-beta.2/Nodes-1.0.0-beta.2.AppImage"
+-----------------------------------------------------------------
+size=199 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="nootka"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://nootka.sourceforge.io"
+link="https://sourceforge.net/projects/nootka/files/Testing/nootka-2.1.7-devel-b5168-Linux-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=67 MB
+version=2.1.7
+-----------------------------------------------------------------
+APP="nora"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Sandakan/Nora"
+link="https://github.com/Sandakan/Nora/releases/download/v3.1.0-stable/Nora.v3.1.0-stable-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="nordvpn-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martijnmichel/nordvpn-linux"
+link="https://github.com/martijnmichel/nordvpn-linux/releases/download/v0.6.0/NordVPN.for.Linux-0.6.0.AppImage"
+-----------------------------------------------------------------
+size=228 MB
+version=0.6.0
+-----------------------------------------------------------------
