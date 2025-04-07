@@ -11837,3 +11837,48 @@ link="https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v0.4.0-
 size=110 MB
 version=0.4.0
 -----------------------------------------------------------------
+APP="mqttcute"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MayaPosch/MQTTCute"
+link="https://github.com/MayaPosch/MQTTCute/releases/download/continuous/MQTTCute-f060f99-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=f060f99
+-----------------------------------------------------------------
+APP="mqttx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="emqx/MQTTX"
+link="https://github.com/emqx/MQTTX/releases/download/v1.12.0-beta.2/MQTTX-1.12.0-beta.2.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=1.12.0
+-----------------------------------------------------------------
+APP="mr.dclutterer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="deep5050/Mr.Dclutterer"
+link="https://github.com/deep5050/Mr.Dclutterer/releases/download/v1.0.0/Mr.Dclutterer-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="mrcode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zokugun/MrCode"
+link="https://github.com/zokugun/MrCode/releases/download/1.98.2.25077/MrCode-1.98.2.25077.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=134 MB
+version=1.98.2.25077.glibc2.29
+-----------------------------------------------------------------
+APP="mrwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="unruhschuh/MrWriter"
+link="https://github.com/unruhschuh/MrWriter/releases/download/v0.0.7/MrWriter-0.0.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=0.0.7
+-----------------------------------------------------------------
