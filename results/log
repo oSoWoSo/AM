@@ -13087,3 +13087,48 @@ link="https://github.com/1595901624/gpt-aggregated-edition/releases/download/v0.
 size=76 MB
 version=0.9.2
 -----------------------------------------------------------------
+APP="onedrive-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bpozdena/OneDriveGUI"
+link="https://github.com/bpozdena/OneDriveGUI/releases/download/v1.1.1a/OneDriveGUI-1.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="onefetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="o2sh/onefetch"
+link="https://github.com/o2sh/onefetch/releases/download/2.23.1/onefetch-linux.tar.gz"
+-----------------------------------------------------------------
+size=15 MB
+version=2.23.1
+-----------------------------------------------------------------
+APP="onekey-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OneKeyHQ/app-monorepo"
+link="https://github.com/OneKeyHQ/app-monorepo/releases/download/v5.7.0/OneKey-Wallet-5.7.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=159 MB
+version=5.7.0
+-----------------------------------------------------------------
+APP="onenote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrikx3/onenote"
+link="https://github.com/patrikx3/onenote/releases/download/v2025.4.124/P3X-OneNote-2025.4.124.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=P3X
+-----------------------------------------------------------------
+APP="onionmediax"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="onionware-github/OnionMedia-X"
+link="https://github.com/onionware-github/OnionMedia-X/releases/download/2.0.0.2C/onionware-onionmedia_x-x64.zip"
+-----------------------------------------------------------------
+size=358 MB
+version=2.0.0.2
+-----------------------------------------------------------------
