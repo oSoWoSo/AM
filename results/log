@@ -12284,3 +12284,48 @@ link="https://github.com/CityOfZion/neon-wallet/releases/download/v2.25.0/Neon.2
 size=176 MB
 version=2.25.0
 -----------------------------------------------------------------
+APP="neovide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neovide/neovide"
+link="https://github.com/neovide/neovide/releases/download/0.15.0/neovide.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=0.15.0
+-----------------------------------------------------------------
+APP="nepaliunicode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nirooj56/nepaliunicode"
+link="https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/NepaliUnicode.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="nerdfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ThatOneCalculator/NerdFetch"
+link="https://github.com/ThatOneCalculator/NerdFetch/releases/tag/v8.3.1"
+-----------------------------------------------------------------
+size=1 MB
+version=8.3.1
+-----------------------------------------------------------------
+APP="nerimity-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nerimity/nerimity-desktop"
+link="https://github.com/Nerimity/nerimity-desktop/releases/download/v1.5.2/Nerimity-1.5.2.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=1.5.2
+-----------------------------------------------------------------
+APP="nest-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nest-desktop/nest-desktop-AppImage"
+link="https://github.com/nest-desktop/nest-desktop-AppImage/releases/download/v4.0.5/nest-desktop-4.0.5.AppImage"
+-----------------------------------------------------------------
+size=153 MB
+version=4.0.5
+-----------------------------------------------------------------
