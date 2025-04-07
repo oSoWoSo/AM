@@ -12239,3 +12239,48 @@ link="https://github.com/AppImageCommunity/NCSA-Mosaic-AppImage/releases/downloa
 size=4 MB
 version=git.6f488cb
 -----------------------------------------------------------------
+APP="ncspot"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="hrkfdn/ncspot"
+link="https://github.com/hrkfdn/ncspot/releases/download/v1.2.2/ncspot-v1.2.2-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=21 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="neanes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neanes/neanes"
+link="https://github.com/neanes/neanes/releases/download/v0.4.80/Neanes-0.4.80.AppImage"
+-----------------------------------------------------------------
+size=241 MB
+version=0.4.80
+-----------------------------------------------------------------
+APP="neko"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="crgimenes/neko"
+link="https://github.com/crgimenes/neko/releases/download/v0.1.33/neko-linux-amd64.gz"
+-----------------------------------------------------------------
+size=11 MB
+version=0.1.33
+-----------------------------------------------------------------
+APP="neohtop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Abdenasser/neohtop"
+link="https://github.com/Abdenasser/neohtop/releases/download/v1.1.2/NeoHtop_1.1.2_x86_64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=1.1.2
+-----------------------------------------------------------------
+APP="neon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CityOfZion/neon-wallet"
+link="https://github.com/CityOfZion/neon-wallet/releases/download/v2.25.0/Neon.2.25.0.AppImage"
+-----------------------------------------------------------------
+size=176 MB
+version=2.25.0
+-----------------------------------------------------------------
