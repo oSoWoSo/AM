@@ -13177,3 +13177,48 @@ link="https://github.com/develar/onshape-desktop-shell/releases/download/v0.5.18
 size=49 MB
 version=0.5.18
 -----------------------------------------------------------------
+APP="onyx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MainframeHQ/onyx"
+link="https://github.com/Mainframe-Archive/onyx/releases/download/v0.5.2/Onyx-0.5.2-linux-amd64.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="opal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CodeDead/opal"
+link="https://github.com/CodeDead/opal/releases/download/v1.5.0/Opal-x86_64-1.5.0.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="open-ai-translator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yetone/openai-translator"
+link="https://github.com/openai-translator/openai-translator/releases/download/v0.4.32/OpenAI.Translator_0.4.32_amd64.AppImage"
+-----------------------------------------------------------------
+size=171 MB
+version=0.4.32
+-----------------------------------------------------------------
+APP="open-markup-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kettek/open-markup-editor"
+link="https://github.com/kettek/open-markup-editor/releases/download/v3.1.1/Open.Markup.Editor-3.1.1.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="open-typer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Open-Typer/Open-Typer"
+link="https://github.com/Open-Typer/Open-Typer/releases/download/v5.2.1/Open-Typer-x86_64.AppImage"
+-----------------------------------------------------------------
+size=45 MB
+version=5.2.1
+-----------------------------------------------------------------
