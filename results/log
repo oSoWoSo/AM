@@ -12908,3 +12908,48 @@ link="https://github.com/Merrit/nyrna/releases/download/v2.24.0/Nyrna-Linux-Port
 size=25 MB
 version=2.24.0
 -----------------------------------------------------------------
+APP="obliqoro"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mrjackwills/obliqoro"
+link="https://github.com/mrjackwills/obliqoro/releases/download/v0.1.15/Obliqoro_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=0.1.15
+-----------------------------------------------------------------
+APP="obs-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/OBS-Studio-appimage"
+link="https://github.com/ivan-hc/OBS-Studio-appimage/releases/download/continuous/OBS-Studio_31.0.3-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=190 MB
+version=31.0.3
+-----------------------------------------------------------------
+APP="obs-studio-full"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/OBS-Studio-appimage"
+link="https://github.com/ivan-hc/OBS-Studio-appimage/releases/download/continuous-full/OBS-Studio-FULL_31.0.3-1-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=405 MB
+version=31.0.3
+-----------------------------------------------------------------
+APP="obsidian"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="obsidianmd/obsidian-releases"
+link="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.9/Obsidian-1.8.9.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=1.8.9
+-----------------------------------------------------------------
+APP="obsidian-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Yakitrak/obsidian-cli"
+link="https://github.com/Yakitrak/obsidian-cli/releases/download/v0.1.8/obsidian-cli_0.1.8_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=0.1.8
+-----------------------------------------------------------------
