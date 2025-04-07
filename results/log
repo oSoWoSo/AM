@@ -12374,3 +12374,47 @@ link="https://codeberg.org/api/packages/devnewton/generic/newton_adventure/1.18/
 size=110 MB
 version=1.18
 -----------------------------------------------------------------
+APP="nextcloud"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nextcloud-releases/desktop"
+link="https://github.com/nextcloud-releases/desktop/releases/download/v3.16.2/Nextcloud-3.16.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=199 MB
+version=3.16.2
+-----------------------------------------------------------------
+APP="nextplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sudormroot/nextplayer-project"
+link="https://github.com/sudormroot/nextplayer-project/releases/download/nextplayer-bin.linux.1.7.6-1.amd64/nextplayer-bin.linux.1.7.6-1.amd64.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=bin.linux.1.7.6
+-----------------------------------------------------------------
+APP="nexus-mods"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nexus-Mods/NexusMods.App"
+link="https://github.com/Nexus-Mods/NexusMods.App/releases/download/v0.9.2/NexusMods.App.x86_64.AppImage"
+-----------------------------------------------------------------
+size=132 MB
+version=0.9.2
+-----------------------------------------------------------------
+APP="nexus-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nexusoft/NexusInterface"
+link="https://github.com/Nexusoft/NexusInterface/releases/download/v3.1.5/nexus_wallet-Linux-3.1.5.AppImage"
+-----------------------------------------------------------------
+size=128 MB
+version=3.1.5
+-----------------------------------------------------------------
+APP="nfctools"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wakdev.com"
+-----------------------------------------------------------------
+size=71 MB
+version=0.3.2
+-----------------------------------------------------------------
