@@ -11660,3 +11660,48 @@ link="https://launcher-files.modrinth.com/versions/0.9.3/linux/Modrinth%20App_0.
 size=88 MB
 version=0.9.3
 -----------------------------------------------------------------
+APP="modv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vcync/modV"
+link="https://github.com/vcync/modV/releases/download/3.30.0/modV-3.30.0.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=3.30.0
+-----------------------------------------------------------------
+APP="monit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fzf404/Monit"
+link="https://github.com/fzf404/Monit/releases/download/v0.8.1/Monit-0.8.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=0.8.1
+-----------------------------------------------------------------
+APP="moniteur-admin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aueb-cslabs/moniteur-admin"
+link="https://github.com/aueb-cslabs/moniteur-admin/releases/download/v0.3.8/moniteur-admin-v0.3.8.AppImage"
+-----------------------------------------------------------------
+size=116 MB
+version=0.3.8
+-----------------------------------------------------------------
+APP="monokle"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kubeshop/monokle"
+link="https://github.com/kubeshop/monokle/releases/download/v2.4.8/Monokle-linux-2.4.8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=187 MB
+version=2.4.8
+-----------------------------------------------------------------
+APP="monoline"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://monoline.io/"
+link="https://download.monoline.io/desktop-apps/Monoline-1.2.4.AppImage"
+-----------------------------------------------------------------
+size=265 MB
+version=1.2.4
+-----------------------------------------------------------------
