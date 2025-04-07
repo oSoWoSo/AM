@@ -11615,3 +11615,48 @@ link="https://github.com/zenghongtu/Mob/releases/download/v0.2.2/Mob-0.2.2-linux
 size=70 MB
 version=0.2.2
 -----------------------------------------------------------------
+APP="mochi"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mochi.cards"
+link="https://mochi.cards/releases/Mochi-1.18.9.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=1.18.9
+-----------------------------------------------------------------
+APP="mockman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LanceGin/Mockman"
+link="https://github.com/LanceGin/Mockman/releases/download/1.0.5/Mockman-1.0.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="mockoon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mockoon/mockoon"
+link="https://github.com/mockoon/mockoon/releases/download/v9.2.0/mockoon-9.2.0.x86_64.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=9.2.0
+-----------------------------------------------------------------
+APP="moderndeck"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dangeredwolf/ModernDeck"
+link="https://github.com/dangeredwolf/ModernDeck/releases/download/v10.0.0/ModernDeck-x86_64.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=10.0.0
+-----------------------------------------------------------------
+APP="modrinth"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://modrinth.com/app"
+link="https://launcher-files.modrinth.com/versions/0.9.3/linux/Modrinth%20App_0.9.3_amd64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=0.9.3
+-----------------------------------------------------------------
