@@ -12418,3 +12418,48 @@ SITE="https://www.wakdev.com"
 size=71 MB
 version=0.3.2
 -----------------------------------------------------------------
+APP="ngpost"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mbruel/ngPost"
+link="https://github.com/mbruel/ngPost/releases/download/v4.16/ngPost_v4.16-x86_64_debian8.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=4.16
+-----------------------------------------------------------------
+APP="ngrev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgechev/ngrev"
+link="https://github.com/mgechev/ngrev/releases/download/v0.0.35/ngrev-0.0.35.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=0.0.35
+-----------------------------------------------------------------
+APP="nheko"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nheko-Reborn/nheko"
+link="https://github.com/Nheko-Reborn/nheko/releases/download/v0.11.3/nheko-v0.11.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=0.11.3
+-----------------------------------------------------------------
+APP="niffler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="grinfans/niffler"
+link="https://github.com/grinfans/Niffler/releases/download/v0.7.0/Niffler-v0.7.0-linux-amd64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="nightpdf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lunarequest/NightPDF"
+link="https://github.com/Lunarequest/NightPDF/releases/download/v3.0.0/NightPDF-3.0.0-beta5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=3.0.0
+-----------------------------------------------------------------
