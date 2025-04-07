@@ -12194,3 +12194,48 @@ SITE="maaslalani/nap"
 size=7 MB
 version=0.1.1
 -----------------------------------------------------------------
+APP="naruto-arena"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://naruto-arena.app"
+link="https://arena-game.app/releases/Arena-Games_Lin64.zip"
+-----------------------------------------------------------------
+size=88 MB
+version=Lin64.zip
+-----------------------------------------------------------------
+APP="nault-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nault/Nault"
+link="https://github.com/Nault/Nault/releases/download/v1.18.2/Nault-1.18.2-Linux.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=1.18.2
+-----------------------------------------------------------------
+APP="navi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="denisidoro/navi"
+link="https://github.com/denisidoro/navi/releases/download/v2.24.0/navi-v2.24.0-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=2.24.0
+-----------------------------------------------------------------
+APP="nazuna"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Sazzo/nazuna"
+link="https://github.com/Sazzo/nazuna/releases/download/1.0.3/nazuna_1.0.3_x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="ncsa-mosaic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImage/NCSA-Mosaic-AppImage"
+link="https://github.com/AppImageCommunity/NCSA-Mosaic-AppImage/releases/download/1/NCSA_Mosaic-git.6f488cb-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=git.6f488cb
+-----------------------------------------------------------------
