@@ -11926,3 +11926,47 @@ link="https://github.com/staniel359/muffon/releases/download/v2.1.0/muffon-2.1.0
 size=97 MB
 version=2.1.0
 -----------------------------------------------------------------
+APP="mullvad-browser"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mullvad/mullvad-browser"
+link="https://github.com/mullvad/mullvad-browser/releases/download/14.0.9/mullvad-browser-linux-x86_64-14.0.9.tar.xz"
+-----------------------------------------------------------------
+size=239 MB
+version=14.0.9
+-----------------------------------------------------------------
+APP="multimc"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://multimc.org/#Download"
+-----------------------------------------------------------------
+size=9 MB
+version=unknown
+-----------------------------------------------------------------
+APP="munt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muntorg/munt-official"
+link="https://github.com/muntorg/munt-official/releases/download/v3.0.7/Munt-3.0.7-x64.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=3.0.7
+-----------------------------------------------------------------
+APP="mupdf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="m59peacemaker/mupdf-appimage"
+link="https://github.com/m59peacemaker/mupdf-appimage/releases/download/1.18.0/MuPDF-1.18.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=1.18.0
+-----------------------------------------------------------------
+APP="muse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="muse-sequencer/muse"
+link="https://github.com/muse-sequencer/muse/releases/download/latest/MusE-master-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=2025.02.20
+-----------------------------------------------------------------
