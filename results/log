@@ -11882,3 +11882,47 @@ link="https://github.com/unruhschuh/MrWriter/releases/download/v0.0.7/MrWriter-0
 size=30 MB
 version=0.0.7
 -----------------------------------------------------------------
+APP="ms-365-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="agam778/MS-365-Electron"
+link="https://github.com/agam778/MS-365-Electron/releases/download/v2.0.0/MS-365-Electron-v2.0.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=118 MB
+version=365
+-----------------------------------------------------------------
+APP="mtcelledit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.marktyler.org"
+link="mtCellEdit-3.8-qt5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=3.8
+-----------------------------------------------------------------
+APP="mudita-center"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mudita/mudita-center"
+link="https://github.com/mudita/mudita-center/releases/download/3.0.1/Mudita-Center.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="mudlet"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.mudlet.org"
+-----------------------------------------------------------------
+size=77 MB
+version=4.19.1
+-----------------------------------------------------------------
+APP="muffon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="staniel359/muffon"
+link="https://github.com/staniel359/muffon/releases/download/v2.1.0/muffon-2.1.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=2.1.0
+-----------------------------------------------------------------
