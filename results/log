@@ -11705,3 +11705,47 @@ link="https://download.monoline.io/desktop-apps/Monoline-1.2.4.AppImage"
 size=265 MB
 version=1.2.4
 -----------------------------------------------------------------
+APP="mood-fi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KaykyDeSouzaDias/Mood-Fi"
+link="https://github.com/KaykyDeSouzaDias/Mood-Fi/releases/download/v2.0.1/mood-fi_2.0.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="moolticute"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mooltipass/moolticute"
+link="https://github.com/mooltipass/moolticute/releases/download/v1.04.0/Moolticute-v1.04.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=1.04.0
+-----------------------------------------------------------------
+APP="moonfm"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://moon.fm"
+-----------------------------------------------------------------
+size=125 MB
+version=5.0.3
+-----------------------------------------------------------------
+APP="moonlight"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="moonlight-stream/moonlight-qt"
+link="https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.1.0/Moonlight-6.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=6.1.0
+-----------------------------------------------------------------
+APP="moonplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="coslyk/moonplayer"
+link="https://github.com/coslyk/moonplayer/releases/download/v4.3/MoonPlayer--x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=4.3
+-----------------------------------------------------------------
