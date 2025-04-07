@@ -11794,3 +11794,46 @@ link="https://github.com/trueleaf/moyu/releases/download/0.8.0-beta/moyu-0.8.0.A
 size=86 MB
 version=0.8.0
 -----------------------------------------------------------------
+APP="mozaic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZeusWPI/MOZAIC"
+link="https://github.com/ZeusWPI/MOZAIC/releases/download/0.4.0/bottlebats-0.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="mp3-tagger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mohammadreza99A/mp3-tagger"
+link="https://github.com/Mohammadreza99A/mp3-tagger/releases/download/v0.1.4/Mp3Tagger-0.1.4.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=Mp3Tagger
+-----------------------------------------------------------------
+APP="mp4grep"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="o-oconnell/mp4grep"
+link="https://github.com/o-oconnell/mp4grep/releases/download/0.1.5-linux-x86/binary-mp4grep-0.1.5-linux-x86.zip"
+-----------------------------------------------------------------
+size=27 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="mpv"
+APPIMAGE='yes'
+GITHUB='yes'
+-----------------------------------------------------------------
+size=37 MB
+version=starting
+-----------------------------------------------------------------
+APP="mqtt-explorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thomasnordquist/MQTT-Explorer"
+link="https://github.com/thomasnordquist/MQTT-Explorer/releases/download/v0.4.0-beta.6/MQTT-Explorer-0.4.0-beta.6.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=0.4.0
+-----------------------------------------------------------------
