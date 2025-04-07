@@ -11570,3 +11570,48 @@ link="https://mkvtoolnix.download/appimage/MKVToolNix_GUI-91.0-x86_64.AppImage"
 size=61 MB
 version=91.0
 -----------------------------------------------------------------
+APP="mlv-app"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ilia3101/MLV-App"
+link="https://github.com/ilia3101/MLV-App/releases/download/QTv1.15/MLV.App.v1.15.Linux.x86_64.AppImage"
+-----------------------------------------------------------------
+size=58 MB
+version=1.15
+-----------------------------------------------------------------
+APP="mmapper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MUME/MMapper"
+link="https://github.com/MUME/MMapper/releases/download/v24.03.1/MMapper-24.03.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=24.03.1
+-----------------------------------------------------------------
+APP="mmseqs2-search"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="soedinglab/MMseqs2-App"
+link="https://github.com/soedinglab/MMseqs2-App/releases/download/v7-8e1704f/MMseqs2-Search-1.7.0.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=MMseqs2
+-----------------------------------------------------------------
+APP="moarperf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="timo/moarperf"
+link="https://github.com/timo/moarperf/releases/download/untagged-0e520c445f30a5ea4aae/MoarPerf-0.1.1.glibc2.15-x86_64.AppImage"
+-----------------------------------------------------------------
+size=38 MB
+version=0.1.1.glibc2.15
+-----------------------------------------------------------------
+APP="mob"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zenghongtu/Mob"
+link="https://github.com/zenghongtu/Mob/releases/download/v0.2.2/Mob-0.2.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=0.2.2
+-----------------------------------------------------------------
