@@ -12597,3 +12597,47 @@ link="https://github.com/martijnmichel/nordvpn-linux/releases/download/v0.6.0/No
 size=228 MB
 version=0.6.0
 -----------------------------------------------------------------
+APP="normcap"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dynobo/normcap"
+link="https://github.com/dynobo/normcap/releases/download/v0.5.9/NormCap-0.5.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=0.5.9
+-----------------------------------------------------------------
+APP="nosqlbooster"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="http://www.nosqlbooster.com"
+link="9.1.6"
+-----------------------------------------------------------------
+size=112 MB
+version=9.1.6
+-----------------------------------------------------------------
+APP="nostlan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quinton-ashley/nostlan"
+link="https://github.com/quinton-ashley/nostlan/releases/download/2.6.x/nostlan.AppImage"
+-----------------------------------------------------------------
+size=135 MB
+version=2.6
+-----------------------------------------------------------------
+APP="nota-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=60 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="notable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fabiospampinato/notable"
+link="https://github.com/notable/notable/releases/download/v1.8.4/Notable-1.8.4.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=1.8.4
+-----------------------------------------------------------------
