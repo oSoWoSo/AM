@@ -14032,3 +14032,48 @@ link="https://sourceforge.net/projects/pdfcrackgui/files/pdfcrackgui/PDFCrackGUI
 size=6 MB
 version=1.1
 -----------------------------------------------------------------
+APP="pdfquirk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dragotin/pdfquirk"
+link="https://github.com/dragotin/pdfquirk/releases/download/continuous/PDFQuirk-continuous-1-g79f3bb0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=1
+-----------------------------------------------------------------
+APP="pdmaner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zxp19821005/My_AUR_Files"
+link="https://github.com/zxp19821005/My_AUR_Files/releases/download/CloudDM3.0.1/CloudDM-v3.0.1.AppImage"
+-----------------------------------------------------------------
+size=365 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="peazip"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ferion11/PeaZip_Appimage"
+link="https://github.com/ferion11/PeaZip_Appimage/releases/download/v10.3.0/PeaZip-v10.3.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=10.3.0
+-----------------------------------------------------------------
+APP="peep"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ryochack/peep"
+link="https://github.com/ryochack/peep/releases/download/v0.1.6/peep-v0.1.6-x86_64-unknown-linux-musl.zip"
+-----------------------------------------------------------------
+size=2 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="pelusica"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VitoVan/pelusica"
+link="https://github.com/VitoVan/pelusica/releases/download/1.1.0/Pelusica.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=1.1.0
+-----------------------------------------------------------------
