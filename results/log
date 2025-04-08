@@ -13582,3 +13582,48 @@ link="https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1
 size=142 MB
 version=4.0.1
 -----------------------------------------------------------------
+APP="outer-wilds-mod-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bwc9876/ow-mod-man"
+link="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.1/Outer.Wilds.Mod.Manager_0.15.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="outline-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jigsaw-Code/outline-client"
+link="https://github.com/Jigsaw-Code/outline-apps/releases/download/v1.10.1/Outline-Client.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=1.10.1
+-----------------------------------------------------------------
+APP="outline-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jigsaw-Code/outline-server"
+link="https://github.com/Jigsaw-Code/outline-server/releases/download/manager-v1.14.0/Outline-Manager.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=1.14.0
+-----------------------------------------------------------------
+APP="overbind"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cjonas1999/OverBind"
+link="https://github.com/cjonas1999/OverBind/releases/download/1.5.1/OverBind_1.5.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="overte"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="overte-org/overte"
+link="https://github.com/overte-org/overte/releases/download/2024.07.1-rc2/Overte-2024.07.1-rc2-nodebug-x86_64.AppImage"
+-----------------------------------------------------------------
+size=510 MB
+version=2024.07.1
+-----------------------------------------------------------------
