@@ -14792,3 +14792,47 @@ link="https://github.com/lxgr-linux/pokete/releases/download/0.9.2/Pokete-0.9.2-
 size=96 MB
 version=0.9.2
 -----------------------------------------------------------------
+APP="polar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jamaljsr/polar"
+link="https://github.com/jamaljsr/polar/releases/download/v3.2.0/polar-linux-x86_64-v3.2.0.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=3.2.0
+-----------------------------------------------------------------
+APP="polar-bookshelf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="burtonator/polar-app-public"
+link="https://github.com/burtonator/polar-app-public/releases/download/v2.0.0-beta.11/polar-desktop-app-2.0.0-beta.11-x86_64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="polkakey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="w3finance/PolkaKey"
+link="https://github.com/w3finance/PolkaKey/releases/download/v0.8.0/PolkaKey-v0.8.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="polybar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/polybar-AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=3.7.2
+-----------------------------------------------------------------
+APP="polypane"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="firstversionist/polypane"
+link="https://github.com/firstversionist/polypane/releases/download/v23.1.1/Polypane-23.1.1.AppImage"
+-----------------------------------------------------------------
+size=196 MB
+version=23.1.1
+-----------------------------------------------------------------
