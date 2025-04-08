@@ -15016,3 +15016,48 @@ link="https://github.com/bobbyrne01/pretty-handy-privacy/releases/download/v0.1.
 size=55 MB
 version=0.1.1
 -----------------------------------------------------------------
+APP="primate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="getprimate/primate"
+link="https://github.com/getprimate/primate/releases/download/v1.1.0/Primate-v1.1.0-x64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="prime-world-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AxioDL/PrimeWorldEditor"
+link="https://github.com/AxioDL/PrimeWorldEditor/releases/download/v1.2.7/PrimeWorldEditor-1.2.7-linux64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=1.2.7
+-----------------------------------------------------------------
+APP="principia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Bithack/principia"
+link="https://github.com/Bithack/principia/releases/download/2025.04.05/principia_2025.04.05_x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=2025.04.05
+-----------------------------------------------------------------
+APP="printerclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DevTeamSCH/printer-client"
+link="https://github.com/DevTeamSCH/printer-client/releases/download/v0.1.2/PrinterClient-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="prisma-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="prisma/studio"
+link="https://github.com/prisma/studio/releases/download/v0.458.0/Prisma-Studio.AppImage"
+-----------------------------------------------------------------
+size=144 MB
+version=0.458.0
+-----------------------------------------------------------------
