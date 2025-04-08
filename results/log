@@ -14747,3 +14747,48 @@ link="https://github.com/darteil/POELadder/releases/download/1.0.10/PoeLadder-1.
 size=80 MB
 version=1.0.10
 -----------------------------------------------------------------
+APP="poi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="poooi/poi"
+link="https://github.com/poooi/poi/releases/download/v11.0.0-beta.6/poi-11.0.0-beta.6.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=11.0.0
+-----------------------------------------------------------------
+APP="pointless"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kkoomen/pointless"
+link="https://github.com/kkoomen/pointless/releases/download/v1.11.0/pointless_1.11.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=1.11.0
+-----------------------------------------------------------------
+APP="pokeget-rs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="talwat/pokeget-rs"
+link="https://github.com/talwat/pokeget-rs/releases/download/1.6.3/pokeget-Linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=1.6.3
+-----------------------------------------------------------------
+APP="pokego"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="rubiin/pokego"
+link="https://github.com/rubiin/pokego/releases/download/v0.3.0/pokego-linux-0.3.0.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="pokete"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lxgr-linux/pokete"
+link="https://github.com/lxgr-linux/pokete/releases/download/0.9.2/Pokete-0.9.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.9.2
+-----------------------------------------------------------------
