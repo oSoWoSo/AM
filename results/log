@@ -14257,3 +14257,48 @@ link="https://phototeleport.com/PhotoTeleport_0.15-0.AppImage"
 size=106 MB
 version=0.15
 -----------------------------------------------------------------
+APP="phreshplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Phreshhh/PhreshPlayer"
+link="https://github.com/Phreshhh/PhreshPlayer/releases/download/v1.1.3/phreshplayer-1.1.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=1.1.3
+-----------------------------------------------------------------
+APP="pia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LINCnil/pia-app"
+link="https://github.com/LINCnil/pia-app/releases/download/v2.3.0/PIA-2.3.0.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=2.3.0
+-----------------------------------------------------------------
+APP="picacg-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tonquer/picacg-qt"
+link="https://github.com/tonquer/picacg-qt/releases/download/v1.5.1/bika_v1.5.1.1_linux_nosr-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=1.5.1.1
+-----------------------------------------------------------------
+APP="picgo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Molunerfinn/PicGo"
+link="https://github.com/Molunerfinn/PicGo/releases/download/v2.4.0-beta.9/PicGo-2.4.0-beta.9.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=2.4.0
+-----------------------------------------------------------------
+APP="piclist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Kuingsmile/PicList"
+link="https://github.com/Kuingsmile/PicList/releases/download/v2.9.8/PicList-2.9.8.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=2.9.8
+-----------------------------------------------------------------
