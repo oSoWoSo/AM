@@ -13987,3 +13987,48 @@ link="https://github.com/serhack/pdf-diff/releases/download/v0.0.1/pdf-diff_0.0.
 size=2 MB
 version=0.0.1
 -----------------------------------------------------------------
+APP="pdf-sync"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sherylynn/pdf-sync"
+link="https://github.com/sherylynn/pdf-sync/releases/download/v0.0.14/pdf-sync-0.0.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=0.0.14
+-----------------------------------------------------------------
+APP="pdf2htmlex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pdf2htmlEX/pdf2htmlEX"
+link="https://github.com/pdf2htmlEX/pdf2htmlEX/releases/download/v0.18.8.rc1/pdf2htmlEX-0.18.8.rc1-master-20200630-Ubuntu-bionic-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=0.18.8.rc1
+-----------------------------------------------------------------
+APP="pdf4qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JakubMelka/PDF4QT"
+link="https://github.com/JakubMelka/PDF4QT/releases/download/v1.5.0.0/PDF4QT-1.5.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=1.5.0.0
+-----------------------------------------------------------------
+APP="pdfcompress"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="moonline/Utility.PdfCompress"
+link="https://github.com/moonline/Utility.PdfCompress/releases/download/1.0.0/pdfcompress-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="pdfcrackgui"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/pdfcrackgui/"
+link="https://sourceforge.net/projects/pdfcrackgui/files/pdfcrackgui/PDFCrackGUI-v1.1-Linux.zip/download"
+-----------------------------------------------------------------
+size=6 MB
+version=1.1
+-----------------------------------------------------------------
