@@ -13312,3 +13312,48 @@ link="https://github.com/OpenMW/openmw/releases/download/openmw-49-rc6/openmw-0.
 size=200 MB
 version=0.49.0
 -----------------------------------------------------------------
+APP="openop2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenOP2/OpenOP2"
+link="https://github.com/OpenOP2/OpenOP2/releases/download/20210823/OpenOP2-20210823-x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=20210823
+-----------------------------------------------------------------
+APP="openosrs-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="open-osrs/launcher"
+link="https://github.com/open-osrs/launcher/releases/download/3.0.0/OpenOSRS.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="openpilot-workbench"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openpilot-community/workbench"
+link="https://github.com/jfrux/workbench/releases/download/v0.1.5/Workbench-v0.1.5.linux.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.1.5
+-----------------------------------------------------------------
+APP="openra-dune"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link="https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Dune-2000-x86_64.AppImage"
+-----------------------------------------------------------------
+size=47 MB
+version=2000
+-----------------------------------------------------------------
+APP="openra-red-alert"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link="https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Red-Alert-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=20250330
+-----------------------------------------------------------------
