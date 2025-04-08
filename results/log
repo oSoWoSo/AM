@@ -14347,3 +14347,45 @@ link="https://github.com/TheMarlboroMan/pigs-n-cows/releases/download/v1.1.0/Pig
 size=5 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="pile"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mtobeiyf/pile"
+link="https://github.com/imfing/pile/releases/download/v0.3.2/pile-0.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=0.3.2
+-----------------------------------------------------------------
+APP="pince"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="korcankaraokcu/PINCE"
+link="https://github.com/korcankaraokcu/PINCE/releases/download/v0.4.2/PINCE-x86_64.AppImage"
+-----------------------------------------------------------------
+size=265 MB
+version=0.4.2
+-----------------------------------------------------------------
+APP="pingendo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Pingendo/pingendo"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="pingnoo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fizzyade/pingnoo"
+link="https://github.com/nedrysoft/pingnoo/releases/download/2021.04.30-develop/Pingnoo.2021.04.30-develop.x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=2021.04.30
+-----------------------------------------------------------------
+APP="pingu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sheepla/pingu"
+link="https://github.com/sheepla/pingu/releases/download/v0.0.5/pingu_0.0.5_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=0.0.5
+-----------------------------------------------------------------
