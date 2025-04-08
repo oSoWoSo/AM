@@ -13447,3 +13447,48 @@ link="https://openxcom.org/download/nightlies/openxcom_git_2025_02_07_2001-x86_6
 size=13 MB
 version=2025
 -----------------------------------------------------------------
+APP="opera"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link="https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-stable-117.0.5408.197-x86_64.AppImage"
+-----------------------------------------------------------------
+size=162 MB
+version=117.0.5408.197
+-----------------------------------------------------------------
+APP="opera-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link="https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-beta-118.0.5461.27-x86_64.AppImage"
+-----------------------------------------------------------------
+size=163 MB
+version=118.0.5461.27
+-----------------------------------------------------------------
+APP="opera-dev"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Opera-appimage"
+link="https://github.com/ivan-hc/Opera-appimage/releases/download/continuous/Opera-Web-Browser-developer-119.0.5495.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=164 MB
+version=119.0.5495.0
+-----------------------------------------------------------------
+APP="orange"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="naaive/orange"
+link="https://github.com/naaive/orange/releases/download/orange-v0.6.5/orange_0.6.5_amd64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.6.5
+-----------------------------------------------------------------
+APP="oras"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="oras-project/oras"
+link="https://github.com/oras-project/oras/releases/download/v1.3.0-beta.2/oras_1.3.0-beta.2_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=11 MB
+version=1.3.0
+-----------------------------------------------------------------
