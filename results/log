@@ -14836,3 +14836,48 @@ link="https://github.com/firstversionist/polypane/releases/download/v23.1.1/Poly
 size=196 MB
 version=23.1.1
 -----------------------------------------------------------------
+APP="pomatez"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zidoro/pomatez"
+link="https://github.com/zidoro/pomatez/releases/download/v1.7.2/Pomatez-v1.7.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=1.7.2
+-----------------------------------------------------------------
+APP="pomodorolm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vjousse/pomodorolm"
+link="https://github.com/vjousse/pomodorolm/releases/download/app-v0.3.5/pomodorolm_0.3.5_amd64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=0.3.5
+-----------------------------------------------------------------
+APP="pomotroid"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Splode/pomotroid"
+link="https://github.com/Splode/pomotroid/releases/download/v0.13.0/pomotroid-0.13.0-linux.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.13.0
+-----------------------------------------------------------------
+APP="pop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/pop"
+link="https://github.com/charmbracelet/pop/releases/download/v0.2.0/pop_0.2.0_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=11 MB
+version=0.2.0
+-----------------------------------------------------------------
+APP="popcorn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="popcorn-official/popcorn-desktop"
+link="https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5.1/Popcorn-Time-0.5.1-linux64-0.44.5.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=0.5.1
+-----------------------------------------------------------------
