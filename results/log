@@ -15061,3 +15061,48 @@ link="https://github.com/prisma/studio/releases/download/v0.458.0/Prisma-Studio.
 size=144 MB
 version=0.458.0
 -----------------------------------------------------------------
+APP="prismlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PrismLauncher/PrismLauncher"
+link="https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=9.4
+-----------------------------------------------------------------
+APP="prismlauncher-qt5"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PrismLauncher/PrismLauncher"
+link="https://github.com/PrismLauncher/PrismLauncher/releases/download/9.4/PrismLauncher-Linux-Qt5-Portable-9.4.tar.gz"
+-----------------------------------------------------------------
+size=83 MB
+version=9.4
+-----------------------------------------------------------------
+APP="privacy.sexy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="undergroundwires/privacy.sexy"
+link="https://github.com/undergroundwires/privacy.sexy/releases/download/0.13.8/privacy.sexy-0.13.8.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=0.13.8
+-----------------------------------------------------------------
+APP="privaxy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Barre/privaxy"
+link="https://github.com/Barre/privaxy/releases/download/v0.5.2/privaxy_0.5.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=0.5.2
+-----------------------------------------------------------------
+APP="procdepmonitor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="3dproger/ProcDepMonitor"
+link="https://github.com/3dproger/ProcDepMonitor/releases/download/1.1.2/Process_Dependency_Monitor-1.1.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=1.1.2
+-----------------------------------------------------------------
