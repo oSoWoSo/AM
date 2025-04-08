@@ -13717,3 +13717,48 @@ link="https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/Pack
 size=113 MB
 version=0.3.1
 -----------------------------------------------------------------
+APP="paclear"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orangekame3/paclear"
+link="https://github.com/orangekame3/paclear/releases/download/v0.0.13/paclear_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=0.0.13
+-----------------------------------------------------------------
+APP="padloc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="padloc/padloc"
+link="https://github.com/padloc/padloc/releases/download/v4.3.0/padloc_4.3.0_linux_electron_x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=4.3.0
+-----------------------------------------------------------------
+APP="painel-web"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="novosga/painel-web"
+link="https://github.com/novosga/panel-app/releases/download/v2.0.1/Painel-Web-2.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="paket"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="joseluisq/paket"
+link="https://github.com/joseluisq/paket/releases/download/v0.1.6/paket-v0.1.6-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="palemoon"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.palemoon.org"
+link="https://rm-us.palemoon.org/release/palemoon-33.6.1.linux-x86_64-gtk3.tar.xz "
+-----------------------------------------------------------------
+size=109 MB
+version=33.6.1.linux
+-----------------------------------------------------------------
