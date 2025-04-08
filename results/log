@@ -14702,3 +14702,48 @@ link="https://github.com/Sn8z/Poddr/releases/download/v2.1.0/Poddr-2.1.0.AppImag
 size=117 MB
 version=2.1.0
 -----------------------------------------------------------------
+APP="podium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="beeware/podium"
+link="https://github.com/beeware/podium/releases/download/v0.2/Podium-0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=0.2
+-----------------------------------------------------------------
+APP="podman"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="containers/podman"
+link="https://github.com/containers/podman/releases/download/v5.4.2/podman-remote-static-linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=47 MB
+version=5.4.2
+-----------------------------------------------------------------
+APP="podman-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="popsUlfr/podman-appimage"
+link="https://github.com/popsUlfr/podman-appimage/releases/download/v4.2.1-r1/podman-4.2.1-r1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=4.2.1
+-----------------------------------------------------------------
+APP="podman-desktop-companion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iongion/container-desktop"
+link="https://github.com/iongion/container-desktop/releases/download/5.2.13/container-desktop-x86_64-5.2.13.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=5.2.13
+-----------------------------------------------------------------
+APP="poe-ladder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="darteil/POELadder"
+link="https://github.com/darteil/POELadder/releases/download/1.0.10/PoeLadder-1.0.10.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=1.0.10
+-----------------------------------------------------------------
