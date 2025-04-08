@@ -13672,3 +13672,48 @@ link="https://github.com/oxen-io/oxen-electron-gui-wallet/releases/download/v1.8
 size=73 MB
 version=1.8.1
 -----------------------------------------------------------------
+APP="p2p-chat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dgeibi/p2p-chat"
+link="https://github.com/dgeibi/p2p-chat/releases/download/v1.6.0/p2p-chat.1.6.0.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=p2p
+-----------------------------------------------------------------
+APP="p2pderivatives"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="p2pderivatives/p2pderivatives-client"
+link="https://github.com/p2pderivatives/p2pderivatives-client/releases/download/v0.3.3/P2PD.client-0.3.2.AppImage"
+-----------------------------------------------------------------
+size=134 MB
+version=P2PD.client
+-----------------------------------------------------------------
+APP="p3x-redis-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="patrikx3/redis-ui"
+link="https://github.com/patrikx3/redis-ui/releases/download/v2025.4.129/P3X-Redis-UI-2025.4.129.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=P3X
+-----------------------------------------------------------------
+APP="packetsender"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dannagle/PacketSender"
+link="https://github.com/dannagle/PacketSender/releases/download/v8.8.9/Packet_Sender-v8.8.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=8.8.9
+-----------------------------------------------------------------
+APP="packsquash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ComunidadAylas/PackSquash"
+link="https://github.com/ComunidadAylas/PackSquash/releases/download/v0.3.1/PackSquash-v0.3.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=0.3.1
+-----------------------------------------------------------------
