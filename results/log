@@ -13852,3 +13852,48 @@ link="https://github.com/E5ten/parsec-linux-AppImage/releases/download/146-18/pa
 size=2 MB
 version=E5ten
 -----------------------------------------------------------------
+APP="passky"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Rabbit-Company/Passky-Desktop"
+link="https://github.com/Rabbit-Company/Passky-Desktop/releases/download/v8.1.2/Passky-8.1.2.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=8.1.2
+-----------------------------------------------------------------
+APP="passphraser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zevlee/passphraser"
+link="https://github.com/zevlee/passphraser/releases/download/v1.0.7/passphraser-1.0.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=1.0.7
+-----------------------------------------------------------------
+APP="pastel"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sharkdp/pastel"
+link="https://github.com/sharkdp/pastel/releases/download/v0.10.0/pastel-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="patchbay"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ssbc/patchbay"
+link="https://github.com/ssbc/patchbay/releases/download/v8.1.0/patchbay-Linux-8.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=8.1.0
+-----------------------------------------------------------------
+APP="patchelf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/patchelf.appimage"
+link="https://github.com/niess/patchelf.appimage/releases/download/rolling/patchelf-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2022.03.14
+-----------------------------------------------------------------
