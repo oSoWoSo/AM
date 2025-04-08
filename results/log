@@ -14389,3 +14389,47 @@ link="https://github.com/sheepla/pingu/releases/download/v0.0.5/pingu_0.0.5_Linu
 size=3 MB
 version=0.0.5
 -----------------------------------------------------------------
+APP="pingviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bluerobotics/ping-viewer"
+link="https://github.com/bluerobotics/ping-viewer/releases/download/v2.5.1/pingviewer-Release.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=2.5.1
+-----------------------------------------------------------------
+APP="pinokio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pinokiocomputer/pinokio"
+link="https://github.com/pinokiocomputer/pinokio/releases/download/3.8.0/Pinokio-3.8.0.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=3.8.0
+-----------------------------------------------------------------
+APP="pinta-dev"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PintaProject/Pinta"
+link="https://github.com/PintaProject/Pinta/releases/download/dev-preview-builds/Pinta-2.2-dev2022.zip"
+-----------------------------------------------------------------
+size=83 MB
+version=2.2
+-----------------------------------------------------------------
+APP="pipes-rs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="lhvy/pipes-rs"
+link="https://github.com/lhvy/pipes-rs/releases/download/v1.6.3/pipes-rs-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=1 MB
+version=1.6.3
+-----------------------------------------------------------------
+APP="pix-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=127 MB
+version=3.1.0
+-----------------------------------------------------------------
