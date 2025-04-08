@@ -14657,3 +14657,48 @@ link="https://github.com/nuttyartist/plume-public/releases/download/v0.9.9/Plume
 size=59 MB
 version=0.9.9
 -----------------------------------------------------------------
+APP="png2svg"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="xyproto/png2svg"
+link="https://github.com/xyproto/png2svg/releases/download/v1.6.0/png2svg-1.6.0-linux.tar.xz"
+-----------------------------------------------------------------
+size=8 MB
+version=1.6.0
+-----------------------------------------------------------------
+APP="pnpm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simnalamburt/pnpm.appimage"
+link="https://github.com/simnalamburt/pnpm.appimage/releases/download/v10.8.0/pnpm-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=10.8.0
+-----------------------------------------------------------------
+APP="pocket-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PocketStudios/Pocket-Browser"
+link="https://github.com/PocketStudios/Pocket-Browser/releases/download/v1.8.0/pocket-browser-1.8.0.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=1.8.0
+-----------------------------------------------------------------
+APP="pocketcasts-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="davegallant/pocketcasts-electron"
+link="https://github.com/davegallant/pocketcasts-electron/releases/download/v0.4.1/pocketcasts-electron-0.4.1.AppImage"
+-----------------------------------------------------------------
+size=406 MB
+version=0.4.1
+-----------------------------------------------------------------
+APP="poddr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Sn8z/Poddr"
+link="https://github.com/Sn8z/Poddr/releases/download/v2.1.0/Poddr-2.1.0.AppImage"
+-----------------------------------------------------------------
+size=117 MB
+version=2.1.0
+-----------------------------------------------------------------
