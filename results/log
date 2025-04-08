@@ -14568,3 +14568,47 @@ link="https://github.com/cjdenio/playbox/releases/download/v0.2.1/Playbox.0.2.1.
 size=80 MB
 version=0.2.1
 -----------------------------------------------------------------
+APP="playerctl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/playerctl-AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=2.4.1
+-----------------------------------------------------------------
+APP="playit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="playit-cloud/playit-agent"
+link="https://github.com/playit-cloud/playit-agent/releases/download/v0.15.26/playit-linux-amd64"
+-----------------------------------------------------------------
+size=6 MB
+version=0.15.26
+-----------------------------------------------------------------
+APP="playme"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="filipuic/playme"
+link="https://github.com/lamazingco/playme/releases/download/v1.0.3/playme-1.0.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="playyourdamnturn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pydt/client"
+link="https://github.com/pydt/client/releases/download/v2.1.8/playyourdamnturn-linux-2.1.8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=2.1.8
+-----------------------------------------------------------------
+APP="plex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="knapsu/plex-media-player-appimage"
+link="https://github.com/knapsu/plex-media-player-appimage/releases/download/v2.58.1-ae73e074/Plex_Media_Player_2.58.1-ae73e074_x64.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=2.58.1
+-----------------------------------------------------------------
