@@ -15195,3 +15195,48 @@ link="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.12.0/ProtonU
 size=63 MB
 version=2.12.0
 -----------------------------------------------------------------
+APP="proxyman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ProxymanApp/proxyman-windows-linux"
+link="https://github.com/ProxymanApp/proxyman-windows-linux/releases/download/2.21.0/Proxyman-2.21.0.AppImage"
+-----------------------------------------------------------------
+size=124 MB
+version=2.21.0
+-----------------------------------------------------------------
+APP="prusa-slicer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/PrusaSlicer"
+link="https://github.com/probonopd/PrusaSlicer/releases/download/continuous/PrusaSlicer-2.9.0-rc1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=259 MB
+version=2.9.0
+-----------------------------------------------------------------
+APP="psi+"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/psiplus"
+link="https://sourceforge.net/projects/psiplus/files/Linux/tehnick/Psi%2B-1.5.1515-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=43 MB
+version=Psi%2B
+-----------------------------------------------------------------
+APP="pstube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="prateekmedia/pstube"
+link="https://github.com/prateekmedia/pstube/releases/download/2.6.0/pstube-linux-2.6.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=2.6.0
+-----------------------------------------------------------------
+APP="psydoom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BodbDearg/PsyDoom"
+link="https://github.com/BodbDearg/PsyDoom/releases/download/preview-builds/1.2.0-preview1/PsyDoom_1.2.0-preview1_Linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=6 MB
+version=1.2.0
+-----------------------------------------------------------------
