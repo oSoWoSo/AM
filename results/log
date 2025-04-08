@@ -14212,3 +14212,48 @@ link="https://github.com/abhi16180/photon/releases/download/v3.0.0/photon-linux-
 size=13 MB
 version=3.0.0.zip
 -----------------------------------------------------------------
+APP="photoname"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dino-/photoname"
+link="https://github.com/dino-/photoname/releases/download/5.4/photoname-5.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=5.4
+-----------------------------------------------------------------
+APP="photopealoader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yikuansun/photopealoader"
+link="https://github.com/yikuansun/photopealoader/releases/download/v2.0.0/Photopea-2.0.0.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="photoqt"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://photoqt.org"
+link="https://photoqt.org/downloads/appimages/PhotoQt-4.8.1.AppImage"
+-----------------------------------------------------------------
+size=131 MB
+version=4.8.1
+-----------------------------------------------------------------
+APP="photoquick"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ksharindam/photoquick"
+link="https://github.com/ksharindam/photoquick/releases/download/v4.19.2/PhotoQuick-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=4.19.2
+-----------------------------------------------------------------
+APP="phototeleport"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://phototeleport.com"
+link="https://phototeleport.com/PhotoTeleport_0.15-0.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=0.15
+-----------------------------------------------------------------
