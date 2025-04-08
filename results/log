@@ -13762,3 +13762,48 @@ link="https://rm-us.palemoon.org/release/palemoon-33.6.1.linux-x86_64-gtk3.tar.x
 size=109 MB
 version=33.6.1.linux
 -----------------------------------------------------------------
+APP="paletti"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eroica/Paletti"
+link="https://github.com/Eroica/Paletti/releases/download/v2.0/Paletti-v2_0-x86_64-GLib2_64.AppImage"
+-----------------------------------------------------------------
+size=10 MB
+version=2
+-----------------------------------------------------------------
+APP="panini"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lazarus-pkgs/panini"
+link="https://github.com/lazarus-pkgs/panini/releases/download/v0.73.0/panini-0.73.0.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=0.73.0
+-----------------------------------------------------------------
+APP="panwriter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mb21/panwriter"
+link="https://github.com/mb21/panwriter/releases/download/v0.8.9/PanWriter-0.8.9.AppImage"
+-----------------------------------------------------------------
+size=138 MB
+version=0.8.9
+-----------------------------------------------------------------
+APP="paper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="anupam-git/paper"
+link="https://github.com/anupam-git/paper/releases/download/continuous/paper-022d4bb-x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=022d4bb
+-----------------------------------------------------------------
+APP="papercraft"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rodrigorc/papercraft"
+link="https://github.com/rodrigorc/papercraft/releases/download/v2.9/Papercraft-v2.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=2.9
+-----------------------------------------------------------------
