@@ -13357,3 +13357,48 @@ link="https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA
 size=43 MB
 version=20250330
 -----------------------------------------------------------------
+APP="openra-tiberian-dawn"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRA"
+link="https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Tiberian-Dawn-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=20250330
+-----------------------------------------------------------------
+APP="openramodsdk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRA/OpenRAModSDK"
+link="https://github.com/OpenRA/OpenRAModSDK/releases/download/20231010/ExampleMod-20231010-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=20231010
+-----------------------------------------------------------------
+APP="openrct2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenRCT2/OpenRCT2"
+link="https://github.com/OpenRCT2/OpenRCT2/releases/download/v0.4.21/OpenRCT2-v0.4.21-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=0.4.21
+-----------------------------------------------------------------
+APP="openrgb"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openrgb.org"
+link="https://openrgb.org/releases/release_candidate_1.0rc1/OpenRGB_1.0rc1_x86_64_1fbacde.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=1.0rc1
+-----------------------------------------------------------------
+APP="openscad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openscad/openscad"
+link="https://github.com/openscad/openscad/releases/download/openscad-2021.01/OpenSCAD-2021.01-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=2021.01
+-----------------------------------------------------------------
