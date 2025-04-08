@@ -13402,3 +13402,48 @@ link="https://github.com/openscad/openscad/releases/download/openscad-2021.01/Op
 size=39 MB
 version=2021.01
 -----------------------------------------------------------------
+APP="openshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OpenShot/openshot-qt"
+link="https://github.com/OpenShot/openshot-qt/releases/download/v3.3.0/OpenShot-v3.3.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=231 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="openstream-music"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openstreamorg/openstreammusic"
+link="https://github.com/openstreamorg/openstreammusic/releases/download/v1.3.3/OpenStream.Music-1.3.3.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="opentodolist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mhoeher/opentodolist"
+link="https://github.com/mhoeher/opentodolist/releases/download/3.49.0/OpenTodoList-3.49.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=3.49.0
+-----------------------------------------------------------------
+APP="opentrons"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Opentrons/opentrons"
+link="https://github.com/Opentrons/opentrons/releases/download/v8.3.1/Opentrons-v8.3.1-linux-b53327.AppImage"
+-----------------------------------------------------------------
+size=386 MB
+version=8.3.1
+-----------------------------------------------------------------
+APP="openxcom"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://openxcom.org"
+link="https://openxcom.org/download/nightlies/openxcom_git_2025_02_07_2001-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=2025
+-----------------------------------------------------------------
