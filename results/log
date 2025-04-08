@@ -14612,3 +14612,48 @@ link="https://github.com/knapsu/plex-media-player-appimage/releases/download/v2.
 size=120 MB
 version=2.58.1
 -----------------------------------------------------------------
+APP="plexamp"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://plexamp.com"
+link="https://plexamp.plex.tv/plexamp.plex.tv/desktop/Plexamp-4.12.0.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=4.12.0
+-----------------------------------------------------------------
+APP="plotjuggler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="facontidavide/PlotJuggler"
+link="https://github.com/facontidavide/PlotJuggler/releases/download/3.6.0/PlotJuggler-3.6.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=184 MB
+version=3.6.0
+-----------------------------------------------------------------
+APP="plotly-orca"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="plotly/orca"
+link="https://github.com/plotly/orca/releases/download/v1.3.1/orca-1.3.1.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="plover"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openstenoproject/plover"
+link="https://github.com/openstenoproject/plover/releases/download/continuous/plover-4.0.0%2B1.g1234ae6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=4.0.0%2B1.g1234ae6
+-----------------------------------------------------------------
+APP="plume"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nuttyartist/plume-public"
+link="https://github.com/nuttyartist/plume-public/releases/download/v0.9.9/Plume_0.9.9-Qt6.7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=0.9.9
+-----------------------------------------------------------------
