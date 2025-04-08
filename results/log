@@ -14523,3 +14523,48 @@ link="35.0.2"
 size=19 MB
 version=35.0.2
 -----------------------------------------------------------------
+APP="platinum-md"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gavinbenda/platinum-md"
+link="https://github.com/gavinbenda/platinum-md/releases/download/v1.2.1/platinum-md-1.2.1.AppImage"
+-----------------------------------------------------------------
+size=129 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="play"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://purei.org"
+link="https://purei.org/downloads/play/stable/0.69/Play!-ae20e1ee-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=ae20e1ee
+-----------------------------------------------------------------
+APP="play-2048"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mgrojo/play_2048"
+link="https://github.com/mgrojo/play_2048/releases/download/v0.9.10/Play_2048-v0.9.10-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=2048
+-----------------------------------------------------------------
+APP="playback"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.epilogue.co"
+link="https://epilogue.nyc3.cdn.digitaloceanspaces.com/releases/software/Playback/version/1.5.1/release/linux/Playback.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=1.5.1
+-----------------------------------------------------------------
+APP="playbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cjdenio/playbox"
+link="https://github.com/cjdenio/playbox/releases/download/v0.2.1/Playbox.0.2.1.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=0.2.1
+-----------------------------------------------------------------
