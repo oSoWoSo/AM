@@ -13942,3 +13942,48 @@ link="https://github.com/iffse/pay-respects/releases/download/v0.5.12/pay-respec
 size=3 MB
 version=0.5.12
 -----------------------------------------------------------------
+APP="pb-for-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sidneys/pb-for-desktop"
+link="https://github.com/sidneys/pb-for-desktop/releases/download/v11.0.2/pb-for-desktop-11.0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=11.0.2
+-----------------------------------------------------------------
+APP="pboy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="2mol/pboy"
+link="https://github.com/2mol/pboy/releases/download/1.7.1/pboy-linux.tar.gz"
+-----------------------------------------------------------------
+size=16 MB
+version=1.7.1
+-----------------------------------------------------------------
+APP="pcsx-redux"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="grumpycoders/pcsx-redux"
+link="https://distrib.app/storage/assets/ad0/2a2/59c/ca9f814b09b9ce7161d6ebfaa596576917c8c68c3c34f587946ddb4/PCSX-Redux-6e744362-linux-x86_64.zip"
+-----------------------------------------------------------------
+size=172 MB
+version=6e744362
+-----------------------------------------------------------------
+APP="pcsx2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PCSX2/pcsx2"
+link="https://github.com/PCSX2/pcsx2/releases/download/v2.3.260/pcsx2-v2.3.260-linux-appimage-x64-Qt.AppImage"
+-----------------------------------------------------------------
+size=62 MB
+version=2.3.260
+-----------------------------------------------------------------
+APP="pdf-diff"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="serhack/pdf-diff"
+link="https://github.com/serhack/pdf-diff/releases/download/v0.0.1/pdf-diff_0.0.1_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=0.0.1
+-----------------------------------------------------------------
