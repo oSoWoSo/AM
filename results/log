@@ -14122,3 +14122,48 @@ link="https://github.com/knqyf263/pet/releases/download/v1.0.1/pet_1.0.1_linux_a
 size=12 MB
 version=1.0.1
 -----------------------------------------------------------------
+APP="pext"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Pext/Pext"
+link="https://github.com/Pext/Pext/releases/download/continuous/Pext-0.35.dev32%2Bge44d374-x86_64.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=0.35.dev32%2Bge44d374
+-----------------------------------------------------------------
+APP="pfetch-rs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Gobidev/pfetch-rs"
+link="https://github.com/Gobidev/pfetch-rs/releases/download/v2.11.1/pfetch-linux-musl-aarch64.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=2.11.1
+-----------------------------------------------------------------
+APP="pget"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Code-Hex/pget"
+link="https://github.com/Code-Hex/pget/releases/download/v0.2.1/pget_.0.2.1_Linux_x86_64.tar.gz"
+-----------------------------------------------------------------
+size=7 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="phinch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PhinchApp/Phinch"
+link="https://github.com/PhinchApp/Phinch/releases/download/v2.0.1/Linux.Phinch-2.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=205 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="pho"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zyrouge/pho"
+link="https://github.com/zyrouge/pho/releases/download/v0.1.12/pho-amd64"
+-----------------------------------------------------------------
+size=7 MB
+version=0.1.12
+-----------------------------------------------------------------
