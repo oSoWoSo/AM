@@ -13897,3 +13897,48 @@ link="https://github.com/niess/patchelf.appimage/releases/download/rolling/patch
 size=1 MB
 version=2022.03.14
 -----------------------------------------------------------------
+APP="patchwork"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ssbc/patchwork"
+link="https://github.com/ssbc/patchwork/releases/download/v3.18.1/Patchwork-3.18.1.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=3.18.1
+-----------------------------------------------------------------
+APP="pathephone"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pathephone/pathephone-desktop"
+link="https://github.com/pathephone/pathephone-desktop/releases/download/v2.2.1/pathephone-desktop-2.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=2.2.1
+-----------------------------------------------------------------
+APP="pavo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zhanglun/pavo"
+link="https://github.com/zhanglun/pavo/releases/download/v0.0.8/Pavo_0.0.8_amd64.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=0.0.8
+-----------------------------------------------------------------
+APP="pavucontrol-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/pavucontrol-qt-AppImage"
+link="https://github.com/pkgforge-dev/pavucontrol-qt-AppImage/releases/download/2.1.0-1/pavucontrol-qt-2.1.0-1-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="pay-respects"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="iffse/pay-respects"
+link="https://github.com/iffse/pay-respects/releases/download/v0.5.12/pay-respects-ubuntu-latest.zip"
+-----------------------------------------------------------------
+size=3 MB
+version=0.5.12
+-----------------------------------------------------------------
