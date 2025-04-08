@@ -14478,3 +14478,48 @@ link="https://pizarra.categulario.xyz/releases/any-linux/pizarra-1.7.5-x86_64.ta
 size=7 MB
 version=1.7.5
 -----------------------------------------------------------------
+APP="pkg2appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImageCommunity/pkg2appimage"
+link="https://github.com/AppImageCommunity/pkg2appimage/releases/download/continuous/pkg2appimage-1eceb30-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=1eceb30
+-----------------------------------------------------------------
+APP="plagpatrol"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="josemmo/plagpatrol"
+link="https://github.com/josemmo/plagpatrol/releases/download/v0.0.9/plagpatrol-setup-linux-x86_64-0.0.9.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.0.9
+-----------------------------------------------------------------
+APP="planes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xxxcucus/planes"
+link="https://github.com/xxxcucus/planes/releases/download/v0.4.1.1/Planes-Multiplayer-0.4.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=0.4.1.1
+-----------------------------------------------------------------
+APP="planet-blupi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blupi-games/planetblupi-dev"
+link="https://github.com/blupi-games/planetblupi-dev/releases/download/v1.15.1/planetblupi-1.15.1.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=1.15.1
+-----------------------------------------------------------------
+APP="platform-tools"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://developer.android.com"
+link="35.0.2"
+-----------------------------------------------------------------
+size=19 MB
+version=35.0.2
+-----------------------------------------------------------------
