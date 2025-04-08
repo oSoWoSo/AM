@@ -15150,3 +15150,48 @@ link="https://github.com/Alex313031/promethium/releases/download/v6.1.6/Promethi
 size=93 MB
 version=6.1.6
 -----------------------------------------------------------------
+APP="proofkeeper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="woleet/woleet-proofkeeper"
+link="https://github.com/woleet/woleet-proofkeeper/releases/download/0.7.0/ProofKeeper-0.7.0-Linux.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="prospect-mail"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="julian-alarcon/prospect-mail"
+link="https://github.com/julian-alarcon/prospect-mail/releases/download/v0.5.4/Prospect-Mail-0.5.4.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=0.5.4
+-----------------------------------------------------------------
+APP="protoman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spluxx/Protoman"
+link="https://github.com/spluxx/Protoman/releases/download/v0.4.1/Protoman-0.4.1.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=0.4.1
+-----------------------------------------------------------------
+APP="protonmail-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="protonmail-desktop/application"
+link="https://github.com/unofficial-protonmail-desktop/application/releases/download/v1.2.1/Unofficial-desktop-client-for-ProtonMail-1.2.1.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="protonup-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DavidoTek/ProtonUp-Qt"
+link="https://github.com/DavidoTek/ProtonUp-Qt/releases/download/v2.12.0/ProtonUp-Qt-2.12.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=2.12.0
+-----------------------------------------------------------------
