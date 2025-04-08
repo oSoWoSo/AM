@@ -14167,3 +14167,48 @@ link="https://github.com/zyrouge/pho/releases/download/v0.1.12/pho-amd64"
 size=7 MB
 version=0.1.12
 -----------------------------------------------------------------
+APP="photocrea"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="vikdevelop/photopea_app"
+link="https://github.com/vikdevelop/photopea_app/releases/download/2.3.8/photopea_build-electron-238.tar.xz"
+-----------------------------------------------------------------
+size=296 MB
+version=2.3.8
+-----------------------------------------------------------------
+APP="photoflare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PhotoFlare/photoflare"
+link="https://github.com/PhotoFlare/photoflare/releases/download/continuous/PhotoFlare-60a9d87-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=60a9d87
+-----------------------------------------------------------------
+APP="photoflow"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aferrero2707/PhotoFlow"
+link="https://github.com/aferrero2707/PhotoFlow/releases/download/continuous/PhotoFlow_git_stable_linux_20200804_2036_00b2c.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=20200804
+-----------------------------------------------------------------
+APP="photogimp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sudo-give-me-coffee/PhotoGIMP"
+link="https://github.com/sudo-give-me-coffee/PhotoMP/releases/download/continuous/PhotoGIMP-2.10.21-20200820-x86_64.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=starting
+-----------------------------------------------------------------
+APP="photon"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="abhi16180/photon"
+link="https://github.com/abhi16180/photon/releases/download/v3.0.0/photon-linux-release-v3.0.0.zip"
+-----------------------------------------------------------------
+size=13 MB
+version=3.0.0.zip
+-----------------------------------------------------------------
