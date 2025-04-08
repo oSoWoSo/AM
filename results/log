@@ -15106,3 +15106,47 @@ link="https://github.com/3dproger/ProcDepMonitor/releases/download/1.1.2/Process
 size=34 MB
 version=1.1.2
 -----------------------------------------------------------------
+APP="procs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dalance/procs"
+-----------------------------------------------------------------
+size=7 MB
+version=0.14.10
+-----------------------------------------------------------------
+APP="procspin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/ProcSpin"
+link="https://github.com/Lateralus138/ProcSpin/releases/download/Continuous/procspin-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="procyon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="orion-project/procyon"
+link="https://github.com/orion-project/procyon/releases/download/0.11.0/procyon-0.11.0-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="programmer-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yessGlory17/programmer-browser"
+link="https://github.com/yessGlory17/programmer-browser/releases/download/v0.1.8/ProgrammerBrowser-0.1.8.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=0.1.8
+-----------------------------------------------------------------
+APP="promethium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/promethium"
+link="https://github.com/Alex313031/promethium/releases/download/v6.1.6/Promethium_6.1.6_x86_64.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=6.1.6
+-----------------------------------------------------------------
