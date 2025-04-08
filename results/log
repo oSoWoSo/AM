@@ -13807,3 +13807,48 @@ link="https://github.com/rodrigorc/papercraft/releases/download/v2.9/Papercraft-
 size=7 MB
 version=2.9
 -----------------------------------------------------------------
+APP="parallelcoin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="parallelcointeam/parallelcoin"
+link="https://github.com/p9c/pod-archive/releases/download/v1.2.0/parallelcoin-qt-x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="parchment"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tywil04/parchment"
+link="https://github.com/tywil04/parchment/releases/download/v1.0.0/parchment_1.0.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="parity-fether"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="paritytech/fether"
+link="https://github.com/openethereum/fether/releases/download/v0.4.3-beta/Parity-Fether-0.4.3.AppImage"
+-----------------------------------------------------------------
+size=124 MB
+version=0.4.3
+-----------------------------------------------------------------
+APP="parsec"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Scille/parsec-cloud"
+link="https://github.com/Scille/parsec-cloud/releases/download/nightly/Parsec_3.3.3-a.0.dev.20185%2B6f8a42a_linux_x86_64.unsigned.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=3.3.3
+-----------------------------------------------------------------
+APP="parsec-linux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="E5ten/parsec-linux-AppImage"
+link="https://github.com/E5ten/parsec-linux-AppImage/releases/download/146-18/parsec-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=E5ten
+-----------------------------------------------------------------
