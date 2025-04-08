@@ -13627,3 +13627,48 @@ link="https://github.com/overte-org/overte/releases/download/2024.07.1-rc2/Overt
 size=510 MB
 version=2024.07.1
 -----------------------------------------------------------------
+APP="ovideo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="colin-i/ostream"
+link="https://github.com/colin-i/ostream/releases/download/1-191/ovideo.amd64.AppImage"
+-----------------------------------------------------------------
+size=144 MB
+version=1
+-----------------------------------------------------------------
+APP="ow-mod-man"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ow-mods/ow-mod-man"
+link="https://github.com/ow-mods/ow-mod-man/releases/download/gui_v0.15.1/Outer.Wilds.Mod.Manager_0.15.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=0.15.1
+-----------------------------------------------------------------
+APP="owallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ontio/OWallet"
+link="https://github.com/ontio/OWallet/releases/download/v0.10.1/OWallet-0.10.1-Linux.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.10.1
+-----------------------------------------------------------------
+APP="owncloud"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://owncloud.com"
+link="https://download.owncloud.com/desktop/ownCloud/stable/latest/linux-appimage/ownCloud-5.3.2.15463-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=5.3.2.15463
+-----------------------------------------------------------------
+APP="oxen-gui-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oxen-io/oxen-electron-gui-wallet"
+link="https://github.com/oxen-io/oxen-electron-gui-wallet/releases/download/v1.8.1/oxen-electron-wallet-1.8.1-linux.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=1.8.1
+-----------------------------------------------------------------
