@@ -14881,3 +14881,48 @@ link="https://github.com/popcorn-official/popcorn-desktop/releases/download/v0.5
 size=143 MB
 version=0.5.1
 -----------------------------------------------------------------
+APP="popsicle"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pop-os/popsicle"
+link="https://github.com/pop-os/popsicle/releases/download/1.3.3/Popsicle_USB_Flasher-1.3.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="positron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arjunindia/positron"
+link="https://github.com/arjunindia/positron/releases/download/v0.0.3/positron-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="postcat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Postcatlab/postcat"
+link="https://github.com/Postcatlab/postcat/releases/download/v0.5.1/Postcat-0.5.1.AppImage"
+-----------------------------------------------------------------
+size=123 MB
+version=0.5.1
+-----------------------------------------------------------------
+APP="postman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="showcheap/postman-appimage"
+link="https://github.com/suciptoid/postman-appimage/releases/download/continous/Postman-11.27.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=11.27.3
+-----------------------------------------------------------------
+APP="postybirb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mvdicarlo/postybirb"
+link="https://github.com/mvdicarlo/postybirb/releases/download/v4.0.1/PostyBirb-4.0.1.AppImage"
+-----------------------------------------------------------------
+size=150 MB
+version=4.0.1
+-----------------------------------------------------------------
