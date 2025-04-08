@@ -14971,3 +14971,48 @@ link="https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.
 size=16 MB
 version=Player432Hz
 -----------------------------------------------------------------
+APP="powershell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/PowerShell-appimage"
+link="https://github.com/ivan-hc/PowerShell-appimage/releases/download/continuous/PowerShell-v7.5.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=67 MB
+version=7.5.0
+-----------------------------------------------------------------
+APP="ppet3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zenghongtu/PPet"
+link="https://github.com/zenghongtu/PPet/releases/download/v3.3.0/PPet3-3.3.0.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="ppsspp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/ppsspp"
+link="https://github.com/mantralunar/ppsspp/releases/download/ppsspp-1d97dfe-x86_64/ppsspp-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=1d97dfe
+-----------------------------------------------------------------
+APP="pragtical"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pragtical/pragtical"
+link="https://github.com/pragtical/pragtical/releases/download/rolling/Pragtical-rolling-x86_64.AppImage"
+-----------------------------------------------------------------
+size=10 MB
+version=2025.04.02
+-----------------------------------------------------------------
+APP="pretty-handy-privacy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bobbyrne01/pretty-handy-privacy"
+link="https://github.com/bobbyrne01/pretty-handy-privacy/releases/download/v0.1.1/pretty-handy-privacy.0.1.1.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.1.1
+-----------------------------------------------------------------
