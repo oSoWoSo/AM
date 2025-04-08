@@ -14433,3 +14433,48 @@ SITE="https://invent.kde.org/maui/"
 size=127 MB
 version=3.1.0
 -----------------------------------------------------------------
+APP="pixelhopper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tomas/pixelhopper"
+link="https://github.com/tomas/pixelhopper/releases/download/0.0.2/Pixelhopper-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="pixelorama"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orama-interactive/pixelorama"
+link="https://github.com/Orama-Interactive/Pixelorama/releases/download/v1.1/Pixelorama-Linux-64bit.tar.gz"
+-----------------------------------------------------------------
+size=72 MB
+version=1.1
+-----------------------------------------------------------------
+APP="pixfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="RubixDev/pixfetch"
+link="https://github.com/RubixDev/pixfetch/releases/download/v1.0.0/pixfetch-1.0.0-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="pixsrt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thorpelawrence/pixsrt"
+link="https://github.com/thorpelawrence/pixsrt/releases/download/1.6/pixsrt-1.6-linux-64-desktopintegration.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=1.6
+-----------------------------------------------------------------
+APP="pizarra"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://pizarra.categulario.xyz"
+link="https://pizarra.categulario.xyz/releases/any-linux/pizarra-1.7.5-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=7 MB
+version=1.7.5
+-----------------------------------------------------------------
