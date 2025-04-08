@@ -13537,3 +13537,48 @@ link="https://github.com/egfanboy/osrs-tools/releases/download/v1.1.0/osrs-tools
 size=73 MB
 version=1.1.0
 -----------------------------------------------------------------
+APP="ossia-score"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OSSIA/score"
+link="https://github.com/ossia/score/releases/download/continuous/ossia.score-master-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=338 MB
+version=2025.04.06
+-----------------------------------------------------------------
+APP="ostara"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="krud-dev/ostara"
+link="https://github.com/krud-dev/ostara/releases/download/v0.12.0/Ostara-0.12.0.AppImage"
+-----------------------------------------------------------------
+size=267 MB
+version=0.12.0
+-----------------------------------------------------------------
+APP="osu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ppy/osu"
+link="https://github.com/ppy/osu/releases/download/2025.321.0/osu.AppImage"
+-----------------------------------------------------------------
+size=152 MB
+version=2025.321.0
+-----------------------------------------------------------------
+APP="ots"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sniptt-official/ots"
+link="https://github.com/sniptt-official/ots/releases/download/v0.3.1/ots_0.3.1_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="ottomatic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jorio/OttoMatic"
+link="https://github.com/jorio/OttoMatic/releases/download/4.0.1/OttoMatic-4.0.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=4.0.1
+-----------------------------------------------------------------
