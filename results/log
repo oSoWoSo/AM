@@ -16091,3 +16091,48 @@ link="https://github.com/doy/rbw/releases/download/1.13.2/rbw_1.13.2_linux_amd64
 size=16 MB
 version=1.13.2
 -----------------------------------------------------------------
+APP="rclone"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="rclone/rclone"
+link="https://github.com/rclone/rclone/releases/download/v1.69.1/rclone-v1.69.1-linux-amd64.zip"
+-----------------------------------------------------------------
+size=69 MB
+version=1.69.1
+-----------------------------------------------------------------
+APP="rclone-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kapitainsky/RcloneBrowser"
+link="https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=1.8.0
+-----------------------------------------------------------------
+APP="rclone-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rclone-ui/rclone-ui"
+link="https://github.com/rclone-ui/rclone-ui/releases/download/v1.0.4/Rclone.UI_1.0.4_amd64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=1.0.4
+-----------------------------------------------------------------
+APP="reactotron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="infinitered/reactotron"
+link="https://github.com/infinitered/reactotron/releases/download/reactotron-app%403.7.7/Reactotron-3.7.7.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=403.7.7
+-----------------------------------------------------------------
+APP="real-video-enhancer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TNTwise/REAL-Video-Enhancer"
+link="https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/1.2.0/REAL-Video-Enhancer-NCNN-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=205 MB
+version=1.2.0
+-----------------------------------------------------------------
