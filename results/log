@@ -15824,3 +15824,48 @@ link="https://github.com/ra3xdh/qucs_s/releases/download/25.1.2/Qucs-S-25.1.2-li
 size=39 MB
 version=25.1.2
 -----------------------------------------------------------------
+APP="quentier"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="d1vanov/quentier"
+link="https://github.com/d1vanov/quentier/releases/download/continuous-development/Quentier-development-x86_64.AppImage"
+-----------------------------------------------------------------
+size=207 MB
+version=2025.01.31
+-----------------------------------------------------------------
+APP="quick-clone"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eckon/quick-clone"
+link="https://github.com/eckon/quick-clone/releases/download/v0.2.1/quick_clone-v0.2.1-x86_64-manual.AppImage"
+-----------------------------------------------------------------
+size=7 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="quickgui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quickemu-project/quickgui"
+link="https://github.com/quickemu-project/quickgui/releases/download/1.2.10/quickgui-1.2.10%2B1-linux.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=1.2.10%2B1
+-----------------------------------------------------------------
+APP="quicknote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srilakshmikanthanp/quicknote"
+link="https://github.com/srilakshmikanthanp/quicknote/releases/download/v2.0.3/quicknote-2.0.3.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=2.0.3
+-----------------------------------------------------------------
+APP="quickredis"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quick123official/quick_redis_blog"
+link="https://github.com/quick123official/quick_redis_blog/releases/download/v2.7.1/QuickRedis-2.7.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=2.7.1
+-----------------------------------------------------------------
