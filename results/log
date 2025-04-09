@@ -15959,3 +15959,45 @@ link="https://github.com/qier222/YesPlayMusic/releases/download/v0.4.8-2/YesPlay
 size=121 MB
 version=0.4.8
 -----------------------------------------------------------------
+APP="rabix-composer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rabix/composer"
+link="https://github.com/rabix/composer/releases/download/1.5.0-rc.2/rabix-composer-linux-1.5.0-rc2.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="radioit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blackPantherOS/radioit"
+link="https://github.com/blackPantherOS/radioit/releases/download/1.0beta1/RadioIt-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=1.0
+-----------------------------------------------------------------
+APP="radix-wallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="radixdlt/desktop-wallet"
+link="https://github.com/radixdlt/desktop-wallet/releases/download/1.4.0-beta/Radix.Wallet.1.4.0-beta.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=Radix.Wallet.1.4.0
+-----------------------------------------------------------------
+APP="rainbow-board"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="harshkhandeparkar/rainbow-board"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="rambox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ramboxapp/download"
+link="https://github.com/ramboxapp/download/releases/download/v2.4.2-beta.2/Rambox-2.4.2-beta.2-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=2.4.2
+-----------------------------------------------------------------
