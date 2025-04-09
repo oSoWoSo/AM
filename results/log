@@ -17077,3 +17077,48 @@ link="https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7
 size=91 MB
 version=1.10.7
 -----------------------------------------------------------------
+APP="session-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oxen-io/session-desktop"
+link="https://github.com/oxen-io/session-desktop/releases/download/v1.14.3/session-desktop-linux-x86_64-1.14.3.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=1.14.3
+-----------------------------------------------------------------
+APP="setcolors"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/setcolors"
+link="https://github.com/Lateralus138/setcolors/releases/download/Continuous/setcolors-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="sf-tube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="prateekmedia/sftube"
+link="https://github.com/prateekmedia/pstube/releases/download/2.6.0/pstube-linux-2.6.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=2.6.0
+-----------------------------------------------------------------
+APP="sfbrename"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="karwler/sfbrename"
+link="https://github.com/karwler/sfbrename/releases/download/v1.0.0/sfbrename-cli-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="sfp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="PhantomGamers/SFP"
+link="https://github.com/PhantomGamers/SFP/releases/download/0.0.60-beta1/SFP_UI-linux-x64-SelfContained.tar.gz"
+-----------------------------------------------------------------
+size=87 MB
+version=0.0.60
+-----------------------------------------------------------------
