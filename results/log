@@ -16180,3 +16180,48 @@ SITE="https://www.recoll.org"
 size=92 MB
 version=1.43.0
 -----------------------------------------------------------------
+APP="record-compare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="paustint/record-compare"
+link="https://github.com/paustint/record-compare/releases/download/v0.1.2/Record.Compare.0.1.2.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=0.1.2
+-----------------------------------------------------------------
+APP="recordscript"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Recordscript/recordscript"
+link="https://github.com/Recordscript/recordscript/releases/download/v0.1.2/recordscript_0.0.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="redeclipse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="redeclipse/deploy"
+link="https://github.com/redeclipse/deploy/releases/download/appimage_continuous_stable/redeclipse-server-stable-x86_64.AppImage"
+-----------------------------------------------------------------
+size=863 MB
+version=2021.12.08
+-----------------------------------------------------------------
+APP="redis-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ekvedaras/redis-gui"
+link="https://github.com/ekvedaras/redis-gui/releases/download/v2.3.0/redis-gui-2.3.0.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=2.3.0
+-----------------------------------------------------------------
+APP="redis-viewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="redisviewer/RedisViewer"
+link="https://github.com/redisviewer/RedisViewer/releases/download/v2.4.9/Redis.Viewer-2.4.9-linux.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2.4.9
+-----------------------------------------------------------------
