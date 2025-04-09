@@ -16942,3 +16942,48 @@ link="https://github.com/stefanDeveloper/scrum-retroboard/releases/download/v0.2
 size=90 MB
 version=0.2.1
 -----------------------------------------------------------------
+APP="scytale"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cpapazaf/scytale-desktop-app"
+link="https://github.com/cpapazaf/scytale-desktop-app/releases/download/v1.1.0/scytale-1.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="sd"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="chmln/sd"
+link="https://github.com/chmln/sd/releases/download/v1.0.0/sd-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="secops"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KunalSin9h/secops"
+link="https://github.com/KunalSin9h/secops/releases/download/0.13.3/secops_0.13.3_amd64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=0.13.3
+-----------------------------------------------------------------
+APP="seismic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="breadthe/seismic"
+link="https://github.com/breadthe/seismic/releases/download/v1.2.1/seismic_1.2.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="selenium-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SeleniumHQ/selenium-ide"
+link="https://github.com/SeleniumHQ/selenium-ide/releases/download/v4.0.1-beta.14/Selenium-IDE-4.0.1-beta.14.AppImage"
+-----------------------------------------------------------------
+size=278 MB
+version=4.0.1
+-----------------------------------------------------------------
