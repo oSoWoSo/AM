@@ -15420,3 +15420,47 @@ link="https://github.com/smokejohn/qaddapp/releases/download/0.4-alpha/QAddApp-x
 size=26 MB
 version=0.4
 -----------------------------------------------------------------
+APP="qaterialgallery"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OlivierLDff/QaterialGallery"
+link="https://github.com/OlivierLDff/QaterialGallery/releases/download/v1.4.0/QaterialGallery.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="qaterialhotreload"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="OlivierLDff/QaterialHotReload"
+link="https://github.com/OlivierLDff/QaterialHotReload/releases/download/v1.2.5/QaterialHotReload.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.2.5
+-----------------------------------------------------------------
+APP="qawl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mr-islam/qawl"
+link="https://github.com/mr-islam/qawl/releases/download/v3.2.2/Qawl.Quran.Reader-3.2.2.AppImage"
+-----------------------------------------------------------------
+size=354 MB
+version=3.2.2
+-----------------------------------------------------------------
+APP="qbittorrent"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/qbittorrent"
+link="https://sourceforge.net/projects/qbittorrent/files/qbittorrent-appimage/qbittorrent-5.0.4/qbittorrent-5.0.4_x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=89 MB
+version=5.0.4
+-----------------------------------------------------------------
+APP="qbittorrent-enhanced"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="c0re100/qBittorrent-Enhanced-Edition"
+-----------------------------------------------------------------
+size=26 MB
+version=5.0.4.10
+-----------------------------------------------------------------
