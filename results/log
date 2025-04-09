@@ -15869,3 +15869,48 @@ link="https://github.com/quick123official/quick_redis_blog/releases/download/v2.
 size=75 MB
 version=2.7.1
 -----------------------------------------------------------------
+APP="quicktwitch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mhmiles/QuickTwitch"
+link="https://github.com/mhmiles/QuickTwitch/releases/download/0.9.0/QuickTwitch-0.9.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=0.9.0
+-----------------------------------------------------------------
+APP="quickviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kanryu/quickviewer"
+link="https://github.com/kanryu/quickviewer/releases/download/v1.1.1/QuickViewer-1.1.1-x64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="quiet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TryQuiet/quiet"
+link="https://github.com/TryQuiet/quiet/releases/download/%40quiet/desktop%404.0.3/Quiet-4.0.3.AppImage"
+-----------------------------------------------------------------
+size=135 MB
+version=404.0.3
+-----------------------------------------------------------------
+APP="quokkagit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ballessay/quokkagit"
+link="https://github.com/ballessay/quokkagit/releases/download/v0.1.0/quokkagit-1da969d-x86_64.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=1da969d
+-----------------------------------------------------------------
+APP="quran-companion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="0xzer0x/quran-companion"
+link="https://github.com/0xzer0x/quran-companion/releases/download/v1.3.2/Quran_Companion-1.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=1.3.2
+-----------------------------------------------------------------
