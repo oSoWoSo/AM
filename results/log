@@ -15914,3 +15914,48 @@ link="https://github.com/0xzer0x/quran-companion/releases/download/v1.3.2/Quran_
 size=108 MB
 version=1.3.2
 -----------------------------------------------------------------
+APP="qv2ray"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lhy0403/Qv2ray"
+link="https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=2.7.0
+-----------------------------------------------------------------
+APP="qview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jurplel/qView"
+link="https://github.com/jurplel/qView/releases/download/7.0-rc1/qView-7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=7.0
+-----------------------------------------------------------------
+APP="qxgedit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/qxgedit"
+link="https://sourceforge.net/projects/qxgedit/files/qxgedit/1.0.1/qxgedit-1.0.1-2.1.x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=21 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="r2modman"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ebkr/r2modmanPlus"
+link="https://github.com/ebkr/r2modmanPlus/releases/download/v3.1.57/r2modman-3.1.57.AppImage"
+-----------------------------------------------------------------
+size=138 MB
+version=3.1.57
+-----------------------------------------------------------------
+APP="r3play"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qier222/YesPlayMusic"
+link="https://github.com/qier222/YesPlayMusic/releases/download/v0.4.8-2/YesPlayMusic-0.4.8.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=0.4.8
+-----------------------------------------------------------------
