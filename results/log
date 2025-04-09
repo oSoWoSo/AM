@@ -16001,3 +16001,48 @@ link="https://github.com/ramboxapp/download/releases/download/v2.4.2-beta.2/Ramb
 size=125 MB
 version=2.4.2
 -----------------------------------------------------------------
+APP="rare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dummerle/Rare"
+link="https://github.com/RareDevs/Rare/releases/download/1.11.3.67/Rare-1.11.3.67.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=1.11.3.67
+-----------------------------------------------------------------
+APP="raspirus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Raspirus/Raspirus"
+link="https://github.com/Raspirus/raspirus/releases/download/v2.2.0/raspirus_2.2.0_x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="rasterdraw"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="humble-barnacle001/qt-raster-lines"
+link="https://github.com/humble-barnacle001/qt-raster-lines/releases/download/latest/RasterDraw-Linux-latest-x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=2025.01.04
+-----------------------------------------------------------------
+APP="rasterview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KurtPfeifle/rasterview"
+link="https://github.com/pdfkungfoo/rasterview/releases/download/continuous/rasterview-v1.6-travisbuild.52-travisbranch.master-git.9ff98c7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=1.6
+-----------------------------------------------------------------
+APP="rats-search"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DEgITx/rats-search"
+link="https://github.com/DEgITx/rats-search/releases/download/v1.11.0/rats-search-1.11.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=129 MB
+version=1.11.0
+-----------------------------------------------------------------
