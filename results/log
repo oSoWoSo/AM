@@ -16404,3 +16404,46 @@ link="https://cancel.fm/dl/Ripcord-0.4.29-x86_64.AppImage"
 size=33 MB
 version=0.4.29
 -----------------------------------------------------------------
+APP="ripes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mortbopet/Ripes"
+link="https://github.com/mortbopet/Ripes/releases/download/continuous/Ripes-v2.2.6-61-g2209967-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=2.2.6
+-----------------------------------------------------------------
+APP="ripgrep"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="BurntSushi/ripgrep"
+-----------------------------------------------------------------
+size=7 MB
+version=14.1.1
+-----------------------------------------------------------------
+APP="ripgrep-all"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="phiresky/ripgrep-all"
+-----------------------------------------------------------------
+size=17 MB
+version=0.10.6
+-----------------------------------------------------------------
+APP="rmg"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Rosalie241/RMG"
+link="https://github.com/Rosalie241/RMG/releases/download/v0.7.8/RMG-Portable-Linux64-v0.7.8.AppImage"
+-----------------------------------------------------------------
+size=160 MB
+version=0.7.8
+-----------------------------------------------------------------
+APP="rmw"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="theimpossibleastronaut/rmw"
+link="https://github.com/theimpossibleastronaut/rmw/releases/download/v0.9.3/rmw-0.9.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=0.9.3
+-----------------------------------------------------------------
