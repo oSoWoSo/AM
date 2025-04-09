@@ -16807,3 +16807,48 @@ link="https://github.com/kondoumh/sbe/releases/download/v3.7.0-rc.1/sbe-3.7.0-rc
 size=108 MB
 version=3.7.0
 -----------------------------------------------------------------
+APP="sblauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SamboyCoding/SamboyLauncher-JS"
+link="https://github.com/SamboyCoding/SamboyLauncher-JS/releases/download/v2.0.0-pre/SBLauncher-2.0.0-pre-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="sc-controller"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kozec/sc-controller"
+link="https://github.com/kozec/sc-controller/releases/download/v0.4.10-pre/sc-controller-0.4.8%2B5b42308-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=0.4.8%2B5b42308
+-----------------------------------------------------------------
+APP="scatter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GetScatter/ScatterDesktop"
+link="https://github.com/GetScatter/ScatterDesktop/releases/download/12.1.1/linux-scatter-12.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=12.1.1
+-----------------------------------------------------------------
+APP="scavengers"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RomainL972/Scavengers"
+link="https://github.com/RomainL972/Scavengers/releases/download/v1.1.1/Scavengers-Linux-1.1.1.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="schilbidi-chat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SchildiChat/schildichat-desktop"
+link="https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.86-sc.0.test.0/SchildiChatAlpha-1.11.86-sc.0.test.0.AppImage"
+-----------------------------------------------------------------
+size=312 MB
+version=1.11.86
+-----------------------------------------------------------------
