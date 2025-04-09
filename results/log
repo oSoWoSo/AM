@@ -15779,3 +15779,48 @@ link="https://github.com/Nishkalkashyap/Quark-electron/releases/download/v0.6.4/
 size=106 MB
 version=0.6.4
 -----------------------------------------------------------------
+APP="quark-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/quark-player"
+link="https://github.com/Alex313031/quark-player/releases/download/v3.4.2/quark-player_3.4.2_x64.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=3.4.2
+-----------------------------------------------------------------
+APP="quarto-cli"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="quarto-dev/quarto-cli"
+link="https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.22/quarto-1.7.22-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=427 MB
+version=1.7.22
+-----------------------------------------------------------------
+APP="quaternion"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quotient-im/Quaternion"
+link="https://github.com/quotient-im/Quaternion/releases/download/0.0.96-beta1/quaternion-0.0.96-beta1.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.0.96
+-----------------------------------------------------------------
+APP="quba"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZUGFeRD/quba-viewer"
+link="https://github.com/ZUGFeRD/quba-viewer/releases/download/v1.4.2/Quba-1.4.2.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=1.4.2
+-----------------------------------------------------------------
+APP="qucs-s"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ra3xdh/qucs_s"
+link="https://github.com/ra3xdh/qucs_s/releases/download/25.1.2/Qucs-S-25.1.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=25.1.2
+-----------------------------------------------------------------
