@@ -16136,3 +16136,47 @@ link="https://github.com/TNTwise/REAL-Video-Enhancer/releases/download/1.2.0/REA
 size=205 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="realm-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="realm/realm-studio"
+link="https://github.com/realm/realm-studio/releases/download/v20.0.0/Realm.Studio-20.0.0.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=20.0.0
+-----------------------------------------------------------------
+APP="reaper"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://reaper.fm"
+link="https://www.reaper.fm/files/7.x/reaper735_linux_x86_64.tar.xz"
+-----------------------------------------------------------------
+size=127 MB
+version=2025.03.23
+-----------------------------------------------------------------
+APP="rebaslight"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="rebaslight/rebaslight"
+link="https://github.com/rebaslight/rebaslight/releases/download/v3.7.3/rebaslight-3.7.3.tar.bz2"
+-----------------------------------------------------------------
+size=318 MB
+version=3.7.3
+-----------------------------------------------------------------
+APP="rebos"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://gitlab.com/Oglo12/rebos"
+link="r97.4818a33"
+-----------------------------------------------------------------
+size=3 MB
+version=r97.4818a33
+-----------------------------------------------------------------
+APP="recoll"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.recoll.org"
+-----------------------------------------------------------------
+size=92 MB
+version=1.43.0
+-----------------------------------------------------------------
