@@ -15734,3 +15734,48 @@ link="https://github.com/coozoo/qtjsondiff/releases/download/0.63b_refs/heads/ma
 size=26 MB
 version=0.63
 -----------------------------------------------------------------
+APP="qtox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qTox/qTox-nightly-releases"
+link="https://github.com/qTox/qTox-nightly-releases/releases/download/ci-v1.17-dev-latest/qTox-c0e9a3b79609681e5b9f6bbf8f9a36cb1993dc5f-x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=c0e9a3b79609681e5b9f6bbf8f9a36cb1993dc5f
+-----------------------------------------------------------------
+APP="qtractor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/qtractor"
+link="https://sourceforge.net/projects/qtractor/files/qtractor/1.5.4/qtractor-1.5.4-11.1.x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=35 MB
+version=1.5.4
+-----------------------------------------------------------------
+APP="qtrfpowermeter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="coozoo/qtrfpowermeter"
+link="https://github.com/coozoo/qtrfpowermeter/releases/download/0.2b-202403270458_refs/heads/main/qtrfpowermeter-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=0.2
+-----------------------------------------------------------------
+APP="quamodbusclient"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="juangburgos/QUaModbusClient"
+link="https://github.com/juangburgos/QUaModbusClient/releases/download/latest/QUaModbusClient-e1ac862-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=e1ac862
+-----------------------------------------------------------------
+APP="quark"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Nishkalkashyap/Quark-electron"
+link="https://github.com/Nishkalkashyap/Quark-electron/releases/download/v0.6.4/Quark-linux-x86_64-0.6.4.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=0.6.4
+-----------------------------------------------------------------
