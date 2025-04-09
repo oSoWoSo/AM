@@ -16537,3 +16537,48 @@ link="https://github.com/mahesh-hegde/rrip/releases/download/release-10b48cd/rri
 size=12 MB
 version=10b48cd
 -----------------------------------------------------------------
+APP="rssguard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="martinrotter/rssguard"
+link="https://github.com/martinrotter/rssguard/releases/download/devbuild/rssguard-devbuild-3942559a0-linux64.AppImage"
+-----------------------------------------------------------------
+size=189 MB
+version=3942559a0
+-----------------------------------------------------------------
+APP="rstudio"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://posit.co"
+link="https://download1.rstudio.org/electron/focal/amd64/rstudio-2024.12.1-563-amd64-debian.tar.gz"
+-----------------------------------------------------------------
+size=883 MB
+version=2024.12.1
+-----------------------------------------------------------------
+APP="rtneuron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BlueBrain/RTNeuron"
+link="https://github.com/BlueBrain/RTNeuron/releases/download/3.0.0-rc1/rtneuron_x86_64.AppImage"
+-----------------------------------------------------------------
+size=177 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="rubikscube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="theoden8/rubikscube"
+link="https://github.com/theoden8/rubikscube/releases/download/0.1.0/RubiksCube-0.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="rucola"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Linus-Mussmaecher/rucola"
+link="https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.5.0/rucola-notes-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=6 MB
+version=0.5.0
+-----------------------------------------------------------------
