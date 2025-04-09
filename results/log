@@ -15689,3 +15689,48 @@ link="https://github.com/JvanKatwijk/qt-dab/releases/download/Qt-6.9.2/qt5-db-lo
 size=31 MB
 version=qt5
 -----------------------------------------------------------------
+APP="qt-raster-lines"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="humble-barnacle001/qt-raster-lines"
+link="https://github.com/humble-barnacle001/qt-raster-lines/releases/download/latest/RasterDraw-Linux-latest-x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=2025.01.04
+-----------------------------------------------------------------
+APP="qtads"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="realnc/qtads"
+link="https://github.com/realnc/qtads/releases/download/v3.4.0/QTads-3.4-Linux-x86_64-AppImage.tar.gz"
+-----------------------------------------------------------------
+size=21 MB
+version=3.4
+-----------------------------------------------------------------
+APP="qtalarm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/QTalarm-AppImage"
+link="https://github.com/antony-jr/QTalarm-AppImage/releases/download/continuous/QTalarm-8028f64-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=8028f64
+-----------------------------------------------------------------
+APP="qtchan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="siavash119/qtchan"
+link="https://github.com/siavash119/qtchan/releases/download/v0.100/qtchan-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=0.100
+-----------------------------------------------------------------
+APP="qtjsondiff"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="coozoo/qtjsondiff"
+link="https://github.com/coozoo/qtjsondiff/releases/download/0.63b_refs/heads/master/Qt_JSON_diff-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=0.63
+-----------------------------------------------------------------
