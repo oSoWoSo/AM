@@ -16627,3 +16627,48 @@ link="https://github.com/john-kloss/Running-Dinner-Tool/releases/download/v2.3.2
 size=113 MB
 version=2.3.2
 -----------------------------------------------------------------
+APP="rustdesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rustdesk/rustdesk"
+link="https://github.com/rustdesk/rustdesk/releases/download/1.3.9/rustdesk-1.3.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=1.3.9
+-----------------------------------------------------------------
+APP="rustdict"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Idontknow13/rustdict"
+link="https://github.com/Idontknow13/rustdict/releases/download/v1.0.1/rdict"
+-----------------------------------------------------------------
+size=8 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="rusty-rain"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cowboy8625/rusty-rain"
+link="https://github.com/cowboy8625/rusty-rain/releases/download/v0.3.6/rusty-rain-0.3.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=0.3.6
+-----------------------------------------------------------------
+APP="rustypaste"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="orhun/rustypaste"
+link="https://github.com/orhun/rustypaste/releases/download/v0.16.1/rustypaste-0.16.1-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=12 MB
+version=0.16.1
+-----------------------------------------------------------------
+APP="rx-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cloudhead/rx"
+link="https://github.com/cloudhead/rx/releases/download/v0.5.2/rx-0.5.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=0.5.2
+-----------------------------------------------------------------
