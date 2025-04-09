@@ -16447,3 +16447,48 @@ link="https://github.com/theimpossibleastronaut/rmw/releases/download/v0.9.3/rmw
 size=1 MB
 version=0.9.3
 -----------------------------------------------------------------
+APP="roborock-control-center"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LazyT/rrcc"
+link="https://github.com/LazyT/rrcc/releases/download/0.8.8/rrcc-088.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=0.8.8
+-----------------------------------------------------------------
+APP="rock.so"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.rock.so/"
+link="https://desktop.rock.so/Rock-1.2.1.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="rocketfetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="devanlooches/rocketfetch"
+link="https://github.com/devanlooches/rocketfetch/releases/download/v0.7.5/rocketfetch-x86_64-unknown-linux-gnu-v0.7.5.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=0.7.5
+-----------------------------------------------------------------
+APP="rofi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/rofi-AppImage"
+link="https://github.com/pkgforge-dev/rofi-AppImage/releases/download/f0ccf4c/rofi-f0ccf4c-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=11 MB
+version=f0ccf4c
+-----------------------------------------------------------------
+APP="roloviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rosenloecher-it/roloviewer"
+link="https://github.com/rosenloecher-it/roloviewer/releases/download/1.0.1/roloviewer-1.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=1.0.1
+-----------------------------------------------------------------
