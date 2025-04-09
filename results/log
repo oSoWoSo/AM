@@ -16672,3 +16672,48 @@ link="https://github.com/cloudhead/rx/releases/download/v0.5.2/rx-0.5.2-x86_64.A
 size=2 MB
 version=0.5.2
 -----------------------------------------------------------------
+APP="ryowallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ryo-currency/ryo-wallet"
+link="https://github.com/ryo-currency/ryo-wallet/releases/download/1.5.0/ryo-wallet-linux-x64-1.5.0-0.6.0.0.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=1.5.0
+-----------------------------------------------------------------
+APP="ryujinx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Ryubing/Stable-Releases"
+link="https://github.com/Ryubing/Stable-Releases/releases/download/1.2.86/ryujinx-1.2.86-x64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=1.2.86
+-----------------------------------------------------------------
+APP="s"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zquestz/s"
+link="https://github.com/zquestz/s/releases/download/v0.7.1/s-linux_amd64.zip"
+-----------------------------------------------------------------
+size=12 MB
+version=0.7.1
+-----------------------------------------------------------------
+APP="s3drive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="s3drive/app"
+link="https://github.com/s3drive/app/releases/download/1.7.4/S3Drive-x86_64.AppImage"
+-----------------------------------------------------------------
+size=271 MB
+version=1.7.4
+-----------------------------------------------------------------
+APP="sabaki"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yishn/Sabaki"
+link="https://github.com/SabakiHQ/Sabaki/releases/download/v0.52.2/sabaki-v0.52.2-linux-ia32.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=0.52.2
+-----------------------------------------------------------------
