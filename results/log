@@ -17122,3 +17122,47 @@ link="https://github.com/PhantomGamers/SFP/releases/download/0.0.60-beta1/SFP_UI
 size=87 MB
 version=0.0.60
 -----------------------------------------------------------------
+APP="sfrt-attendance"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Saint-Francis-Robotics-Team2367/Attendance"
+link="https://github.com/Saint-Francis-Robotics-Team2367/Attendance/releases/download/v2.0.3/SFRT_Attendance-1c900dc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=1c900dc
+-----------------------------------------------------------------
+APP="shadow-tech"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://shadow.tech"
+-----------------------------------------------------------------
+size=239 MB
+version=9.9.10175
+-----------------------------------------------------------------
+APP="shadowsocks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shadowsocks/shadowsocks-qt5"
+link="https://github.com/shadowsocks/shadowsocks-qt5/releases/download/v3.0.1/Shadowsocks-Qt5-3.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=3.0.1
+-----------------------------------------------------------------
+APP="shadps4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shadps4-emu/shadPS4"
+link="https://github.com/shadps4-emu/shadPS4/releases/download/v.0.7.0/shadps4-linux-qt-0.7.0.zip"
+-----------------------------------------------------------------
+size=136 MB
+version=0.7.0.zip
+-----------------------------------------------------------------
+APP="shadps4-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shadps4-emu/shadPS4"
+link="https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadPS4-2025-04-09-e3b1c04/shadps4-linux-sdl-2025-04-09-e3b1c04.zip"
+-----------------------------------------------------------------
+size=15 MB
+version=shadps4
+-----------------------------------------------------------------
