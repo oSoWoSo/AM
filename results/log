@@ -16314,3 +16314,48 @@ link="https://github.com/RetroShare/RetroShare/releases/download/v0.6.7.2/RetroS
 size=51 MB
 version=0.6.7
 -----------------------------------------------------------------
+APP="revealgo"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="yusukebe/revealgo"
+link="https://github.com/yusukebe/revealgo/releases/download/v1.2.2/revealgo_1.2.2_Linux-64bit.tar.gz"
+-----------------------------------------------------------------
+size=15 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="revolt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="revoltchat/desktop"
+link="https://github.com/revoltchat/desktop/releases/download/v1.0.8/Revolt-1.0.8.AppImage"
+-----------------------------------------------------------------
+size=281 MB
+version=1.0.8
+-----------------------------------------------------------------
+APP="rhb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NicolaOrritos/rhb"
+link="https://github.com/NicolaOrritos/rhb/releases/download/0.6.4/RHB-0.6.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=0.6.4
+-----------------------------------------------------------------
+APP="rhythmbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Rhythmbox-appimage"
+link="https://github.com/ivan-hc/Rhythmbox-appimage/releases/download/continuous/Rhythmbox_3.4.8-2-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=93 MB
+version=3.4.8
+-----------------------------------------------------------------
+APP="ricochet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="blueprint-freespeech/ricochet-refresh"
+link="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download/v3.0.32-release/ricochet-refresh-3.0.32-x86_64.appimage"
+-----------------------------------------------------------------
+size=35 MB
+version=3.0.32
+-----------------------------------------------------------------
