@@ -15330,3 +15330,48 @@ link="https://github.com/pyfa-org/Pyfa/releases/download/v2.62.2/pyfa-v2.62.2-li
 size=300 MB
 version=2.62.2
 -----------------------------------------------------------------
+APP="python2.7"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python2.7/python2.7.18-cp27-cp27m-manylinux1_x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=cp27
+-----------------------------------------------------------------
+APP="python3.10"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.10/python3.10.16-cp310-cp310-manylinux2014_x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=cp310
+-----------------------------------------------------------------
+APP="python3.11"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.11/python3.11.1-cp311-cp311-manylinux_2_24_x86_64.AppImage"
+-----------------------------------------------------------------
+size=19 MB
+version=cp311
+-----------------------------------------------------------------
+APP="python3.12"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.12/python3.12.9-cp312-cp312-manylinux2014_x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=cp312
+-----------------------------------------------------------------
+APP="python3.5"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.5/python3.5.10-cp35-cp35m-manylinux1_x86_64.AppImage"
+-----------------------------------------------------------------
+size=19 MB
+version=cp35
+-----------------------------------------------------------------
