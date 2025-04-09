@@ -17032,3 +17032,48 @@ link="https://github.com/Serial-Studio/Serial-Studio/releases/download/continuou
 size=59 MB
 version=3.0.6
 -----------------------------------------------------------------
+APP="serialplot"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://hackaday.io"
+link="https://github.com/hyOzd/serialplot/releases/download/v0.13.0/SerialPlot-ae7e3dc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=ae7e3dc
+-----------------------------------------------------------------
+APP="serioussamtfe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tx00100xt/SeriousSamClassic"
+link="https://github.com/tx00100xt/SeriousSamClassic/releases/download/1.10.7/SeriousSamTFE-1.10.7-glibc-2.23-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.10.7
+-----------------------------------------------------------------
+APP="serioussamtfe-vk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tx00100xt/SeriousSamClassic-VK"
+link="https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamTFE-Vk-1.10.7-glibc-2.23-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.10.7
+-----------------------------------------------------------------
+APP="serioussamtse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tx00100xt/SeriousSamClassic"
+link="https://github.com/tx00100xt/SeriousSamClassic/releases/download/1.10.7/SeriousSamTSE-1.10.7-glibc-2.23-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.10.7
+-----------------------------------------------------------------
+APP="serioussamtse-vk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tx00100xt/SeriousSamClassic-VK"
+link="https://github.com/tx00100xt/SeriousSamClassic-VK/releases/download/1.10.7/SeriousSamTSE-Vk-1.10.7-glibc-2.23-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.10.7
+-----------------------------------------------------------------
