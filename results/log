@@ -16359,3 +16359,48 @@ link="https://github.com/blueprint-freespeech/ricochet-refresh/releases/download
 size=35 MB
 version=3.0.32
 -----------------------------------------------------------------
+APP="ricochlime"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="adil192/ricochlime"
+link="https://github.com/adil192/ricochlime/releases/download/v1.11.6/Ricochlime-1.11.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=1.11.6
+-----------------------------------------------------------------
+APP="ridereceipts"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ridereceipts/ridereceipts"
+link="https://github.com/hello-efficiency-inc/ridereceipts/releases/download/v1.5.5/ridereceipts-1.5.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=129 MB
+version=1.5.5
+-----------------------------------------------------------------
+APP="riichi-city"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.mahjong-jp.com"
+link="https://d3qgi0t347dz44.cloudfront.net/release/linuxpack/default_prod_Linux_2.1.9.zip"
+-----------------------------------------------------------------
+size=6005 MB
+version=2.1.9.zip
+-----------------------------------------------------------------
+APP="rimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SalOne22/rimage"
+link="https://github.com/SalOne22/rimage/releases/download/v0.11.0-next.3/rimage-0.11.0-next.3-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=19 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="ripcord"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://cancel.fm/ripcord"
+link="https://cancel.fm/dl/Ripcord-0.4.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.4.29
+-----------------------------------------------------------------
