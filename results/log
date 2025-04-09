@@ -16762,3 +16762,48 @@ link="https://github.com/jdm64/saphyr/releases/download/master/bisonc%2B%2B-late
 size=2 MB
 version=bisonc%2B%2B
 -----------------------------------------------------------------
+APP="satisfactory"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="satisfactorymodding/SatisfactoryModManager"
+link="https://github.com/satisfactorymodding/SatisfactoryModManager/releases/download/v3.0.3/SatisfactoryModManager_linux_amd64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=3.0.3
+-----------------------------------------------------------------
+APP="saucedacity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tenacityteam/saucedacity"
+link="https://github.com/tenacityteam/saucedacity/releases/download/v1.2.1/saucedacity-1.2.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="savvycan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="collin80/SavvyCAN"
+link="https://github.com/collin80/SavvyCAN/releases/download/continuous-QT6/SavvyCAN-75892dd-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=75892dd
+-----------------------------------------------------------------
+APP="sayonara"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sayonara-player.com"
+link="https://sayonara-player.com/files/appimage/sayonara-1.11.0-beta1-gdc071ae0.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.11.0
+-----------------------------------------------------------------
+APP="sbe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kondoumh/sbe"
+link="https://github.com/kondoumh/sbe/releases/download/v3.7.0-rc.1/sbe-3.7.0-rc.1.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=3.7.0
+-----------------------------------------------------------------
