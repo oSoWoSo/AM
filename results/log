@@ -16852,3 +16852,48 @@ link="https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11
 size=312 MB
 version=1.11.86
 -----------------------------------------------------------------
+APP="schildichat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SchildiChat/schildichat-desktop"
+link="https://github.com/SchildiChat/schildichat-desktop/releases/download/v1.11.86-sc.0.test.0/SchildiChatAlpha-1.11.86-sc.0.test.0.AppImage"
+-----------------------------------------------------------------
+size=312 MB
+version=1.11.86
+-----------------------------------------------------------------
+APP="school-sections"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ArtBelll/school-sections"
+link="https://github.com/abelogur/school-sections/releases/download/v0.0.1/school-sections-0.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="scilab"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="davidcl/Scilab.AppDir"
+link="https://github.com/davidcl/Scilab.AppDir/releases/download/2024.0.0-1/Scilab-x86_64.AppImage"
+-----------------------------------------------------------------
+size=480 MB
+version=2024.0.0
+-----------------------------------------------------------------
+APP="scraper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cedoor/scraper"
+link="https://github.com/cedoor/scraper/releases/download/v0.2.3/Scraper-0.2.3.AppImage"
+-----------------------------------------------------------------
+size=77 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="scratux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="scratux/scratux"
+link="https://github.com/scratux/scratux/releases/download/1.4.1/scratux-1.4.1.AppImage"
+-----------------------------------------------------------------
+size=139 MB
+version=1.4.1
+-----------------------------------------------------------------
