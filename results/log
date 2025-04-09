@@ -16492,3 +16492,48 @@ link="https://github.com/rosenloecher-it/roloviewer/releases/download/1.0.1/rolo
 size=52 MB
 version=1.0.1
 -----------------------------------------------------------------
+APP="rotki"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rotki/rotki"
+link="https://github.com/rotki/rotki/releases/download/v1.38.2/rotki-linux_x86_64-v1.38.2.AppImage"
+-----------------------------------------------------------------
+size=220 MB
+version=1.38.2
+-----------------------------------------------------------------
+APP="rpan-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="reddit/rpan-studio"
+link="https://github.com/reddit/rpan-studio/releases/download/26.0.2.1-rpan/rpan-studio-26.0.2.1-linux.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=26.0.2.1
+-----------------------------------------------------------------
+APP="rpcs3"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://rpcs3.net"
+link="https://github.com/RPCS3/rpcs3-binaries-linux/releases/download/build-d08610882aa48559a3aa675c562ddad8757fd9fe/rpcs3-v0.0.36-17771-d0861088_linux64.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=0.0.36
+-----------------------------------------------------------------
+APP="rquickshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Martichou/rquickshare"
+link="https://github.com/Martichou/rquickshare/releases/download/v0.11.5/r-quick-share-legacy_v0.11.5_glibc-2.31_amd64.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=0.11.5
+-----------------------------------------------------------------
+APP="rrip"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="mahesh-hegde/rrip"
+link="https://github.com/mahesh-hegde/rrip/releases/download/release-10b48cd/rrip_linux_amd64.tar.xz"
+-----------------------------------------------------------------
+size=12 MB
+version=10b48cd
+-----------------------------------------------------------------
