@@ -15375,3 +15375,48 @@ link="https://github.com/niess/python-appimage/releases/download/python3.5/pytho
 size=19 MB
 version=cp35
 -----------------------------------------------------------------
+APP="python3.6"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.6/python3.6.15-cp36-cp36m-manylinux1_x86_64.AppImage"
+-----------------------------------------------------------------
+size=19 MB
+version=cp36
+-----------------------------------------------------------------
+APP="python3.7"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.7/python3.7.13-cp37-cp37m-manylinux2010_x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=cp37
+-----------------------------------------------------------------
+APP="python3.8"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.8/python3.8.13-cp38-cp38-manylinux2010_x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=cp38
+-----------------------------------------------------------------
+APP="python3.9"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="niess/python-appimage"
+link="https://github.com/niess/python-appimage/releases/download/python3.9/python3.9.13-cp39-cp39-manylinux2010_x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=cp39
+-----------------------------------------------------------------
+APP="qaddapp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smokejohn/qaddapp"
+link="https://github.com/smokejohn/qaddapp/releases/download/0.4-alpha/QAddApp-x86_64.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=0.4
+-----------------------------------------------------------------
