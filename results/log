@@ -16270,3 +16270,47 @@ link="https://github.com/repath-project/repath-studio/releases/download/v0.4.5/r
 size=132 MB
 version=0.4.5
 -----------------------------------------------------------------
+APP="reqable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="reqable/reqable-app"
+link="https://github.com/reqable/reqable-app/releases/download/2.33.8/reqable-app-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=2.33.8
+-----------------------------------------------------------------
+APP="responsively"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="responsively-org/responsively-app-releases"
+link="https://github.com/responsively-org/responsively-app-releases/releases/download/v1.16.0/ResponsivelyApp-1.16.0.AppImage"
+-----------------------------------------------------------------
+size=117 MB
+version=1.16.0
+-----------------------------------------------------------------
+APP="retroarch"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://retroarch.com"
+-----------------------------------------------------------------
+size=442 MB
+version=1.20.0
+-----------------------------------------------------------------
+APP="retrom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JMBeresford/retrom"
+link="https://github.com/JMBeresford/retrom/releases/download/v0.7.18/Retrom_0.7.18_amd64.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=0.7.18
+-----------------------------------------------------------------
+APP="retroshare"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RetroShare/RetroShare"
+link="https://github.com/RetroShare/RetroShare/releases/download/v0.6.7.2/RetroShare-0.6.7-2.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.6.7
+-----------------------------------------------------------------
