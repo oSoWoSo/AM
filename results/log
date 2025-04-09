@@ -16225,3 +16225,48 @@ link="https://github.com/redisviewer/RedisViewer/releases/download/v2.4.9/Redis.
 size=105 MB
 version=2.4.9
 -----------------------------------------------------------------
+APP="remind-me-again"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probablykasper/remind-me-again"
+link="https://github.com/probablykasper/remind-me-again/releases/download/v1.2.2/remind-me-again_1.2.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="remnote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.remnote.com"
+link="https://download2.remnote.io/remnote-desktop2/RemNote-1.19.11.AppImage"
+-----------------------------------------------------------------
+size=165 MB
+version=1.19.11
+-----------------------------------------------------------------
+APP="rendertune"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MartinBarker/RenderTune"
+link="https://github.com/MartinBarker/RenderTune/releases/download/v2.0.7/RenderTune-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=257 MB
+version=2.0.7
+-----------------------------------------------------------------
+APP="reor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="reorproject/reor"
+link="https://github.com/reorproject/reor/releases/download/v0.2.26/Reor_0.2.26.AppImage"
+-----------------------------------------------------------------
+size=1836 MB
+version=0.2.26
+-----------------------------------------------------------------
+APP="repath-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="repath-project/repath-studio"
+link="https://github.com/repath-project/repath-studio/releases/download/v0.4.5/repath-studio-linux.AppImage"
+-----------------------------------------------------------------
+size=132 MB
+version=0.4.5
+-----------------------------------------------------------------
