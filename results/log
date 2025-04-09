@@ -15240,3 +15240,48 @@ link="https://github.com/BodbDearg/PsyDoom/releases/download/preview-builds/1.2.
 size=6 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="publii"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://getpublii.com"
+link="https://cdn.getpublii.com/Publii-0.46.4.AppImage"
+-----------------------------------------------------------------
+size=150 MB
+version=0.46.4
+-----------------------------------------------------------------
+APP="puddletag"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/puddletag-AppImage"
+link="https://github.com/pkgforge-dev/puddletag-AppImage/releases/download/2.4.0/puddletag-2.4.0-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=2.4.0
+-----------------------------------------------------------------
+APP="pullp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rkclark/pullp"
+link="https://github.com/rkclark/pullp/releases/download/v4.0.2/Pullp-4.0.2.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=4.0.2
+-----------------------------------------------------------------
+APP="pulsar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pulsar-edit/pulsar"
+link="https://github.com/pulsar-edit/pulsar/releases/download/v1.127.1/Linux.Pulsar-1.127.1.AppImage"
+-----------------------------------------------------------------
+size=220 MB
+version=1.127.1
+-----------------------------------------------------------------
+APP="pulse"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pulsedownloader/releases"
+link="https://github.com/pulsedownloader/releases/releases/download/linux-x64-dev-38.0.24-dev.507/Pulse-38.0.24-dev.507.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=38.0.24
+-----------------------------------------------------------------
