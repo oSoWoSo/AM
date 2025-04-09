@@ -15599,3 +15599,48 @@ link="https://github.com/Qortal/qortal-ui/releases/download/v4.6.1/Qortal-Setup-
 size=125 MB
 version=4.6.1
 -----------------------------------------------------------------
+APP="qownnotes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pbek/QOwnNotes"
+link="https://github.com/pbek/QOwnNotes/releases/download/v25.4.1/QOwnNotes-x86_64-Qt6.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=25.4.1
+-----------------------------------------------------------------
+APP="qpdf"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qpdf/qpdf"
+link="https://github.com/qpdf/qpdf/releases/download/v12.1.0/qpdf-12.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=9 MB
+version=12.1.0
+-----------------------------------------------------------------
+APP="qppcad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="nvpopov/qppcad"
+link="https://github.com/nvpopov/qppcad/releases/download/continuous/qppcad-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="qprompt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Cuperino/QPrompt"
+link="https://github.com/Cuperino/QPrompt-Teleprompter/releases/download/v1.1.6/qprompt-v1.1.6-51788eb-linux-gcc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=1.1.6
+-----------------------------------------------------------------
+APP="qr-code-generator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="studioLaCosaNostra/qr-code-generator-desktop"
+link="https://github.com/studioLaCosaNostra/qr-code-generator-desktop/releases/download/v1.0.27/qr-code-generator-desktop-1.0.27-x86_64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=1.0.27
+-----------------------------------------------------------------
