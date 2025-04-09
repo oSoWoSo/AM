@@ -15554,3 +15554,48 @@ link="https://github.com/adamreichold/QMediathekView/releases/download/continuou
 size=29 MB
 version=712a14a
 -----------------------------------------------------------------
+APP="qmidictl"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/qmidictl"
+link="https://sourceforge.net/projects/qmidictl/files/qmidictl/1.0.2/qmidictl-1.0.2-5.1.x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=13 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="qmidinet"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/qmidinet"
+link="https://sourceforge.net/projects/qmidinet/files/qmidinet/1.0.1/qmidinet-1.0.1-2.1.x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=13 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="qmplay2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zaps166/QMPlay2"
+link="https://github.com/zaps166/QMPlay2/releases/download/25.01.19/QMPlay2-25.01.19-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=40 MB
+version=25.01.19
+-----------------------------------------------------------------
+APP="qnapi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="QNapi/qnapi"
+link="https://github.com/QNapi/qnapi/releases/download/snapshot/QNapi-0.2.4-snapshot-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=0.2.4
+-----------------------------------------------------------------
+APP="qortal-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Qortal/qortal-ui"
+link="https://github.com/Qortal/qortal-ui/releases/download/v4.6.1/Qortal-Setup-amd64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=4.6.1
+-----------------------------------------------------------------
