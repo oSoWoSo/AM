@@ -16582,3 +16582,48 @@ link="https://github.com/Linus-Mussmaecher/rucola/releases/download/v0.5.0/rucol
 size=6 MB
 version=0.5.0
 -----------------------------------------------------------------
+APP="ruffle"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ruffle-rs/ruffle"
+link="https://github.com/ruffle-rs/ruffle/releases/download/nightly-2025-04-09/ruffle-nightly-2025_04_09-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=38 MB
+version=2025
+-----------------------------------------------------------------
+APP="runanode"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cennznet/cennz-node-release"
+link="https://github.com/cennznet/cennz-node-release/releases/download/v0.13.5/runanode-0.13.5-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=0.13.5
+-----------------------------------------------------------------
+APP="runelite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="runelite/launcher"
+link="https://github.com/runelite/launcher/releases/download/2.7.4/RuneLite.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=2.7.4
+-----------------------------------------------------------------
+APP="runjs"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lukehaas/RunJS"
+link="https://github.com/lukehaas/RunJS/releases/download/v3.0.3/RunJS-3.0.3.AppImage"
+-----------------------------------------------------------------
+size=130 MB
+version=3.0.3
+-----------------------------------------------------------------
+APP="running-dinner-tool"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="john-kloss/Running-Dinner-Tool"
+link="https://github.com/john-kloss/Running-Dinner-Tool/releases/download/v2.3.2/running-dinner-tool-2.3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=2.3.2
+-----------------------------------------------------------------
