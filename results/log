@@ -16717,3 +16717,48 @@ link="https://github.com/SabakiHQ/Sabaki/releases/download/v0.52.2/sabaki-v0.52.
 size=79 MB
 version=0.52.2
 -----------------------------------------------------------------
+APP="saber"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="adil192/saber"
+link="https://github.com/saber-notes/saber/releases/download/v0.25.4/Saber-0.25.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=0.25.4
+-----------------------------------------------------------------
+APP="safe-multisig"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gnosis/safe-react"
+link="https://github.com/5afe/safe-react/releases/download/v3.33.2%2Bdesktop/Safe-3.33.2.AppImage"
+-----------------------------------------------------------------
+size=178 MB
+version=3.33.2
+-----------------------------------------------------------------
+APP="samira"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jsnli/Samira"
+link="https://github.com/jsnli/Samira/releases/download/v0.5.0/samira_0.5.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="samrewritten"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PaulCombal/SamRewritten"
+link="https://github.com/PaulCombal/SamRewritten/releases/download/202008/SamRewritten-Ubuntu_18.04--d29ad13-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=18.04
+-----------------------------------------------------------------
+APP="saphyr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jdm64/saphyr"
+link="https://github.com/jdm64/saphyr/releases/download/master/bisonc%2B%2B-latest-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=bisonc%2B%2B
+-----------------------------------------------------------------
