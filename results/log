@@ -16987,3 +16987,48 @@ link="https://github.com/SeleniumHQ/selenium-ide/releases/download/v4.0.1-beta.1
 size=278 MB
 version=4.0.1
 -----------------------------------------------------------------
+APP="sengi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NicolasConstant/sengi"
+link="https://github.com/NicolasConstant/sengi/releases/download/1.2.0/Sengi-1.2.0-linux.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=1.2.0
+-----------------------------------------------------------------
+APP="senpa-io-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NullDev/senpa-io-client"
+link="https://github.com/NullDev/senpa-io-client/releases/download/v1.2.7/senpa-io-client-portable-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=1.2.7
+-----------------------------------------------------------------
+APP="sentinel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sentinel-official/desktop-client"
+link="https://github.com/sentinel-official/desktop-client/releases/download/v0.3.4/sentinel-linux-0.3.4.AppImage"
+-----------------------------------------------------------------
+size=69 MB
+version=0.3.4
+-----------------------------------------------------------------
+APP="ser-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cgarry/ser-player"
+link="https://github.com/cgarry/ser-player/releases/download/v1.7.3/SER_Player-v1.7.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=1.7.3
+-----------------------------------------------------------------
+APP="serial-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Serial-Studio/Serial-Studio"
+link="https://github.com/Serial-Studio/Serial-Studio/releases/download/continuous/Serial-Studio-3.0.6-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=3.0.6
+-----------------------------------------------------------------
