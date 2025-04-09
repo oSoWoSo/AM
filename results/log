@@ -16897,3 +16897,48 @@ link="https://github.com/scratux/scratux/releases/download/1.4.1/scratux-1.4.1.A
 size=139 MB
 version=1.4.1
 -----------------------------------------------------------------
+APP="scrcpy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ardevd/scrcpy-appimage"
+link="https://github.com/ardevd/scrcpy-appimage/releases/download/v3.1/scrcpy-v3.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=3.1
+-----------------------------------------------------------------
+APP="screencloud"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="olav-st/screencloud"
+link="https://github.com/olav-st/screencloud/releases/download/v1.5.3/ScreenCloud-v1.5.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=1.5.3
+-----------------------------------------------------------------
+APP="scribus"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/scribus"
+link="https://sourceforge.net/projects/scribus/files/scribus-devel/1.7.0/scribus-1.7.0-linux-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=140 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="scrite"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.scrite.io"
+link="https://www.scrite.io/software/Scrite-1.0.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=169 MB
+version=1.0.7
+-----------------------------------------------------------------
+APP="scrum-retroboard"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="stefanDeveloper/scrum-retroboard"
+link="https://github.com/stefanDeveloper/scrum-retroboard/releases/download/v0.2.1/scrum-retroboard-0.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=0.2.1
+-----------------------------------------------------------------
