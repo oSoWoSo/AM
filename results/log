@@ -15644,3 +15644,48 @@ link="https://github.com/studioLaCosaNostra/qr-code-generator-desktop/releases/d
 size=73 MB
 version=1.0.27
 -----------------------------------------------------------------
+APP="qradiolink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qradiolink/qradiolink"
+link="https://github.com/qradiolink/qradiolink/releases/download/0.8.11-1/QRadioLink-0.8.11-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=0.8.11
+-----------------------------------------------------------------
+APP="qrop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="andreh11/qrop"
+link="https://github.com/andreh11/qrop/releases/download/v0.1.1/Qrop-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="qrscan"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sayanarijit/qrscan"
+link="https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=0.1.9
+-----------------------------------------------------------------
+APP="qsdrswr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PTDreamer/qSdrSwr"
+link="https://github.com/PTDreamer/qSdrSwr/releases/download/VER1.0.5/SDR_Spectrum_and_SWR_analyser-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="qt-dab"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JvanKatwijk/qt-dab"
+link="https://github.com/JvanKatwijk/qt-dab/releases/download/Qt-6.9.2/qt5-db-loader-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=qt5
+-----------------------------------------------------------------
