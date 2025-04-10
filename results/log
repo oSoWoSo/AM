@@ -18953,3 +18953,48 @@ link="https://download.opensuse.org/repositories/home:/mkittler:/appimage/AppIma
 size=66 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="synthein"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="synthein/synthein"
+link="https://github.com/synthein/synthein/releases/download/v0.2.1/synthein-v0.2.1.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="synthv1"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/synthv1"
+link="https://sourceforge.net/projects/synthv1/files/synthv1/1.3.1/synthv1-jack-1.3.1-8.1.x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=12 MB
+version=1.3.1
+-----------------------------------------------------------------
+APP="system-monitor-gtk3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/gnome-system-monitor3/System_Monitor-3.38.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=3.38.0
+-----------------------------------------------------------------
+APP="sysz"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="joehillen/sysz"
+link="https://github.com/joehillen/sysz/releases/download/1.4.3/sysz"
+-----------------------------------------------------------------
+size=1 MB
+version=1.4.3
+-----------------------------------------------------------------
+APP="szyszka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qarmin/szyszka"
+link="https://github.com/qarmin/szyszka/releases/download/3.0.0/szyszka.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=3.0.0
+-----------------------------------------------------------------
