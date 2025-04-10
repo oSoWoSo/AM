@@ -17166,3 +17166,47 @@ link="https://github.com/shadps4-emu/shadPS4/releases/download/Pre-release-shadP
 size=15 MB
 version=shadps4
 -----------------------------------------------------------------
+APP="shannon-calculator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kuiperzone/Shannon-Calculator"
+link="https://github.com/kuiperzone/Shannon-Calculator/releases/download/v1.0.0/ShannonCalculator-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="sharemyhost"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="antony-jr/ShareMyHost"
+link="https://github.com/antony-jr/ShareMyHost/releases/download/continuous/ShareMyHost-a0fb13b-x86_64.AppImage"
+-----------------------------------------------------------------
+size=31 MB
+version=a0fb13b
+-----------------------------------------------------------------
+APP="sharp-tune"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MD-AZMAL/Sharp-Tune"
+link="https://github.com/MD-AZMAL/Sharp-Tune/releases/download/v1.0.3/sharp-tune-1.0.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="sheikah"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="witnet/sheikah"
+link="https://github.com/witnet/sheikah/releases/download/v2.0.0/Sheikah-Witnet-wallet-2.0.0.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="shelf-maui"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://invent.kde.org/maui/"
+-----------------------------------------------------------------
+size=225 MB
+version=3.1.0
+-----------------------------------------------------------------
