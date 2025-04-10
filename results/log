@@ -17255,3 +17255,48 @@ link="https://github.com/universe-software/shradiko/releases/download/1.0.0/shra
 size=5 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="shutter"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.shutterencoder.com"
+link="https://www.shutterencoder.com/Shutter%20Encoder%2018.9%20Linux%2064bits.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=2018.8
+-----------------------------------------------------------------
+APP="shuttle"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ShuttleBrowser/Shuttle"
+link="https://github.com/ShuttleBrowser/Shuttle/releases/download/v3.1.0/Shuttle-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=60 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="sideka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ghk/sideka-electron"
+link="https://github.com/ghk/sideka-electron/releases/download/v2.3.5/Sideka-2.3.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=2.3.5
+-----------------------------------------------------------------
+APP="sideload"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Flatpak-installer-appimage"
+link="https://github.com/ivan-hc/Flatpak-installer-appimage/releases/download/6.0.2/io.elementary.sideload-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=6.0.2
+-----------------------------------------------------------------
+APP="sidenote"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ryot4/sidenote"
+link="https://github.com/ryot4/sidenote/releases/download/v0.1.11/sidenote_v0.1.11_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=5 MB
+version=0.1.11
+-----------------------------------------------------------------
