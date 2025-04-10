@@ -18420,3 +18420,48 @@ link="https://github.com/IndomaximTechID/storaji/releases/download/v1.0.0-beta.9
 size=84 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="storyboarder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wonderunit/storyboarder"
+link="https://github.com/wonderunit/storyboarder/releases/download/v3.0.0/Storyboarder-3.0.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=134 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="strans"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Inventitech/strans"
+link="https://github.com/Inventitech/strans/releases/download/v0.0.5/strans-linux.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=0.0.5
+-----------------------------------------------------------------
+APP="strata"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arkottke/strata"
+link="https://github.com/arkottke/strata/releases/download/v0.8.0/Strata-v0.8.0-ac668eb-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.8.0
+-----------------------------------------------------------------
+APP="strawberry"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/strawberry-AppImage"
+link="https://github.com/pkgforge-dev/strawberry-AppImage/releases/download/1.2.8-1/strawberry-1.2.8-1-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=1.2.8
+-----------------------------------------------------------------
+APP="streamcapture2"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://gitlab.com/posktomten/streamcapture2"
+link="https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r=zHVcVBnkLHsK"
+-----------------------------------------------------------------
+size=51 MB
+version=2025.04.01
+-----------------------------------------------------------------
