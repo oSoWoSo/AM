@@ -18554,3 +18554,48 @@ link="https://github.com/ptitSeb/stuntcarremake/releases/download/continuous/Stu
 size=4 MB
 version=d3cc0c2
 -----------------------------------------------------------------
+APP="subillmanager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="prateekmedia/subillmanager"
+link="https://github.com/prateekmedia/subillmanager/releases/download/old-nightly/subillmanager-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=9 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="substrate-ide"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ObsidianLabs/SubstrateIDE"
+link="https://github.com/ObsidianLabs/SubstrateIDE/releases/download/v0.1.1/SubstrateIDE-0.1.1.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="subsurface"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Subsurface-divelog/subsurface"
+link="https://github.com/subsurface/subsurface/releases/download/v4.9.3/smtk2ssrf-4.9.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=38 MB
+version=smtk2ssrf
+-----------------------------------------------------------------
+APP="subtitle-composer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="maxrd2/subtitlecomposer"
+link="https://github.com/maxrd2/SubtitleComposer/releases/download/v0.7.0/Subtitle_Composer-x86_64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=0.7.0
+-----------------------------------------------------------------
+APP="subtitler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="s8sachin/subtitler"
+link="https://github.com/s8sachin/subtitler/releases/download/v1.5.5/Subtitler-1.5.5.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=1.5.5
+-----------------------------------------------------------------
