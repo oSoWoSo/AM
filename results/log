@@ -17435,3 +17435,48 @@ link="https://github.com/mifi/SimpleInstaBot/releases/download/v1.11.2/SimpleIns
 size=85 MB
 version=1.11.2
 -----------------------------------------------------------------
+APP="simplenote-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Automattic/simplenote-electron"
+link="https://github.com/Automattic/simplenote-electron/releases/download/v2.23.2/Simplenote-linux-2.23.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=141 MB
+version=2.23.2
+-----------------------------------------------------------------
+APP="simpleos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="eosrio/simpleos"
+link="https://github.com/eosrio/simpleos/releases/download/v1.0.5/simpleos-1.0.5.AppImage"
+-----------------------------------------------------------------
+size=154 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="simplescreenrecorder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/simplescreenrecorder/SimpleScreenRecorder-0.4.4-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=0.4.4
+-----------------------------------------------------------------
+APP="simplest-file-renamer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="whyboris/Simplest-File-Renamer"
+link="https://github.com/whyboris/Simplest-File-Renamer/releases/download/v1.0.0/Simplest.File.Renamer-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=70 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="simplex-chat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simplex-chat/simplex-chat"
+link="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.1/simplex-desktop-x86_64.AppImage"
+-----------------------------------------------------------------
+size=258 MB
+version=6.3.1
+-----------------------------------------------------------------
