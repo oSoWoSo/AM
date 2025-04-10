@@ -17704,3 +17704,48 @@ link="https://github.com/knarfS/smuview/releases/download/continuous/SmuView-0.0
 size=65 MB
 version=0.0.6
 -----------------------------------------------------------------
+APP="snake-js"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aenany/snake.js"
+link="https://github.com/aenany/snake.js/releases/download/v0.0.2/snake.js-0.0.2.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=0.0.2
+-----------------------------------------------------------------
+APP="snapshot-slider"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="IMAGINARY/snapshot-slider"
+link="https://github.com/IMAGINARY/snapshot-slider/releases/download/v1.1.1/snapshot-slider-1.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="snes9x"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="snes9xgit/snes9x"
+link="https://github.com/snes9xgit/snes9x/releases/download/1.63/Snes9x-1.63-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=1.63
+-----------------------------------------------------------------
+APP="snippetstore"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZeroX-DG/SnippetStore"
+link="https://github.com/ZeroX-DG/SnippetStore/releases/download/v0.2.12/snippetstore-0.2.12-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=0.2.12
+-----------------------------------------------------------------
+APP="snomcontrol"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ballessay/snomcontrol"
+link="https://github.com/ballessay/snomcontrol/releases/download/v1.0.76-beta/snomcontrol-fb27615-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=fb27615
+-----------------------------------------------------------------
