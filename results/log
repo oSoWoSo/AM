@@ -17480,3 +17480,47 @@ link="https://github.com/simplex-chat/simplex-chat/releases/download/v6.3.1/simp
 size=258 MB
 version=6.3.1
 -----------------------------------------------------------------
+APP="simtoolkitpro"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://simtoolkitpro.co.uk/"
+-----------------------------------------------------------------
+size=210 MB
+version=0.6.81
+-----------------------------------------------------------------
+APP="singlebox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="atomery/singlebox"
+link="https://github.com/quanglam2807/singlebox-legacy/releases/download/v10.0.0-beta.4/Singlebox-10.0.0-beta.4.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=10.0.0
+-----------------------------------------------------------------
+APP="sinon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JCGithu/Sinon"
+link="https://github.com/JCGithu/Sinon/releases/download/v.1.3.3/Sinon-1.3.3.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=1.3.3
+-----------------------------------------------------------------
+APP="sioyek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ahrm/sioyek"
+link="https://github.com/ahrm/sioyek/releases/download/sioyek3-alpha0/sioyek-release-linux.zip"
+-----------------------------------------------------------------
+size=92 MB
+version=alpha0
+-----------------------------------------------------------------
+APP="sipgate-softphone"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.sipgate.co.uk"
+link="https://sipgate-desktop-app.s3.eu-central-1.amazonaws.com/sipgate-softphone.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2024.06.11
+-----------------------------------------------------------------
