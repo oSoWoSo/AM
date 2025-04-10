@@ -18196,3 +18196,48 @@ link="https://github.com/ssh-mitm/ssh-mitm/releases/download/5.0.1/ssh-mitm-x86_
 size=71 MB
 version=5.0.1
 -----------------------------------------------------------------
+APP="ssplot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="babaissarkar/ssplot"
+link="https://github.com/babaissarkar/ssplot/releases/download/v2.2.1/SSPlot-x86_64.AppImage"
+-----------------------------------------------------------------
+size=34 MB
+version=2.2.1
+-----------------------------------------------------------------
+APP="stacer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oguzhaninan/Stacer"
+link="https://github.com/oguzhaninan/Stacer/releases/download/v1.1.0/Stacer-1.1.0-x64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="stackandconquer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ElTh0r0/stackandconquer"
+link="https://github.com/ElTh0r0/stackandconquer/releases/download/v0.11.0/StackAndConquer-0.11.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=0.11.0
+-----------------------------------------------------------------
+APP="standard-notes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="standardnotes/app"
+link="https://github.com/standardnotes/app/releases/download/%40standardnotes/desktop%403.195.25/standard-notes-3.195.25-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=152 MB
+version=3.195.25
+-----------------------------------------------------------------
+APP="starc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="story-apps/starc"
+link="https://github.com/story-apps/starc/releases/download/v0.7.7/starc-setup.AppImage"
+-----------------------------------------------------------------
+size=68 MB
+version=0.7.7
+-----------------------------------------------------------------
