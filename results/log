@@ -18863,3 +18863,48 @@ link="https://www.swift.im/downloads/releases/swift-4.0.2/Swift-4.0.2.amd64.appi
 size=67 MB
 version=4.0.2
 -----------------------------------------------------------------
+APP="swiftnessx"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ehrishirajsharma/SwiftnessX"
+link="https://github.com/ehrishirajsharma/SwiftnessX/releases/download/v0.2.2/Swiftness.0.2.2.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="swifty"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="swiftyapp/swifty"
+link="https://github.com/swiftyapp/swifty/releases/download/v0.6.13/Swifty-0.6.13.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=0.6.13
+-----------------------------------------------------------------
+APP="swish"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Blutsh/Swish"
+link="https://github.com/Blutsh/Swish/releases/download/1.0.1/swish-1.0.1-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="switchhosts"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oldj/SwitchHosts"
+link="https://github.com/oldj/SwitchHosts/releases/download/v4.2.0-beta/SwitchHosts_linux_x86_64_4.2.0.6105.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=4.2.0
+-----------------------------------------------------------------
+APP="switchshuttle"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="s00d/switchshuttle"
+link="https://github.com/s00d/switchshuttle/releases/download/app-v1.3.12/switch-shuttle_1.3.12_amd64.AppImage"
+-----------------------------------------------------------------
+size=131 MB
+version=1.3.12
+-----------------------------------------------------------------
