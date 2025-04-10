@@ -18644,3 +18644,47 @@ link="https://github.com/fortius-digital/sumo/releases/download/v0.1.5/sumoco.0.
 size=112 MB
 version=0.1.5
 -----------------------------------------------------------------
+APP="sunamu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NyaomiDEV/Sunamu"
+link="https://github.com/NyaomiDEV/Sunamu/releases/download/v2.2.0/Sunamu-2.2.0.AppImage"
+-----------------------------------------------------------------
+size=120 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="sunny"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="XMuli/SunnyPages"
+link="https://github.com/XMuli/SunnyPages/releases/download/v3.1/SunnyCapturer_3.1.0_x64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="sunsama"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sunsama.com/"
+-----------------------------------------------------------------
+size=106 MB
+version=3.0.10
+-----------------------------------------------------------------
+APP="sunshine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LizardByte/Sunshine"
+link="https://github.com/LizardByte/Sunshine/releases/download/v2025.409.140403/sunshine.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=2025.409.140403
+-----------------------------------------------------------------
+APP="sup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arnnis/Sup"
+link="https://github.com/arnnis/Sup/releases/download/v0.3.4/Sup-0.3.2.AppImage"
+-----------------------------------------------------------------
+size=62 MB
+version=0.3.4
+-----------------------------------------------------------------
