@@ -18108,3 +18108,46 @@ link="https://github.com/aome510/spotify-player/releases/download/v0.20.4/spotif
 size=200 MB
 version=aarch64
 -----------------------------------------------------------------
+APP="spotify-qt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kraxarn/spotify-qt"
+link="https://github.com/kraxarn/spotify-qt/releases/download/v3.12/spotify-qt-v3.12.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=3.12
+-----------------------------------------------------------------
+APP="spotify-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Rigellute/spotify-tui"
+link="https://docs.github.com/rest"
+-----------------------------------------------------------------
+size=10 MB
+version=0.25.0
+-----------------------------------------------------------------
+APP="spotube"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KRTirtho/spotube"
+link="https://github.com/KRTirtho/spotube/releases/download/v3.3.0/Spotube-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=101 MB
+version=3.3.0
+-----------------------------------------------------------------
+APP="spritemate4electron"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="4ch1m/spritemate4electron"
+link="https://github.com/4ch1m/spritemate4electron/releases/download/1.30.4/spritemate4electron-linux-x64-1.30.4.zip"
+-----------------------------------------------------------------
+size=369 MB
+version=1.30.4.zip
+-----------------------------------------------------------------
+APP="sptlrx"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="raitonoberu/sptlrx"
+link="https://github.com/raitonoberu/sptlrx/releases/download/v1.2.3/sptlrx_1.2.3_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
