@@ -17749,3 +17749,47 @@ link="https://github.com/ballessay/snomcontrol/releases/download/v1.0.76-beta/sn
 size=90 MB
 version=fb27615
 -----------------------------------------------------------------
+APP="snowball"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="shaunabanana/snowball"
+link="https://github.com/shaunabanana/snowball/releases/download/v1.4.0/Snowball-1.4.0.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="soapy-sdr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mryndzionek/composable-sdr"
+link="https://github.com/mryndzionek/composable-sdr/releases/download/v0.1.0-alpha/Soapy_SDR-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="soar"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pkgforge/soar"
+link="https://github.com/pkgforge/soar/releases/download/v0.5.14/soar-x86_64-linux"
+-----------------------------------------------------------------
+size=8 MB
+version=0.5.14
+-----------------------------------------------------------------
+APP="socnetv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="socnetv/app"
+link="https://github.com/socnetv/app/releases/download/v3.2/SocNetV-3.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=3.2
+-----------------------------------------------------------------
+APP="soft-serve"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/soft-serve"
+-----------------------------------------------------------------
+size=28 MB
+version=0.8.5
+-----------------------------------------------------------------
