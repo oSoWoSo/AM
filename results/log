@@ -17300,3 +17300,48 @@ link="https://github.com/ryot4/sidenote/releases/download/v0.1.11/sidenote_v0.1.
 size=5 MB
 version=0.1.11
 -----------------------------------------------------------------
+APP="sigdigger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BatchDrake/SigDigger"
+link="https://github.com/BatchDrake/SigDigger/releases/download/latest/SigDigger-0.3.0-x86_64-full-20250408-112743Z.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="sigma-file-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aleksey-hoffman/sigma-file-manager"
+link="https://github.com/aleksey-hoffman/sigma-file-manager/releases/download/v2.0.0-alpha.1/Sigma.File.Manager.v2_2.0.0-alpha.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=Sigma.File.Manager.v2
+-----------------------------------------------------------------
+APP="sigmaspectra"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="arkottke/sigmaspectra"
+link="https://github.com/arkottke/sigmaspectra/releases/download/v1.0.5/SigmaSpectra-v1.0.5-0229412-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=1.0.5
+-----------------------------------------------------------------
+APP="signal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="karo-solutions/Signal-Desktop-AppImage"
+link="https://github.com/karo-solutions/Signal-Desktop-AppImage/releases/download/v7.49.0/Signal-v7.49.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=130 MB
+version=7.49.0
+-----------------------------------------------------------------
+APP="sigrok-cli"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sigrok.org"
+link="https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-0.7.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=0.7.2
+-----------------------------------------------------------------
