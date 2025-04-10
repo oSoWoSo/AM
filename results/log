@@ -18330,3 +18330,48 @@ link="https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/
 size=85 MB
 version=3.0.0
 -----------------------------------------------------------------
+APP="steem-messenger"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="therealwolf42/steemmessenger"
+link="https://github.com/therealwolf42/steem-chat-wallet/releases/download/0.1.0/steemmessenger-0.1.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="stele"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="scimusmn/stele"
+link="https://github.com/scimusmn/stele/releases/download/v2.1.1/stele-2.1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=2.1.1
+-----------------------------------------------------------------
+APP="stellarium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Stellarium/stellarium"
+link="https://github.com/Stellarium/stellarium/releases/download/v25.1/Stellarium-25.1-qt5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=352 MB
+version=25.1
+-----------------------------------------------------------------
+APP="stereophotoview"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://stereophotoview.bitbucket.io"
+link="https://bitbucket.org/stereophotoview/stereophotoview/downloads/stereophotoview-1.21.3.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=1.21.3
+-----------------------------------------------------------------
+APP="stew"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="marwanhawari/stew"
+link="https://github.com/marwanhawari/stew/releases/download/v0.5.0/stew-v0.5.0-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=0.5.0
+-----------------------------------------------------------------
