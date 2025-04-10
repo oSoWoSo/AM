@@ -18731,3 +18731,48 @@ link="https://github.com/johannesjo/super-productivity/releases/download/v12.0.2
 size=122 MB
 version=12.0.2
 -----------------------------------------------------------------
+APP="superslicer-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="supermerill/SuperSlicer"
+link="https://github.com/supermerill/SuperSlicer/releases/download/2.5.59.13/SuperSlicer-ubuntu_20.04-2.5.59.13.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=20.04
+-----------------------------------------------------------------
+APP="superslicer-prerelease-bin"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="supermerill/SuperSlicer"
+link="https://github.com/supermerill/SuperSlicer/releases/download/2.7.61.1/SuperSlicer-ubuntu_20.04-2.7.61.1.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=20.04
+-----------------------------------------------------------------
+APP="supertag"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="amoffat/supertag"
+link="https://github.com/amoffat/supertag/releases/download/v0.1.4/supertag-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=0.1.4
+-----------------------------------------------------------------
+APP="supertux"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SuperTux/supertux"
+link="https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=179 MB
+version=0.6.3.glibc2.29
+-----------------------------------------------------------------
+APP="supertuxkart"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="supertuxkart/stk-code"
+link="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-x86_64.tar.xz"
+-----------------------------------------------------------------
+size=773 MB
+version=1.4
+-----------------------------------------------------------------
