@@ -17973,3 +17973,48 @@ link="https://github.com/mrdonado/speaky-miniplayer/releases/download/v1.0.0/Spe
 size=76 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="special-eureka"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tonymushah/special-eureka"
+link="https://github.com/tonymushah/special-eureka/releases/download/v0.1.6/special-eureka_0.1.6_amd64.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="speed-dreams"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/speed-dreams"
+link="2.3.0"
+-----------------------------------------------------------------
+size=1970 MB
+version=2.3.0
+-----------------------------------------------------------------
+APP="speedcrunch"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://ryujinx.org"
+link="https://api.bitbucket.org/2.0/repositories/heldercorreia/speedcrunch/downloads/SpeedCrunch-0.12-linux64.tar.bz2"
+-----------------------------------------------------------------
+size=22 MB
+version=0.12
+-----------------------------------------------------------------
+APP="speedcrunch-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/SpeedCrunch-AppImage"
+link="https://github.com/pkgforge-dev/SpeedCrunch-AppImage/releases/download/continuous/SpeedCrunch-0.12-anylinux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=19 MB
+version=0.12
+-----------------------------------------------------------------
+APP="speedyloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="noisymime/SpeedyLoader"
+link="https://github.com/speeduino/SpeedyLoader/releases/download/v1.7.0/speedyloader-1.7.0.AppImage"
+-----------------------------------------------------------------
+size=150 MB
+version=1.7.0
+-----------------------------------------------------------------
