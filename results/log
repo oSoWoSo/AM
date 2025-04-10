@@ -17838,3 +17838,48 @@ link="https://code.soundsoftware.ac.uk/attachments/download/2766/SonicLineup-1.1
 size=33 MB
 version=1.1
 -----------------------------------------------------------------
+APP="sonicvisualiser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sonic-visualiser/sonic-visualiser"
+link="https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v5.2.1/SonicVisualiser-5.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=5.2.1
+-----------------------------------------------------------------
+APP="sonixd"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeffvli/sonixd"
+link="https://github.com/jeffvli/sonixd/releases/download/v0.15.5/Sonixd-0.15.5-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=0.15.5
+-----------------------------------------------------------------
+APP="sonusmix"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="sonusmix/sonusmix"
+link="https://codeberg.org/sonusmix/sonusmix/releases/download/v0.1.1/org.sonusmix.Sonusmix-0.1.1.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="soul-arena"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://soul.arena-game.app"
+link="https://arena-game.app/releases/Arena-Games_Lin64.zip"
+-----------------------------------------------------------------
+size=88 MB
+version=Lin64.zip
+-----------------------------------------------------------------
+APP="soundcloud-rpc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="richardhbtz/soundcloud-rpc"
+link="https://github.com/richardhbtz/soundcloud-rpc/releases/download/v0.0.9/soundcloud-0.0.9-installer-linux.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.0.9
+-----------------------------------------------------------------
