@@ -17524,3 +17524,48 @@ link="https://sipgate-desktop-app.s3.eu-central-1.amazonaws.com/sipgate-softphon
 size=105 MB
 version=2024.06.11
 -----------------------------------------------------------------
+APP="siril"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://siril.org"
+link="https://free-astro.org/download/Siril-1.2.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=1.2.6
+-----------------------------------------------------------------
+APP="siyuan"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="siyuan-note/siyuan"
+link="https://github.com/siyuan-note/siyuan/releases/download/v3.1.27/siyuan-3.1.27-linux.AppImage"
+-----------------------------------------------------------------
+size=178 MB
+version=3.1.27
+-----------------------------------------------------------------
+APP="skyemu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="skylersaleh/SkyEmu"
+link="https://github.com/skylersaleh/SkyEmu/releases/download/v3/SkyEmu-Linux.zip"
+-----------------------------------------------------------------
+size=39 MB
+version=3
+-----------------------------------------------------------------
+APP="skype"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Skype-appimage"
+link="https://github.com/ivan-hc/Skype-appimage/releases/download/continuous/Skype--8.138.0.213-x86_64.AppImage"
+-----------------------------------------------------------------
+size=113 MB
+version=8.138.0.213
+-----------------------------------------------------------------
+APP="slackbackup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jcolag/SlackBackup"
+link="https://github.com/jcolag/SlackBackup/releases/download/v1.2/slack-backup-1.0.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=1.0.0
+-----------------------------------------------------------------
