@@ -18063,3 +18063,48 @@ link="https://github.com/simoniz0r/spm/releases/download/v0.2.05/spm-0.2.05-x86_
 size=1 MB
 version=0.2.05
 -----------------------------------------------------------------
+APP="spmp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="toasterofbread/spmp"
+link="https://github.com/toasterofbread/spmp/releases/download/v0.4.2/spmp-v0.4.2-linux-x86_64.appimage"
+-----------------------------------------------------------------
+size=208 MB
+version=0.4.2
+-----------------------------------------------------------------
+APP="spotifetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dotzenith/SpotiFetch.rs"
+link="https://github.com/dotzenith/SpotiFetch.rs/releases/download/v0.1.7/spotifetch-x86_64-unknown-linux-gnu.tar.xz"
+-----------------------------------------------------------------
+size=6 MB
+version=0.1.7
+-----------------------------------------------------------------
+APP="spotify"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Spotify-appimage"
+link="https://github.com/ivan-hc/Spotify-appimage/releases/download/continuous/Spotify-1.2.56.502.ga68d2d4f-x86_64.AppImage"
+-----------------------------------------------------------------
+size=159 MB
+version=1.2.56.502.ga68d2d4f
+-----------------------------------------------------------------
+APP="spotify-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="GuillemCastro/spotify-dl"
+link="https://github.com/GuillemCastro/spotify-dl/releases/download/v0.5.4/spotify-dl.linux-x86_64"
+-----------------------------------------------------------------
+size=15 MB
+version=0.5.4
+-----------------------------------------------------------------
+APP="spotify-player"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aome510/spotify-player"
+link="https://github.com/aome510/spotify-player/releases/download/v0.20.4/spotify_player-aarch64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=200 MB
+version=aarch64
+-----------------------------------------------------------------
