@@ -18285,3 +18285,48 @@ link="https://github.com/PilatusDevs/StatusPilatus/releases/download/0.5.0/Statu
 size=76 MB
 version=0.5.0
 -----------------------------------------------------------------
+APP="steam"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Steam-appimage"
+link="https://github.com/ivan-hc/Steam-appimage/releases/download/1.0.0.82-2/Steam-1.0.0.82-2-anylinux.dwarfs-x86_64.AppImage"
+-----------------------------------------------------------------
+size=266 MB
+version=1.0.0.82
+-----------------------------------------------------------------
+APP="steam-rom-manager"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FrogTheFrog/steam-rom-manager"
+link="https://github.com/SteamGridDB/steam-rom-manager/releases/download/v2.5.29/Steam-ROM-Manager-2.5.29.AppImage"
+-----------------------------------------------------------------
+size=139 MB
+version=2.5.29
+-----------------------------------------------------------------
+APP="steam-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="dmadisetti/steam-tui"
+link="https://api.github.com/repos/dmadisetti/steam-tui/releases/157250282"
+-----------------------------------------------------------------
+size=9 MB
+version=0.3.0
+-----------------------------------------------------------------
+APP="steamcad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="oskardolch/SteamCAD"
+link="https://github.com/oskardolch/SteamCAD/releases/download/continuous/SteamCAD-9ce8b1e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=5 MB
+version=9ce8b1e
+-----------------------------------------------------------------
+APP="steamdepotdownloadergui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmvanheusden/SteamDepotDownloaderGUI"
+link="https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.0.0/SteamDepotDownloaderGUI-Linux-v3.0.0-x64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=3.0.0
+-----------------------------------------------------------------
