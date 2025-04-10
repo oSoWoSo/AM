@@ -18908,3 +18908,48 @@ link="https://github.com/s00d/switchshuttle/releases/download/app-v1.3.12/switch
 size=131 MB
 version=1.3.12
 -----------------------------------------------------------------
+APP="swradio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JvanKatwijk/swradio-8"
+link="https://github.com/JvanKatwijk/swradio-8/releases/download/9.1/swradio-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=9.1
+-----------------------------------------------------------------
+APP="symphonium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ttdm/Symphonium"
+link="https://github.com/ttdm/Symphonium/releases/download/continuous/Symphonium-9d06c8e-x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=9d06c8e
+-----------------------------------------------------------------
+APP="syncmyl2p"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RobertKrajewski/Sync-my-L2P"
+link="https://github.com/RobertKrajewski/Sync-my-L2P/releases/download/v2.4.2/SyncMyL2P-2.4.2-linux.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=2.4.2
+-----------------------------------------------------------------
+APP="syncplay"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Syncplay/syncplay"
+link="https://github.com/Syncplay/syncplay/releases/download/v1.7.0/Syncplay-1.7.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=188 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="syncthing-tray"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/mkittler:"
+link="https://download.opensuse.org/repositories/home:/mkittler:/appimage/AppImage/syncthingtray-1.2.0-Build60.1.glibc2.17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=66 MB
+version=1.2.0
+-----------------------------------------------------------------
