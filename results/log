@@ -18599,3 +18599,48 @@ link="https://github.com/s8sachin/subtitler/releases/download/v1.5.5/Subtitler-1
 size=72 MB
 version=1.5.5
 -----------------------------------------------------------------
+APP="sudachi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="emuplace/sudachi.emuplace.app"
+link="https://github.com/emuplace/sudachi.emuplace.app/releases/download/v1.0.14/sudachi-linux-v1.0.14.7z"
+-----------------------------------------------------------------
+size=113 MB
+version=1.0.14.7z
+-----------------------------------------------------------------
+APP="sugarizer"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sugarizer.org"
+link="https://sugarizer.org/download/Sugarizer-1.9.0.AppImage"
+-----------------------------------------------------------------
+size=180 MB
+version=1.9.0
+-----------------------------------------------------------------
+APP="sultanpos"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="apinprastya/sultan"
+link="https://github.com/apinprastya/sultan/releases/download/23.11.01/SultanPOS-23.11.01-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=23.11.01
+-----------------------------------------------------------------
+APP="summoners.war.exporter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Xzandro/sw-exporter"
+link="https://github.com/Xzandro/sw-exporter/releases/download/v0.0.65/Summoners-War-Exporter-0.0.65-linux.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=0.0.65
+-----------------------------------------------------------------
+APP="sumoco"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fortius-digital/sumo"
+link="https://github.com/fortius-digital/sumo/releases/download/v0.1.5/sumoco.0.1.5.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.1.5
+-----------------------------------------------------------------
