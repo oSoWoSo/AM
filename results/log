@@ -17883,3 +17883,48 @@ link="https://github.com/richardhbtz/soundcloud-rpc/releases/download/v0.0.9/sou
 size=96 MB
 version=0.0.9
 -----------------------------------------------------------------
+APP="sourcetrail"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CoatiSoftware/Sourcetrail"
+link="https://github.com/CoatiSoftware/Sourcetrail/releases/download/2021.4.19/Sourcetrail_2021_4_19_Linux_64bit.AppImage"
+-----------------------------------------------------------------
+size=133 MB
+version=2021
+-----------------------------------------------------------------
+APP="sozi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sozi-projects/Sozi"
+link="https://github.com/sozi-projects/Sozi/releases/download/v24.11-beta/Sozi-24.11.17-1731875579.AppImage"
+-----------------------------------------------------------------
+size=110 MB
+version=24.11.17
+-----------------------------------------------------------------
+APP="spacebar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spacebarchat/client"
+link="https://github.com/spacebarchat/client/releases/download/client-dev-v0.1.1/spacebar_0.1.1%2B72968360811_amd64.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=0.1.1%2B72968360811
+-----------------------------------------------------------------
+APP="spacebar-debug"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spacebarchat/client"
+link="https://github.com/spacebarchat/client/releases/download/client-dev-v0.1.1/spacebar_0.1.1%2B72968360811_amd64-debug.AppImage"
+-----------------------------------------------------------------
+size=144 MB
+version=0.1.1%2B72968360811
+-----------------------------------------------------------------
+APP="spacecadet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Spacecadetpinball-git-appimage"
+link="https://github.com/ivan-hc/Spacecadetpinball-git-appimage/releases/download/continuous/SpaceCadetPinball_2.1.0.r6.gcb9b7b8-1-archimage3.4.1-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=2.1.0.r6.gcb9b7b8
+-----------------------------------------------------------------
