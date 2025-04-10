@@ -18818,3 +18818,48 @@ link="https://github.com/grimpirate/SVGWall/releases/download/v20240716.1/SVGWal
 size=71 MB
 version=20240716.1
 -----------------------------------------------------------------
+APP="swaglyrics"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/swaglyrics-appimage"
+link="https://github.com/srevinsaju/swaglyrics-appimage/releases/download/latest/swaglyrics-x86_64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="swc-minecraft-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Software-City/swc_mclauncher"
+link="https://github.com/Davis-Software/swc_mclauncher_old/releases/download/v1.0.8/SWC-Minecraft-Launcher-1.0.8.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=1.0.8
+-----------------------------------------------------------------
+APP="sweethome3d"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.sweethome3d.com"
+link="https://sourceforge.net/projects/sweethome3d/files/SweetHome3D/SweetHome3D-7.5/SweetHome3D-7.5-linux-x64.tgz/download"
+-----------------------------------------------------------------
+size=148 MB
+version=7.5
+-----------------------------------------------------------------
+APP="swell"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="getswell/getswell"
+link="https://github.com/open-source-labs/Swell/releases/download/v1.19.0/Swell-1.19.0.AppImage"
+-----------------------------------------------------------------
+size=266 MB
+version=1.19.0
+-----------------------------------------------------------------
+APP="swift"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.swift.im"
+link="https://www.swift.im/downloads/releases/swift-4.0.2/Swift-4.0.2.amd64.appimage"
+-----------------------------------------------------------------
+size=67 MB
+version=4.0.2
+-----------------------------------------------------------------
