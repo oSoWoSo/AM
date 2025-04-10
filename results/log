@@ -19043,3 +19043,47 @@ link="https://github.com/tagspaces/tagspaces/releases/download/v6.4.4/tagspaces-
 size=149 MB
 version=6.4.4
 -----------------------------------------------------------------
+APP="tagstoo"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tagstoo.sourceforge.io"
+link="https://sourceforge.net/projects/tagstoo/files/Tagstoo%202.0.1%20linux64/Tagstoo.AppImage/download"
+-----------------------------------------------------------------
+size=55 MB
+version=2019.06.20
+-----------------------------------------------------------------
+APP="tagtime-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mykter/TagTime-desktop"
+link="https://github.com/mykter/TagTime-desktop/releases/download/v0.7.1/TagTime-desktop-0.7.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.7.1
+-----------------------------------------------------------------
+APP="tangent"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.tangentnotes.com"
+link="https://suchnsuch-public.s3.us-east-2.amazonaws.com/Tangent/Releases/Tangent-0.8.4.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.8.4
+-----------------------------------------------------------------
+APP="taskade"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.taskade.com"
+-----------------------------------------------------------------
+size=107 MB
+version=4.4.5
+-----------------------------------------------------------------
+APP="taskell"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="smallhadroncollider/taskell"
+link="https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/taskell-1.11.4_x86-64-linux.tar.gz"
+-----------------------------------------------------------------
+size=32 MB
+version=1.11.4
+-----------------------------------------------------------------
