@@ -18465,3 +18465,48 @@ link="https://www.videohelp.com/download/streamcapture2-ffmpeg-x86_64.AppImage?r
 size=51 MB
 version=2025.04.01
 -----------------------------------------------------------------
+APP="streamdock"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jtvberg/StreamDock"
+link="https://github.com/jtvberg/StreamDock/releases/download/v2.0.1/StreamDock-2.0.1.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="streamlink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="streamlink/streamlink-appimage"
+link="https://github.com/streamlink/streamlink-appimage/releases/download/7.2.0-1/streamlink-7.2.0-1-cp313-cp313-manylinux_2_28_x86_64.AppImage"
+-----------------------------------------------------------------
+size=42 MB
+version=7.2.0
+-----------------------------------------------------------------
+APP="streamlink-twitch-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="streamlink/streamlink-twitch-gui"
+link="https://github.com/streamlink/streamlink-twitch-gui/releases/download/v2.5.3/streamlink-twitch-gui-v2.5.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=148 MB
+version=2.5.3
+-----------------------------------------------------------------
+APP="streamon"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="haxzie/instagram-live-streamer"
+link="https://github.com/haxzie/instagram-live-streamer/releases/download/0.2.1/instagram-live-streamer-0.2.1.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=0.2.1
+-----------------------------------------------------------------
+APP="stretchly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hovancik/stretchly"
+link="https://github.com/hovancik/stretchly/releases/download/v1.17.2/Stretchly-1.17.2.AppImage"
+-----------------------------------------------------------------
+size=164 MB
+version=1.17.2
+-----------------------------------------------------------------
