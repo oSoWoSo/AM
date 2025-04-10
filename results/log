@@ -17210,3 +17210,48 @@ SITE="https://invent.kde.org/maui/"
 size=225 MB
 version=3.1.0
 -----------------------------------------------------------------
+APP="shellcheck"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="koalaman/shellcheck"
+link="https://github.com/koalaman/shellcheck/releases/download/v0.10.0/shellcheck-v0.10.0.linux.x86_64.tar.xz"
+-----------------------------------------------------------------
+size=16 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="shellharden"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="anordal/shellharden"
+link="https://github.com/anordal/shellharden/releases/download/v4.3.1/shellharden-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=1 MB
+version=4.3.1
+-----------------------------------------------------------------
+APP="shipwright"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mantralunar/Shipwright"
+link="https://github.com/mantralunar/Shipwright/releases/download/soh-8fdee66-x86_64/soh-x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=8fdee66
+-----------------------------------------------------------------
+APP="shotcut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mltframework/shotcut"
+link="https://github.com/mltframework/shotcut/releases/download/v25.03.29/shotcut-linux-x86_64-250329.AppImage"
+-----------------------------------------------------------------
+size=251 MB
+version=25.03.29
+-----------------------------------------------------------------
+APP="shradiko"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="universe-software/shradiko"
+link="https://github.com/universe-software/shradiko/releases/download/1.0.0/shradiko-apt"
+-----------------------------------------------------------------
+size=5 MB
+version=1.0.0
+-----------------------------------------------------------------
