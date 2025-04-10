@@ -17793,3 +17793,48 @@ SITE="charmbracelet/soft-serve"
 size=28 MB
 version=0.8.5
 -----------------------------------------------------------------
+APP="software-challenge-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CAU-Kiel-Tech-Inf/socha-gui"
+link="https://github.com/software-challenge/gui-electron/releases/download/20.3.4/Software-Challenge-GUI-linux-20.3.4.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=20.3.4
+-----------------------------------------------------------------
+APP="soil-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ARPA-SIMC/CRITERIA1D"
+link="https://github.com/ARPA-SIMC/CRITERIA1D/releases/download/v1.8.7/CRITERIA_GEO-x86_64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=1.8.7
+-----------------------------------------------------------------
+APP="solars"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hiltontj/solars"
+link="https://github.com/hiltontj/solars/releases/download/v0.1.0/solars_0.1.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.1.0
+-----------------------------------------------------------------
+APP="solarwallet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="satoshipay/solar"
+link="https://github.com/satoshipay/solar/releases/download/v0.28.1/Solar-Wallet-0.28.1.AppImage"
+-----------------------------------------------------------------
+size=102 MB
+version=0.28.1
+-----------------------------------------------------------------
+APP="soniclineup"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sonicvisualiser.org"
+link="https://code.soundsoftware.ac.uk/attachments/download/2766/SonicLineup-1.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=1.1
+-----------------------------------------------------------------
