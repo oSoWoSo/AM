@@ -17390,3 +17390,48 @@ link="https://github.com/lmcapacho/SimDSP/releases/download/v1.0.0/SimDSP-x86_64
 size=25 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="simple-s3-uploader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rBurgett/simple-uploader"
+link="https://github.com/rBurgett/simple-uploader/releases/download/v0.3.1/Simple-S3-Uploader-0.3.1.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=S3
+-----------------------------------------------------------------
+APP="simple-scan-gtk3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Database-of-pkg2appimaged-packages"
+link="https://github.com/ivan-hc/Database-of-pkg2appimaged-packages/releases/download/simple-scan3/Document_Scanner-3.38.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=54 MB
+version=3.38.1
+-----------------------------------------------------------------
+APP="simple-timer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="fliegwerk/simple-timer"
+link="https://github.com/fliegwerk/simple-timer/releases/download/v0.4.3/simple-timer-0.4.3.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=0.4.3
+-----------------------------------------------------------------
+APP="simplechroot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BobyMCbobs/simplechroot"
+link="https://github.com/BobyMCbobs/simplechroot/releases/download/1.1.1/simplechroot-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=1.1.1
+-----------------------------------------------------------------
+APP="simpleinstabot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mifi/SimpleInstaBot"
+link="https://github.com/mifi/SimpleInstaBot/releases/download/v1.11.2/SimpleInstaBot-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=1.11.2
+-----------------------------------------------------------------
