@@ -17345,3 +17345,48 @@ link="https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-0.7.2-x86_64.AppI
 size=48 MB
 version=0.7.2
 -----------------------------------------------------------------
+APP="silex-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="silexlabs/silex-desktop"
+link="https://github.com/silexlabs/silex-desktop/releases/download/v2.7.33/silex-desktop-2.7.33.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=2.7.33
+-----------------------------------------------------------------
+APP="siliconsneaker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cprevallet/siliconsneaker"
+link="https://github.com/cprevallet/siliconsneaker/releases/download/V1.9/SiliconSneaker-1.9-x86_64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=1.9
+-----------------------------------------------------------------
+APP="silverkey"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="metacoma/silverkey"
+link="https://github.com/metacoma/silverkey/releases/download/beta-release/Silverkey-d95c742-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=d95c742
+-----------------------------------------------------------------
+APP="simdock"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="onli/simdock"
+link="https://github.com/onli/simdock/releases/download/continuous/Simdock--x86_64.AppImage"
+-----------------------------------------------------------------
+size=35 MB
+version=2024.09.18
+-----------------------------------------------------------------
+APP="simdsp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lmcapacho/SimDSP"
+link="https://github.com/lmcapacho/SimDSP/releases/download/v1.0.0/SimDSP-x86_64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=1.0.0
+-----------------------------------------------------------------
