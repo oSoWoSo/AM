@@ -17614,3 +17614,48 @@ link="https://github.com/project-slippi/slippi-launcher/releases/download/v2.11.
 size=110 MB
 version=2.11.8
 -----------------------------------------------------------------
+APP="slogidex"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aklos/slogidex"
+link="https://github.com/aklos/slogidex/releases/download/slogidex-v0.2.2/slogidex_0.2.2_amd64.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="smallbasic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smallbasic/SmallBASIC"
+link="https://github.com/smallbasic/SmallBASIC/releases/download/12_27/SmallBASIC-Console_12.27-x86_64.AppImage"
+-----------------------------------------------------------------
+size=6 MB
+version=12.27
+-----------------------------------------------------------------
+APP="smart-media-cutter"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://smartmediacutter.com"
+link="https://smartmediacutter.com/sdc_download/705/?key=dt9fdjinjsdhtxfluvzb666ncdtsqf"
+-----------------------------------------------------------------
+size=1 MB
+version=705
+-----------------------------------------------------------------
+APP="smartgit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ecmu/smartgit.AppImage"
+link="https://github.com/ecmu/smartgit.AppImage/releases/download/21.2.3/SmartGit-21.2.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=21.2.3
+-----------------------------------------------------------------
+APP="smartservogui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="emericg/SmartServoFramework"
+link="https://github.com/emericg/SmartServoFramework/releases/download/v0.98/SmartServoGui-0.98-linux64.AppImage"
+-----------------------------------------------------------------
+size=23 MB
+version=0.98
+-----------------------------------------------------------------
