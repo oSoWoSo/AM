@@ -18018,3 +18018,48 @@ link="https://github.com/speeduino/SpeedyLoader/releases/download/v1.7.0/speedyl
 size=150 MB
 version=1.7.0
 -----------------------------------------------------------------
+APP="speek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Speek-App/Speek"
+link="https://github.com/Speek-App/Speek/releases/download/v1.7.0-release/Speek.Chat-1.7.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=146 MB
+version=1.7.0
+-----------------------------------------------------------------
+APP="sphia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="YukidouSatoru/sphia"
+link="https://github.com/YukidouSatoru/sphia/releases/download/v1.0.2%2B15/sphia-linux-amd64.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="spicy-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spicylobstergames/SpicyLauncher"
+link="https://github.com/spicylobstergames/SpicyLauncher/releases/download/v0.4.1/spicy-launcher-linux.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=0.4.1
+-----------------------------------------------------------------
+APP="spivak"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gyunaev/spivak"
+link="https://github.com/gyunaev/spivak/releases/download/1.4/Spivak-Host-GStreamer-x86_64.AppImage"
+-----------------------------------------------------------------
+size=32 MB
+version=1.4
+-----------------------------------------------------------------
+APP="spm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simoniz0r/spm"
+link="https://github.com/simoniz0r/spm/releases/download/v0.2.05/spm-0.2.05-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=0.2.05
+-----------------------------------------------------------------
