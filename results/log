@@ -17659,3 +17659,48 @@ link="https://github.com/emericg/SmartServoFramework/releases/download/v0.98/Sma
 size=23 MB
 version=0.98
 -----------------------------------------------------------------
+APP="smassh"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="kraanzu/smassh"
+link="https://github.com/kraanzu/smassh/releases/download/v3.1.6/linux-smassh"
+-----------------------------------------------------------------
+size=19 MB
+version=3.1.6
+-----------------------------------------------------------------
+APP="smath-studio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="gntech/smath-appimage"
+link="https://github.com/gntech/smath-appimage/releases/download/4/SMathStudioDesktop.0_99_7822.x86_64.glibc2.27-PreRelease4.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=SMathStudioDesktop.0
+-----------------------------------------------------------------
+APP="smf-dsp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jpcima/smf-dsp"
+link="https://github.com/jpcima/smf-dsp/releases/download/automatic/SMF-DSP_MIDI_player-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="smplayer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smplayer-dev/smplayer"
+link="https://github.com/smplayer-dev/smplayer/releases/download/v24.5.0.10345/SMPlayer-24.5.0.10345-x86_64.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=24.5.0.10345
+-----------------------------------------------------------------
+APP="smuview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="knarfS/smuview"
+link="https://github.com/knarfS/smuview/releases/download/continuous/SmuView-0.0.6-git-a5ffb66-x86_64.AppImage"
+-----------------------------------------------------------------
+size=65 MB
+version=0.0.6
+-----------------------------------------------------------------
