@@ -18776,3 +18776,45 @@ link="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKar
 size=773 MB
 version=1.4
 -----------------------------------------------------------------
+APP="supertuxkart-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/SuperTuxKart-appimage"
+link="https://github.com/ivan-hc/SuperTuxKart-appimage/releases/download/1.4/SuperTuxKart-1.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=623 MB
+version=1.4
+-----------------------------------------------------------------
+APP="surrealist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="surrealdb/surrealist"
+link="https://github.com/surrealdb/surrealist/releases/download/surrealist-v3.3.1/Surrealist_3.3.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=3.3.1
+-----------------------------------------------------------------
+APP="suyu"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://git.suyu.dev/suyu/suyu"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="svelte-electron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ptkdev-boilerplate/svelte-electron-boilerplate"
+link="https://github.com/ptkdev-boilerplate/svelte-electron-boilerplate/releases/download/2.0.0/svelte-electron-boilerplate-2.0.0-linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="svgwall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="grimpirate/SVGWall"
+link="https://github.com/grimpirate/SVGWall/releases/download/v20240716.1/SVGWall-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=20240716.1
+-----------------------------------------------------------------
