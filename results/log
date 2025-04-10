@@ -18998,3 +18998,48 @@ link="https://github.com/qarmin/szyszka/releases/download/3.0.0/szyszka.AppImage
 size=2 MB
 version=3.0.0
 -----------------------------------------------------------------
+APP="t.viewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="msaltnet/T.Viewer"
+link="https://github.com/msaltnet/T.Viewer/releases/download/ver1.2.2/tviewer-1.2.2.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="tabby"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Eugeny/tabby"
+link="https://github.com/Eugeny/tabby/releases/download/v1.0.223/tabby-1.0.223-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=142 MB
+version=1.0.223
+-----------------------------------------------------------------
+APP="tablo-tools"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jessedp/tablo-tools-electron"
+link="https://github.com/jessedp/tablo-tools-electron/releases/download/v0.3.14/TabloTools-0.3.14.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=0.3.14
+-----------------------------------------------------------------
+APP="tag-editor"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/mkittler:"
+link="https://download.opensuse.org/repositories/home:/mkittler:/appimage/AppImage/tageditor-3.7.1-Build44.1.glibc2.17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=3.7.1
+-----------------------------------------------------------------
+APP="tagspaces"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tagspaces/tagspaces"
+link="https://github.com/tagspaces/tagspaces/releases/download/v6.4.4/tagspaces-linux-x86_64-6.4.4.AppImage"
+-----------------------------------------------------------------
+size=149 MB
+version=6.4.4
+-----------------------------------------------------------------
