@@ -18151,3 +18151,48 @@ SITE="raitonoberu/sptlrx"
 link="https://github.com/raitonoberu/sptlrx/releases/download/v1.2.3/sptlrx_1.2.3_linux_amd64.tar.gz"
 -----------------------------------------------------------------
 -----------------------------------------------------------------
+APP="spyglass"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="spyglass-search/spyglass"
+link="https://github.com/spyglass-search/spyglass/releases/download/v2024.11.1/Spyglass_24.11.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=24.11.1
+-----------------------------------------------------------------
+APP="sqlitebrowser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sqlitebrowser/sqlitebrowser"
+link="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/nightly/DB.Browser.for.SQLCipher-20250308-x86.64.AppImage"
+-----------------------------------------------------------------
+size=39 MB
+version=20250308
+-----------------------------------------------------------------
+APP="squirrel-disk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="adileo/squirreldisk"
+link="https://github.com/adileo/squirreldisk/releases/download/v0.3.4/squirrel-disk_0.3.4_amd64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=0.3.4
+-----------------------------------------------------------------
+APP="srb2k"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lonsfor/srb2k-appimage"
+link="https://github.com/Lonsfor/srb2k-appimage/releases/download/1.6/srb2kart-galaxy-noassets-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=1.6
+-----------------------------------------------------------------
+APP="ssh-mitm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ssh-mitm/ssh-mitm"
+link="https://github.com/ssh-mitm/ssh-mitm/releases/download/5.0.1/ssh-mitm-x86_64.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=5.0.1
+-----------------------------------------------------------------
