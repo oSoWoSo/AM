@@ -20397,3 +20397,39 @@ link="https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.4.0/V2Ra
 size=43 MB
 version=V2Ray
 -----------------------------------------------------------------
+APP="valentina"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://smart-pattern.com.ua"
+link="https://bitbucket.org/valentinaproject/valentinaproject.bitbucket.io/downloads/valentina_0.7.53_x86_64.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=0.7.53
+-----------------------------------------------------------------
+APP="valeronoi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ccoors/Valeronoi"
+link="https://github.com/ccoors/Valeronoi/releases/download/v0.2.2/Valeronoi-current-x86_64.AppImage"
+-----------------------------------------------------------------
+size=33 MB
+version=0.2.2
+-----------------------------------------------------------------
+APP="vcloudcam"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="quocson95/vCloudcam"
+link="https://github.com/quocson95/vCloudcam/releases/download/v5.6.4/default.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=5.6.4
+-----------------------------------------------------------------
+APP="vechain"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vechain/thor-sync.electron"
+link="https://github.com/vechain/thor-sync.electron/releases/download/v1.3.2/Sync-linux-x86_64-1.3.2.AppImage"
+-----------------------------------------------------------------
+size=56 MB
+version=1.3.2
+-----------------------------------------------------------------
