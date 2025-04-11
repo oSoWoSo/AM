@@ -20609,3 +20609,39 @@ link="https://github.com/akiomik/vimeo-dl/releases/download/v0.2.0/vimeo-dl_0.2.
 size=7 MB
 version=0.2.0
 -----------------------------------------------------------------
+APP="viper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="0neGal/viper"
+link="https://github.com/0neGal/viper/releases/download/v1.13.0/Viper-1.13.0.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=1.13.0
+-----------------------------------------------------------------
+APP="viper-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LeFroid/Viper-Browser"
+link="https://github.com/LeFroid/Viper-Browser/releases/download/continuous/Viper_Browser-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=129 MB
+version=1
+-----------------------------------------------------------------
+APP="vipster"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sgsaenger/vipster"
+link="https://github.com/sgsaenger/vipster/releases/download/v1.19.1b/Vipster-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=91 MB
+version=1.19.1
+-----------------------------------------------------------------
+APP="vircadia"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vircadia/vircadia-native-core"
+link="https://github.com/vircadia/vircadia-native-core/releases/download/2022.1.1/Vircadia-2022.1.1-Selene.AppImage"
+-----------------------------------------------------------------
+size=726 MB
+version=2022.1.1
+-----------------------------------------------------------------
