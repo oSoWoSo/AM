@@ -19688,3 +19688,38 @@ link="https://github.com/acarl005/toerings/releases/download/v0.0.0/toe-rings_0.
 size=88 MB
 version=0.0.0
 -----------------------------------------------------------------
+APP="toipe"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Samyak2/toipe"
+-----------------------------------------------------------------
+size=3 MB
+version=0.5.0
+-----------------------------------------------------------------
+APP="tomatox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yanjiaxuan/TOMATOX"
+link="https://github.com/FreeIess/TOMATOX/releases/download/v2.0.2/TOMATOX-2.0.2.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=2.0.2
+-----------------------------------------------------------------
+APP="tonuino-toolbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raph-ael/tonuino-toolbox"
+link="https://github.com/raph-ael/tonuino-toolbox/releases/download/v1.1.9/tonuino-toolbox-1.1.9-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=1.1.9
+-----------------------------------------------------------------
+APP="topgrade"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="topgrade-rs/topgrade"
+link="https://github.com/topgrade-rs/topgrade/releases/download/v16.0.3/topgrade-v16.0.3-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=13 MB
+version=16.0.3
+-----------------------------------------------------------------
