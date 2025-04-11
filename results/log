@@ -20681,3 +20681,39 @@ link="https://github.com/defineEditor/editor/releases/download/v1.1.16-current/D
 size=86 MB
 version=DefineEditor.1.1.16
 -----------------------------------------------------------------
+APP="visualfamilytree"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jisco/VisualFamilyTree"
+link="https://github.com/Jisco/VisualFamilyTree/releases/download/v1.4.0/VisualFamilyTree.1.4.0.AppImage"
+-----------------------------------------------------------------
+size=130 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="vita3k"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Vita3K/Vita3K"
+link="https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage"
+-----------------------------------------------------------------
+size=21 MB
+version=2025.04.08
+-----------------------------------------------------------------
+APP="vitomu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="digimezzo/vitomu"
+link="https://github.com/digimezzo/vitomu/releases/download/v2.1.0/Vitomu-2.1.0.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="viu"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="atanunq/viu"
+link="https://github.com/atanunq/viu/releases/download/v1.5.1/viu-x86_64-unknown-linux-musl"
+-----------------------------------------------------------------
+size=5 MB
+version=1.5.1
+-----------------------------------------------------------------
