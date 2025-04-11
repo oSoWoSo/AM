@@ -19755,3 +19755,38 @@ link="https://github.com/fbdtemme/torrenttools/releases/download/v0.6.2/torrentt
 size=34 MB
 version=0.6.2
 -----------------------------------------------------------------
+APP="toru"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sweetbbak/toru"
+-----------------------------------------------------------------
+size=6 MB
+version=0.3.3
+-----------------------------------------------------------------
+APP="torzu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pkgforge-dev/Torzu-AppImage"
+link="https://github.com/pkgforge-dev/Torzu-AppImage/releases/download/r27206.eaa9c9e3a/Torzu-r27206.eaa9c9e3a-anylinux-x86_64_v3.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=r27206.eaa9c9e3a
+-----------------------------------------------------------------
+APP="toughcookies"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.toughcookies.net"
+link="https://downloads.toughcookies.net/v0.45.0/Tough-Cookies-0.45.0.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=0.45.0
+-----------------------------------------------------------------
+APP="trackaudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="pierr3/TrackAudio"
+link="https://github.com/pierr3/TrackAudio/releases/download/1.3.1/trackaudio-1.3.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=1.3.1
+-----------------------------------------------------------------
