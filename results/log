@@ -19132,3 +19132,45 @@ link="https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.0.5/tdli
 size=169 MB
 version=1.8.29
 -----------------------------------------------------------------
+APP="teams"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="IsmaelMartinez/teams-for-linux"
+link="https://github.com/IsmaelMartinez/teams-for-linux/releases/download/v2.0.7/teams-for-linux-2.0.7.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=2.0.7
+-----------------------------------------------------------------
+APP="teamviewer"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+-----------------------------------------------------------------
+size=395 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teamviewer-host"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+-----------------------------------------------------------------
+size=385 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teamviewer-qs"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.teamviewer.com"
+-----------------------------------------------------------------
+size=40 MB
+version=15.64.3
+-----------------------------------------------------------------
+APP="teledrive"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KhushrajRathod/TeleDrive"
+link="https://github.com/khrj/teledrive/releases/download/v1.2.0/TeleDrive-1.2.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=85 MB
+version=1.2.0
+-----------------------------------------------------------------
