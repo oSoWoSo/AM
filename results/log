@@ -19219,3 +19219,48 @@ link="https://github.com/homeport/termshot/releases/download/v0.5.0/termshot_0.5
 size=5 MB
 version=0.5.0
 -----------------------------------------------------------------
+APP="teslacam-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="BobStrogg/teslacam-browser"
+link="https://github.com/BobStrogg/teslacam-browser/releases/download/v0.0.956/TeslaCam-Browser-0.0.956.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=0.0.956
+-----------------------------------------------------------------
+APP="tesler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="j-catania/TeslaSentinelViewer"
+link="https://github.com/j-catania/TeslaSentinelViewer/releases/download/v0.2.3/TesLEr-0.2.3.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=0.2.3
+-----------------------------------------------------------------
+APP="tess"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="SquitchYT/Tess"
+link="https://github.com/Squitch1/Tess/releases/download/0.7-alpha.12/tess-x86_64-unknown-linux-gnu"
+-----------------------------------------------------------------
+size=5 MB
+version=0.7
+-----------------------------------------------------------------
+APP="tesseract"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AlexanderP/tesseract-appimage"
+link="https://github.com/AlexanderP/tesseract-appimage/releases/download/v5.5.0/tesseract-5.5.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=57 MB
+version=5.5.0
+-----------------------------------------------------------------
+APP="testdisk"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.cgsecurity.org/wiki/TestDisk_Download"
+link="https://www.cgsecurity.org/testdisk-7.3-WIP.linux26-x86_64.tar.bz2"
+-----------------------------------------------------------------
+size=19 MB
+version=7.3
+-----------------------------------------------------------------
