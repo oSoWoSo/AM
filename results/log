@@ -20145,3 +20145,39 @@ link="https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen
 size=82 MB
 version=2.0.0
 -----------------------------------------------------------------
+APP="ums"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="UniversalMediaServer/UniversalMediaServer"
+link="https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/14.11.0/UMS-Linux-14.11.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=149 MB
+version=14.11.0
+-----------------------------------------------------------------
+APP="uncov"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xaizek/uncov"
+link="https://github.com/xaizek/uncov/releases/download/v0.5/uncov-0.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=18 MB
+version=0.5
+-----------------------------------------------------------------
+APP="unetbootin"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="unetbootin/unetbootin"
+link="https://github.com/unetbootin/unetbootin/releases/download/702/unetbootin-linux64-702.bin"
+-----------------------------------------------------------------
+size=6 MB
+version=702.bin
+-----------------------------------------------------------------
+APP="ungoogled-chromium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ungoogled-software/ungoogled-chromium-portablelinux"
+link="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/releases/download/135.0.7049.84-1/ungoogled-chromium_135.0.7049.84-1.AppImage"
+-----------------------------------------------------------------
+size=177 MB
+version=135.0.7049.84
+-----------------------------------------------------------------
