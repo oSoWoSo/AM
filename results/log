@@ -19934,3 +19934,39 @@ link="https://github.com/yafp/ttth/releases/download/1.8.20210416/ttth-1.8.20210
 size=90 MB
 version=1.8.20210416
 -----------------------------------------------------------------
+APP="ttyper"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="max-niederman/ttyper"
+link="https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-aarch64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=aarch64
+-----------------------------------------------------------------
+APP="tulip"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/auber"
+link="https://sourceforge.net/projects/auber/files/tulip/tulip-6.0.1/Tulip-6.0.1.AppImage/download"
+-----------------------------------------------------------------
+size=137 MB
+version=6.0.1
+-----------------------------------------------------------------
+APP="tumblr-downloader-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="neuro-sys/tumblr-likes-downloader"
+link="https://github.com/neuro-sys/tumblr-likes-downloader/releases/download/0.0.6/Tumblr_Downloader_GUI-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=0.0.6
+-----------------------------------------------------------------
+APP="tumblr-scraper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="lluisrojass/tumblr-scraper"
+link="https://github.com/lluisrojass/tumblr-scraper/releases/download/v1.2/tumblr-scraper-1.2.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=44 MB
+version=1.2.0
+-----------------------------------------------------------------
