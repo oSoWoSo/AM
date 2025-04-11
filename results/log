@@ -19527,3 +19527,48 @@ link="https://github.com/Mastermindzh/tidal-hifi/releases/download/5.18.2/tidal-
 size=122 MB
 version=5.18.2
 -----------------------------------------------------------------
+APP="tilde-podcast"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="paologiua/tilde"
+link="https://github.com/paologiua/tilde/releases/download/v1.0.0/Tilde-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="tiled"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bjorn/tiled"
+link="https://github.com/mapeditor/tiled/releases/download/v1.11.2/Tiled-1.11.2_Linux_Qt-5_x86_64.AppImage"
+-----------------------------------------------------------------
+size=41 MB
+version=1.11.2
+-----------------------------------------------------------------
+APP="tilinggenerator"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="PJK136/TilingGenerator"
+link="https://github.com/PJK136/TilingGenerator/releases/download/continuous/TilingGenerator-9ad9652-x86_64.AppImage"
+-----------------------------------------------------------------
+size=22 MB
+version=9ad9652
+-----------------------------------------------------------------
+APP="timely"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Timely/desktop-releases"
+link="https://github.com/Timely/desktop-releases/releases/download/linux-x64-dev-1.2.2-dev.135/Timely-1.2.2-dev.135.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=1.2.2
+-----------------------------------------------------------------
+APP="timenaut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kmteras/timenaut"
+link="https://github.com/kmteras/timenaut/releases/download/v0.5.0/Timenaut-0.5.0.AppImage"
+-----------------------------------------------------------------
+size=73 MB
+version=0.5.0
+-----------------------------------------------------------------
