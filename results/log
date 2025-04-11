@@ -20361,3 +20361,39 @@ link="https://cdn.utilso.com/Utilso-4.4.0.AppImage"
 size=126 MB
 version=4.4.0
 -----------------------------------------------------------------
+APP="uv"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="astral-sh/uv"
+link="https://github.com/astral-sh/uv/releases/download/0.6.14/uv-x86_64-unknown-linux-musl.tar.gz"
+-----------------------------------------------------------------
+size=40 MB
+version=0.6.14
+-----------------------------------------------------------------
+APP="uwufetch"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ad-oliviero/uwufetch"
+link="https://github.com/ad-oliviero/uwufetch/releases/download/2.1/uwufetch_2.1-linux.tar.gz"
+-----------------------------------------------------------------
+size=3 MB
+version=2.1
+-----------------------------------------------------------------
+APP="uyou"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tonylu110/uyou-todo-electron"
+link="https://github.com/tonylu110/uyou-todo-electron/releases/download/3.1.0/uyou.ToDo-3.1.0.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=3.1.0
+-----------------------------------------------------------------
+APP="v2ray-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Dr-Incognito/V2Ray-Desktop"
+link="https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.4.0/V2Ray-Desktop-v2.4.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=V2Ray
+-----------------------------------------------------------------
