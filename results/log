@@ -19308,3 +19308,48 @@ SITE="https://texts.com"
 size=133 MB
 version=1.5.0
 -----------------------------------------------------------------
+APP="tgpt"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="aandrew-me/tgpt"
+link="https://github.com/aandrew-me/tgpt/releases/download/v2.9.4/tgpt-linux-amd64"
+-----------------------------------------------------------------
+size=10 MB
+version=2.9.4
+-----------------------------------------------------------------
+APP="the-way"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="out-of-cheese-error/the-way"
+link="https://github.com/out-of-cheese-error/the-way/releases/download/v0.20.3/the-way-linux.tar.gz"
+-----------------------------------------------------------------
+size=10 MB
+version=0.20.3
+-----------------------------------------------------------------
+APP="thedesk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cutls/TheDesk"
+link="https://github.com/cutls/TheDesk/releases/download/v24.2.1/TheDesk-24.2.1.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=24.2.1
+-----------------------------------------------------------------
+APP="theframe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vicr123/theFrame"
+link="https://github.com/vicr123/theFrame/releases/download/continuous/theframe-linux.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="theia-blueprint"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.eclipse.org"
+link="2025-03"
+-----------------------------------------------------------------
+size=227 MB
+version=2025
+-----------------------------------------------------------------
