@@ -20469,3 +20469,38 @@ link="https://github.com/Vencord/Vesktop/releases/download/v1.5.5/Vesktop-1.5.5.
 size=106 MB
 version=1.5.5
 -----------------------------------------------------------------
+APP="vgmtrans"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vgmtrans/vgmtrans"
+link="https://github.com/vgmtrans/vgmtrans/releases/download/v1.1/vgmtrans-preview-v1.1.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=1.1
+-----------------------------------------------------------------
+APP="vhc-viewer-wayland"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vulkan.gpuinfo.org"
+link="https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64_wayland.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=4.00
+-----------------------------------------------------------------
+APP="vhc-viewer-x11"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vulkan.gpuinfo.org"
+link="https://vulkan.gpuinfo.org/downloads/vulkancapsviewer_4.00_linux64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=4.00
+-----------------------------------------------------------------
+APP="vhs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="charmbracelet/vhs"
+-----------------------------------------------------------------
+size=22 MB
+version=0.9.0
+-----------------------------------------------------------------
