@@ -20289,3 +20289,39 @@ link="https://github.com/oknozor/unveil-rs/releases/download/0.1.2-alpha1/unveil
 size=10 MB
 version=0.1.2
 -----------------------------------------------------------------
+APP="unyo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="K3vinb5/Unyo"
+link="https://github.com/K3vinb5/Unyo/releases/download/v0.6.7/Unyo-v0.6.7-linux.AppImage"
+-----------------------------------------------------------------
+size=43 MB
+version=0.6.7
+-----------------------------------------------------------------
+APP="updatedeployqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TheFutureShell/updatedeployqt"
+link="https://github.com/antony-jr/updatedeployqt/releases/download/continuous/updatedeployqt-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="upgit"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="pluveto/upgit"
+link="https://github.com/pluveto/upgit/releases/download/v0.2.25/upgit_cgo_linux_amd64"
+-----------------------------------------------------------------
+size=12 MB
+version=0.2.25
+-----------------------------------------------------------------
+APP="upnote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://getupnote.com"
+link="https://download.getupnote.com/app/UpNote.AppImage"
+-----------------------------------------------------------------
+size=114 MB
+version=2025.04.10
+-----------------------------------------------------------------
