@@ -20253,3 +20253,39 @@ link="https://github.com/tw93/Pake/releases/download/V2.0.0/YuQue_x86_64.AppImag
 size=74 MB
 version=2.0.0
 -----------------------------------------------------------------
+APP="unofficial-homestuck-collection"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="GiovanH/unofficial-homestuck-collection"
+link="https://github.com/GiovanH/unofficial-homestuck-collection/releases/download/v2.5.6/The-Unofficial-Homestuck-Collection-2.5.6.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=2.5.6
+-----------------------------------------------------------------
+APP="unofficial-zalo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SafeStudio/unofficial-zalo"
+link="https://github.com/safestudio/unofficial-zalo/releases/download/v1.0.3/unofficial-zalo-1.0.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="unreel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="linux-man/unreel"
+link="https://github.com/linux-man/unreel/releases/download/v1.4.0/unreel-1.4.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=63 MB
+version=1.4.0
+-----------------------------------------------------------------
+APP="unveil"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="oknozor/unveil-rs"
+link="https://github.com/oknozor/unveil-rs/releases/download/0.1.2-alpha1/unveil-0.1.2-alpha1-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=10 MB
+version=0.1.2
+-----------------------------------------------------------------
