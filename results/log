@@ -19353,3 +19353,48 @@ link="2025-03"
 size=227 MB
 version=2025
 -----------------------------------------------------------------
+APP="thermusqt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yschutz/ThermusQt"
+link="https://github.com/yschutz/ThermusQt/releases/download/continuous/ThermusQt-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=2021.12.08
+-----------------------------------------------------------------
+APP="theweb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vicr123/theweb"
+link="https://github.com/vicr123/theweb/releases/download/continuous/theWeb-linux.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="thief"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cteamx/Thief"
+link="https://github.com/cteamx/Thief/releases/download/4.0.0/thief-4.0.0-linux64.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="thinreports-section-editor"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thinreports/thinreports-section-editor"
+link="https://github.com/thinreports/thinreports-section-editor/releases/download/v1.0.0-dev/thinreports-section-editor-1.0.0-dev-linux-20240116-67b3e2.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="thlink"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="weilinfox/youmu-thlink"
+link="https://github.com/weilinfox/youmu-thlink/releases/download/v0.0.12/thlink-client-gtk-v0.0.12-amd64-linux.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=0.0.12
+-----------------------------------------------------------------
