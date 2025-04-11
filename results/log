@@ -20109,3 +20109,39 @@ link="https://github.com/UltimateHackingKeyboard/agent/releases/download/v6.0.0/
 size=117 MB
 version=6.0.0
 -----------------------------------------------------------------
+APP="uivonim"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smolck/uivonim"
+link="https://github.com/smolck/uivonim/releases/download/v0.29.0/uivonim-0.29.0.AppImage"
+-----------------------------------------------------------------
+size=99 MB
+version=0.29.0
+-----------------------------------------------------------------
+APP="ultimmc"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="UltimMC/Launcher"
+link="c95dfe8"
+-----------------------------------------------------------------
+size=9 MB
+version=c95dfe8
+-----------------------------------------------------------------
+APP="ultragrid"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="CESNET/UltraGrid"
+link="https://github.com/CESNET/UltraGrid/releases/download/continuous/UltraGrid-continuous-x86_64.AppImage"
+-----------------------------------------------------------------
+size=148 MB
+version=2025.04.11
+-----------------------------------------------------------------
+APP="ultrascreen"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="w3yden/ultrascreen"
+link="https://github.com/w3yden/ultrascreen/releases/download/v2.0.0/ultrascreen-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=2.0.0
+-----------------------------------------------------------------
