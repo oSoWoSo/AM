@@ -19826,3 +19826,39 @@ link="https://github.com/webcatalog/translatium-legacy/releases/download/v20.4.0
 size=100 MB
 version=20.4.0
 -----------------------------------------------------------------
+APP="transmission-gtk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Transmission-gtk-appimage"
+link="https://github.com/ivan-hc/Transmission-gtk-appimage/releases/download/continuous/Transmission_4.0.6-9-archimage4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=4.0.6
+-----------------------------------------------------------------
+APP="transmissionic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="6c65726f79/Transmissionic"
+link="https://github.com/6c65726f79/Transmissionic/releases/download/v1.8.0/Transmissionic-linux-x86_64-v1.8.0.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=1.8.0
+-----------------------------------------------------------------
+APP="trezor-suite"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trezor/trezor-suite"
+link="https://github.com/trezor/trezor-suite/releases/download/v25.2.2/Trezor-Suite-25.2.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=171 MB
+version=25.2.2
+-----------------------------------------------------------------
+APP="trgui-ng"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="openscopeproject/TrguiNG"
+link="https://github.com/openscopeproject/TrguiNG/releases/download/v1.4.0/trgui-ng_1.4.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=87 MB
+version=1.4.0
+-----------------------------------------------------------------
