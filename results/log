@@ -20181,3 +20181,39 @@ link="https://github.com/ungoogled-software/ungoogled-chromium-portablelinux/rel
 size=177 MB
 version=135.0.7049.84
 -----------------------------------------------------------------
+APP="unishellect"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/unishellectv2"
+link="https://github.com/Lateralus138/unishellectv2/releases/download/2.0.1661201987/UniShellect-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2.0.1661201987
+-----------------------------------------------------------------
+APP="unoffical-flomo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link="https://github.com/tw93/Pake/releases/download/V3.1.1/Flomo_x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=3.1.1
+-----------------------------------------------------------------
+APP="unoffical-microsoft-loop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link="https://github.com/tw93/Pake/releases/download/V2.0.0/Loop_x86_64.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="unoffical-qwerty-learner"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tw93/Pake"
+link="https://github.com/tw93/Pake/releases/download/V3.1.1/Qwerty_x86_64.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=3.1.1
+-----------------------------------------------------------------
