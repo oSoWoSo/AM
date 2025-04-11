@@ -20041,3 +20041,36 @@ link="https://github.com/jonathontoon/tweet-tray/releases/download/v1.1.5/tweet-
 size=47 MB
 version=1.1.5
 -----------------------------------------------------------------
+APP="twetter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="NiewidzialnyCzlowiek/pubsub-webapp"
+link="https://github.com/NiewidzialnyCzlowiek/Twetter/releases/download/2.1.0/Twetter.64bit.2.1.0.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=2.1.0
+-----------------------------------------------------------------
+APP="twitch-wrapper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="simoniz0r/twitch-wrapper"
+link="https://github.com/simoniz0r/twitch-wrapper/releases/download/v0.0.3/twitch-wrapper-0.0.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=61 MB
+version=0.0.3
+-----------------------------------------------------------------
+APP="typioca"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="bloznelis/typioca"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="tzared"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://tza.red"
+link="https://cdn.tza.red/tzared.linux.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=2024.04.26
+-----------------------------------------------------------------
