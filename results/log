@@ -19398,3 +19398,48 @@ link="https://github.com/weilinfox/youmu-thlink/releases/download/v0.0.12/thlink
 size=36 MB
 version=0.0.12
 -----------------------------------------------------------------
+APP="thoptv"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kkdops/thoptv"
+link="https://github.com/kkdops/thoptv/releases/download/46.3.0/thoptv.46.3.0.AppImage"
+-----------------------------------------------------------------
+size=71 MB
+version=46.3.0
+-----------------------------------------------------------------
+APP="thorium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link="https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX.AppImage"
+-----------------------------------------------------------------
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-avx2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link="https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_AVX2.AppImage"
+-----------------------------------------------------------------
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-client"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Thorium-Sim/thorium-kiosk"
+link="https://github.com/Thorium-Sim/thorium-kiosk/releases/download/v2.0.8/thorium-kiosk-2.0.8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=2.0.8
+-----------------------------------------------------------------
+APP="thorium-reader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="edrlab/thorium-reader"
+link="https://github.com/edrlab/thorium-reader/releases/download/latest-linux-intel/Thorium-3.2.0-alpha.1.14382461215.AppImage"
+-----------------------------------------------------------------
+size=131 MB
+version=3.2.0
+-----------------------------------------------------------------
