@@ -19484,3 +19484,46 @@ GITHUB='no'
 size=275 MB
 version=138.0
 -----------------------------------------------------------------
+APP="thunderbird-beta-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link="https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/beta/ThunderbirdBeta-121.0_20231211172949.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=121.0
+-----------------------------------------------------------------
+APP="thunderbird-nightly"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=334 MB
+version=139.0a1
+-----------------------------------------------------------------
+APP="thunderbird-nightly-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link="https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/nightly/ThunderbirdNightly-122.0_20231214101505.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=122.0
+-----------------------------------------------------------------
+APP="ticker"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="achannarasappa/ticker"
+link="https://github.com/achannarasappa/ticker/releases/download/v4.8.1/ticker-4.8.1-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=4.8.1
+-----------------------------------------------------------------
+APP="tidal-hifi"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Mastermindzh/tidal-hifi"
+link="https://github.com/Mastermindzh/tidal-hifi/releases/download/5.18.2/tidal-hifi-5.18.2.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=5.18.2
+-----------------------------------------------------------------
