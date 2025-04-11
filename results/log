@@ -19862,3 +19862,39 @@ link="https://github.com/openscopeproject/TrguiNG/releases/download/v1.4.0/trgui
 size=87 MB
 version=1.4.0
 -----------------------------------------------------------------
+APP="triagem-touch"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="novosga/triagem-touch"
+link="https://github.com/novosga/triage-app/releases/download/v2.0.1/triagem-touch-2.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=49 MB
+version=2.0.1
+-----------------------------------------------------------------
+APP="trilium"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zadam/trilium"
+link="https://github.com/zadam/trilium/releases/download/v0.63.7/trilium-linux-x64-0.63.7.tar.xz"
+-----------------------------------------------------------------
+size=425 MB
+version=0.63.7
+-----------------------------------------------------------------
+APP="trinity-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iotaledger/trinity-wallet"
+link="https://github.com/iotaledger/trinity-wallet/releases/download/desktop-1.6.2/trinity-desktop-1.6.2.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=1.6.2
+-----------------------------------------------------------------
+APP="tropy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tropy/tropy"
+link="https://github.com/tropy/tropy/releases/download/v1.16.3-beta.2/Tropy-1.16.3-beta.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=115 MB
+version=1.16.3
+-----------------------------------------------------------------
