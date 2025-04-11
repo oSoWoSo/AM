@@ -19087,3 +19087,48 @@ link="https://github.com/smallhadroncollider/taskell/releases/download/1.11.4/ta
 size=32 MB
 version=1.11.4
 -----------------------------------------------------------------
+APP="taskizer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SimonBrandner/TaskizerDesktop"
+link="https://github.com/SimonBrandner/TaskizerDesktop/releases/download/v2.0.0-rc.2/taskizer-2.0.0-rc.2-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=2.0.0
+-----------------------------------------------------------------
+APP="tastee-ui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tastee/tastee-ui"
+link="https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=0.9.6
+-----------------------------------------------------------------
+APP="tb"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="araaha/tb.go"
+link="https://github.com/araaha/tb.go/releases/download/v1.0.2-1/tb.go-1.0.2-1-linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=1.0.2
+-----------------------------------------------------------------
+APP="tc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mccxiv/tc"
+link="https://github.com/mccxiv/tc/releases/download/v15.7.0/tc-linux-15.7.0.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=15.7.0
+-----------------------------------------------------------------
+APP="tdlib-rs"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="FedericoBruzzone/tdlib-rs"
+link="https://github.com/FedericoBruzzone/tdlib-rs/releases/download/v1.0.5/tdlib-1.8.29-linux-x86_64.zip"
+-----------------------------------------------------------------
+size=169 MB
+version=1.8.29
+-----------------------------------------------------------------
