@@ -20539,3 +20539,39 @@ link="https://github.com/ozmartian/vidcutter/releases/download/6.0.5.1/VidCutter
 size=152 MB
 version=6.0.5.1
 -----------------------------------------------------------------
+APP="viddy"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sachaos/viddy"
+link="https://github.com/sachaos/viddy/releases/download/v1.3.0/viddy-v1.3.0-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=9 MB
+version=1.3.0
+-----------------------------------------------------------------
+APP="video-hub"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="whyboris/Video-Hub-App"
+link="https://github.com/whyboris/Video-Hub-App/releases/download/v3.2.0/Video.Hub.App.3.Demo-3.2.0.AppImage"
+-----------------------------------------------------------------
+size=169 MB
+version=Video.Hub.App.3.Demo
+-----------------------------------------------------------------
+APP="videomass"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jeanslack/Videomass"
+link="https://github.com/jeanslack/Videomass/releases/download/v5.0.2/Videomass-5.0.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=188 MB
+version=5.0.2
+-----------------------------------------------------------------
+APP="vieb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Jelmerro/Vieb"
+link="https://github.com/Jelmerro/Vieb/releases/download/12.2.0/Vieb-12.2.0.AppImage"
+-----------------------------------------------------------------
+size=106 MB
+version=12.2.0
+-----------------------------------------------------------------
