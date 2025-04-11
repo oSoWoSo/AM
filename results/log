@@ -20074,3 +20074,38 @@ link="https://cdn.tza.red/tzared.linux.AppImage"
 size=74 MB
 version=2024.04.26
 -----------------------------------------------------------------
+APP="uad-ng"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+-----------------------------------------------------------------
+size=22 MB
+version=1.0.3
+-----------------------------------------------------------------
+APP="ubiquity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="opensourcecheemsburgers/ubiquity"
+link="https://github.com/opensourcecheemsburgers/ubiquity/releases/download/v0.4.0/ubiquity_0.4.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="ubports-installer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ubports/ubports-installer"
+link="https://github.com/ubports/ubports-installer/releases/download/0.10.0/ubports-installer_0.10.0_linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=119 MB
+version=0.10.0
+-----------------------------------------------------------------
+APP="uhk.agent"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="UltimateHackingKeyboard/agent"
+link="https://github.com/UltimateHackingKeyboard/agent/releases/download/v6.0.0/UHK.Agent-6.0.0-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=117 MB
+version=6.0.0
+-----------------------------------------------------------------
