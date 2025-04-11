@@ -20575,3 +20575,37 @@ link="https://github.com/Jelmerro/Vieb/releases/download/12.2.0/Vieb-12.2.0.AppI
 size=106 MB
 version=12.2.0
 -----------------------------------------------------------------
+APP="vifm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="vifm/vifm"
+link="https://github.com/vifm/vifm/releases/download/v0.14/vifm-v0.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=2 MB
+version=0.14
+-----------------------------------------------------------------
+APP="vigad"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VisualGameData/VIGAD"
+link="https://github.com/VisualGameData/VIGAD/releases/download/v1.0.0/Vigad-1.0.0.AppImage"
+-----------------------------------------------------------------
+size=128 MB
+version=1.0.0
+-----------------------------------------------------------------
+APP="vikunja"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vikunja.io"
+link="0.24.6"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="vimeo-dl"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="akiomik/vimeo-dl"
+link="https://github.com/akiomik/vimeo-dl/releases/download/v0.2.0/vimeo-dl_0.2.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=7 MB
+version=0.2.0
+-----------------------------------------------------------------
