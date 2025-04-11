@@ -19970,3 +19970,38 @@ link="https://github.com/lluisrojass/tumblr-scraper/releases/download/v1.2/tumbl
 size=44 MB
 version=1.2.0
 -----------------------------------------------------------------
+APP="tunepack"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tunepack/tunepack-desktop"
+link="https://github.com/tunepack/tunepack-desktop/releases/download/v1.2.1/tunepack-desktop-1.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="turbowarp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="TurboWarp/desktop"
+link="https://github.com/TurboWarp/desktop/releases/download/v1.14.0/TurboWarp-linux-x86_64-1.14.0.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=1.14.0
+-----------------------------------------------------------------
+APP="tusk"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="klauscfhq/tusk"
+link="https://github.com/klaudiosinani/tusk/releases/download/v0.23.0/tusk-0.23.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=0.23.0
+-----------------------------------------------------------------
+APP="tutanota"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://mail.tutanota.com"
+-----------------------------------------------------------------
+size=154 MB
+version=277.250409.0
+-----------------------------------------------------------------
