@@ -20325,3 +20325,39 @@ link="https://download.getupnote.com/app/UpNote.AppImage"
 size=114 MB
 version=2025.04.10
 -----------------------------------------------------------------
+APP="upnotes"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="upnotes-io/upnotes-website"
+link="https://github.com/upnotes-io/upnotes-website/releases/download/v2.5.2-beta/Upnotes-2.5.2-beta.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=2.5.2
+-----------------------------------------------------------------
+APP="upscayl"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="upscayl/upscayl"
+link="https://github.com/upscayl/upscayl/releases/download/v2.15.0/upscayl-2.15.0-linux.AppImage"
+-----------------------------------------------------------------
+size=299 MB
+version=2.15.0
+-----------------------------------------------------------------
+APP="urbanterror"
+APPIMAGE='no'
+GITHUB='no'
+SITE="http://www.urbanterror.info"
+link="4.3.4"
+-----------------------------------------------------------------
+size=1420 MB
+version=4.3.4
+-----------------------------------------------------------------
+APP="utilso"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://utilso.com"
+link="https://cdn.utilso.com/Utilso-4.4.0.AppImage"
+-----------------------------------------------------------------
+size=126 MB
+version=4.4.0
+-----------------------------------------------------------------
