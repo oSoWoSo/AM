@@ -19617,3 +19617,39 @@ link="https://github.com/nelsonenzo/tmux-appimage/releases/download/3.3a/tmux.ap
 size=6 MB
 version=3.3
 -----------------------------------------------------------------
+APP="tnt"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="foolo/tnt"
+link="https://github.com/foolo/tnt/releases/download/0.3/tnt-0.3-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=78 MB
+version=0.3
+-----------------------------------------------------------------
+APP="tockler"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="MayGo/tockler"
+link="https://github.com/MayGo/tockler/releases/download/v4.0.21/Tockler-4.0.21.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=4.0.21
+-----------------------------------------------------------------
+APP="tod"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="alanvardy/tod"
+link="https://github.com/alanvardy/tod/releases/download/v0.6.28/tod-0.6.28-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=11 MB
+version=0.6.28
+-----------------------------------------------------------------
+APP="todo-bash"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/todo-bash"
+link="https://github.com/Lateralus138/todo-bash/releases/download/Continuous/todo-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
