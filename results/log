@@ -19443,3 +19443,44 @@ link="https://github.com/edrlab/thorium-reader/releases/download/latest-linux-in
 size=131 MB
 version=3.2.0
 -----------------------------------------------------------------
+APP="thorium-sse3"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link="https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_SSE3.AppImage"
+-----------------------------------------------------------------
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thorium-sse4"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Alex313031/thorium"
+link="https://github.com/Alex313031/thorium/releases/download/M130.0.6723.174/Thorium_Browser_130.0.6723.174_SSE4.AppImage"
+-----------------------------------------------------------------
+size=283 MB
+version=130.0.6723.174
+-----------------------------------------------------------------
+APP="thunderbird"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=272 MB
+version=137.0.1
+-----------------------------------------------------------------
+APP="thunderbird-appimage"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="srevinsaju/thunderbird-appimage"
+link="https://github.com/srevinsaju/Thunderbird-AppImage/releases/download/stable/Thunderbird-115.5_20231208140222.AppImage"
+-----------------------------------------------------------------
+size=88 MB
+version=115.5
+-----------------------------------------------------------------
+APP="thunderbird-beta"
+APPIMAGE='no'
+GITHUB='no'
+-----------------------------------------------------------------
+size=275 MB
+version=138.0
+-----------------------------------------------------------------

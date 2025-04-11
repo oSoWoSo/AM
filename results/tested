@@ -2175,3 +2175,8 @@ thorium
 thorium-avx2
 thorium-client
 thorium-reader
+thorium-sse3
+thorium-sse4
+thunderbird
+thunderbird-appimage
+thunderbird-beta
