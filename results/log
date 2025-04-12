@@ -21357,3 +21357,39 @@ link="7.3.0"
 size=165 MB
 version=7.3.0
 -----------------------------------------------------------------
+APP="wireguard-gui"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="leon3s/wireguard-gui"
+link="https://github.com/leon3s/wireguard-gui/releases/download/0.1.6-stable/wireguard-gui_0.1.6_amd64.AppImage"
+-----------------------------------------------------------------
+size=81 MB
+version=0.1.6
+-----------------------------------------------------------------
+APP="wireshark"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ryuuzaki42/Wireshark_AppImage"
+link="https://github.com/ryuuzaki42/Wireshark_AppImage/releases/download/4.4.5/Wireshark-4.4.5.glibc2.29-x86_64-1_JB.AppImage"
+-----------------------------------------------------------------
+size=76 MB
+version=4.4.5.glibc2.29
+-----------------------------------------------------------------
+APP="wishdemo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="julien-montmartin/statcl"
+link="https://github.com/julien-montmartin/statcl/releases/download/8.6.9/WishDemo-x86_64.AppImage"
+-----------------------------------------------------------------
+size=14 MB
+version=8.6.9
+-----------------------------------------------------------------
+APP="wives"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="KRTirtho/wives"
+link="https://github.com/KRTirtho/wives/releases/download/nightly/Wives-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=2023.07.07
+-----------------------------------------------------------------
