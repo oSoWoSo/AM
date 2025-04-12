@@ -21607,3 +21607,39 @@ link="https://github.com/wtfutil/wtf/releases/download/v0.43.0/wtf_0.43.0_linux_
 size=61 MB
 version=0.43.0
 -----------------------------------------------------------------
+APP="wthrr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ttytm/wthrr-the-weathercrab"
+link="https://github.com/ttytm/wthrr-the-weathercrab/releases/download/nightly/wthrr-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=3 MB
+version=2025.01.02
+-----------------------------------------------------------------
+APP="wxmaxima"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wxMaxima-developers/docker-wxmaxima"
+link="https://github.com/wxMaxima-developers/docker-wxmaxima/releases/download/wxMaxima-22.09.0-5/wxmaxima-x86_64.AppImage"
+-----------------------------------------------------------------
+size=92 MB
+version=22.09.0
+-----------------------------------------------------------------
+APP="wxmedit"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VinnyVynce/wxMEdit.AppImage"
+link="https://github.com/VinnyVynce/wxMEdit.AppImage/releases/download/3.1_FIX1-2/wxMEdit-3.1_FIX1-2.AppImage"
+-----------------------------------------------------------------
+size=25 MB
+version=3.1
+-----------------------------------------------------------------
+APP="x-loc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bguyl/x-loc"
+link="https://github.com/bguyl/x-loc/releases/download/v1.3.5/x-loc-1.3.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=59 MB
+version=1.3.5
+-----------------------------------------------------------------
