@@ -21858,3 +21858,39 @@ link="https://github.com/ic005k/Xplist/releases/download/1.2.47/Xplist-Linux-x86
 size=28 MB
 version=1.2.47
 -----------------------------------------------------------------
+APP="xplorer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="kimlimjustin/xplorer"
+link="https://github.com/kimlimjustin/xplorer/releases/download/v0.3.1/xplorer_0.3.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=72 MB
+version=0.3.1
+-----------------------------------------------------------------
+APP="xtuber"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="chientrm/xtuber"
+link="https://github.com/chientrm/xtuber/releases/download/1.3.4/x-tuber_1.3.4_amd64.AppImage"
+-----------------------------------------------------------------
+size=149 MB
+version=1.3.4
+-----------------------------------------------------------------
+APP="xxh"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xxh/xxh"
+link="https://github.com/xxh/xxh/releases/download/0.8.14/xxh-x86_64.AppImage"
+-----------------------------------------------------------------
+size=24 MB
+version=0.8.14
+-----------------------------------------------------------------
+APP="yaf"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="deepjyoti30/yaf"
+link="https://github.com/deepjyoti30/yaf/releases/download/0.0.3/yaf-linux-amd64"
+-----------------------------------------------------------------
+size=3 MB
+version=0.0.3
+-----------------------------------------------------------------
