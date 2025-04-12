@@ -21428,3 +21428,38 @@ link="https://github.com/RoderickQiu/wnr/releases/download/v1.30.3/wnr-1.30.3-Li
 size=95 MB
 version=1.30.3
 -----------------------------------------------------------------
+APP="woke"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tmstieff/Woke"
+link="https://github.com/tmstieff/Woke/releases/download/continuous/Woke-ad10d85-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=ad10d85
+-----------------------------------------------------------------
+APP="wolai"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wolai.com"
+-----------------------------------------------------------------
+size=86 MB
+version=1.2.10
+-----------------------------------------------------------------
+APP="wonderpen"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.tominlab.com"
+link="https://file.tominlab.com/WonderPen/2.6/WonderPen_linux_x86_64_2.6.3(7726).AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=2.6
+-----------------------------------------------------------------
+APP="wonderwall"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="keshavbhatt/WonderWall-Packaging"
+link="https://github.com/keshavbhatt/WonderWall-Packaging/releases/download/v7.0/Wonderwall-x86_64.AppImage"
+-----------------------------------------------------------------
+size=52 MB
+version=7.0
+-----------------------------------------------------------------
