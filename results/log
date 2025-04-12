@@ -21822,3 +21822,39 @@ link="https://github.com/xournalpp/xournalpp/releases/download/v1.2.6/xournalpp-
 size=36 MB
 version=1.2.6
 -----------------------------------------------------------------
+APP="xournal++nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xournalpp/xournalpp"
+link="https://github.com/xournalpp/xournalpp/releases/download/nightly/xournalpp-1.2.6%2Bdev-nightly-20250408-x86_64.AppImage"
+-----------------------------------------------------------------
+size=37 MB
+version=1.2.6%2Bdev
+-----------------------------------------------------------------
+APP="xpeviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="horsicq/XPEViewer"
+link="https://github.com/horsicq/XPEViewer/releases/download/0.05/XPEViewer-0.05-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=0.05
+-----------------------------------------------------------------
+APP="xpipe"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xpipe-io/xpipe"
+link="https://github.com/xpipe-io/xpipe/releases/download/15.8/xpipe-portable-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=186 MB
+version=15.8
+-----------------------------------------------------------------
+APP="xplist"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ic005k/Xplist"
+link="https://github.com/ic005k/Xplist/releases/download/1.2.47/Xplist-Linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=28 MB
+version=1.2.47
+-----------------------------------------------------------------
