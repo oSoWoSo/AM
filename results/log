@@ -20717,3 +20717,39 @@ link="https://github.com/atanunq/viu/releases/download/v1.5.1/viu-x86_64-unknown
 size=5 MB
 version=1.5.1
 -----------------------------------------------------------------
+APP="vivaldi-snapshot"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+link="https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-snapshot-7.4.3658.3-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=7.4.3658.3
+-----------------------------------------------------------------
+APP="vivaldi-stable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Vivaldi-appimage"
+link="https://github.com/ivan-hc/Vivaldi-appimage/releases/download/continuous/Vivaldi-stable-7.3.3635.9-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=156 MB
+version=7.3.3635.9
+-----------------------------------------------------------------
+APP="vivifyscrum"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Vivify-Ideas/vivifyscrum2-electron"
+link="https://github.com/Vivify-Ideas/vivifyscrum2-electron/releases/download/linux-x64-prod-2.4.29/VivifyScrum-2.4.29.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=2.4.29
+-----------------------------------------------------------------
+APP="vizgraph"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="jcf94/vizgraph"
+link="https://github.com/jcf94/vizgraph/releases/download/v0.0.8/vizgraph-0.0.8-x86_64.AppImage"
+-----------------------------------------------------------------
+size=84 MB
+version=0.0.8
+-----------------------------------------------------------------
