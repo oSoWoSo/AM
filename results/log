@@ -20931,3 +20931,38 @@ link="https://github.com/arunsupe/semantic-grep/releases/download/v0.7.0/w2vgrep
 size=4 MB
 version=0.7.0
 -----------------------------------------------------------------
+APP="walc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="cstayyab/WALC"
+link="https://github.com/WAClient/WALC/releases/download/v0.3.3/WALC-0.3.3.AppImage"
+-----------------------------------------------------------------
+size=103 MB
+version=0.3.3
+-----------------------------------------------------------------
+APP="walk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="antonmedv/walk"
+link="https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_linux_amd64"
+-----------------------------------------------------------------
+size=12 MB
+version=1.13.0
+-----------------------------------------------------------------
+APP="wallettech"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bytechcoin/bytech-wallet-electron"
+link="https://github.com/bytechcoin/bytech-wallet-electron/releases/download/v0.3.6/WalletTech-v0.3.6-linux.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=0.3.6
+-----------------------------------------------------------------
+APP="warp-terminal"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.warp.dev"
+-----------------------------------------------------------------
+size=53 MB
+version=0.2025.04.09.08.11.stable
+-----------------------------------------------------------------
