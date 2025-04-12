@@ -21786,3 +21786,39 @@ link="https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.1/XMe
 size=32 MB
 version=0.25.1
 -----------------------------------------------------------------
+APP="xnconvert"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.xnview.com"
+link="XnConvert-178.glibc2.14-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=178.glibc2.14
+-----------------------------------------------------------------
+APP="xnviewmp"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.xnview.com"
+link="/download.php?file=XnView_MP.glibc2.17-x86_64.AppImage"
+-----------------------------------------------------------------
+size=107 MB
+version=MP.glibc2.17
+-----------------------------------------------------------------
+APP="xonsh"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xonsh/xonsh"
+link="https://github.com/xonsh/xonsh/releases/download/0.19.4/xonsh-x86_64.AppImage"
+-----------------------------------------------------------------
+size=29 MB
+version=0.19.4
+-----------------------------------------------------------------
+APP="xournal++"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xournalpp/xournalpp"
+link="https://github.com/xournalpp/xournalpp/releases/download/v1.2.6/xournalpp-1.2.6-x86_64.AppImage"
+-----------------------------------------------------------------
+size=36 MB
+version=1.2.6
+-----------------------------------------------------------------
