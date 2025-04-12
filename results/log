@@ -21250,3 +21250,38 @@ link="https://github.com/widelands/widelands/releases/download/latest/Widelands-
 size=449 MB
 version=10
 -----------------------------------------------------------------
+APP="window-pet"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SeakMengs/WindowPet"
+link="https://github.com/SeakMengs/WindowPet/releases/download/v0.0.9/window-pet_0.0.9_amd64.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=0.0.9
+-----------------------------------------------------------------
+APP="windows2usb"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ValdikSS/windows2usb"
+link="https://github.com/ValdikSS/windows2usb/releases/download/0.2.4/windows2usb-0.2.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=0.2.4
+-----------------------------------------------------------------
+APP="windows95"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE=""
+link="https://github.com/felixrieseberg/windows95/releases/download/v4.0.0/windows95_4.0.0_amd64.deb"
+-----------------------------------------------------------------
+size=389 MB
+version=4.0.0
+-----------------------------------------------------------------
+APP="wine"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/WINE_AppImage"
+-----------------------------------------------------------------
+size=221 MB
+version=starting
+-----------------------------------------------------------------
