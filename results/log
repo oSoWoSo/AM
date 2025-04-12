@@ -21571,3 +21571,39 @@ link="https://github.com/peterdanis/wrapbox/releases/download/v0.1.7/wrapbox-0.1
 size=74 MB
 version=0.1.7
 -----------------------------------------------------------------
+APP="writemonkey"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://writemonkey.com"
+link="https://writemonkey.com/wm3/Writemonkey3-linux-64bit-v3-3-0-jan2023.zip"
+-----------------------------------------------------------------
+size=196 MB
+version=64bit
+-----------------------------------------------------------------
+APP="wsjtz"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="SP5D/wsjtz-AppImage"
+link="https://github.com/SP5D/wsjtz-AppImage/releases/download/v2.5.4-1.22/wsjtz-x86_64.AppImage"
+-----------------------------------------------------------------
+size=46 MB
+version=2.5.4
+-----------------------------------------------------------------
+APP="wsocks"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Wooyme/Wsocks"
+link="https://github.com/Wooyme/Wsocks-Old/releases/download/v0.05/Linux_x86_64.AppImage"
+-----------------------------------------------------------------
+size=15 MB
+version=0.05
+-----------------------------------------------------------------
+APP="wtfutil"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="wtfutil/wtf"
+link="https://github.com/wtfutil/wtf/releases/download/v0.43.0/wtf_0.43.0_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=61 MB
+version=0.43.0
+-----------------------------------------------------------------
