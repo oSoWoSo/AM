@@ -21643,3 +21643,39 @@ link="https://github.com/bguyl/x-loc/releases/download/v1.3.5/x-loc-1.3.5-x86_64
 size=59 MB
 version=1.3.5
 -----------------------------------------------------------------
+APP="x-minecraft-launcher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Voxelum/x-minecraft-launcher"
+link="https://github.com/Voxelum/x-minecraft-launcher/releases/download/v0.49.3/xmcl-0.49.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=0.49.3
+-----------------------------------------------------------------
+APP="x-pixiv"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="xiaoxigua-1/XPixiv"
+link="https://github.com/xiaoxigua-1/XPixiv/releases/download/v.1.0.1/x-pixiv-1.0.1-x86_64-unknown-linux-gnu.tar.gz"
+-----------------------------------------------------------------
+size=4 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="xchat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/XChat"
+link="https://github.com/probonopd/XChat/releases/download/continuous/XChat_IRC-5d0dbe1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=12 MB
+version=5d0dbe1
+-----------------------------------------------------------------
+APP="xclicker"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="robiot/xclicker"
+link="https://github.com/robiot/xclicker/releases/download/v1.5.1/xclicker_1.5.1_amd64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=1.5.1
+-----------------------------------------------------------------
