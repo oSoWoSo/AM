@@ -21036,3 +21036,38 @@ link="https://github.com/ayasa520/waydroid-helper/releases/download/v0.1.2/waydr
 size=55 MB
 version=0.1.2
 -----------------------------------------------------------------
+APP="wazo-desktop"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://wazo.io"
+-----------------------------------------------------------------
+size=144 MB
+version=1.13.62
+-----------------------------------------------------------------
+APP="weakauras"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WeakAuras/WeakAuras-Companion"
+link="https://github.com/WeakAuras/WeakAuras-Companion/releases/download/v5.2.10/WeakAuras-Companion-5.2.10.AppImage"
+-----------------------------------------------------------------
+size=152 MB
+version=5.2.10
+-----------------------------------------------------------------
+APP="weatherdump"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="luigifreitas/weatherdump-desktop"
+link="https://github.com/luigifcruz/weatherdump-desktop/releases/download/v0.0.0-alpha.3/weatherdump-gui-0.0.0-alpha.3-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=0.0.0
+-----------------------------------------------------------------
+APP="webamp"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="durasj/webamp-desktop"
+link="https://github.com/durasj/webamp-desktop/releases/download/v0.3.0/webamp-desktop-0.3.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=0.3.0
+-----------------------------------------------------------------
