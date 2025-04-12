@@ -20825,3 +20825,38 @@ link="https://github.com/VOICEVOX/voicevox/releases/download/0.24.0-dev/VOICEVOX
 size=2792 MB
 version=0.24.0
 -----------------------------------------------------------------
+APP="volaris"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="volar-is/volaris-gui"
+link="https://github.com/volar-is/volaris-gui/releases/download/app-v0.6.0/Volaris_0.6.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="vpaint"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dalboris/vpaint"
+link="https://github.com/dalboris/vpaint/releases/download/v1.7/VPaint-1.7-x86_64.AppImage"
+-----------------------------------------------------------------
+size=30 MB
+version=1.7
+-----------------------------------------------------------------
+APP="vrest-ng"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Optimizory/vrest-ng"
+link="https://github.com/Optimizory/vrest-ng/releases/download/v3.4.0/vrest-ng-enterprise-linux-3.4.0.AppImage"
+-----------------------------------------------------------------
+size=154 MB
+version=3.4.0
+-----------------------------------------------------------------
+APP="vrew"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://vrew.ai"
+-----------------------------------------------------------------
+size=220 MB
+version=2.12.4
+-----------------------------------------------------------------
