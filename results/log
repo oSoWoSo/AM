@@ -22216,3 +22216,35 @@ link="https://github.com/AdelKS/ZeGrapher/releases/download/v3.1.1/ZeGrapher_v3.
 size=26 MB
 version=3.1.1
 -----------------------------------------------------------------
+APP="zellij"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zellij-org/zellij"
+-----------------------------------------------------------------
+size=38 MB
+version=0.42.1
+-----------------------------------------------------------------
+APP="zen-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zen-browser/desktop"
+link="https://github.com/zen-browser/desktop/releases/download/1.11.2b/zen-x86_64.AppImage"
+-----------------------------------------------------------------
+size=100 MB
+version=1.11.2
+-----------------------------------------------------------------
+APP="zenity"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Samueru-sama/Zenity-GTK3-AppImage"
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+APP="zenkit"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://static.zenkit.com"
+link="https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImage"
+-----------------------------------------------------------------
+size=105 MB
+version=2024.09.20
+-----------------------------------------------------------------
