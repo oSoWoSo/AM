@@ -21393,3 +21393,38 @@ link="https://github.com/KRTirtho/wives/releases/download/nightly/Wives-linux-x8
 size=17 MB
 version=2023.07.07
 -----------------------------------------------------------------
+APP="wiznote"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://www.wiz.cn"
+-----------------------------------------------------------------
+size=105 MB
+version=0.1.107
+-----------------------------------------------------------------
+APP="wiznoteplus"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="altairwei/WizNotePlus"
+link="https://github.com/altairwei/WizNotePlus/releases/download/v2.12.0/WizNotePlus-linux-v2.12.0.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=2.12.0
+-----------------------------------------------------------------
+APP="wkp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Idontknow13/wkp"
+link="https://api.github.com/repos/Idontknow13/wkp/releases/74578783"
+-----------------------------------------------------------------
+size=3 MB
+version=0.1.1
+-----------------------------------------------------------------
+APP="wnr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="RoderickQiu/wnr"
+link="https://github.com/RoderickQiu/wnr/releases/download/v1.30.3/wnr-1.30.3-Linux.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=1.30.3
+-----------------------------------------------------------------
