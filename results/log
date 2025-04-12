@@ -21499,3 +21499,39 @@ link="https://github.com/WootingKb/wooting-analog-midi/releases/download/v0.2.2/
 size=70 MB
 version=0.2.2
 -----------------------------------------------------------------
+APP="wootomation"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WootingKb/wooting-macros"
+link="https://github.com/WootingKb/wooting-macros/releases/download/v1.1.0/wootomation_1.1.0_amd64.AppImage"
+-----------------------------------------------------------------
+size=83 MB
+version=1.1.0
+-----------------------------------------------------------------
+APP="wora"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="hiaaryan/wora"
+link="https://github.com/hiaaryan/wora/releases/download/v0.4.0-beta1/Wora.v0.4.0-beta1.AppImage"
+-----------------------------------------------------------------
+size=127 MB
+version=0.4.0
+-----------------------------------------------------------------
+APP="wordtsar"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://sourceforge.net/projects/wordtsar"
+link="WordTsar-0.3.719"
+-----------------------------------------------------------------
+size=30 MB
+version=0.3.719
+-----------------------------------------------------------------
+APP="workflowy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="workflowy/desktop"
+link="https://github.com/workflowy/desktop/releases/download/v4.1.2504081225/WorkFlowy-x86_64.AppImage"
+-----------------------------------------------------------------
+size=125 MB
+version=4.1.2504081225
+-----------------------------------------------------------------
