@@ -21535,3 +21535,39 @@ link="https://github.com/workflowy/desktop/releases/download/v4.1.2504081225/Wor
 size=125 MB
 version=4.1.2504081225
 -----------------------------------------------------------------
+APP="wournal"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="dominiksta/wournal"
+link="https://github.com/dominiksta/wournal/releases/download/0.0.8/Wournal-GNU-Linux-0.0.8.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=0.0.8
+-----------------------------------------------------------------
+APP="wowup"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WowUp/WowUp"
+link="https://github.com/WowUp/WowUp/releases/download/v2.20.0/WowUp-2.20.0.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=2.20.0
+-----------------------------------------------------------------
+APP="wps-office"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/WPS-Office-appimage"
+link="https://github.com/ivan-hc/WPS-Office-appimage/releases/download/continuous/WPS-Office_11.1.0.11723-x86_64.AppImage"
+-----------------------------------------------------------------
+size=478 MB
+version=11.1.0.11723
+-----------------------------------------------------------------
+APP="wrapbox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="peterdanis/wrapbox"
+link="https://github.com/peterdanis/wrapbox/releases/download/v0.1.7/wrapbox-0.1.7.AppImage"
+-----------------------------------------------------------------
+size=74 MB
+version=0.1.7
+-----------------------------------------------------------------
