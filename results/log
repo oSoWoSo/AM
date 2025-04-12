@@ -22001,3 +22001,39 @@ link="https://github.com/binary-blazer/ym-desktop/releases/download/v1.4.5/Youtu
 size=96 MB
 version=1.4.5
 -----------------------------------------------------------------
+APP="youtube-download"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="YouTubeDownload/YouTubeDownload"
+link="https://github.com/YouTubeDownload/YouTubeDownload/releases/download/v2.2/YouTubeDownload-linux"
+-----------------------------------------------------------------
+size=64 MB
+version=2.2
+-----------------------------------------------------------------
+APP="youtube-downloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AnthonyGress/Youtube-Downloader"
+link="https://github.com/AnthonyGress/Youtube-Downloader/releases/download/v1.1.11/Youtube-Downloader-1.1.11.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=1.1.11
+-----------------------------------------------------------------
+APP="youtube-music"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="th-ch/youtube-music"
+link="https://github.com/th-ch/youtube-music/releases/download/v3.8.0/YouTube-Music-3.8.0.AppImage"
+-----------------------------------------------------------------
+size=122 MB
+version=3.8.0
+-----------------------------------------------------------------
+APP="youtube-tui"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Siriusmart/youtube-tui"
+link="https://github.com/Siriusmart/youtube-tui/releases/download/v0.8.1/youtube-tui-full_arch-x86_64.youtube-tui-full_arch-x86_64"
+-----------------------------------------------------------------
+size=7 MB
+version=0.8.1
+-----------------------------------------------------------------
