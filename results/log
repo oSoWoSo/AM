@@ -21285,3 +21285,39 @@ SITE="mmtrt/WINE_AppImage"
 size=221 MB
 version=starting
 -----------------------------------------------------------------
+APP="wine-devel"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/WINE_AppImage"
+link="https://github.com/mmtrt/WINE_AppImage/releases/download/test-wineaiso/wine-devel_10.0-rc3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=141 MB
+version=starting
+-----------------------------------------------------------------
+APP="wine-stable"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/WINE_AppImage"
+link="https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stable/wine-stable_10.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=221 MB
+version=starting
+-----------------------------------------------------------------
+APP="wine-staging"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/WINE_AppImage"
+link="https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-staging/wine-staging_10.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=224 MB
+version=starting
+-----------------------------------------------------------------
+APP="wine-staging-ge-proton"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mmtrt/WINE_AppImage"
+link="https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-staging_ge_proton/wine-staging_ge-proton_8-26-x86_64.AppImage"
+-----------------------------------------------------------------
+size=632 MB
+version=starting
+-----------------------------------------------------------------

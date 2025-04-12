@@ -2383,3 +2383,7 @@ window-pet
 windows2usb
 windows95
 wine
+wine-devel
+wine-stable
+wine-staging
+wine-staging-ge-proton
