@@ -21002,3 +21002,37 @@ link="https://github.com/WatchItDev/watchit-app/releases/download/v1.0.0-beta.0/
 size=140 MB
 version=1.0.0
 -----------------------------------------------------------------
+APP="waterfox"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.waterfox.net"
+-----------------------------------------------------------------
+size=1 MB
+version=unknown
+-----------------------------------------------------------------
+APP="waterfox-appimage"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://download.opensuse.org/repositories/home:/hawkeye116477"
+link="https://download.opensuse.org/repositories/home:/hawkeye116477:/waterfox/AppImage/waterfox-g-6.5.6-1.19.Build1.35.glibc2.25-x86_64.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=6.5.6
+-----------------------------------------------------------------
+APP="wavebox"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://wavebox.io"
+-----------------------------------------------------------------
+size=209 MB
+version=10.135.15
+-----------------------------------------------------------------
+APP="waydroid-helper"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ayasa520/waydroid-helper"
+link="https://github.com/ayasa520/waydroid-helper/releases/download/v0.1.2/waydroid-helper-0.1.2-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.1.2
+-----------------------------------------------------------------
