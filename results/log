@@ -21142,3 +21142,39 @@ link="https://github.com/WesterosCraft/ElectronLauncher/releases/download/v1.8.0
 size=79 MB
 version=1.8.0
 -----------------------------------------------------------------
+APP="wethr"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="risoflora/wethr"
+link="https://github.com/risoflora/wethr/releases/download/v0.6.0/wethr-x86_64-unknown-linux-gnu.zip"
+-----------------------------------------------------------------
+size=4 MB
+version=0.6.0
+-----------------------------------------------------------------
+APP="wewechat"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trazyn/wewechat"
+link="https://github.com/trazyn/weweChat/releases/download/v1.1.7/wewechat-1.1.7-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=98 MB
+version=1.1.7
+-----------------------------------------------------------------
+APP="wexond"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wexond/wexond"
+link="https://github.com/wexond/browser-base/releases/download/v5.2.0/Wexond-5.2.0.AppImage"
+-----------------------------------------------------------------
+size=75 MB
+version=5.2.0
+-----------------------------------------------------------------
+APP="wezterm"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wez/wezterm"
+link="https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046fc22/WezTerm-20240203-110809-5046fc22-Ubuntu20.04.AppImage"
+-----------------------------------------------------------------
+size=48 MB
+version=20240203
+-----------------------------------------------------------------
