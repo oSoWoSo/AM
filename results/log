@@ -20789,3 +20789,39 @@ link="https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-with-
 size=145 MB
 version=3.0.21
 -----------------------------------------------------------------
+APP="vlc-git"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/VLC-appimage"
+link="https://github.com/ivan-hc/VLC-appimage/releases/download/continuous-git/VLC-media-player_GIT_4.0.0.r33548.g73e98da-1-archimage3.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=224 MB
+version=4.0.0.r33548.g73e98da
+-----------------------------------------------------------------
+APP="vnote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="tamlok/vnote"
+link="https://github.com/vnotex/vnote/releases/download/continuous-build/VNote-3.18.2-linux-x64.AppImage"
+-----------------------------------------------------------------
+size=216 MB
+version=3.18.2
+-----------------------------------------------------------------
+APP="vocabsieve"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="FreeLanguageTools/vocabsieve"
+link="https://github.com/FreeLanguageTools/vocabsieve/releases/download/v0.12.4/VocabSieve-v0.12.4-linux-amd64.AppImage"
+-----------------------------------------------------------------
+size=202 MB
+version=0.12.4
+-----------------------------------------------------------------
+APP="voicevox"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VOICEVOX/voicevox"
+link="https://github.com/VOICEVOX/voicevox/releases/download/0.24.0-dev/VOICEVOX.AppImage.7z.001"
+-----------------------------------------------------------------
+size=2792 MB
+version=0.24.0
+-----------------------------------------------------------------
