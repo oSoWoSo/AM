@@ -21321,3 +21321,39 @@ link="https://github.com/mmtrt/WINE_AppImage/releases/download/continuous-stagin
 size=632 MB
 version=starting
 -----------------------------------------------------------------
+APP="wine32-deploy"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="sudo-give-me-coffee/wine32-deploy"
+link="https://github.com/sudo-give-me-coffee/wine32-deploy/releases/download/continuous/Wine-4.21-x86_64.AppImage"
+-----------------------------------------------------------------
+size=279 MB
+version=starting
+-----------------------------------------------------------------
+APP="winrar"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ryuuzaki42/WinRAR_AppImage"
+link="https://github.com/ryuuzaki42/WinRAR_AppImage/releases/download/7.11/WinRAR-7.11-1_JB-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=7.11
+-----------------------------------------------------------------
+APP="wire"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wireapp/wire-desktop"
+link="https://github.com/wireapp/wire-desktop/releases/download/linux/3.39.3653/Wire-3.39.3653_x86_64.AppImage"
+-----------------------------------------------------------------
+size=123 MB
+version=3.39.3653
+-----------------------------------------------------------------
+APP="wireframesketcher"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://wireframesketcher.com"
+link="7.3.0"
+-----------------------------------------------------------------
+size=165 MB
+version=7.3.0
+-----------------------------------------------------------------
