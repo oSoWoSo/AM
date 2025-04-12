@@ -21750,3 +21750,39 @@ link="https://github.com/XilinJia/Xilinota/releases/download/v2.15.1/Xilinota-2.
 size=191 MB
 version=2.15.1
 -----------------------------------------------------------------
+APP="xl-converter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="JacobDev1/xl-converter"
+link="https://github.com/JacobDev1/xl-converter/releases/download/v1.2.1/xl-converter-linux-1.2.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=141 MB
+version=1.2.1
+-----------------------------------------------------------------
+APP="xlights"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="smeighan/xLights"
+link="https://github.com/xLightsSequencer/xLights/releases/download/2025.04/xLights-2025.04-x86_64.AppImage"
+-----------------------------------------------------------------
+size=90 MB
+version=2025.04
+-----------------------------------------------------------------
+APP="xm8"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="bubio/xm8mac"
+link="https://github.com/bubio/xm8mac/releases/download/1.7.4/XM8_Linux_x86_64.appimage"
+-----------------------------------------------------------------
+size=8 MB
+version=1.7.4
+-----------------------------------------------------------------
+APP="xmedcon"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://xmedcon.sourceforge.io"
+link="https://sourceforge.net/projects/xmedcon/files/XMedCon-AppImage/0.25.1/XMedCon-x86_64.AppImage/download"
+-----------------------------------------------------------------
+size=32 MB
+version=0.25.1
+-----------------------------------------------------------------
