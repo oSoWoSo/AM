@@ -21930,3 +21930,39 @@ link="https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/conti
 size=248 MB
 version=25.2.1.941
 -----------------------------------------------------------------
+APP="yandex-browser-beta"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Yandex-Browser-appimage"
+link="https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-beta-25.2.1.941-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=248 MB
+version=25.2.1.941
+-----------------------------------------------------------------
+APP="yandex-browser-corporate"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/Yandex-Browser-appimage"
+link="https://github.com/ivan-hc/Yandex-Browser-appimage/releases/download/continuous/Yandex-Browser-corporate-25.2.4.996-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=250 MB
+version=25.2.4.996
+-----------------------------------------------------------------
+APP="yangdownloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="mysteryx93/HanumanInstituteApps"
+link="https://github.com/mysteryx93/HanumanInstituteApps/releases/download/v3.3.2/Converter432Hz-3.3.2_Linux_x64.AppImage"
+-----------------------------------------------------------------
+size=16 MB
+version=Converter432Hz
+-----------------------------------------------------------------
+APP="yank-note"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="purocean/yn"
+link="https://github.com/purocean/yn/releases/download/v3.82.1/Yank-Note-linux-x86_64-3.82.1.AppImage"
+-----------------------------------------------------------------
+size=160 MB
+version=3.82.1
+-----------------------------------------------------------------
