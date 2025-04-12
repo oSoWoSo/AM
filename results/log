@@ -22073,3 +22073,38 @@ link="https://github.com/oleksis/youtube-dl-gui/releases/download/v1.8.5/yt-dlg"
 size=120 MB
 version=1.8.5
 -----------------------------------------------------------------
+APP="yt-dlp"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="yt-dlp/yt-dlp"
+-----------------------------------------------------------------
+size=35 MB
+version=2025.03.31
+-----------------------------------------------------------------
+APP="ytarchive"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="Kethsar/ytarchive"
+link="https://github.com/Kethsar/ytarchive/releases/download/latest/ytarchive_linux_amd64.zip"
+-----------------------------------------------------------------
+size=8 MB
+version=2025.01.06
+-----------------------------------------------------------------
+APP="ytdownloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="aandrew-me/ytDownloader"
+link="https://github.com/aandrew-me/ytDownloader/releases/download/v3.19.0/YTDownloader_Linux.AppImage"
+-----------------------------------------------------------------
+size=145 MB
+version=3.19.0
+-----------------------------------------------------------------
+APP="ytermusic"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ccgauche/ytermusic"
+link="https://github.com/ccgauche/ytermusic/releases/download/beta-0.1.0/ytermusic"
+-----------------------------------------------------------------
+size=16 MB
+version=0.1.0
+-----------------------------------------------------------------
