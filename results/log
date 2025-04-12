@@ -21966,3 +21966,38 @@ link="https://github.com/purocean/yn/releases/download/v3.82.1/Yank-Note-linux-x
 size=160 MB
 version=3.82.1
 -----------------------------------------------------------------
+APP="yaya"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="trixon/yaya"
+link="https://github.com/trixon/yaya/releases/download/v24.12/Yaya-24.12-x86_64.AppImage"
+-----------------------------------------------------------------
+size=51 MB
+version=24.12
+-----------------------------------------------------------------
+APP="yazi"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="sxyazi/yazi"
+-----------------------------------------------------------------
+size=19 MB
+version=2025.04.12
+-----------------------------------------------------------------
+APP="yesplaymusic"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="qier222/YesPlayMusic"
+link="https://github.com/qier222/YesPlayMusic/releases/download/v0.4.8-2/YesPlayMusic-0.4.8.AppImage"
+-----------------------------------------------------------------
+size=121 MB
+version=0.4.8
+-----------------------------------------------------------------
+APP="ym-desktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="binary-blazer/ym-desktop"
+link="https://github.com/binary-blazer/ym-desktop/releases/download/v1.4.5/Youtube-Music-Desktop-1.4.5.AppImage"
+-----------------------------------------------------------------
+size=96 MB
+version=1.4.5
+-----------------------------------------------------------------
