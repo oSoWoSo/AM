@@ -20860,3 +20860,39 @@ SITE="https://vrew.ai"
 size=220 MB
 version=2.12.4
 -----------------------------------------------------------------
+APP="vscodium"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="VSCodium/vscodium"
+link="https://github.com/VSCodium/vscodium/releases/download/1.99.22418/VSCodium-1.99.22418.glibc2.29-x86_64.AppImage"
+-----------------------------------------------------------------
+size=143 MB
+version=1.99.22418.glibc2.29
+-----------------------------------------------------------------
+APP="vt"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="VirusTotal/vt-cli"
+link="https://github.com/VirusTotal/vt-cli/releases/download/1.0.1/Linux64.zip"
+-----------------------------------------------------------------
+size=14 MB
+version=1.0.1
+-----------------------------------------------------------------
+APP="vtm"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="directvt/vtm"
+link="https://github.com/directvt/vtm/releases/download/v0.9.99.70/vtm_linux_x86_64.zip"
+-----------------------------------------------------------------
+size=7 MB
+version=0.9.99.70
+-----------------------------------------------------------------
+APP="vue-calc"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="el3um4s/vue-calc"
+link="https://github.com/el3um4s/vue-calc/releases/download/v0.18.04.15/vue-calc-x86_64.AppImage"
+-----------------------------------------------------------------
+size=55 MB
+version=0.18.04.15
+-----------------------------------------------------------------
