@@ -21106,3 +21106,39 @@ link="https://github.com/Webdeskme/wdOS/releases/download/v1.1.2/WebDesktop-1.1.
 size=105 MB
 version=1.1.2
 -----------------------------------------------------------------
+APP="webkitty"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="yikuansun/webkitty"
+link="https://github.com/yikuansun/webkitty/releases/download/v3.2.1/WebKitty-3.2.1.AppImage"
+-----------------------------------------------------------------
+size=86 MB
+version=3.2.1
+-----------------------------------------------------------------
+APP="webrecorder"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="webrecorder/webrecorder-desktop"
+link="https://github.com/webrecorder/webrecorder-desktop/releases/download/v2.0.3/webrecorder-2.0.3.AppImage"
+-----------------------------------------------------------------
+size=170 MB
+version=2.0.3
+-----------------------------------------------------------------
+APP="weektodo"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="manuelernestog/weektodo"
+link="https://github.com/manuelernestog/weektodo/releases/download/v2.2.0/WeekToDo-2.2.0.AppImage"
+-----------------------------------------------------------------
+size=109 MB
+version=2.2.0
+-----------------------------------------------------------------
+APP="westeroscraftlauncher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="WesterosCraftCode/ElectronLauncher"
+link="https://github.com/WesterosCraft/ElectronLauncher/releases/download/v1.8.0/westeroscraftlauncher-1.8.0.AppImage"
+-----------------------------------------------------------------
+size=79 MB
+version=1.8.0
+-----------------------------------------------------------------
