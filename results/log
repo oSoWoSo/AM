@@ -22108,3 +22108,39 @@ link="https://github.com/ccgauche/ytermusic/releases/download/beta-0.1.0/ytermus
 size=16 MB
 version=0.1.0
 -----------------------------------------------------------------
+APP="ytmdesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ytmdesktop/ytmdesktop"
+link="https://github.com/ytmdesktop/ytmdesktop/releases/download/1.14.1/YouTube.Music.Desktop.App-1.14.1_Nightly.AppImage"
+-----------------------------------------------------------------
+size=89 MB
+version=1.14.1
+-----------------------------------------------------------------
+APP="ytmdesktop2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Venipa/ytmdesktop2"
+link="https://github.com/Venipa/ytmdesktop2/releases/download/v0.14.8/YouTube-Music-for-Desktop-0.14.8.AppImage"
+-----------------------------------------------------------------
+size=130 MB
+version=0.14.8
+-----------------------------------------------------------------
+APP="yts-streaming"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="iambpn/YTS-Streaming"
+link="https://github.com/iambpn/YTS-Streaming/releases/download/4.0.1/yts-streaming-4.0.0.AppImage"
+-----------------------------------------------------------------
+size=108 MB
+version=4.0.1
+-----------------------------------------------------------------
+APP="yubikey-manager"
+APPIMAGE='yes'
+GITHUB='no'
+SITE="https://developers.yubico.com"
+link="https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-qt-latest-linux.AppImage"
+-----------------------------------------------------------------
+size=111 MB
+version=2024.04.18
+-----------------------------------------------------------------
