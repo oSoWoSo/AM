@@ -22180,3 +22180,39 @@ link="https://github.com/LN-Zap/zap-desktop/releases/download/v0.7.7-beta/Zap-li
 size=97 MB
 version=0.7.7
 -----------------------------------------------------------------
+APP="zapzap"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="rafatosta/zapzap"
+link="https://github.com/rafatosta/zapzap/releases/download/6.0.1.8/ZapZap-x86_64.AppImage"
+-----------------------------------------------------------------
+size=239 MB
+version=6.0.1.8
+-----------------------------------------------------------------
+APP="zed"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zed-industries/zed"
+link="https://github.com/zed-industries/zed/releases/download/v0.182.5-pre/zed-linux-x86_64.tar.gz"
+-----------------------------------------------------------------
+size=256 MB
+version=0.182.5
+-----------------------------------------------------------------
+APP="zegarek"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="konradmb/zegarek"
+link="https://github.com/konradmb/zegarek/releases/download/v0.4.5/Zegarek-0.4.5-x86_64.AppImage"
+-----------------------------------------------------------------
+size=20 MB
+version=0.4.5
+-----------------------------------------------------------------
+APP="zegrapher"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AdelKS/ZeGrapher"
+link="https://github.com/AdelKS/ZeGrapher/releases/download/v3.1.1/ZeGrapher_v3.1.1_Linux_64bit.AppImage"
+-----------------------------------------------------------------
+size=26 MB
+version=3.1.1
+-----------------------------------------------------------------
