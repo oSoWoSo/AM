@@ -21178,3 +21178,39 @@ link="https://github.com/wezterm/wezterm/releases/download/20240203-110809-5046f
 size=48 MB
 version=20240203
 -----------------------------------------------------------------
+APP="wezterm-nightly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="wez/wezterm"
+link="48602448474"
+-----------------------------------------------------------------
+size=46 MB
+version=48602448474
+-----------------------------------------------------------------
+APP="whalebird"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="h3poteto/whalebird-desktop"
+link="https://github.com/h3poteto/whalebird-desktop/releases/download/v6.2.1/Whalebird-6.2.1-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=132 MB
+version=6.2.1
+-----------------------------------------------------------------
+APP="whatsapp-nativefier"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ivan-hc/WhatsApp-nativefier-appimage"
+link="https://github.com/ivan-hc/WhatsApp-nativefier-appimage/releases/download/continuous/Whatsapp-nativefier-2.3000.1019818867-1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=82 MB
+version=2.3000.1019818867
+-----------------------------------------------------------------
+APP="whatstron"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="murilopereirame/Whatstron"
+link="https://github.com/murilopereirame/Whatstron/releases/download/v1.0.1/Whatstron.AppImage"
+-----------------------------------------------------------------
+size=104 MB
+version=1.0.1
+-----------------------------------------------------------------
