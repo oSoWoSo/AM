@@ -22037,3 +22037,39 @@ link="https://github.com/Siriusmart/youtube-tui/releases/download/v0.8.1/youtube
 size=7 MB
 version=0.8.1
 -----------------------------------------------------------------
+APP="youtubeanddownloader"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="claudemods/YoutubeAndDownloader"
+link="https://github.com/claudemods/YoutubeAndDownloader/releases/download/youtube/youtube_appimage-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2024.09.02
+-----------------------------------------------------------------
+APP="youtubesearchfilter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Lateralus138/YouTubeSearchFilter"
+link="https://github.com/Lateralus138/YouTubeSearchFilter/releases/download/Continuous/ytsf-x86_64.AppImage"
+-----------------------------------------------------------------
+size=1 MB
+version=2021.12.07
+-----------------------------------------------------------------
+APP="yt-dlandcut"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Markkop/yt-dlandcut"
+link="https://github.com/Markkop/yt-dlandcut/releases/download/v3.0.0/yt-dlandcut-3.0.0.AppImage"
+-----------------------------------------------------------------
+size=94 MB
+version=3.0.0
+-----------------------------------------------------------------
+APP="yt-dlg"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="oleksis/youtube-dl-gui"
+link="https://github.com/oleksis/youtube-dl-gui/releases/download/v1.8.5/yt-dlg"
+-----------------------------------------------------------------
+size=120 MB
+version=1.8.5
+-----------------------------------------------------------------
