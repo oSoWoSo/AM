@@ -21714,3 +21714,39 @@ SITE="b3nj5m1n/xdg-ninja"
 size=2 MB
 version=0.2.0.2
 -----------------------------------------------------------------
+APP="xelfviewer"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="horsicq/XELFViewer"
+link="https://github.com/horsicq/XELFViewer/releases/download/Beta/XELFViewer-0.06-x86_64.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=0.06
+-----------------------------------------------------------------
+APP="xemu"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xemu-project/xemu"
+link="https://github.com/xemu-project/xemu/releases/download/v0.8.49/xemu-v0.8.49-dbg-x86_64.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=0.8.49
+-----------------------------------------------------------------
+APP="xgetter"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xgetter-team/xgetter"
+link="https://github.com/xgetter-team/xgetter/releases/download/1.4.6/x-getter_1.4.6_amd64.AppImage"
+-----------------------------------------------------------------
+size=161 MB
+version=1.4.6
+-----------------------------------------------------------------
+APP="xilinota"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="XilinJia/Xilinota"
+link="https://github.com/XilinJia/Xilinota/releases/download/v2.15.1/Xilinota-2.15.1.AppImage"
+-----------------------------------------------------------------
+size=191 MB
+version=2.15.1
+-----------------------------------------------------------------
