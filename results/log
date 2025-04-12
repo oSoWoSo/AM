@@ -22144,3 +22144,39 @@ link="https://developers.yubico.com/yubikey-manager-qt/Releases/yubikey-manager-
 size=111 MB
 version=2024.04.18
 -----------------------------------------------------------------
+APP="yup"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ericm/yup"
+link="https://github.com/ericm/yup/releases/download/v1.1.8/yup"
+-----------------------------------------------------------------
+size=8 MB
+version=1.1.8
+-----------------------------------------------------------------
+APP="yuview"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="IENT/YUView"
+link="https://github.com/IENT/YUView/releases/download/v2.13/YUView.AppImage"
+-----------------------------------------------------------------
+size=27 MB
+version=2.13
+-----------------------------------------------------------------
+APP="zap"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="srevinsaju/zap"
+link="https://github.com/srevinsaju/zap/releases/download/continuous/zap-amd64"
+-----------------------------------------------------------------
+size=10 MB
+version=2023.08.20
+-----------------------------------------------------------------
+APP="zapdesktop"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="LN-Zap/zap-desktop"
+link="https://github.com/LN-Zap/zap-desktop/releases/download/v0.7.7-beta/Zap-linux-x86_64-v0.7.7-beta.AppImage"
+-----------------------------------------------------------------
+size=97 MB
+version=0.7.7
+-----------------------------------------------------------------
