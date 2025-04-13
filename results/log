@@ -22248,3 +22248,39 @@ link="https://static.zenkit.com/downloads/desktop-apps/base/zenkit-linux.AppImag
 size=105 MB
 version=2024.09.20
 -----------------------------------------------------------------
+APP="zenroomstudio"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="DECODEproject/zenroom-studio"
+link="https://github.com/DECODEproject/zenroom-studio/releases/download/v0.0.1-alpha/zenroom-studio-0.0.1-x86_64.AppImage"
+-----------------------------------------------------------------
+size=50 MB
+version=0.0.1
+-----------------------------------------------------------------
+APP="zettlr"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Zettlr/Zettlr"
+link="https://github.com/Zettlr/Zettlr/releases/download/v3.4.3/Zettlr-3.4.3-x86_64.AppImage"
+-----------------------------------------------------------------
+size=158 MB
+version=3.4.3
+-----------------------------------------------------------------
+APP="zfind"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="laktak/zfind"
+link="https://github.com/laktak/zfind/releases/download/v0.4.6/zfind-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=11 MB
+version=0.4.6
+-----------------------------------------------------------------
+APP="zfxtop"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ssleert/zfxtop"
+link="https://github.com/ssleert/zfxtop/releases/download/0.3.2/zfxtop_0.3.2_linux_amd64.tar.gz"
+-----------------------------------------------------------------
+size=2 MB
+version=0.3.2
+-----------------------------------------------------------------
