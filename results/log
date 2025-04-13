@@ -22284,3 +22284,39 @@ link="https://github.com/ssleert/zfxtop/releases/download/0.3.2/zfxtop_0.3.2_lin
 size=2 MB
 version=0.3.2
 -----------------------------------------------------------------
+APP="zk"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="zk-org/zk"
+link="https://github.com/zk-org/zk/releases/download/v0.15.0/zk-v0.15.0-linux-amd64.tar.gz"
+-----------------------------------------------------------------
+size=18 MB
+version=0.15.0
+-----------------------------------------------------------------
+APP="zmninja"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="ZoneMinder/zmNinja"
+link="https://github.com/ZoneMinder/zmNinja/releases/download/v1.7.007/zmninja-1.7.7-linux-x86_64.AppImage"
+-----------------------------------------------------------------
+size=95 MB
+version=1.7.7
+-----------------------------------------------------------------
+APP="znax"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="joyrider3774/Znax"
+link="https://github.com/joyrider3774/Znax/releases/download/v1.1/znax-1.1-linux.x86_64.AppImage"
+-----------------------------------------------------------------
+size=4 MB
+version=1.1
+-----------------------------------------------------------------
+APP="znote"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="alagrede/znote-app"
+link="https://github.com/alagrede/znote-app/releases/download/v3.1.4/znote-3.1.4.AppImage"
+-----------------------------------------------------------------
+size=131 MB
+version=3.1.4
+-----------------------------------------------------------------
