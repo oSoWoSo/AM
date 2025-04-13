@@ -22389,3 +22389,21 @@ link="https://github.com/raydac/zxpoly/releases/download/2.3.4/zxpoly-emul-2.3.4
 size=53 MB
 version=2.3.4
 -----------------------------------------------------------------
+APP="zxinfo-file-browser"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="thomasheckmann/zxinfo-file-browser"
+link="https://github.com/thomasheckmann/zxinfo-file-browser/releases/download/v1.2.5-final/zxinfo-file-browser-1.2.5-final.AppImage"
+-----------------------------------------------------------------
+size=137 MB
+version=1.2.5
+-----------------------------------------------------------------
+APP="zy-player"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="Hunlongyu/ZY-Player"
+link="https://github.com/Hunlongyu/ZY-Player/releases/download/v2.8.8/ZY-Player-2.8.8.AppImage"
+-----------------------------------------------------------------
+size=80 MB
+version=2.8.8
+-----------------------------------------------------------------
