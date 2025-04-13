@@ -22320,3 +22320,37 @@ link="https://github.com/alagrede/znote-app/releases/download/v3.1.4/znote-3.1.4
 size=131 MB
 version=3.1.4
 -----------------------------------------------------------------
+APP="zograscope"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="xaizek/zograscope"
+link="https://github.com/xaizek/zograscope/releases/download/app-image/zs-x86_64.AppImage"
+-----------------------------------------------------------------
+size=17 MB
+version=2023.04.16
+-----------------------------------------------------------------
+APP="zoom"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="probonopd/Zoom.AppImage"
+link="https://github.com/probonopd/Zoom.AppImage/releases/download/stable/Zoom_Workplace-6.4.3.827.glibc2.27-x86_64.AppImage"
+-----------------------------------------------------------------
+size=288 MB
+version=6.4.3.827.glibc2.27
+-----------------------------------------------------------------
+APP="zotero"
+APPIMAGE='no'
+GITHUB='no'
+SITE="https://www.zotero.org"
+-----------------------------------------------------------------
+size=214 MB
+version=9.6.2
+-----------------------------------------------------------------
+APP="zoxide"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="ajeetdsouza/zoxide"
+-----------------------------------------------------------------
+size=2 MB
+version=0.9.7
+-----------------------------------------------------------------
