@@ -22354,3 +22354,38 @@ SITE="ajeetdsouza/zoxide"
 size=2 MB
 version=0.9.7
 -----------------------------------------------------------------
+APP="zramen"
+APPIMAGE='no'
+GITHUB='yes'
+SITE="atweiden/zramen"
+-----------------------------------------------------------------
+size=1 MB
+version=0.7.1
+-----------------------------------------------------------------
+APP="zsync2"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="AppImageCommunity/zsync2"
+link="https://github.com/AppImageCommunity/zsync2/releases/download/continuous/zsync2-75-9337846-x86_64.AppImage"
+-----------------------------------------------------------------
+size=13 MB
+version=75
+-----------------------------------------------------------------
+APP="zulip"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="zulip/zulip-desktop"
+link="https://github.com/zulip/zulip-desktop/releases/download/v5.12.0/Zulip-5.12.0-x86_64.AppImage"
+-----------------------------------------------------------------
+size=112 MB
+version=5.12.0
+-----------------------------------------------------------------
+APP="zx-poly"
+APPIMAGE='yes'
+GITHUB='yes'
+SITE="raydac/zxpoly"
+link="https://github.com/raydac/zxpoly/releases/download/2.3.4/zxpoly-emul-2.3.4-x86_64.AppImage"
+-----------------------------------------------------------------
+size=53 MB
+version=2.3.4
+-----------------------------------------------------------------
