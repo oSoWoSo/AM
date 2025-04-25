@@ -75,7 +75,7 @@ jobs:
         id: create_release
         uses: elgohr/Github-Release-Action@v5
         with:
-          tag: "translations v0.${{ github.run_number }}"
+          tag: "translations_v0.${{ github.run_number }}"
           title: "translations v0.${{ github.run_number }}"
           workdir: translations
           prerelease: true
