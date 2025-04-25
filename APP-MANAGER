@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+ 
 AMVERSION="9.7"
 
 # Determine main repository and branch
