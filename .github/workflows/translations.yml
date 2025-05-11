@@ -25,6 +25,8 @@ jobs:
   sync-files:
     name: "🦉 translations"
     runs-on: ubuntu-22.04
+    outputs:
+      matrix: ${{ steps.matrix.outputs.matrix }}
     steps:
       - name: "Checkout source repository"
         uses: actions/checkout@v4
@@ -82,14 +84,36 @@ jobs:
           directory: translations
           branch: translations
 
-      - name: Create release
+      - name: Matrix
+        id: matrix
+        run: |
+          FILES=$(cat translations/LINGUAS)
+          MATRIX="{\"include\": ["
+          for file in $FILES; do
+            MATRIX+="{\"file\": \"$file\"},"
+          done
+          MATRIX="${MATRIX%,}]}"
+          echo "matrix=$MATRIX" >> $GITHUB_OUTPUT
+
+  release:
+    runs-on: ubuntu-22.04
+    needs: sync-files
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
+    steps:
+      - name: "Checkout source repository"
+        uses: actions/checkout@v4
+
+      - name: Create ${{ matrix.file }} release
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: translations/*
-          tag: "translations_v0.${{ github.run_number }}"
+          file: translations/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/am.mo
+          tag: "AM-${{ matrix.file }}_v0.${{ github.run_number }}"
           overwrite: true
           file_glob: true
 
       - name: Finish
+        if: success()
         run: echo "translations_v0.${{ github.run_number }} prepared" >> $GITHUB_STEP_SUMMARY
