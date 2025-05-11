@@ -115,14 +115,14 @@ ask_() {
   fi
   export NLANG
   if ! grep -q -w "$NLANG" translations/LINGUAS 2>/dev/null; then
-    if command -v git config --get user.name; then
-      TRANSLATOR=$(git config --get user.name)
-      TRANSLATOR_EMAIL=$(gumI $"Enter your email...")
+    if [ -f "$HOME/.gitconfig" ]; then
+      TRANSLATOR_NAME=$(git config --global --get user.name) || TRANSLATOR_NAME=$(gumI $"Enter your name...")
+      TRANSLATOR_EMAIL=$(git config --global --get user.email) || TRANSLATOR_EMAIL=$(gumI $"Enter your email...")
       echo "$NLANG" >> translations/LINGUAS &&
       run_
     else
       gumG $"Translator name" &&
-      TRANSLATOR=$(gumI $"Enter your name...") &&
+      TRANSLATOR_NAME=$(gumI $"Enter your name...") &&
       gumG $"Translator email" &&
       TRANSLATOR_EMAIL=$(gumI $"Enter your email...") &&
       gumQ $"Is it ${NLANG} correct language?" &&
@@ -161,20 +161,17 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 EOF
       ;;
-    '*')
+    *)
       LANGUAGE="$NLANG"
-      echo "NLANG is $NLANG"
       PACKAGE_NAME="am"
       PACKAGE_VERSION="$AMVERSION"
-      TRANSLATOR_NAME=$(git config --get user.name)
-      TRANSLATOR_EMAIL=$(git config --get user.email)
-      FILE="translations/$NLANG.po"
-      echo "FILE is $FILE"
-      if [ -f "$FILE" ]; then
-        msgattrib --set-last-translator="${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>" --set-po-revision-date=$(date +"%Y-%m-%d %H:%M%z") "$FILE"
+      TRANSLATOR_NAME=$(git config --global --get user.name)
+      TRANSLATOR_EMAIL=$(git config --global --get user.email)
+      if [ -f "translations/${NLANG}.po" ]; then
+        msgattrib --set-last-translator="${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>" --set-po-revision-date=$(date +"%Y-%m-%d %H:%M%z") translations/temp.po
       else
-        touch "$FILE"
-        cat << EOF > "$FILE"
+        touch translations/temp.po
+        cat << EOF > translations/temp.po
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, $(date +"%Y")
 msgid ""
@@ -230,7 +227,6 @@ update_() {
     duplicities_ "translations/${i}.po" translations/new.po
     mv translations/new.po "translations/${i}.po"
     #echo $"Creating ${i}.mo file"
-
     msgfmt -o "translations/usr/share/locale/${i}/LC_MESSAGES/am.mo" "translations/${i}.po"
     gumG $"${i} done"
   done
@@ -245,7 +241,7 @@ clean_() {
 # Copy translations to .local
 copy_() {
   gumG $"Preparation for translation done."
-  echo $"Now is up to translators, or AI..."
+  echo $"Now is up to translators..."
   # copy translated .mo files to destination
   gumQ $"Copy files to $HOME/.local/share/ for use with AppMan?" && cp -r translations/usr/share/locale "$HOME/.local/share/"
 }
@@ -268,7 +264,6 @@ case "${1}" in
     prepare_
     extract_
     ask_ "${@}"
-    update_
     clean_
     copy_
     ;;
