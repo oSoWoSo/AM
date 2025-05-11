@@ -78,11 +78,11 @@ jobs:
           tree -d
           echo '----------------------------------------------------------------------------'
 
-      - name: Create translations branch
-        uses: remarkablemark/gitploy-action@v1
-        with:
-          directory: translations
-          branch: translations
+#      - name: Create translations branch
+#        uses: remarkablemark/gitploy-action@v1
+#        with:
+#          directory: translations
+#          branch: translations
 
       - name: Matrix
         id: matrix
