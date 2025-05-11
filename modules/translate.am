@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
 ##########################################################################
-# THIS MODULE IS USED TO CREATE AND UPDATE TRANSLATION FILES
+# THIS MODULE IS USED TO CREATE OR UPDATE TRANSLATION FILES
 ##########################################################################
 
+NLANG=''
 # Files for string extraction
 list="APP-MANAGER modules/database.am modules/install.am modules/management.am modules/sandboxes.am modules/template.am modules/translate.am"
+
 # Common functions
+
+# Message with GREEN border
 gumG() {
   if command -v gum -v >/dev/null; then
     gum style --border double --border-foreground 2 --padding "0 3" "$@"
@@ -14,6 +18,8 @@ gumG() {
     echo -e "\n${Green}$@${Reset}\n"
   fi
 }
+
+# Message with WHITE border
 gumW() {
   if command -v gum -v >/dev/null; then
     gum style --border normal --padding "0 3" "$@"
@@ -21,6 +27,8 @@ gumW() {
     echo -e "\n\033[1;37m$@${Reset}\n"
   fi
 }
+
+# Message with RED border
 gumR() {
   if command -v gum -v >/dev/null; then
     gum style --border double --border-foreground 1 --padding "0 3" "$@"
@@ -28,6 +36,8 @@ gumR() {
     echo -e "\n${RED}$@${Reset}\n"
   fi
 }
+
+# Question
 gumQ() {
   if command -v gum >/dev/null; then
     gum confirm --timeout 15s --selected.background 2 --prompt.foreground 2 "$@"
@@ -41,6 +51,8 @@ gumQ() {
     fi
   fi
 }
+
+# Input
 gumI() {
   if command -v gum -v >/dev/null; then
     input=$(gum input --placeholder "$@" --placeholder.foreground 2)
@@ -50,11 +62,22 @@ gumI() {
   echo "${input}"
 }
 gumG $"Translating: $list"
+
 # Enter AMCLI dir
 enter_() {
   cd "$AMPATH" || echo $"Can´t enter AMPATH $AMPATH"
 }
-# Remove old pot and create po dir
+
+# Check for LINGUAS
+yet_() {
+  if mapfile 2>/dev/null -t linguas <translations/LINGUAS; then
+    echo ''
+  else
+    gumR $"No language added, run \"$AMCLI --translate-new\" first!" && exit 1
+  fi
+}
+
+# Remove old pot and create translation dir
 prepare_() {
   if [ -f translations/am.pot ]; then
     #gumQ "Remove existing file?" || exit 1
@@ -63,8 +86,9 @@ prepare_() {
     echo $"Fresh start"
   fi
   echo $"Creating directories"
-  mkdir -p po
+  mkdir -p translations
 }
+
 # extract strings from list
 # xgettext can´t handle $"" or $''
 #xgettext --default-domain=am --output=messages.po --output-dir=po --language Shell APP-MANAGER
@@ -80,26 +104,39 @@ extract_() {
     #gumQ "Show am.pot? (needs bat)" && bat translations/am.pot
   done
 }
-# Not have to be used hopefully
-fix_() {
-  gumG $"Fixing strings"
-  gumW '\\\' && sed -i ':a;N;$!ba;s/\\\\\\/\\\\/g' translations/am.pot
-  gumW '\\' && sed -i ':a;N;$!ba;s/\\\\/\\/g' translations/am.pot
-  gumW '\n"
-"\n"
-"' && sed -i ':a;N;$!ba;s/\\n"\n"\\n"\n"/\n\n/g' translations/am.pot
-  gumW '"
-"\n"
-"' && sed -i ':a;N;$!ba;s/"\n"\\n"\n"/\n\n/g' translations/am.pot
-  gumW '\n"
-"' && sed -i ':a;N;$!ba;s/\\n"\n"/\n/g' translations/am.pot
-  gumW '"
-"' && sed -i ':a;N;$!ba;s/""\n"/"\n/g' translations/am.pot
-  gumG $"Fixing completed"
+
+# Add new language
+ask_() {
+  if [ -n "${1}" ]; then
+    NLANG="${1}"
+  else
+    gumG $"Enter short code of new language"
+    NLANG=$(gumI "${LANG:0:2}...")
+  fi
+  export NLANG
+  if ! grep -q -w "$NLANG" translations/LINGUAS 2>/dev/null; then
+    if command -v git config --get user.name; then
+      TRANSLATOR=$(git config --get user.name)
+      TRANSLATOR_EMAIL=$(gumI $"Enter your email...")
+      echo "$NLANG" >> translations/LINGUAS &&
+      run_
+    else
+      gumG $"Translator name" &&
+      TRANSLATOR=$(gumI $"Enter your name...") &&
+      gumG $"Translator email" &&
+      TRANSLATOR_EMAIL=$(gumI $"Enter your email...") &&
+      gumQ $"Is it ${NLANG} correct language?" &&
+      echo "$NLANG" >> translations/LINGUAS &&
+      run_
+    fi
+  else
+    gumR $"Language already included" && echo $" Try again with another language, or run \"$AMCLI --translate\" to update added translations" && exit 1
+  fi
 }
+
 # Create file with header
 header_() {
-  case "${1}" in
+  case "$NLANG" in
     '')
       LANGUAGE="English"
       PACKAGE_NAME="am"
@@ -125,12 +162,14 @@ msgstr ""
 EOF
       ;;
     '*')
-      LANGUAGE="${NLANG}"
+      LANGUAGE="$NLANG"
+      echo "NLANG is $NLANG"
       PACKAGE_NAME="am"
       PACKAGE_VERSION="$AMVERSION"
       TRANSLATOR_NAME=$(git config --get user.name)
       TRANSLATOR_EMAIL=$(git config --get user.email)
-      FILE="translations/${NLANG}.po"
+      FILE="translations/$NLANG.po"
+      echo "FILE is $FILE"
       if [ -f "$FILE" ]; then
         msgattrib --set-last-translator="${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>" --set-po-revision-date=$(date +"%Y-%m-%d %H:%M%z") "$FILE"
       else
@@ -161,6 +200,7 @@ duplicities_() {
   gumW $"Joining duplicities from ${1} into ${2}"
   msguniq "${1}" -o "${2}"
 }
+
 # Create main translation file
 run_() {
   gumG $"Creating files for translations"
@@ -172,26 +212,7 @@ run_() {
   # recreate fixed pot file
   msgcat --output-file=translations/am.pot --unique --indent --no-wrap translations/am.po
 }
-# Add new language
-ask_() {
-  if [ -n "${1}" ]; then
-    NLANG="${1}"
-  else
-    gumG $"Enter short code of new language"
-    NLANG=$(gumI "${LANG:0:2}...")
-  fi
-  if ! grep -q -w "$NLANG" translations/LINGUAS 2>/dev/null; then
-    gumG $"Translator name" && \
-    TRANSLATOR=$(gumI $"Enter your name...") && \
-    gumG $"Translator email" && \
-    TRANSLATOR_EMAIL=$(gumI $"Enter your email...") && \
-    gumQ $"Is it ${NLANG} correct language?" && \
-    echo "$NLANG" >> translations/LINGUAS && \
-    run_
-  else
-    gumR $"Language already included" && echo $" Try again with another language, or run \"$AMCLI --translate\" to update added translations" && exit 1
-  fi
-}
+
 # Update all translations
 update_() {
   mapfile 2>/dev/null -t linguas <translations/LINGUAS && \
@@ -214,11 +235,13 @@ update_() {
     gumG $"${i} done"
   done
 }
+
 # Cleaning
 clean_() {
   rm -f translations/temp.po
   rm -f translations/*.po~
 }
+
 # Copy translations to .local
 copy_() {
   gumG $"Preparation for translation done."
@@ -226,15 +249,8 @@ copy_() {
   # copy translated .mo files to destination
   gumQ $"Copy files to $HOME/.local/share/ for use with AppMan?" && cp -r translations/usr/share/locale "$HOME/.local/share/"
 }
-# Check for LINGUAS
-yet_() {
-  if mapfile 2>/dev/null -t linguas <translations/LINGUAS; then
-    echo ''
-  else
-    gumR $"No language added, run \"$AMCLI --translate-new\" first!" && exit 1
-  fi
-}
-# What to run?
+
+# Run
 case "${1}" in
   '--translate')
     enter_
@@ -257,3 +273,21 @@ case "${1}" in
     copy_
     ;;
 esac
+
+# Not have to be used hopefully
+fix_() {
+  gumG $"Fixing strings"
+  gumW '\\\' && sed -i ':a;N;$!ba;s/\\\\\\/\\\\/g' translations/am.pot
+  gumW '\\' && sed -i ':a;N;$!ba;s/\\\\/\\/g' translations/am.pot
+  gumW '\n"
+"\n"
+"' && sed -i ':a;N;$!ba;s/\\n"\n"\\n"\n"/\n\n/g' translations/am.pot
+  gumW '"
+"\n"
+"' && sed -i ':a;N;$!ba;s/"\n"\\n"\n"/\n\n/g' translations/am.pot
+  gumW '\n"
+"' && sed -i ':a;N;$!ba;s/\\n"\n"/\n/g' translations/am.pot
+  gumW '"
+"' && sed -i ':a;N;$!ba;s/""\n"/"\n/g' translations/am.pot
+  gumG $"Fixing completed"
+}
