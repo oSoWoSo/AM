@@ -100,7 +100,7 @@ jobs:
     needs: sync-files
     strategy:
       fail-fast: false
-      matrix: ${{ fromJson(needs.matrix.outputs.matrix) }}
+      matrix: ${{ fromJson(needs.sync-files.outputs.matrix) }}
     steps:
       - name: "Checkout source repository"
         uses: actions/checkout@v4
