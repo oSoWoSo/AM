@@ -113,9 +113,9 @@ jobs:
           tag: "${{ matrix.file }}-LANG-0.${{ github.run_number }}"
           overwrite: true
           body: |
-            ### AM '${{ matrix.file }}' translation 0.${{ github.run_number }}
-            am.mo needs to be copied to "/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/"
-            or "$HOME/.local/share/locale/${{ matrix.file }}/LC_MESSAGES/"
+            ### ${{ matrix.file }} translation 0.${{ github.run_number }} for AM/AppMan
+            am.mo needs to be copied to `/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/`
+            or `$HOME/.local/share/locale/${{ matrix.file }}/LC_MESSAGES/`
 
 #      - name: Create ${{ matrix.file }} release
 #        uses: elgohr/Github-Release-Action@v5
