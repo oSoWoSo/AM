@@ -110,12 +110,14 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: translations/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/am.mo
-          tag: "${{ matrix.file }}-LANG-0.${{ github.run_number }}"
+          tag: "translation-0.${{ github.run_number }}-${{ matrix.file }}"
           overwrite: true
           body: |
             ### ${{ matrix.file }} translation 0.${{ github.run_number }} for AM/AppMan
-            am.mo needs to be copied to `/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/`
-            or `$HOME/.local/share/locale/${{ matrix.file }}/LC_MESSAGES/`
+            am.mo needs to be copied to
+            `/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/`
+            or
+            `$HOME/.local/share/locale/${{ matrix.file }}/LC_MESSAGES/`
 
 #      - name: Create ${{ matrix.file }} release
 #        uses: elgohr/Github-Release-Action@v5
@@ -129,4 +131,4 @@ jobs:
 
       - name: Finish
         if: success()
-        run: echo "${{ matrix.file }}-LANG-0.${{ github.run_number }} released" >> $GITHUB_STEP_SUMMARY
+        run: echo "translation-0.${{ github.run_number }}-${{ matrix.file }} released" >> $GITHUB_STEP_SUMMARY
