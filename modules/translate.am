@@ -125,13 +125,17 @@ msgstr ""
 EOF
       ;;
     '*')
-      LANGUAGE="$NLANG"
+      LANGUAGE="${NLANG}"
       PACKAGE_NAME="am"
       PACKAGE_VERSION="$AMVERSION"
-      TRANSLATOR_NAME="$TRANSLATOR"
-      TRANSLATOR_EMAIL="$TRANSLATOR_EMAIL"
-      touch "translations/${NLANG}.po"
-      cat << EOF > "translations/${NLANG}.po"
+      TRANSLATOR_NAME=$(git config --get user.name)
+      TRANSLATOR_EMAIL=$(git config --get user.email)
+      FILE="translations/${NLANG}.po"
+      if [ -f "$FILE" ]; then
+        msgattrib --set-last-translator="${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>" --set-po-revision-date=$(date +"%Y-%m-%d %H:%M%z") "$FILE"
+      else
+        touch "$FILE"
+        cat << EOF > "$FILE"
 # File with translation for AM
 # FIRST AUTHOR <EMAIL@ADDRESS>, $(date +"%Y")
 msgid ""
@@ -147,9 +151,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 EOF
+      fi
       ;;
   esac
 }
+
 # Join duplicate strings
 duplicities_() {
   gumW $"Joining duplicities from ${1} into ${2}"
