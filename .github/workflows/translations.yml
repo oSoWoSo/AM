@@ -45,7 +45,8 @@ jobs:
       # For now until translations are merged to AM
       # We need to overwrite installed am
       # And include translation files
-      - name: "Get translations from outside"
+      #TODO: REMOVE THIS STEP IF MERGING UPSTREAM!
+      - name: "Remove this if merged"
         run: |
           cd /tmp/
           # Clone repo with localization
@@ -60,7 +61,7 @@ jobs:
           # Just for sure
           chmod a+x /opt/am/APP-MANAGER
 
-      - name: Regen
+      - name: Regenerate translations
         run: |
           am --translate
           rm -f /opt/am/translations/*.po~
@@ -75,22 +76,20 @@ jobs:
           tree -d
           echo '----------------------------------------------------------------------------'
 
-      - name: Release
+      - name: Create translations branch
         uses: remarkablemark/gitploy-action@v1
         with:
           directory: translations
           branch: translations
 
-      - name: Push
-        run: |
-          git config --global user.name "web-flow"
-          git config --global user.email "noreply@github.com"
-          echo '----------------------------------------------------------------------------'
-          git status
-          echo '----------------------------------------------------------------------------'
-          if git diff-index --quiet HEAD; then
-            echo "No changes to commit." >> $GITHUB_STEP_SUMMARY
-          else
-            git commit -m "🦉 translations"
-            git push && echo "translations_v0.${{ github.run_number }} prepared" >> $GITHUB_STEP_SUMMARY
-          fi
+      - name: Create release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: translations/*
+          tag: "translations_v0.${{ github.run_number }}"
+          overwrite: true
+          file_glob: true
+
+      - name: Finish
+        run: echo "translations_v0.${{ github.run_number }} prepared" >> $GITHUB_STEP_SUMMARY
