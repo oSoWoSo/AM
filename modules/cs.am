@@ -1,0 +1,148 @@
+#!/usr/bin/env bash
+
+##########################################################################
+# THIS MODULE IS USED TO PROVIDE, CREATE AND UPDATE TRANSLATION FILES
+##########################################################################
+LANGUAGE="cs"
+
+# Files for string extraction
+list="APP-MANAGER modules/database.am modules/install.am modules/management.am modules/sandboxes.am modules/template.am modules/translate.am"
+
+# Common functions
+
+# Message with GREEN border
+gumG() {
+  if command -v gum -v >/dev/null; then
+    gum style --border double --border-foreground 2 --padding "0 3" "$@"
+  else
+    echo -e "\n${Green}$@${Reset}\n"
+  fi
+}
+
+# Message with WHITE border
+gumW() {
+  if command -v gum -v >/dev/null; then
+    gum style --border normal --padding "0 3" "$@"
+  else
+    echo -e "\n\033[1;37m$@${Reset}\n"
+  fi
+}
+
+# Message with RED border
+gumR() {
+  if command -v gum -v >/dev/null; then
+    gum style --border double --border-foreground 1 --padding "0 3" "$@"
+  else
+    echo -e "\n${RED}$@${Reset}\n"
+  fi
+}
+
+# Question
+gumQ() {
+  if command -v gum >/dev/null; then
+    gum confirm --timeout 15s --selected.background 2 --prompt.foreground 2 "$@"
+  else
+    echo -e "\n${Green}$@${Reset}\n"
+    read -t 15 -p $"Press y to continue, anything else to exit (timeout 15 seconds)" yn
+    if [ -z "$yn" ] || ! echo "$yn" | grep -i '^y' >/dev/null 2>&1; then
+      exit 0
+    else
+      echo ''
+    fi
+  fi
+}
+
+# Input
+gumI() {
+  if command -v gum -v >/dev/null; then
+    input=$(gum input --placeholder "$@" --placeholder.foreground 2)
+  else
+    read -p "$@" input
+  fi
+  echo "${input}"
+}
+
+cd "$AMPATH" || echo $"Can´t enter AMPATH $AMPATH" && exit 1
+PACKAGE_NAME="am"
+PACKAGE_VERSION="$AMVERSION"
+
+if [ -f translations/am.pot ]; then
+  rm translations/am.pot
+fi
+
+mkdir -p translations
+
+for file in ${list}; do
+  bash --dump-po-strings "$file" >> translations/am.pot
+done
+
+if ! grep -q -w "$LANGUAGE" translations/LINGUAS 2>/dev/null; then
+  if [ -f "$HOME/.gitconfig" ]; then
+    TRANSLATOR_NAME=$(git config --global --get user.name) || TRANSLATOR_NAME=$(gumI $"Enter your name...")
+    TRANSLATOR_EMAIL=$(git config --global --get user.email) || TRANSLATOR_EMAIL=$(gumI $"Enter your email...")
+    echo "$LANGUAGE" >> translations/LINGUAS
+  else
+    TRANSLATOR_NAME=$(gumI $"Enter your name...") &&
+    TRANSLATOR_EMAIL=$(gumI $"Enter your email...") &&
+    echo "$LANGUAGE" >> translations/LINGUAS
+  fi
+fi
+
+if [ -f "translations/${LANGUAGE}.po" ]; then
+  msgattrib --set-last-translator="${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>" --set-po-revision-date=$(date +"%Y-%m-%d %H:%M%z") translations/temp.po
+else
+  touch translations/temp.po
+  cat << EOF > translations/temp.po
+# File with translation for AM
+# FIRST AUTHOR ${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>, $(date +"%Y")
+msgid ""
+msgstr ""
+"Project-Id-Version: ${PACKAGE_NAME} ${PACKAGE_VERSION}\n"
+"Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
+"POT-Creation-Date: $(date +"%Y-%m-%d")\n"
+"PO-Revision-Date: $(date +"%Y-%m-%d")\n"
+"Last-Translator: ${TRANSLATOR_NAME} <${TRANSLATOR_EMAIL}>\n"
+"Language-Team: ${LANGUAGE} <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+EOF
+fi
+
+cat translations/am.pot >> translations/temp.po
+msguniq translations/temp.po -o translations/am.po
+msgcat --output-file=translations/am.pot --unique --indent --no-wrap translations/am.po
+mapfile 2>/dev/null -t linguas <translations/LINGUAS && \
+
+if [ -f "translations/${LANGUAGE}.po" ]; then
+  msgmerge -U "translations/${LANGUAGE}.po" translations/am.pot
+else
+  msginit --input translations/am.po --output-file="translations/${LANGUAGE}.po" --no-translator --locale "${LANGUAGE}"
+fi
+
+mkdir -p "translations/usr/share/locale/${LANGUAGE}/LC_MESSAGES/"
+msguniq_ "translations/${LANGUAGE}.po" -o translations/new.po
+mv translations/new.po "translations/${LANGUAGE}.po"
+msgfmt -o "translations/usr/share/locale/${LANGUAGE}/LC_MESSAGES/am.mo" "translations/${LANGUAGE}.po"
+rm -f translations/temp.po
+rm -f translations/*.po~
+cp -r translations/usr/share/locale "$HOME/.local/share/"
+
+# Not have to be used hopefully
+fix_() {
+  gumG $"Fixing strings"
+  gumW '\\\' && sed -i ':a;N;$!ba;s/\\\\\\/\\\\/g' translations/am.pot
+  gumW '\\' && sed -i ':a;N;$!ba;s/\\\\/\\/g' translations/am.pot
+  gumW '\n"
+"\n"
+"' && sed -i ':a;N;$!ba;s/\\n"\n"\\n"\n"/\n\n/g' translations/am.pot
+  gumW '"
+"\n"
+"' && sed -i ':a;N;$!ba;s/"\n"\\n"\n"/\n\n/g' translations/am.pot
+  gumW '\n"
+"' && sed -i ':a;N;$!ba;s/\\n"\n"/\n/g' translations/am.pot
+  gumW '"
+"' && sed -i ':a;N;$!ba;s/""\n"/"\n/g' translations/am.pot
+  gumG $"Fixing completed"
+}
