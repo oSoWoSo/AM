@@ -19,7 +19,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
-run-name: "Releasing: translations_v0.${{ github.run_number }}" # [${{ github.sha }}]"
+run-name: "Releasing: translations 0.${{ github.run_number }}" # [${{ github.sha }}]"
 
 jobs:
   sync-files:
@@ -110,7 +110,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: translations/usr/share/locale/${{ matrix.file }}/LC_MESSAGES/am.mo
-          tag: "T0.${{ github.run_number }}_${{ matrix.file }}"
+          tag: "t0.${{ github.run_number }}_${{ matrix.file }}"
           overwrite: true
           body: |
             ### ${{ matrix.file }} translation 0.${{ github.run_number }} for AM/AppMan
