@@ -1,0 +1,42 @@
+#!/bin/sh
+
+# AM INSTALL SCRIPT VERSION 3.5
+set -u
+TRANSLATION=cs
+SITE="osowoso/am"
+DEST_DIR="$HOME/.local/share/locale/$TRANSLATION/LC_MESSAGES"
+version=$(curl -Ls "https://api.github.com/repos/osowoso/am/releases" | sed 's/[()",{} ]/\n/g' | grep -oi "https.*" | grep "_$TRANSLATION" | head -1)
+
+# CREATE DIRECTORIES AND ADD REMOVER
+[ -n TRANSLATIONS ] && mkdir -p "$DEST_DIR" && cd "$DEST_DIR" || exit 1
+printf "#!/bin/sh\
+\nset -e\
+\nrm -f $DEST_DIR/am.mo\
+\nrm -f $DEST_DIR\
+\nrm -f $HOME/.local/share/locale/$TRANSLATION" > ../remove
+chmod a+x ../remove || exit 1
+
+# DOWNLOAD AND PREPARE TRANSLATION, $version is also used for updates
+wget "$version" || exit 1
+echo "$version" > ./"$TRANSLATION-version"
+
+# SCRIPT TO UPDATE TRANSLATION
+cat >> ./AM-updater << 'EOF'
+#!/bin/sh
+set -u
+TRANSLATION="$TRANSLATION"
+SITE="$SITE"
+version0=$(cat "$DEST_DIR/version")
+version="$version"
+[ -n "$version" ] || { echo "Error getting link"; exit 1; }
+if [ "$version" != "$version0" ]; then
+	mkdir -p "$DEST_DIR" && cd "$DEST_DIR" || exit 1
+	notify-send "A new version of $TRANSLATION is available, please wait"
+	wget "$version" || exit 1
+	echo "$version" > ./"$TRANSLATION-version"
+	notify-send "$TRANSLATION is updated!"
+else
+	echo "Update not needed!"
+fi
+EOF
+chmod a+x ./AM-updater || exit 1
