@@ -1,6 +1,8 @@
 # "AM" Application Manager
 ### Database & solutions for all AppImages and portable apps for GNU/Linux!
 
+# Moving to community [monorepo](https://github.com/AM-community/monorepo)
+
 <div align="center">
 
 | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/sandbox.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/list.gif"> | <img src="https://raw.githubusercontent.com/ivan-hc/AM/main/sample/about.gif"> |
